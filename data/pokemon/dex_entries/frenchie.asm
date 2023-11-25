@@ -1,0 +1,10 @@
+	db "FAERIE@" ; species name
+	dw 200, 170 ; height, weight
+
+	db   "In truth, it is a"
+	next "cowardly ANML."
+	next "It growls eagerly"
+
+	page "in order to hide"
+	next "its fear from its"
+	next "opponent.@"
