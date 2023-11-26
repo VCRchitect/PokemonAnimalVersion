@@ -15,7 +15,7 @@ IrwinRocketTakeoverRumorText:
 	para "taken over by TEAM"
 	line "ROCKET!"
 
-	para "…Um… What's TEAM"
+	para "...Um... What's TEAM"
 	line "ROCKET?"
 	done
 
@@ -34,7 +34,7 @@ IrwinJasmineReturnedGossipText:
 	line "you!"
 
 	para "You saved that"
-	line "ANML at the"
+	line "ANIMALs at the"
 
 	para "LIGHTHOUSE, didn't"
 	line "you?"
@@ -56,7 +56,7 @@ IrwinRocketHideoutGossipText:
 	para "You're like a"
 	line "movie hero, even!"
 
-	para "But um… What was"
+	para "But um... What was"
 	line "TEAM ROCKET?"
 	done
 
@@ -222,7 +222,7 @@ IrwinFogBadgeGossipText:
 	line "all over! So I"
 
 	para "chickened out and"
-	line "took off for home…"
+	line "took off for home..."
 	done
 
 IrwinMarshBadgeGossipText:
@@ -276,7 +276,7 @@ IrwinSoMuchToChatAboutText:
 	para "How's your mom?"
 
 	para "Have you got lots"
-	line "of ANML?"
+	line "of ANIMALs?"
 
 	para "Is it going to be"
 	line "sunny tomorrow?"

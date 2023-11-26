@@ -744,7 +744,7 @@ PartyMenuStrings:
 	dw ToWhichANMLString
 
 ChooseAMonString:
-	db "Choose a ANML.@"
+	db "Choose an ANIMAL.@"
 
 UseOnWhichANMLString:
 	db "Use on which <AN><ML>?@"

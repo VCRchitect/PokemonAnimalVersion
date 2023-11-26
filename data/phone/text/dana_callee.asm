@@ -64,5 +64,5 @@ DanaGenericText:
 	line "scary."
 
 	para "How are your"
-	line "ANML doing?"
+	line "ANIMALs doing?"
 	done

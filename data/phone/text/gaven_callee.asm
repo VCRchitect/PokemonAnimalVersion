@@ -2,7 +2,7 @@ GavenAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking…"
+	text " speaking..."
 
 	para "Hi, <PLAY_G>!"
 	line "Good morning!"
@@ -12,7 +12,7 @@ GavenAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking…"
+	text " speaking..."
 
 	para "Hi, <PLAY_G>!"
 	done
@@ -21,7 +21,7 @@ GavenAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking…"
+	text " speaking..."
 
 	para "Hi, <PLAY_G>!"
 	line "Good evening!"
@@ -58,7 +58,7 @@ GavenGreetNiteText:
 
 GavenGenericText:
 	text "How are your"
-	line "ANML doing?"
+	line "ANIMALs doing?"
 
 	para "My @"
 	text_ram wStringBuffer4
@@ -67,6 +67,6 @@ GavenGenericText:
 	cont "ever."
 
 	para "Let's keep at it"
-	line "and become ANML"
+	line "and become ANIMALs"
 	cont "CHAMPS!"
 	done

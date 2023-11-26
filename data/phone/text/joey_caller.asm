@@ -6,7 +6,7 @@ JoeyMonLookingSharperText:
 	cont "than before!"
 
 	para "I doubt there's a"
-	line "ANML as cool as"
+	line "ANIMALs as cool as"
 
 	para "this guy in your"
 	line "party!"

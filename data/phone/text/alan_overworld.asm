@@ -35,11 +35,11 @@ AlanNumberAcceptedText:
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… I thought it"
+	text "Oh... I thought it"
 	line "would be a good"
 
 	para "break to call you"
-	line "when I'm studying…"
+	line "when I'm studying..."
 	done
 
 AlanPhoneFullText:

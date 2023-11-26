@@ -29,7 +29,7 @@ JoseLostAMonText:
 	text "I ran into a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text "…"
+	text "..."
 
 	para "I was trying to"
 	line "catch it, but it"

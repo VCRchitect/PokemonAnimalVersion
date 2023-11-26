@@ -2,7 +2,7 @@ JoseAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, <PLAY_G>?"
 	line "Good morning!"
@@ -12,7 +12,7 @@ JoseAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, <PLAY_G>? Hi!"
 	done
@@ -21,7 +21,7 @@ JoseAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, <PLAY_G>?"
 	line "Good evening!"
@@ -55,7 +55,7 @@ JoseGreetNiteText:
 	done
 
 JoseGenericText:
-	text "Are your ANML"
+	text "Are your ANIMALs"
 	line "still cooking?"
 
 	para "My @"

@@ -35,11 +35,11 @@ GavenNumberAcceptedText:
 	line "you? I'm tormented"
 
 	para "by those thoughts"
-	line "all the time…"
+	line "all the time..."
 	done
 
 GavenNumberDeclinedText:
-	text "OK… I understand…"
+	text "OK... I understand..."
 	line "But if you change"
 
 	para "your mind, give me"

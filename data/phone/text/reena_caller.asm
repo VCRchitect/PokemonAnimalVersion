@@ -1,5 +1,5 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Listen, dear…"
+	text "Listen, dear..."
 
 	para "Do you recall my"
 	line "@"
@@ -34,7 +34,7 @@ ReenaDefeatedMonText:
 ReenaLostAMonText:
 	text "Have I ever failed"
 	line "to catch a wild"
-	cont "ANML?"
+	cont "ANIMALs?"
 
 	para "You need to ask?"
 
@@ -43,7 +43,7 @@ ReenaLostAMonText:
 
 	para "@"
 	text_ram wStringBuffer4
-	text "…"
+	text "..."
 	line "Oh! Never mind!"
 	done
 
@@ -69,7 +69,7 @@ ReenaForwardText:
 	line "just because you"
 
 	para "happened to beat"
-	line "me… "
+	line "me... "
 
 	para "It was a fluke!"
 	done

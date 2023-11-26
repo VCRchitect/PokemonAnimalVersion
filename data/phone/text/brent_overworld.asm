@@ -1,6 +1,6 @@
 BrentAskNumber1Text:
 	text "By the way, you're"
-	line "a #MANIAC…"
+	line "a #MANIAC..."
 
 	para "I can tell."
 	line "Yes, you are."
@@ -34,16 +34,16 @@ BrentNumberAcceptedText:
 	line "than amazing!"
 
 	para "To be a #MANIAC"
-	line "like him someday…"
+	line "like him someday..."
 
 	para "That's my dream."
 	done
 
 BrentNumberDeclinedText:
 	text "You're going to"
-	line "regret it…"
+	line "regret it..."
 
-	para "And I won't care…"
+	para "And I won't care..."
 	done
 
 BrentPhoneFullText:
@@ -58,5 +58,5 @@ BrentRematchText:
 	text "I've been waiting."
 
 	para "Look, check out my"
-	line "ANML!"
+	line "ANIMALs!"
 	done

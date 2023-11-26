@@ -1,8 +1,8 @@
 BeverlyAskNumber1Text:
-	text "Your WATER_RAT is so"
+	text "Your WATER RAT is so"
 	line "cute and adorable!"
 
-	para "You love ANML"
+	para "You love ANIMALs"
 	line "just like I do!"
 
 	para "Want to trade"
@@ -13,7 +13,7 @@ BeverlyAskNumber1Text:
 	done
 
 BeverlyAskNumber2Text:
-	text "Your WATER_RAT is so"
+	text "Your WATER RAT is so"
 	line "cute and adorable!"
 
 	para "We should chat, it"
@@ -25,17 +25,17 @@ BeverlyAskNumber2Text:
 
 BeverlyNumberAcceptedText:
 	text "To be honest, I"
-	line "want a WATER_RAT."
+	line "want a WATER RAT."
 
 	para "But I make do with"
 	line "my cute FRENCHIE."
 	done
 
 BeverlyNumberDeclinedText:
-	text "Oh… That's"
-	line "disappointing…"
+	text "Oh... That's"
+	line "disappointing..."
 
-	para "Goodbye, WATER_RAT…"
+	para "Goodbye, WATER RAT..."
 	done
 
 BeverlyPhoneFullText:

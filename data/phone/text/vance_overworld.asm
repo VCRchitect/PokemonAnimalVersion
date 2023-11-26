@@ -3,7 +3,7 @@ VanceAskNumber1Text:
 	line "really strong."
 
 	para "But I don't want"
-	line "to just slink off…"
+	line "to just slink off..."
 
 	para "I know! Could I"
 	line "get your number?"
@@ -33,7 +33,7 @@ VanceNumberAcceptedText:
 VanceNumberDeclinedText:
 	text "A bird-user friend"
 	line "isn't a bad thing"
-	cont "to have, I think…"
+	cont "to have, I think..."
 
 	para "Won't you"
 	line "reconsider?"

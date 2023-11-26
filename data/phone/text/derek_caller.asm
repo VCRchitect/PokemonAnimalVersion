@@ -44,8 +44,8 @@ DerekLostAMonText:
 	para "But it wasn't very"
 	line "cute, so I left"
 
-	para "it…"
-	line "ANML have to be"
+	para "it..."
+	line "ANIMALs have to be"
 
 	para "cute. They're no"
 	line "good otherwise."

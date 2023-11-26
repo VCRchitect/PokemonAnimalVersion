@@ -34,7 +34,7 @@ IrwinNumberAcceptedText:
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, but…"
+	text "Oh, but..."
 	line "I'm not dangerous!"
 
 	para "I just want to"
@@ -46,8 +46,8 @@ IrwinNumberDeclinedText:
 
 IrwinPhoneFullText:
 	text "Your phone list is"
-	line "already full…"
+	line "already full..."
 
 	para "You must be really"
-	line "popular…"
+	line "popular..."
 	done

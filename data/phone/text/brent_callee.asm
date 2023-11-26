@@ -1,7 +1,7 @@
 BrentAnswerPhoneText:
 	text "Yes? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " here..."
 
 	para "Ah, <PLAYER>. What"
 	line "can I do for you?"
@@ -10,7 +10,7 @@ BrentAnswerPhoneText:
 BrentAnswerPhoneDayText:
 	text "Yes? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " here..."
 
 	para "Ah, <PLAYER>. What"
 	line "can I do for you?"
@@ -19,7 +19,7 @@ BrentAnswerPhoneDayText:
 BrentAnswerPhoneNiteText:
 	text "Yes? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " here..."
 
 	para "Ah, <PLAYER>. What"
 	line "can I do for you?"
@@ -57,13 +57,13 @@ BrentGreetNiteText:
 
 BrentGenericText:
 	text "Oh yeah, I saw you"
-	line "coming out of a"
+	line "coming out of an"
 
-	para "ANML CENTER the"
+	para "ANIMAL CENTER the"
 	line "other day."
 
 	para "You heal your"
-	line "ANML regularly,"
+	line "ANIMALs regularly,"
 
 	para "don't you?"
 	line "I'm impressed."
@@ -74,6 +74,6 @@ BrentGenericText:
 	line "is so tough, it"
 
 	para "doesn't need to go"
-	line "to ANML CENTERS"
+	line "to ANIMAL CENTERS"
 	cont "often. Heheh!"
 	done

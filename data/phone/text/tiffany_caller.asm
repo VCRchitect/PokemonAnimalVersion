@@ -18,7 +18,7 @@ TiffanyDefeatedMonText:
 	para "@"
 	text_ram wStringBuffer4
 	text " a while"
-	line "ago…"
+	line "ago..."
 
 	para "My FAERIE came"
 	line "close to fainting!"
@@ -38,7 +38,7 @@ TiffanyLostAMonText:
 	para "@"
 	text_ram wStringBuffer4
 	text " a while"
-	line "ago…"
+	line "ago..."
 
 	para "My FAERIE got"
 	line "frightened, so we"
@@ -70,12 +70,12 @@ TiffanyItsAwfulText:
 	text "!"
 
 	para "It's awful."
-	line "My FAERIE…"
+	line "My FAERIE..."
 
 	para "Huh? <PLAY_G>?"
 
 	para "Oh, sorry! I was"
-	line "in a hurry, and I…"
+	line "in a hurry, and I..."
 
 	para "I have to go!"
 	line "Bye-bye!"
@@ -114,7 +114,7 @@ TiffanyAsleepText:
 	line "and fell asleep."
 
 	para "I'm not sure if I"
-	line "can wake it up…"
+	line "can wake it up..."
 
 	para "Please hurry to"
 	line "@"

@@ -33,7 +33,7 @@ ToddNumberAcceptedText:
 	done
 
 ToddNumberDeclinedText:
-	text "Anyway…"
+	text "Anyway..."
 
 	para "If you're short on"
 	line "money, take down"
@@ -54,7 +54,7 @@ ToddRematchText:
 	line "I even cut back my"
 
 	para "shopping to raise"
-	line "my ANML better!"
+	line "my ANIMALs better!"
 	done
 
 ToddSaleText: ; unreferenced

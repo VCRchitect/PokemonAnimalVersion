@@ -737,7 +737,7 @@ BideDescription:
 
 MetronomeDescription:
 	db   "Randomly uses any"
-	next "ANML move.@"
+	next "ANIMAL move.@"
 
 MirrorMoveDescription:
 	db   "Counters with the"
@@ -1177,7 +1177,7 @@ EncoreDescription:
 
 PursuitDescription:
 	db   "Heavily strikes"
-	next "switching ANML.@"
+	next "switching ANIMALs.@"
 
 RapidSpinDescription:
 	db   "A high-speed"
@@ -1213,7 +1213,7 @@ MoonlightDescription:
 
 HiddenPowerDescription:
 	db   "The power varies"
-	next "with the ANML.@"
+	next "with the ANIMAL.@"
 
 CrossChopDescription:
 	db   "Has a high criti-"
@@ -1268,5 +1268,5 @@ WhirlpoolDescription:
 	next "2-5 turns.@"
 
 BeatUpDescription:
-	db   "Party ANML join"
+	db   "Party ANIMALs join"
 	next "in the attack.@"

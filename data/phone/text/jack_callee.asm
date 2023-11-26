@@ -2,7 +2,7 @@ JackAnswerPhoneText:
 	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Good morning,"
 	line "<PLAY_G>!"
@@ -12,7 +12,7 @@ JackAnswerPhoneDayText:
 	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "How's it going,"
 	line "<PLAY_G>?"
@@ -22,7 +22,7 @@ JackAnswerPhoneNiteText:
 	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Good evening,"
 	line "<PLAY_G>!"
@@ -59,7 +59,7 @@ JackGreetNiteText:
 
 JackGenericText:
 	text "How are your"
-	line "ANML doing?"
+	line "ANIMALs doing?"
 
 	para "My @"
 	text_ram wStringBuffer4
@@ -67,5 +67,5 @@ JackGenericText:
 	line "so curious, it's a"
 
 	para "problem. Maybe"
-	line "it's like me…"
+	line "it's like me..."
 	done

@@ -31,10 +31,10 @@ DerekNumberAcceptedText:
 	done
 
 DerekNumberDeclinedText:
-	text "You…"
+	text "You..."
 
 	para "I bet you don't"
-	line "even like CLICKER…"
+	line "even like CLICKER..."
 	done
 
 DerekPhoneFullText:

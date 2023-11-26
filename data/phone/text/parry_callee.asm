@@ -59,7 +59,7 @@ ParryGreetNiteText:
 	done
 
 ParryGenericText:
-	text "Are your ANML"
+	text "Are your ANIMALs"
 	line "looking good?"
 
 	para "My @"

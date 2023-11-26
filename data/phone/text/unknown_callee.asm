@@ -1,8 +1,8 @@
 UnknownGenericText:
 	text "How are your"
-	line "ANML doing?"
+	line "ANIMALs doing?"
 
-	para "My ANML are a"
+	para "My ANIMALs are a"
 	line "bit too energetic."
 
 	para "@"

@@ -565,10 +565,6 @@ LoadPalette_White_Col1_Col2_Black:
 
 	jr .black
 	
-	
-	
-	
-
 .day
 
 	ld a, LOW(PALRGB_WHITE)

@@ -14,7 +14,7 @@ VanceDefeatedMonText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "…Huh? You too?"
+	para "...Huh? You too?"
 	line "Isn't that great?"
 	done
 
@@ -27,7 +27,7 @@ VanceLostAMonText:
 	line "us."
 
 	para "I wanted to FLY"
-	line "after it…"
+	line "after it..."
 	done
 
 VanceBattleRematchText:

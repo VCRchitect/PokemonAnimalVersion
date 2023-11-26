@@ -1,9 +1,9 @@
 ReenaAskNumber1Text:
-	text "Not bad…"
+	text "Not bad..."
 	line "It's something to"
 
 	para "beat me, even by"
-	line "an unlikely fluke…"
+	line "an unlikely fluke..."
 
 	para "I like you! Give"
 	line "me your number!"

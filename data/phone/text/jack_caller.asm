@@ -34,7 +34,7 @@ JackLostAMonText:
 	line "more informed, I'm"
 
 	para "sure I would've"
-	line "caught it…"
+	line "caught it..."
 	done
 
 JackBattleRematchText:
@@ -66,7 +66,7 @@ JackThunderTriviaText:
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If you use DEFENSE"
 	line "CURL, ROLLOUT's"
@@ -76,7 +76,7 @@ JackRolloutTriviaText:
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If the sunlight is"
 	line "harsh, SOLARBEAM"
@@ -86,7 +86,7 @@ JackSolarbeamTriviaText:
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If the opponent"
 	line "uses MINIMIZE,"
@@ -96,7 +96,7 @@ JackStompTriviaText:
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If your opponent"
 	line "is FLYing, your"
@@ -106,7 +106,7 @@ JackGustTriviaText:
 	done
 
 JackTwisterTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If your opponent"
 	line "is FLYing, your"
@@ -116,7 +116,7 @@ JackTwisterTriviaText:
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If your opponent"
 	line "uses DIG, your"
@@ -126,7 +126,7 @@ JackEarthquakeTriviaText:
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If your opponent"
 	line "uses DIG, your"
@@ -136,7 +136,7 @@ JackMagnitudeTriviaText:
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "The rock, ground"
 	line "and steel types"
@@ -146,7 +146,7 @@ JackSandstormTriviaText:
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "If the sunlight is"
 	line "harsh, water-type"
@@ -156,7 +156,7 @@ JackSunnyDayTriviaText:
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "When it's raining,"
 	line "fire-type moves"

@@ -1,8 +1,8 @@
 WadeAreYourMonGrowingText:
-	text "Are your ANML"
+	text "Are your ANIMALs"
 	line "growing?"
 
-	para "My ANML are"
+	para "My ANIMALs are"
 	line "growing a bit too"
 
 	para "quickly for me."
@@ -42,7 +42,7 @@ WadeLostAMonText:
 	line "the last second."
 
 	para "I know it's a"
-	line "common ANML…"
+	line "common ANIMALs..."
 
 	para "But it does annoy"
 	line "me that it got"
@@ -53,7 +53,7 @@ WadeLostAMonText:
 
 WadeBattleRematchText:
 	text "Do you feel like a"
-	line "ANML battle?"
+	line "ANIMALs battle?"
 
 	para "It won't be like"
 	line "last time!"

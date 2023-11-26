@@ -31,7 +31,7 @@ HueyNumberAcceptedText:
 
 HueyNumberDeclinedText:
 	text "Looks like you're"
-	line "a wimp…"
+	line "a wimp..."
 	done
 
 HueyPhoneFullText:
@@ -45,7 +45,7 @@ HueyRematchText:
 	done
 
 HueyPackFullText:
-	text "Oh… Your PACK's"
+	text "Oh... Your PACK's"
 	line "full. I'll give it"
 	cont "to you later."
 	done
@@ -63,18 +63,18 @@ HueyRematchGiftText:
 	para "I bought tons of"
 	line "items to toughen"
 
-	para "up my ANML, but"
-	line "to no avail…"
+	para "up my ANIMALs, but"
+	line "to no avail..."
 
 	para "Items alone aren't"
 	line "the answer."
 
 	para "That must be what"
-	line "it is…"
+	line "it is..."
 
 	para "Here, take this,"
 	line "<PLAYER>."
 
 	para "I won't be needing"
-	line "it anymore…"
+	line "it anymore..."
 	done

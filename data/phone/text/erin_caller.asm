@@ -8,18 +8,18 @@ ErinMonIsMuchStrongerText:
 	done
 
 ErinDefeatedMonText:
-	text "And, and…"
+	text "And, and..."
 	line "I just battled and"
 	cont "beat @"
 	text_ram wStringBuffer4
 	text "!"
 
 	para "I've raised my"
-	line "ANML properly!"
+	line "ANIMALs properly!"
 	done
 
 ErinLostAMonText:
-	text "But, but…"
+	text "But, but..."
 
 	para "A wild @"
 	text_ram wStringBuffer4
@@ -50,7 +50,7 @@ ErinHangUpText:
 ErinWorkingHardText:
 	text "I'm working hard"
 	line "to raise my"
-	cont "ANML!"
+	cont "ANIMALs!"
 
 	para "Come back for"
 	line "another battle!"

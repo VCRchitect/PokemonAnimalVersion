@@ -1,6 +1,6 @@
 DanaAskNumber1Text:
 	text "You're really good"
-	line "at ANML!"
+	line "at ANIMALs!"
 
 	para "Boys give me items"
 	line "after battles, but"
@@ -39,7 +39,7 @@ DanaNumberDeclinedText:
 	line "want anything?"
 
 	para "But it's all for"
-	line "free…"
+	line "free..."
 	done
 
 DanaPhoneFullText:

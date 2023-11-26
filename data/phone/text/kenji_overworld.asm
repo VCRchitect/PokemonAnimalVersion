@@ -11,7 +11,7 @@ KenjiAskNumber1Text:
 
 	para "My training makes"
 	line "it impossible to"
-	cont "chat much, but…"
+	cont "chat much, but..."
 	done
 
 KenjiAskNumber2Text:
@@ -46,10 +46,10 @@ KenjiGiftText:
 	line "you, <PLAYER>!"
 
 	para "I've been training"
-	line "all alone…"
+	line "all alone..."
 
 	para "I was happy that"
-	line "you cared to call…"
+	line "you cared to call..."
 
 	para "I want you to have"
 	line "this!"

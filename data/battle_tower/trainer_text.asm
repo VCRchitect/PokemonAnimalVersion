@@ -17,7 +17,7 @@ _BTWinM1Text:
 	done
 
 _BTGreetingM2Text:
-	text "Work, work, work…"
+	text "Work, work, work..."
 	line "I'm always busy!"
 	done
 
@@ -47,7 +47,7 @@ _BTWinM3Text:
 	done
 
 _BTGreetingM4Text:
-	text "Heh, your ANML"
+	text "Heh, your ANIMALs"
 	line "look pretty cool."
 	done
 
@@ -62,7 +62,7 @@ _BTWinM4Text:
 	done
 
 _BTGreetingM5Text:
-	text "ANML every day!"
+	text "ANIMALs every day!"
 	line "I love battling!"
 	done
 
@@ -102,8 +102,8 @@ _BTLossM7Text:
 	done
 
 _BTWinM7Text:
-	text "Ouch… I'm just too"
-	line "weak…"
+	text "Ouch... I'm just too"
+	line "weak..."
 	done
 
 _BTGreetingM8Text:
@@ -117,8 +117,8 @@ _BTLossM8Text:
 	done
 
 _BTWinM8Text:
-	text "…Urgh… Nothing"
-	line "positive here…"
+	text "...Urgh... Nothing"
+	line "positive here..."
 	done
 
 _BTGreetingM9Text:
@@ -155,18 +155,18 @@ _BTWinM10Text:
 	done
 
 _BTGreetingM11Text:
-	text "<……><……><……>"
-	line "<……><……>Battle?"
+	text "<......><......><......>"
+	line "<......><......>Battle?"
 	done
 
 _BTLossM11Text:
-	text "<……><……><……>"
-	line "<……><……>I won?"
+	text "<......><......><......>"
+	line "<......><......>I won?"
 	done
 
 _BTWinM11Text:
-	text "<……><……><……>"
-	line "<……><……>I lost?"
+	text "<......><......><......>"
+	line "<......><......>I lost?"
 	done
 
 _BTGreetingM12Text:
@@ -205,7 +205,7 @@ _BTLossM13Text:
 
 _BTWinM13Text:
 	text "Uh? My plans are"
-	line "out of whack…"
+	line "out of whack..."
 	done
 
 _BTGreetingM14Text:
@@ -214,13 +214,13 @@ _BTGreetingM14Text:
 	done
 
 _BTLossM14Text:
-	text "Those ANML"
+	text "Those ANIMALs"
 	line "aren't enough!"
 	done
 
 _BTWinM14Text:
 	text "I want your"
-	line "ANML. Please?"
+	line "ANIMALs. Please?"
 	done
 
 _BTGreetingM15Text:
@@ -229,12 +229,12 @@ _BTGreetingM15Text:
 	done
 
 _BTLossM15Text:
-	text "This battle…"
+	text "This battle..."
 	line "I'm bored!"
 	done
 
 _BTWinM15Text:
-	text "…I won't turn tail"
+	text "...I won't turn tail"
 	line "in battle!"
 	done
 
@@ -254,7 +254,7 @@ _BTWinM16Text:
 	done
 
 _BTGreetingM17Text:
-	text "My ANML skills"
+	text "My ANIMAL skills"
 	line "are phenomenal!"
 	done
 
@@ -267,13 +267,13 @@ _BTLossM17Text:
 	done
 
 _BTWinM17Text:
-	text "Aww… Don't lose"
+	text "Aww... Don't lose"
 	line "after beating me."
 	done
 
 _BTGreetingM18Text:
 	text "Who are you?"
-	line "I don't know you…"
+	line "I don't know you..."
 	done
 
 _BTLossM18Text:
@@ -281,27 +281,27 @@ _BTLossM18Text:
 	line "that."
 
 	para "There seems to be"
-	line "no one here…"
+	line "no one here..."
 	done
 
 _BTWinM18Text:
 	text "Who am I?"
-	line "I don't know…"
+	line "I don't know..."
 	done
 
 _BTGreetingM19Text:
-	text "Um… Are you that…"
-	line "um…person?"
+	text "Um... Are you that..."
+	line "um...person?"
 	done
 
 _BTLossM19Text:
 	text "It doesn't appear"
-	line "to be you…"
+	line "to be you..."
 	done
 
 _BTWinM19Text:
 	text "Then you really"
-	line "are the legendary…"
+	line "are the legendary..."
 	done
 
 _BTGreetingM20Text:
@@ -323,17 +323,17 @@ _BTGreetingM21Text:
 	text "I'm scared about"
 	line "what might happen."
 
-	para "My ANML are way"
+	para "My ANIMALs are way"
 	line "too strong."
 	done
 
 _BTLossM21Text:
-	text "See? My ANML"
+	text "See? My ANIMALs"
 	line "were too strong."
 	done
 
 _BTWinM21Text:
-	text "Graa! My ANML"
+	text "Graa! My ANIMALs"
 	line "were total wimps!"
 	done
 
@@ -354,17 +354,17 @@ _BTWinM22Text:
 
 _BTGreetingM23Text:
 	text "I wonder if I can"
-	line "battle properly…"
+	line "battle properly..."
 	done
 
 _BTLossM23Text:
-	text "Um… Sorry…"
+	text "Um... Sorry..."
 	line "I think I won."
 	done
 
 _BTWinM23Text:
 	text "I guess I'm not"
-	line "good enough yet…"
+	line "good enough yet..."
 	done
 
 _BTGreetingM24Text:
@@ -388,7 +388,7 @@ _BTGreetingM25Text:
 	done
 
 _BTLossM25Text:
-	text "Yeah! My ANML"
+	text "Yeah! My ANIMALs"
 	line "rule!"
 	done
 
@@ -413,7 +413,7 @@ _BTWinF1Text:
 	done
 
 _BTGreetingF2Text:
-	text "Look! My ANML"
+	text "Look! My ANIMALs"
 	line "are really cute!"
 	done
 
@@ -459,22 +459,22 @@ _BTWinF4Text:
 
 _BTGreetingF5Text:
 	text "Oh, you have some"
-	line "rare ANML."
+	line "rare ANIMALs."
 	done
 
 _BTLossF5Text:
 	text "May I have one of"
-	line "your ANML?"
+	line "your ANIMALs?"
 	done
 
 _BTWinF5Text:
-	text "…I want one of"
-	line "your ANML."
+	text "...I want one of"
+	line "your ANIMALs."
 	done
 
 _BTGreetingF6Text:
 	text "Want to hear about"
-	line "my cute ANML?"
+	line "my cute ANIMALs?"
 	done
 
 _BTLossF6Text:
@@ -524,11 +524,11 @@ _BTGreetingF9Text:
 
 _BTLossF9Text:
 	text "Well, I beg your"
-	line "pardon…"
+	line "pardon..."
 	done
 
 _BTWinF9Text:
-	text "Sob… That's not"
+	text "Sob... That's not"
 	line "fair!"
 	done
 
@@ -544,7 +544,7 @@ _BTLossF10Text:
 
 _BTWinF10Text:
 	text "I won't accept"
-	line "this… No way!"
+	line "this... No way!"
 	done
 
 _BTGreetingF11Text:
@@ -603,7 +603,7 @@ _BTLossF14Text:
 	done
 
 _BTWinF14Text:
-	text "Oh… Want to trade"
+	text "Oh... Want to trade"
 	line "something?"
 	done
 

@@ -9100,5 +9100,5 @@ BattleStartMessage:
 
 	ld c, $2 ; start
 	farcall Mobile_PrintOpponentBattleMessage
-
 	ret
+	

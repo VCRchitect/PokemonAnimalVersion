@@ -62,8 +62,8 @@ ParryRematchGiftText:
 	line "special all right."
 
 	para "If only I'd begun"
-	line "ANML when I was"
-	cont "a tad younger…"
+	line "ANIMALs when I was"
+	cont "a tad younger..."
 
 	para "I want you to work"
 	line "and succeed for"

@@ -31,7 +31,7 @@ JackNumberAcceptedText:
 	done
 
 JackNumberDeclinedText:
-	text "Oh, OK. Too bad…"
+	text "Oh, OK. Too bad..."
 
 	para "Well, if you ever"
 	line "want my number,"

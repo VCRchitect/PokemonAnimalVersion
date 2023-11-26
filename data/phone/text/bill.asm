@@ -32,10 +32,10 @@ BillPhoneGenericText:
 	text "Who's calling?"
 
 	para "<PLAY_G>, is it?"
-	line "Hang on a sec…"
+	line "Hang on a sec..."
 
-	para "<……>"
-	line "<……>"
+	para "<......>"
+	line "<......>"
 	done
 
 BillPhoneNotFullText:
@@ -46,7 +46,7 @@ BillPhoneNotFullText:
 	line "has room for @"
 	text_ram wStringBuffer3
 	text_start
-	cont "more ANML."
+	cont "more ANIMALs."
 
 	para "Get out there and"
 	line "fill it up!"
@@ -60,7 +60,7 @@ BillPhoneNearlyFullText:
 	line "has room for only"
 	cont "@"
 	text_ram wStringBuffer3
-	text " more ANML."
+	text " more ANIMALs."
 
 	para "Maybe you should"
 	line "switch your BOX."
@@ -77,7 +77,7 @@ BillPhoneFullText:
 	line "switch BOXES if"
 
 	para "you want to catch"
-	line "more ANML."
+	line "more ANIMALs."
 	done
 
 BillPhoneNewlyFullText:
@@ -87,7 +87,7 @@ BillPhoneNewlyFullText:
 	para "Thanks for using"
 	line "my STORAGE SYSTEM."
 
-	para "That last ANML"
+	para "That last ANIMAL"
 	line "you sent filled"
 	cont "your BOX up."
 
@@ -95,7 +95,7 @@ BillPhoneNewlyFullText:
 	line "switch BOXES if"
 
 	para "you want to catch"
-	line "more ANML."
+	line "more ANIMALs."
 
 	para "Bye now!"
 	done

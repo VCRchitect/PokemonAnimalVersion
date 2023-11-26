@@ -2,7 +2,7 @@ ErinAnswerPhoneText:
 	text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh. Hi, <PLAY_G>!"
 	line "Good morning!"
@@ -12,7 +12,7 @@ ErinAnswerPhoneDayText:
 	text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, hi, <PLAY_G>!"
 	line "Yahoo!"
@@ -22,7 +22,7 @@ ErinAnswerPhoneNiteText:
 	text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, hi, <PLAY_G>!"
 	done
@@ -56,7 +56,7 @@ ErinGreetNiteText:
 
 ErinGenericText:
 	text "Are you raising"
-	line "your ANML?"
+	line "your ANIMALs?"
 
 	para "Hey, @"
 	text_ram wStringBuffer3

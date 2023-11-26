@@ -58,7 +58,7 @@ BeverlyGreetNiteText:
 
 BeverlyGenericText:
 	text "Keeping your"
-	line "ANML happy?"
+	line "ANIMALs happy?"
 
 	para "My @"
 	text_ram wStringBuffer4

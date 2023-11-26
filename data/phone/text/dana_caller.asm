@@ -34,7 +34,7 @@ DanaLostAMonText:
 	line "Really, just a"
 
 	para "little bit more,"
-	line "and I would've…"
+	line "and I would've..."
 	done
 
 DanaBattleRematchText:

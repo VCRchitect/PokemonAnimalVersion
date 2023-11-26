@@ -460,7 +460,6 @@ CheckDirection:
 TrySurfOW::
 ; Checking a tile in the overworld.
 ; Return carry if fail is allowed.
-
 ; Don't ask to surf if already fail.
 	ld a, [wPlayerState]
 	cp PLAYER_SURF_PIKA
@@ -476,13 +475,11 @@ TrySurfOW::
 
 ; Check tile permissions.
 	call CheckDirection
-	jr c, .quit
-
 	ld a, SWAN_BOAT
 	ld [wCurItem], a
 	ld hl, wNumItems
 	call CheckItem
-	jr c, .quit
+	jr nz, .quit
 
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]

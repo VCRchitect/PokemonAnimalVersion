@@ -9,7 +9,7 @@ MomPhoneLandmarkText:
 	text "Oh, so you're in"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Isn't that where"
 	line "@"
@@ -57,7 +57,7 @@ MomOtherAreaText:
 	text "?"
 
 	para "Good luck on your"
-	line "ANML quest!"
+	line "ANIMALs quest!"
 	done
 
 MomDeterminedText:
@@ -151,14 +151,14 @@ MomPhoneNoGymQuestText:
 MomPhoneLectureText:
 	text "Hello?"
 
-	para "…… <PLAYER>?"
+	para "...... <PLAYER>?"
 	line "I heard from PROF."
 
 	para "ELM that you went"
 	line "on a long trip."
 
 	para "I wish you would"
-	line "have told me…"
+	line "have told me..."
 
 	para "What about money?"
 	line "Should I save it?"

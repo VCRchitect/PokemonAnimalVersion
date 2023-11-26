@@ -40,7 +40,7 @@ AnthonyLostAMonText:
 	para "@"
 	text_ram wStringBuffer4
 	text " the"
-	line "other day…"
+	line "other day..."
 
 	para "It took off when I"
 	line "got distracted by"
@@ -96,11 +96,11 @@ AnthonySwarmText:
 	line "I didn't see any"
 
 	para "where there are"
-	line "strong ANML."
+	line "strong ANIMALs."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Rare ANML?"
+	text "Rare ANIMALs?"
 
 	para "Hey, sorry! I was"
 	line "too focused on my"
@@ -134,6 +134,6 @@ AnthonyHurryText:
 	para "TSUCHINOKO don't"
 	line "appear when there"
 
-	para "are strong ANML"
+	para "are strong ANIMALs"
 	line "around."
 	done

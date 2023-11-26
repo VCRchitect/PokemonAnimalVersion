@@ -27,8 +27,8 @@ MrPokemonsHouse_MapScripts:
 	closetrainpic
 	closetext
 	applymovement PLAYER, MrPokemonsHouse_PlayerWalksToMrPokemon
-	opentext
 	refreshscreen
+	opentext
 	trainerpic GENTLEMAN
 	writetext MrPokemonIntroText2
 	promptbutton
@@ -42,6 +42,7 @@ MrPokemonsHouse_MapScripts:
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	blackoutmod CHERRYGROVE_CITY
 	refreshscreen
+	trainerpic GENTLEMAN
 	writetext MrPokemonIntroText3
 	promptbutton
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, RIGHT

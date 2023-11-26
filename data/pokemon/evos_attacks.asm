@@ -17,6 +17,8 @@ SECTION "Evolutions and Attacks", ROMX
 
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
+EvosAttacks::
+
 BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, SHALLOTS
 	db 0 ; no more evolutions

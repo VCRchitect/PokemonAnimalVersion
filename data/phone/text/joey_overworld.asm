@@ -28,7 +28,7 @@ JoeyNumberAcceptedText:
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Oh, all right..."
 
 	para "But I won't lose"
 	line "to you again!"
@@ -54,7 +54,7 @@ JoeyPackFullText:
 
 JoeyRematchGiftText:
 	text "And yet another"
-	line "loss…"
+	line "loss..."
 
 	para "No doubt about"
 	line "it--you're tough."

@@ -30,10 +30,10 @@ ToddLostAMonText:
 	line "a tiny margin."
 
 	para "I'm guessing my"
-	line "ANML's levels"
+	line "ANIMALs's levels"
 
 	para "aren't high enough"
-	line "yet…"
+	line "yet..."
 	done
 
 ToddBattleRematchText:
@@ -75,7 +75,7 @@ ToddDepartmentStoreBargainSaleText:
 	line "a huckster?"
 
 	para "Well, yeah. I was"
-	line "mimicking them…"
+	line "mimicking them..."
 
 	para "Anyway, you've got"
 	line "to get there as"

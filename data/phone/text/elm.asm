@@ -5,7 +5,7 @@ ElmPhoneHealYourMonText:
 	line "it."
 
 	para "Be sure to heal"
-	line "your ANML if"
+	line "your ANIMALs if"
 	cont "they are hurt."
 	done
 
@@ -13,7 +13,7 @@ ElmPhoneSawMrPokemonText:
 	text "Hello, <PLAY_G>?"
 
 	para "Did you meet MR."
-	line "ANML? Great!"
+	line "BIG? Great!"
 	cont "Come back safely!"
 	done
 
@@ -21,7 +21,7 @@ ElmPhonePokemonStolenText:
 	text "<PLAY_G>? I'm very"
 	line "upset now."
 
-	para "We had a ANML"
+	para "We had an ANIMAL"
 	line "stolen from here."
 
 	para "How could anyone"
@@ -35,7 +35,7 @@ ElmPhoneCheckingTheEggText:
 	line "EGG now. It does"
 
 	para "appear to be a"
-	line "ANML EGG."
+	line "ANIMAL EGG."
 	done
 
 ElmPhoneAssistantText:
@@ -44,7 +44,7 @@ ElmPhoneAssistantText:
 	para "Did you see my"
 	line "assistant? He's at"
 
-	para "the ANML CENTER"
+	para "the ANIMAL CENTER"
 	line "in VIOLET CITY."
 	done
 
@@ -64,7 +64,7 @@ ElmPhoneEggHatchedText:
 
 	para "What? It hatched?"
 	line "Wow! What kind of"
-	cont "ANML is it?"
+	cont "ANIMAL is it?"
 
 	para "Please come show"
 	line "me now!"
@@ -80,7 +80,7 @@ ElmPhoneDiscoveredHatchTimeText:
 	line "for an EGG to"
 
 	para "hatch depends on"
-	line "the ANML."
+	line "the ANIMAL."
 	done
 
 ElmPhoneInvestigatingEggMovesText:
@@ -90,7 +90,7 @@ ElmPhoneInvestigatingEggMovesText:
 	line "mystery what kinds"
 
 	para "of moves hatched"
-	line "ANML have."
+	line "ANIMALs have."
 
 	para "We're investigat-"
 	line "ing that now."
@@ -105,17 +105,17 @@ ElmPhoneDiscoveredPokerusText:
 	para "Apparently there's"
 	line "something called"
 
-	para "#RUS that in-"
-	line "fects ANML."
+	para "ANIMALsRUS that in-"
+	line "fects ANIMALs."
 
 	para "Yes, it's like a"
 	line "virus, so it's"
-	cont "called #RUS."
+	cont "called ANIMALsRUS."
 
 	para "It multiplies fast"
 	line "and infects other"
 
-	para "ANML too. But"
+	para "ANIMALs too. But"
 	line "that's all."
 
 	para "It doesn't seem to"
@@ -137,7 +137,7 @@ ElmPhoneDisasterText:
 	line "terrible!"
 
 	para "What should I do?"
-	line "It… Oh, no…"
+	line "It... Oh, no..."
 
 	para "Please get back"
 	line "here now!"
@@ -151,7 +151,7 @@ ElmPhoneEggAssistantText:
 	line "EGG!"
 
 	para "My assistant is at"
-	line "the ANML CENTER"
+	line "the ANIMAL CENTER"
 
 	para "in VIOLET CITY. "
 	line "Could you talk to"

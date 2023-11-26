@@ -12,7 +12,7 @@ LizMonAlwaysWantsToNuzzleText:
 	done
 
 LizDefeatedMonText:
-	text "And, and! Um…"
+	text "And, and! Um..."
 
 	para "We beat a wild"
 	line "@"
@@ -27,7 +27,7 @@ LizDefeatedMonText:
 	done
 
 LizLostAMonText:
-	text "And, and! Uh…"
+	text "And, and! Uh..."
 
 	para "We just saw a"
 	line "really gorgeous"
@@ -68,7 +68,7 @@ LizWrongNumberText:
 	para "I'm fine, but I'm"
 	line "bored silly!"
 
-	para "Huh… Wrong number?"
+	para "Huh... Wrong number?"
 	line "Oops! Sorry!"
 	done
 
@@ -121,7 +121,7 @@ LizEarlGossipText:
 	para "Do you know EARL,"
 	line "the teacher who"
 
-	para "runs the ANML"
+	para "runs the ANIMALs"
 	line "ACADEMY in VIOLET?"
 
 	para "I saw him doing"
@@ -134,7 +134,7 @@ LizEarlGossipText:
 LizSurfClickerGossipText:
 	text "Listen, listen!"
 
-	para "I collect ANML"
+	para "I collect ANIMALs"
 	line "plush dolls."
 
 	para "But I can't seem"
@@ -173,7 +173,7 @@ LizMooMooMilkGossipText:
 LizSalonGossipText:
 	text "Listen, listen!"
 
-	para "There's a ANML"
+	para "There's an ANIMAL"
 	line "SALON in GOLDENROD"
 
 	para "that's run by two"
@@ -195,7 +195,7 @@ LizSalonGossipText:
 	line "have a hard time"
 
 	para "trying to decide"
-	line "whom I should use…"
+	line "whom I should use..."
 	done
 
 LizWhitneyGossipText:
@@ -207,7 +207,7 @@ LizWhitneyGossipText:
 	para "battling only a"
 	line "little while ago!"
 
-	para "But the ANML"
+	para "But the ANIMALs"
 	line "LEAGUE chose her"
 	cont "as a GYM LEADER!"
 
@@ -254,7 +254,7 @@ LizBeautifulTrainerGossipText:
 LizForgotGossipText:
 	text "Listen, listen!"
 
-	para "Uh… Um… Whoops!"
+	para "Uh... Um... Whoops!"
 
 	para "I forgot what I"
 	line "was going to say!"
@@ -265,25 +265,25 @@ LizFawningOverMonText:
 
 	para "My @"
 	text_ram wStringBuffer4
-	text "…"
-	line "it… so pretty…"
+	text "..."
+	line "it... so pretty..."
 
-	para "and… giggle… so"
-	line "awesome… yes… but…"
+	para "and... giggle... so"
+	line "awesome... yes... but..."
 
-	para "very much… eeek!"
-	line "And… lovely…"
+	para "very much... eeek!"
+	line "And... lovely..."
 
-	para "Just ravishing…"
+	para "Just ravishing..."
 	line "Oh, too much!"
 
-	para "…Hug it… sleeping…"
-	line "That's right…"
+	para "...Hug it... sleeping..."
+	line "That's right..."
 
-	para "pretty… sigh… So"
-	line "nice… Cute…"
+	para "pretty... sigh... So"
+	line "nice... Cute..."
 
-	para "…Oops! Look at the"
+	para "...Oops! Look at the"
 	line "time! I chatted"
 	cont "too long!"
 

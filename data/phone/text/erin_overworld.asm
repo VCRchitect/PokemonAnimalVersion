@@ -3,7 +3,7 @@ ErinAskNumber1Text:
 	line "angry to lose."
 
 	para "I'll have to train"
-	line "much harder…"
+	line "much harder..."
 
 	para "Here's my number."
 	line "I'm ERIN--don't"
@@ -27,7 +27,7 @@ ErinNumberAcceptedText:
 	done
 
 ErinNumberDeclinedText:
-	text "Oh… I'm sad…"
+	text "Oh... I'm sad..."
 	line "If you do want to"
 
 	para "battle, come see"
@@ -46,17 +46,17 @@ ErinRematchText:
 
 ErinPackFullText:
 	text "That's too bad!"
-	line "You have no room…"
+	line "You have no room..."
 
 	para "I'll give it to"
 	line "you another time."
 	done
 
 ErinRematchGiftText:
-	text "Aww… I lost again!"
+	text "Aww... I lost again!"
 
 	para "I wonder how many"
-	line "times that is…"
+	line "times that is..."
 
 	para "Thanks for coming!"
 	line "Here's a present!"

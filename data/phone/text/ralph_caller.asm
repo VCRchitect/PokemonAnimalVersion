@@ -24,7 +24,7 @@ RalphDefeatedMonText:
 	line "thing easily."
 
 	para "Boy, has he gotten"
-	line "cocky…"
+	line "cocky..."
 	done
 
 RalphLostAMonText:
@@ -68,7 +68,7 @@ RalphHangUpText:
 	done
 
 RalphItemText:
-	text "Listen, I… Yowch!"
+	text "Listen, I... Yowch!"
 
 	para "Uh, sorry! See,"
 	line "@"
@@ -100,11 +100,11 @@ RalphNoItemText:
 	text "Yeah, I know."
 
 	para "You're looking for"
-	line "rare ANML."
+	line "rare ANIMALs."
 
 	para "Recently, all I've"
 	line "been catching are"
-	cont "CARP, though…"
+	cont "CARP, though..."
 	done
 
 RalphReminderText:

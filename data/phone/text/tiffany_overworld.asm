@@ -29,7 +29,7 @@ TiffanyNumberAcceptedText:
 	done
 
 TiffanyNumberDeclinedText:
-	text "Aww… Oh well."
+	text "Aww... Oh well."
 	line "Look for me if you"
 
 	para "want to talk about"

@@ -22,7 +22,7 @@ TullyDefeatedMonText:
 
 	para "Heh, I guess you"
 	line "can't tell over"
-	cont "the phone…"
+	cont "the phone..."
 	done
 
 TullyLostAMonText:
@@ -36,7 +36,7 @@ TullyLostAMonText:
 
 	para "Heh, I guess you"
 	line "can't tell over"
-	cont "the phone…"
+	cont "the phone..."
 	done
 
 TullyBattleRematchText:
@@ -82,7 +82,7 @@ TullyNoItemText:
 	done
 
 TullyForwardText:
-	text "Yup, TULLY here…"
+	text "Yup, TULLY here..."
 
 	para "<PLAY_G>? What?"
 	line "You're lost?"

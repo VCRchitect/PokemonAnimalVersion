@@ -1,6 +1,6 @@
 BethAskNumber1Text:
 	text "It's been a while"
-	line "since I lost…"
+	line "since I lost..."
 
 	para "You're very good"
 	line "at battling."
@@ -39,7 +39,7 @@ BethNumberAcceptedText:
 	done
 
 BethNumberDeclinedText:
-	text "That's too bad…"
+	text "That's too bad..."
 
 	para "Let me know if you"
 	line "change your mind."

@@ -83,6 +83,7 @@ RuinsOfAlphOutsideFisherScript:
 	promptbutton
 .Next:
 	refreshscreen
+	trainerpic FISHER
 	writetext RuinsOfAlphOutsideFisherText2
 	waitbutton
 	closetrainpic
@@ -288,7 +289,7 @@ RuinsOfAlphOutsideYoungster1Text:
 	done
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "A... H... E... A... D..."
+	text "A, H, E, A, D..."
 	line "Hmm..."
 
 	para "What?"

@@ -55,11 +55,11 @@ TiffanyGreetNiteText:
 	done
 
 TiffanyGenericText:
-	text "Are your ANML"
+	text "Are your ANIMALs"
 	line "doing well?"
 
 	para "I hope you take"
-	line "them to a ANML"
+	line "them to an ANIMAL"
 	cont "CENTER every day."
 
 	para "Don't push them"
@@ -71,8 +71,8 @@ TiffanyGenericText:
 	line "cute and lively"
 
 	para "precisely because"
-	line "I take it to a"
+	line "I take it to an"
 
-	para "ANML CENTER"
+	para "ANIMAL CENTER"
 	line "every day."
 	done

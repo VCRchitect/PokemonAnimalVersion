@@ -29,7 +29,7 @@ AlanLostAMonText:
 	cont "on me yesterday."
 
 	para "A computational"
-	line "error on my part…"
+	line "error on my part..."
 	done
 
 AlanBattleRematchText:

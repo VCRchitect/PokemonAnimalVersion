@@ -2,7 +2,7 @@ GinaAnswerPhoneText:
 	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, <PLAY_G>!"
 	line "Good morning!"
@@ -12,7 +12,7 @@ GinaAnswerPhoneDayText:
 	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, <PLAY_G>!"
 	line "Hi, how are you?"
@@ -22,7 +22,7 @@ GinaAnswerPhoneNiteText:
 	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, <PLAY_G>!"
 	line "Good evening!"
@@ -56,7 +56,7 @@ GinaGreetNiteText:
 	done
 
 GinaGenericText:
-	text "Are your ANML"
+	text "Are your ANIMALs"
 	line "still tough?"
 
 	para "I train every day"

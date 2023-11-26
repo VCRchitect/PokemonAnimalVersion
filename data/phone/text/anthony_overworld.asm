@@ -6,7 +6,7 @@ AnthonyAskNumber1Text:
 	line "and caves."
 
 	para "I occasionally see"
-	line "rare ANML."
+	line "rare ANIMALs."
 
 	para "I could call you"
 	line "the next time I"
@@ -19,7 +19,7 @@ AnthonyAskNumber1Text:
 AnthonyAskNumber2Text:
 	text "I could call you"
 	line "when I see some"
-	cont "rare ANML."
+	cont "rare ANIMALs."
 
 	para "Feel like swapping"
 	line "phone numbers?"
@@ -28,13 +28,13 @@ AnthonyAskNumber2Text:
 AnthonyNumberAcceptedText:
 	text "Be patient. I'll"
 	line "find some rare"
-	cont "ANML for you!"
+	cont "ANIMALs for you!"
 	done
 
 AnthonyNumberDeclinedText:
 	text "You're cold. I may"
 	line "as well head to"
-	cont "the mountains…"
+	cont "the mountains..."
 	done
 
 AnthonyPhoneFullText:
@@ -47,6 +47,6 @@ AnthonyPhoneFullText:
 AnthonyRematchText:
 	text "All righty, then!"
 
-	para "My ANML and I"
+	para "My ANIMALs and I"
 	line "are raring to go!"
 	done

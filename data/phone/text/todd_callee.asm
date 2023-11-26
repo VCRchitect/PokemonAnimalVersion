@@ -57,7 +57,7 @@ ToddGreetNiteText:
 
 ToddGenericText:
 	text "How do you raise"
-	line "your ANML?"
+	line "your ANIMALs?"
 
 	para "I do all sorts"
 	line "of things, like"

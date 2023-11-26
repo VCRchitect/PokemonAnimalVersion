@@ -320,16 +320,19 @@ BlackthornCitySignText:
 
 BlackthornGymSignText:
 	text "BLACKTHORN CITY"
-	line "ANML GYM"
+	line "ANIML GYM"
 	cont "LEADER: CLAIR"
 
 	para "The Blessed User"
-	line "of Dragons"
+	line "of Dragons and a"
+	para "Thirst Trap for"
+	line "Them Nerds Online"
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE DELETER'S"
-	line "HOUSE"
+	text "MOVE DELETER AND"
+	line "MOVE REMINDER'S"
+	cont "HOUSE"
 	
 	para "But only a jabroni"
 	line "would steal an"

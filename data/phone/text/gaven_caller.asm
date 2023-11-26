@@ -25,13 +25,13 @@ GavenDefeatedMonText:
 	line "@"
 	text_ram wStringBuffer4
 	text " get"
-	cont "that strong…"
+	cont "that strong..."
 
 	para "You shouldn't let"
 	line "your guard down,"
 
 	para "even against a"
-	line "ANML you're"
+	line "ANIMALs you're"
 	cont "used to seeing."
 	done
 
@@ -48,7 +48,7 @@ GavenLostAMonText:
 	para "One wrong decision"
 	line "could mean total"
 
-	para "failure… You ought"
+	para "failure... You ought"
 	line "to be careful too."
 	done
 

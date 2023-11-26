@@ -23,12 +23,12 @@ CherrygroveEvolutionSpeechHouseLassScript:
 	trainerpic PICNICKER
 	writetext CherrygroveEvolutionSpeechHouseLassText
 	waitbutton
-	applymovement CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS, CherrygroveAbuseMovement
-	playsound SFX_TACKLE
-	applymovement CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS, CherrygroveAbuseMovement
-	playsound SFX_TACKLE
 	closetrainpic
 	closetext
+	applymovement CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS, CherrygroveAbuseMovement
+	playsound SFX_TACKLE
+	applymovement CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS, CherrygroveAbuseMovement
+	playsound SFX_TACKLE
 	end
 
 CherrygroveEvolutionSpeechHouseBookshelf:

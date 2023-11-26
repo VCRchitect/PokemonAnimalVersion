@@ -1,13 +1,13 @@
 ChadAskNumber1Text:
 	text "Huh? Is that thing"
-	line "a ANMLDEX? Have"
+	line "an ANIMALsDEX? Have"
 	cont "you met PROF.OAK?"
 
 	para "Huh? You have? "
 	line "That's way cool!"
 
 	para "I have a dream of"
-	line "becoming a ANML"
+	line "becoming an ANIMAL"
 
 	para "researcher like"
 	line "PROF.OAK."
@@ -35,14 +35,14 @@ ChadAskNumber2Text:
 
 ChadNumberAcceptedText:
 	text "You must listen to"
-	line "PROF.OAK'S ANML"
+	line "PROF.OAK'S ANIMAL"
 	cont "TALK, right?"
 	done
 
 ChadNumberDeclinedText:
-	text "Oh… I wish I had a"
+	text "Oh... I wish I had a"
 	line "chance to meet"
-	cont "PROF.OAK…"
+	cont "PROF.OAK..."
 	done
 
 ChadPhoneFullText:

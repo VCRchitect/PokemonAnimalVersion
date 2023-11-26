@@ -30,7 +30,7 @@ GinaLostAMonText:
 	text "."
 
 	para "It's getting past"
-	line "frustrating…"
+	line "frustrating..."
 	done
 
 GinaBattleRematchText:
@@ -43,7 +43,7 @@ GinaBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "…Could you take it"
+	para "...Could you take it"
 	line "a little easier on"
 	cont "me next time?"
 	done
@@ -85,7 +85,7 @@ GinaHaventFoundAnythingYetText:
 	text "Sorry, I haven't"
 	line "found anything"
 
-	para "useful yet…"
+	para "useful yet..."
 	line "I promise, if I"
 
 	para "find anything, you"

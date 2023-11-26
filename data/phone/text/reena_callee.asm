@@ -2,7 +2,7 @@ ReenaAnswerPhoneText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh. Hi, <PLAYER>."
 	line "What's up?"
@@ -12,7 +12,7 @@ ReenaAnswerPhoneDayText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, hi, <PLAYER>,"
 	line "what's up?"
@@ -22,7 +22,7 @@ ReenaAnswerPhoneNiteText:
 	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Oh, hi, <PLAYER>,"
 	line "what's up?"
@@ -57,12 +57,12 @@ ReenaGreetNiteText:
 
 ReenaGenericText:
 	text "Hey, how are your"
-	line "ANML doing?"
+	line "ANIMALs doing?"
 
 	para "What? Great?"
-	line "I see…"
+	line "I see..."
 
-	para "What? My ANML?"
+	para "What? My ANIMALs?"
 
 	para "Of course they're"
 	line "doing great! What"

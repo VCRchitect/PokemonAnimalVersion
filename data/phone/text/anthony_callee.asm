@@ -57,7 +57,7 @@ AnthonyGreetNiteText:
 	done
 
 AnthonyGenericText:
-	text "Are your ANML"
+	text "Are your ANIMALs"
 	line "as feisty as ever?"
 
 	para "My @"

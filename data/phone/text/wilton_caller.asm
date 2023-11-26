@@ -12,13 +12,13 @@ WiltonDefeatedMonText:
 	text "We beat a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text "…"
+	text "..."
 
 	para "You know, I have"
 	line "more fun fishing"
 
 	para "than beating wild"
-	line "ANML."
+	line "ANIMALs."
 	done
 
 WiltonLostAMonText:
@@ -74,13 +74,13 @@ WiltonHaventFoundAnythingText:
 	done
 
 WiltonNotBitingText:
-	text "Sigh…"
+	text "Sigh..."
 	line "They're not biting"
 
 	para "like before on"
 	line "@"
 	text_ram wStringBuffer5
-	text "…"
+	text "..."
 
 	para "You have to come"
 	line "for a battle!"
@@ -95,7 +95,7 @@ WiltonWantThisText:
 
 	para "@"
 	text_ram wStringBuffer5
-	text "…"
+	text "..."
 	line "Just head from"
 
 	para "MAHOGANY toward"

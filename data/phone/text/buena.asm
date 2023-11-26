@@ -1,15 +1,15 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, this is BUENA…"
+	text "Hi, this is BUENA..."
 
 	para "Oh! Good morning,"
 	line "<PLAY_G>!"
 
 	para "I'm kind of foggy"
-	line "in the morning…"
+	line "in the morning..."
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, this is BUENA…"
+	text "Hi, this is BUENA..."
 	line "Oh! Hi, <PLAY_G>!"
 
 	para "Do you tune into"
@@ -34,7 +34,7 @@ BuenaPhoneMidnightAnswerText:
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, this is BUENA…"
+	text "Hi, this is BUENA..."
 	line "Oh! Hi, <PLAY_G>!"
 
 	para "I just got off"
@@ -110,7 +110,7 @@ BuenaPhoneWentOutWithBenText:
 	para "Oh, wow! Like,"
 	line "what should I do?"
 
-	para "…Oops, I have to"
+	para "...Oops, I have to"
 	line "get ready for my"
 
 	para "show! I'll catch"
@@ -159,7 +159,7 @@ BuenaPhoneLuckyNumberShowText:
 
 BuenaPhoneStressedFromWorkText:
 	text "You know, last"
-	line "night…"
+	line "night..."
 
 	para "I was so stressed"
 	line "out from work, I"
@@ -169,9 +169,9 @@ BuenaPhoneStressedFromWorkText:
 
 	para "MARY and I have"
 	line "this deal about"
-	cont "losing weight…"
+	cont "losing weight..."
 
-	para "This won't do…"
+	para "This won't do..."
 
 	para "Huh? What's the"
 	line "weight?"
@@ -179,11 +179,11 @@ BuenaPhoneStressedFromWorkText:
 	para "This has to be a"
 	line "total secret!"
 
-	para "MARY weighs…"
+	para "MARY weighs..."
 
 	para "Aiyee! M-MARY!"
 
-	para "Uh… Um… I… Sorry,"
+	para "Uh... Um... I... Sorry,"
 	line "wrong number!"
 	done
 
@@ -210,7 +210,7 @@ BuenaPhoneProfessorOakText:
 	done
 
 BuenaPhoneGotAColdText:
-	text "…Cough, cough!"
+	text "...Cough, cough!"
 
 	para "Uhm sorry uh got"
 	line "uh code dite now."
@@ -242,7 +242,7 @@ BuenaPhoneRadioCardQuestionsText:
 	para "Guess what? I made"
 	line "up the questions!"
 
-	para "…Were they too"
+	para "...Were they too"
 	line "easy for you?"
 
 	para "Well, let's chat"
@@ -259,7 +259,7 @@ BuenaPhoneClickerFanClubText:
 	para "But when CLICKER"
 	line "was the password,"
 
-	para "it was uh… whew…"
+	para "it was uh... whew..."
 	line "overwhelming."
 
 	para "FAN CLUB people"
@@ -331,16 +331,16 @@ BuenaPhoneWhenDoYouRelaxText:
 	line "It's so pleasant"
 
 	para "that it gradually"
-	line "makes me drowsy…"
+	line "makes me drowsy..."
 
-	para "<……> <……> <……>"
+	para "<......> <......> <......>"
 
-	para "<……> <……> <……>Zzz"
+	para "<......> <......> <......>Zzz"
 
 	para "Oops, I drifted"
 	line "off just thinking"
 
-	para "about it! How, uh…"
+	para "about it! How, uh..."
 	line "embarrassing!"
 
 	para "Please forget this"
@@ -349,13 +349,13 @@ BuenaPhoneWhenDoYouRelaxText:
 
 BuenaPhoneStarterPokemonText:
 	text "<PLAY_G>, what was"
-	line "the first ANML"
+	line "the first ANIMAL"
 	cont "you ever caught?"
 
-	para "…Oh, really?"
+	para "Oh, really?"
 
 	para "I've seen lots of"
-	line "ANML around,"
+	line "ANIMALs around,"
 
 	para "but I've never"
 	line "caught one."
@@ -364,7 +364,7 @@ BuenaPhoneStarterPokemonText:
 	line "try sometime."
 
 	para "Did you know that"
-	line "the first ANML"
+	line "the first ANIMAL"
 
 	para "MARY caught was a"
 	line "TAPIR?"
@@ -382,7 +382,7 @@ BuenaPhoneStarterPokemonText:
 	line "CAT."
 
 	para "Let's chat about"
-	line "ANML again!"
+	line "ANIMALs again!"
 
 	para "Bye-bye!"
 	done
@@ -416,13 +416,13 @@ BuenaPhoneCompanyVacationText:
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Did you know…?"
+	text "Did you know...?"
 
 	para "BEN and FERN talk"
 	line "on the phone for"
 
 	para "hours about what"
-	line "ANML music they"
+	line "ANIMAL music they"
 
 	para "should play on"
 	line "different days of"
@@ -454,7 +454,7 @@ BuenaPhoneGoingShoppingText:
 	line "GOLDENROD DEPT."
 
 	para "STORE has a sale"
-	line "on when we go…"
+	line "on when we go..."
 
 	para "<PLAY_G>, maybe we"
 	line "can hook up too!"
@@ -474,7 +474,7 @@ if DEF(_CRYSTAL_AU)
 	line "out a lot."
 else
 	para "You see, I have my"
-	line "favorite machine…"
+	line "favorite machine..."
 
 	para "It pays out a lot,"
 	line "I kid you not!"
@@ -491,7 +491,7 @@ endc
 
 BuenaPhonePokegearAnswerText:
 	text "Hey, <PLAY_G>. You"
-	line "use your ANMLGEAR"
+	line "use your ANIMALsGEAR"
 
 	para "to listen to the"
 	line "radio, right?"
@@ -500,13 +500,13 @@ BuenaPhonePokegearAnswerText:
 	line "can even display"
 
 	para "town maps with"
-	line "ANMLGEAR."
+	line "ANIMALsGEAR."
 
 	para "I have a bad sense"
 	line "of direction, so"
 
-	para "ANMLGEAR would be"
-	line "handy…"
+	para "ANIMALsGEAR would be"
+	line "handy..."
 
 	para "Anyway, thanks for"
 	line "calling! Later!"

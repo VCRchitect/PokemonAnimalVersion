@@ -39,6 +39,7 @@ RuinsOfAlphResearchCenter_MapScripts:
 	playsound SFX_TRANSACTION
 	pause 30
 	turnobject RUINSOFALPHRESEARCHCENTER_SCIENTIST3, DOWN
+	refreshscreen
 	opentext
 	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterModifiedDexText
@@ -100,7 +101,6 @@ RuinsOfAlphResearchCenterScientist1Script:
 	end
 
 .LettahAppeared:
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist1Text_LettahAppeared
 	waitbutton
 	closetrainpic
@@ -108,7 +108,6 @@ RuinsOfAlphResearchCenterScientist1Script:
 	end
 
 .GotLettahDex:
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist1Text_GotLettahDex
 	waitbutton
 	closetrainpic
@@ -116,7 +115,6 @@ RuinsOfAlphResearchCenterScientist1Script:
 	end
 
 .GotAllLettah:
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist1Text_GotAllLettah
 	waitbutton
 	closetrainpic
@@ -140,7 +138,6 @@ RuinsOfAlphResearchCenterScientist2Script:
 	end
 
 .LettahAppeared:
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist2Text_LettahAppeared
 	waitbutton
 	closetrainpic
@@ -148,7 +145,6 @@ RuinsOfAlphResearchCenterScientist2Script:
 	end
 
 .GotAllLettah:
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist2Text_GotAllLettah
 	waitbutton
 	closetrainpic

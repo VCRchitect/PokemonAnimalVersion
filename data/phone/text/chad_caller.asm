@@ -12,7 +12,7 @@ ChadObservingWildText:
 	line "observations."
 
 	para "I wish I could"
-	line "become a ANML"
+	line "become an ANIMAL"
 
 	para "researcher like"
 	line "PROF.OAK soon."
@@ -49,7 +49,7 @@ ChadLostAMonText:
 	para "wanting to observe"
 	line "@"
 	text_ram wStringBuffer4
-	text ". Rats…"
+	text ". Rats..."
 	done
 
 ChadBattleRematchText:
@@ -75,11 +75,11 @@ ChadBlueGossipText:
 	para "He's PROF.OAK's"
 	line "grandson and a"
 
-	para "former ANML"
+	para "former ANIMALs"
 	line "LEAGUE CHAMPION!"
 
 	para "He's one super"
-	line "ANML trainer!"
+	line "ANIMALs trainer!"
 	done
 
 ChadDaisyGossipText:
@@ -90,7 +90,7 @@ ChadDaisyGossipText:
 	para "When she's around,"
 	line "even the most"
 
-	para "ferocious ANML"
+	para "ferocious ANIMALs"
 	line "calm right down."
 	done
 
@@ -111,11 +111,11 @@ ChadProfOaksDreamGossipText:
 	line "is to compile a"
 
 	para "comprehensive"
-	line "ANMLDEX."
+	line "ANIMALsDEX."
 
 	para "I envy you for"
 	line "taking part in"
-	cont "that project…"
+	cont "that project..."
 	done
 
 ChadKurtGossipText:
@@ -131,7 +131,7 @@ ChadKurtGossipText:
 	done
 
 ChadLeagueGossipText:
-	text "ANML LEAGUE is"
+	text "ANIMALs LEAGUE is"
 	line "the great gather-"
 	cont "ing place for all"
 
@@ -141,7 +141,7 @@ ChadLeagueGossipText:
 	para "PROF.OAK acts as"
 	line "an advisor to the"
 
-	para "ANML LEAGUE's"
+	para "ANIMALs LEAGUE's"
 	line "headquarters."
 
 	para "He really is a"
@@ -149,7 +149,7 @@ ChadLeagueGossipText:
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF.OAK'S ANML"
+	text "PROF.OAK'S ANIMALs"
 	line "TALK is a popular"
 	cont "radio show, right?"
 
@@ -175,7 +175,7 @@ ChadProfOakTrainerGossipText:
 	para "But rather than"
 	line "battling, he found"
 
-	para "ANML themselves"
+	para "ANIMALs themselves"
 	line "to be interesting."
 
 	para "So he abandoned"
@@ -213,14 +213,14 @@ ChadProfOakTravelingGossipText:
 	para "While traveling,"
 	line "he must've learned"
 
-	para "about ANML"
+	para "about ANIMALs"
 	line "kakaporally."
 
-	para "I envy him…"
+	para "I envy him..."
 	line "I'd like to travel"
 
 	para "and learn about"
-	line "things too…"
+	line "things too..."
 	done
 
 ChadGoingToStudyHardText:

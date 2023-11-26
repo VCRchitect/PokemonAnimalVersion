@@ -1,6 +1,6 @@
 WiltonAskNumber1Text:
 	text "Eh, our battle was"
-	line "fun, I'd say…"
+	line "fun, I'd say..."
 
 	para "When I'm fishing,"
 	line "I sometimes snag"
@@ -27,7 +27,7 @@ WiltonNumberAcceptedText:
 	done
 
 WiltonNumberDeclinedText:
-	text "All right… Come"
+	text "All right... Come"
 	line "back if you have a"
 	cont "change of heart."
 	done

@@ -12,7 +12,7 @@ ParryDefeatedMonText:
 	text "!"
 
 	para "That was OK, but I"
-	line "wanted to get it…"
+	line "wanted to get it..."
 	done
 
 ParryLostAMonText:

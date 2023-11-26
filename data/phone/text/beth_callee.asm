@@ -65,15 +65,15 @@ BethGenericText:
 	text "Are you the kind"
 	line "of person who goes"
 
-	para "to ANML CENTERS"
+	para "to ANIMAL CENTERS"
 	line "often?"
 
 	para "I go every day."
 	line "Watching out for"
 
 	para "the health of your"
-	line "ANML is a basic"
+	line "ANIMALs is a basic"
 
-	para "part of being a"
-	line "ANML trainer."
+	para "part of being an"
+	line "ANIMAL trainer."
 	done

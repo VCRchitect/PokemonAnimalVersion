@@ -2,7 +2,7 @@ WiltonAnswerPhoneText:
 	text "Hello, you have"
 	line "reached @"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Ah, <PLAY_G>."
 	done
@@ -11,7 +11,7 @@ WiltonAnswerPhoneDayText:
 	text "Hello, you have"
 	line "reached @"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Ah, <PLAY_G>, is"
 	line "it?"
@@ -21,7 +21,7 @@ WiltonAnswerPhoneNiteText:
 	text "Hello, you have"
 	line "reached @"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Ah, if it isn't"
 	line "<PLAY_G>."
@@ -30,7 +30,7 @@ WiltonAnswerPhoneNiteText:
 WiltonGreetText:
 	text "Ah, it's @"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Have you got a"
 	line "moment?"
@@ -39,7 +39,7 @@ WiltonGreetText:
 WiltonGreetDayText:
 	text "Ah, it's @"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Can you talk now?"
 	done
@@ -47,14 +47,14 @@ WiltonGreetDayText:
 WiltonGreetNiteText:
 	text "Ah, it's @"
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Sorry for calling"
 	line "so late."
 	done
 
 WiltonGenericText:
-	text "Have your ANML"
+	text "Have your ANIMALs"
 	line "grown any?"
 
 	para "My @"

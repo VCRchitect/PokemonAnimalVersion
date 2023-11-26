@@ -4,7 +4,7 @@ ArnieAnswerPhoneText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "...Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneDayText:
@@ -13,7 +13,7 @@ ArnieAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "...Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneNiteText:
@@ -22,7 +22,7 @@ ArnieAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "...Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieGreetText:
@@ -56,7 +56,7 @@ ArnieGreetNiteText:
 	done
 
 ArnieGenericText:
-	text "I bet your ANML"
+	text "I bet your ANIMALs"
 	line "are a lot stronger"
 	cont "than before."
 	done

@@ -14,11 +14,14 @@ MahoganyGym_MapScripts:
 
 MahoganyGymPryceScript:
 	faceplayer
+	refreshscreen
 	opentext
+	trainerpic PRYCE
 	checkevent EVENT_BEAT_PRYCE
 	iftrue .FightDone
 	writetext PryceText_Intro
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext PryceText_Impressed, 0
 	loadtrainer PRYCE, PRYCE1
@@ -40,13 +43,19 @@ MahoganyGymPryceScript:
 	setevent EVENT_BEAT_BOARDER_RONALD
 	setevent EVENT_BEAT_BOARDER_BRAD
 	setevent EVENT_BEAT_BOARDER_DOUGLAS
+	refreshscreen
+	trainerpic PRYCE
 	writetext PryceText_GlacierBadgeSpeech
 	promptbutton
+	closetrainpic
 	verbosegiveitem TM_ICY_WIND
 	iffalse MahoganyGym_NoRoomForIcyWind
 	setevent EVENT_GOT_TM16_ICY_WIND
+	refreshscreen
+	trainerpic PRYCE
 	writetext PryceText_IcyWindSpeech
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -54,6 +63,7 @@ PryceScript_Defeat:
 	writetext PryceText_CherishYourPokemon
 	waitbutton
 MahoganyGym_NoRoomForIcyWind:
+	closetrainpic
 	closetext
 	end
 
@@ -73,9 +83,12 @@ TrainerSkierRoxanne:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic SKIER
 	writetext SkierRoxanneAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -84,9 +97,12 @@ TrainerSkierClarissa:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic SKIER
 	writetext SkierClarissaAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -95,9 +111,12 @@ TrainerBoarderRonald:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic BOARDER
 	writetext BoarderRonaldAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -106,9 +125,12 @@ TrainerBoarderBrad:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic BOARDER
 	writetext BoarderBradAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -117,25 +139,32 @@ TrainerBoarderDouglas:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic BOARDER
 	writetext BoarderDouglasAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 MahoganyGymGuideScript:
 	faceplayer
+	refreshscreen
 	opentext
+	trainerpic GUIDE
 	checkevent EVENT_BEAT_PRYCE
 	iftrue .MahoganyGymGuideWinScript
 	writetext MahoganyGymGuideText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 .MahoganyGymGuideWinScript:
 	writetext MahoganyGymGuideWinText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -148,7 +177,7 @@ MahoganyGymStatue:
 	jumpstd GymStatue2Script
 
 PryceText_Intro:
-	text "ANML have many"
+	text "ANIMALs have many"
 	line "experiences in"
 
 	para "their lives, just "
@@ -163,7 +192,7 @@ PryceText_Intro:
 	cont "you what I mean."
 
 	para "I have been with"
-	line "ANML since"
+	line "ANIMALs since"
 
 	para "before you were"
 	line "born."
@@ -200,10 +229,10 @@ Text_ReceivedGlacierBadge:
 PryceText_GlacierBadgeSpeech:
 	text "That BADGE will"
 	line "raise the SPECIAL"
-	cont "stats of ANML."
+	cont "stats of ANIMALs."
 
 	para "It also lets your"
-	line "ANML use WHIRL-"
+	line "ANIMALs use WHIRL-"
 	cont "POOL to get across"
 	cont "real whirlpools."
 
@@ -228,11 +257,11 @@ PryceText_CherishYourPokemon:
 	line "snow melt, spring"
 	cont "arrives."
 
-	para "You and your #-"
-	line "MON will be to-"
+	para "You and your ANIMALs"
+	line "will be togeher"
 
-	para "gether for many"
-	line "years to come."
+	para "for many, many years"
+	line "to come."
 
 	para "Cherish your time"
 	line "together!"
@@ -240,7 +269,7 @@ PryceText_CherishYourPokemon:
 
 BoarderRonaldSeenText:
 	text "I'll freeze your"
-	line "ANML, so you"
+	line "ANIMALs, so you"
 	cont "can't do a thing!"
 	done
 
@@ -251,7 +280,7 @@ BoarderRonaldBeatenText:
 
 BoarderRonaldAfterBattleText:
 	text "I think there's a"
-	line "move a ANML"
+	line "move an ANIMAL"
 
 	para "can use while it's"
 	line "frozen."
@@ -277,7 +306,7 @@ BoarderBradBeatenText:
 BoarderBradAfterBattleText:
 	text "This GYM is great."
 	line "I love boarding"
-	cont "with my ANML!"
+	cont "with my ANIMALs!"
 	done
 
 BoarderDouglasSeenText:
@@ -342,7 +371,7 @@ MahoganyGymGuideText:
 	text "PRYCE is a veteran"
 	line "who has trained"
 
-	para "ANML for some"
+	para "ANIMALs for some"
 	line "50 years."
 
 	para "He's said to be"

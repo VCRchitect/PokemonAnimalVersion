@@ -58,15 +58,15 @@ WadeGreetNiteText:
 
 WadeGenericText:
 	text "How are your"
-	line "ANML doing?"
+	line "ANIMALs doing?"
 
-	para "My ANML have"
+	para "My ANIMALs have"
 	line "too much energy to"
 
 	para "burn. It gets to"
 	line "be a problem."
 
-	para "Of all my ANML,"
+	para "Of all my ANIMALs,"
 	line "@"
 	text_ram wStringBuffer4
 	text " is the"

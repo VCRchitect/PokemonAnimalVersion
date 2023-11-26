@@ -24,7 +24,7 @@ BethDefeatedMonText:
 	cont "before?"
 
 	para "I just battled"
-	line "one…"
+	line "one..."
 
 	para "It was much faster"
 	line "than I expected."
@@ -83,7 +83,7 @@ BethLetsBattleAgainSometimeText:
 	done
 
 BethReminderText:
-	text "Um… <PLAY_G>?"
+	text "Um... <PLAY_G>?"
 	line "What's wrong?"
 
 	para "Did you forget our"

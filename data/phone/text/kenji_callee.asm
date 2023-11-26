@@ -1,6 +1,6 @@
 KenjiAnswerPhoneText:
 	text_ram wStringBuffer3
-	text " here…"
+	text " here..."
 
 	para "<PLAYER>! Beautiful"
 	line "morning, hey?"
@@ -8,7 +8,7 @@ KenjiAnswerPhoneText:
 
 KenjiAnswerPhoneDayText:
 	text_ram wStringBuffer3
-	text " here…"
+	text " here..."
 
 	para "<PLAYER>! Beautiful"
 	line "weather, hey?"
@@ -16,7 +16,7 @@ KenjiAnswerPhoneDayText:
 
 KenjiAnswerPhoneNiteText:
 	text_ram wStringBuffer3
-	text " here…"
+	text " here..."
 
 	para "<PLAYER>! Beautiful"
 	line "moonlight, hey?"
