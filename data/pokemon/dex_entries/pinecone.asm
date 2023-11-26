@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
+	db "SEEDBALL@" ; species name
 	dw 200, 160 ; height, weight
 
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
+	db   "It's one of those"
+	next "brown bits that"
+	next "falls off of pine"
 
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
+	page "trees and are full"
+	next "of seeds. They're"
+	next "nice to throw.@"

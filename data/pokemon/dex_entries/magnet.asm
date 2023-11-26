@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
 	dw 100, 130 ; height, weight
 
-	db   "The electricity"
-	next "emitted by the"
-	next "units on each side"
+	db   "How do these work?"
+	next "Like, people all"
+	next "make fun of ICP,"
 
-	page "of its body cause"
-	next "it to become a"
-	next "strong magnet.@"
+	page "but not one of"
+	next "them has been able"
+	next "to tell me how.@"

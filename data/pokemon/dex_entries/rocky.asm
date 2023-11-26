@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
+	db "WRESTLER@" ; species name
 	dw 104, 440 ; height, weight
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
+	db   "Why the hell is"
+	next "'The Rock' in so"
+	next "many things now?"
 
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"
+	page "Hell, he even"
+	next "made it into my"
+	next "ROM hack.@"

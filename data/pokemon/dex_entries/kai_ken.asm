@@ -1,10 +1,10 @@
 	db "PUPPY@" ; species name
 	dw 204, 420 ; height, weight
 
-	db   "It controls a big"
-	next "territory. If it"
-	next "detects an unknown"
+	db   "I honestly thought"
+	next "this was just a"
+	next "fancy dingo or a"
 
-	page "smell, it roars"
-	next "loudly to force"
-	next "out the intruder.@"
+	page "coyote. I had to"
+	next "look it up to see"
+	next "what it was.@"

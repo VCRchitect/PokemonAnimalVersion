@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
+	db "WEAKLING@" ; species name
 	dw 207, 430 ; height, weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "Little bitch boy"
+	next "can't even lift"
+	next "his spirits, let"
 
-	page "can even pick up a"
-	next "boulder with"
-	next "ease.@"
+	page "alone some"
+	next "weights. A real"
+	next "wealking.@"

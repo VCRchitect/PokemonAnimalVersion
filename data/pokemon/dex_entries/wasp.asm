@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
+	db "RAGE BEE@" ; species name
 	dw 307, 740 ; height, weight
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
+	db   "It's like a BEE if"
+	next "BEEs produced hate"
+	next "instead of honey."
 
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	page "Seriously, no one"
+	next "should be this"
+	next "angry at us.@"

@@ -1,10 +1,10 @@
-	db "LIGHTNING@" ; species name
+	db "SPEED DOG@" ; species name
 	dw 207, 540 ; height, weight
 
-	db   "The negatively"
-	next "charged ions"
-	next "generated in its"
+	db   "Fast as fuck, boy."
+	next "These skinny dudes"
+	next "like to run like"
 
-	page "fur create a"
-	next "constant sparking"
-	next "noise.@"
+	page "the wind and have"
+	next "the zoomies like a"
+	next "lightning bolt.@"

@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
+	db "SNAKES@" ; species name
 	dw 303, 770 ; height, weight
 
-	db   "During battle, it"
-	next "constantly moves"
-	next "the vines that"
+	db   "She's got all them"
+	next "snake hairs, but"
+	next "no snake comb."
 
-	page "cover its body in"
-	next "order to annoy its"
-	next "opponent.@"
+	page "She'll look at you"
+	next "and you'll turn to"
+	next "stone five-ever.@"

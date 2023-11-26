@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
+	db "HORSE@" ; species name
 	dw 303, 660 ; height, weight
 
-	db   "Training by"
-	next "jumping over grass"
-	next "that grows longer"
+	db   "Remember bronies?"
+	next "What is it about a"
+	next "tiny HORSE that"
 
-	page "every day has made"
-	next "it a world-class"
-	next "jumper.@"
+	page "made so many lose"
+	next "their goddamn"
+	next "minds?@"

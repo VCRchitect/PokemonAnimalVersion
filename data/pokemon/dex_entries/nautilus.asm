@@ -1,10 +1,10 @@
 	db "SPIRAL@" ; species name
 	dw 104, 170 ; height, weight
 
-	db   "In prehistoric"
-	next "times, it swam on"
-	next "the sea floor,"
+	db   "Wasn't this the"
+	next "name of Nemo's"
+	next "ship in 'The"
 
-	page "eating plankton."
-	next "Its fossils are"
-	next "sometimes found.@"
+	page "League of Extra-"
+	next "ordinary Gentle-"
+	next "men? Cool movie.@"

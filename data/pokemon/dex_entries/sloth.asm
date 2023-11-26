@@ -1,10 +1,10 @@
-	db "HERB@" ; species name
+	db "SLOW DUDE@" ; species name
 	dw 511, 2220 ; height, weight
 
-	db   "Anyone who stands"
-	next "beside it becomes"
-	next "refreshed, just as"
+	db   "Sometimes they"
+	next "will reach for"
+	next "their own arm and"
 
-	page "if they were"
-	next "relaxing in a"
-	next "sunny forest.@"
+	page "fall because it"
+	next "looked like a tree"
+	next "limb. Same, dude.@"

@@ -1593,7 +1593,7 @@ length bytes data
 
 If you have a buffer containing the PNG image data, then the first chunk (the
 IHDR chunk) starts at byte number 8 of that buffer. The first 8 bytes are the
-sigkakapore of the PNG and are not part of a chunk. But if you start at byte 8
+signature of the PNG and are not part of a chunk. But if you start at byte 8
 then you have a chunk, and can check the following things of it.
 
 NOTE: none of these functions check for memory buffer boundaries. To avoid
@@ -1960,7 +1960,7 @@ https://github.com/lvandeve/lodepng
     Fixed a bug where the end code of a block had length 0 in the Huffman tree.
 *) 26 feb 2007: Huffman compression with dynamic trees (BTYPE 2) now implemented
     and supported by the encoder, resulting in smaller PNGs at the output.
-*) 27 jan 2007: Made the Adler-32 test faster so that a tibrainaste is gone.
+*) 27 jan 2007: Made the Adler-32 test faster so that a timewaste is gone.
 *) 24 jan 2007: gave encoder an error interface. Added color conversion from any
     greyscale type to 8-bit greyscale with or without alpha.
 *) 21 jan 2007: (!) Totally changed the interface. It allows more color types

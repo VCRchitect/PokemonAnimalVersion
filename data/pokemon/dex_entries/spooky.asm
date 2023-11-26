@@ -1,10 +1,10 @@
-	db "GAS@" ; species name
+	db "SCARY GIRL@" ; species name
 	dw 503, 2 ; height, weight
 
-	db   "It hides in the"
-	next "dark, planning to"
-	next "take the life of"
+	db   "She lives in your"
+	next "TV and will kill"
+	next "you to death if"
 
-	page "the next living"
-	next "thing that wanders"
-	next "close by.@"
+	page "you happen to own"
+	next "a VCR and specific"
+	next "VHS tape.@"

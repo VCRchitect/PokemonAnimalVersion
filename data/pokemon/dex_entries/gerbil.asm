@@ -1,10 +1,10 @@
 	db "TINY MOUSE@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db   "It is NOT a rat."
+	next "It is a different"
+	next "thing entirely."
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	page "They don't have"
+	next "wormy tails, they"
+	next "have furry ones.@"

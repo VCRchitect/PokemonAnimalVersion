@@ -1,10 +1,10 @@
 	db "ROCK SNAKE@" ; species name
 	dw 2810, 4630 ; height, weight
 
-	db   "As it digs through"
-	next "the ground, it"
-	next "absorbs many hard"
+	db   "Imagine you're"
+	next "digging a hole for"
+	next "a rose bush and"
 
-	page "objects. This is"
-	next "what makes its"
-	next "body so solid.@"
+	page "this thing's face"
+	next "pops out, staring."
+	next "Some scary shit.@"

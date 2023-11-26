@@ -1,4 +1,4 @@
-	db "SINGLEHORN@" ; species name
+	db "HARD SHELL@" ; species name
 	dw 411, 1190 ; height, weight
 
 	db   "This is one of the"

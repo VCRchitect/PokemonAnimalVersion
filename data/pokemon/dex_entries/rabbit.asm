@@ -1,10 +1,10 @@
-	db "AQUARABBIT@" ; species name
+	db "BUNNY@" ; species name
 	dw 207, 630 ; height, weight
 
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
+	db   "One time, I saw a"
+	next "story about a guy"
+	next "that caught a"
 
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+	page "RABBIT and cucked"
+	next "it until it never"
+	next "showed up again.@"

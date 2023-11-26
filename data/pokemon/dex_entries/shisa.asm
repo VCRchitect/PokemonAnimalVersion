@@ -1,10 +1,10 @@
-	db "LEGENDARY@" ; species name
+	db "CHINA DOG@" ; species name
 	dw 603, 3420 ; height, weight
 
-	db   "An ancient picture"
-	next "scroll shows that"
-	next "people were"
+	db   "I think this is"
+	next "the little dog"
+	next "dudes that you see"
 
-	page "attracted to its"
-	next "movement as it ran"
-	next "through prairies.@"
+	page "outside of some"
+	next "Chinese restaurant"
+	next "doors. Not sure?@"

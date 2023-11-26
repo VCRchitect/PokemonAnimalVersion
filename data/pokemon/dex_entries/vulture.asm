@@ -1,10 +1,10 @@
-	db "BEAK@" ; species name
+	db "BUZZARD@" ; species name
 	dw 311, 840 ; height, weight
 
-	db   "It uses its long"
-	next "beak to attack. It"
-	next "has a surprisingly"
+	db   "Is there any"
+	next "difference between"
+	next "these and a"
 
-	page "long reach, so it"
-	next "must be treated"
-	next "with caution.@"
+	page "buzzard? My dad"
+	next "hit one with his"
+	next "car one time.@"

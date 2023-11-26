@@ -1,4 +1,4 @@
-	db "STARSHAPE@" ; species name
+	db "HOLY BABY@" ; species name
 	dw 100, 70 ; height, weight
 
 	db   "These are them"

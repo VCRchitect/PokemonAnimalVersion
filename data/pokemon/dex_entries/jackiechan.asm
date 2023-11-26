@@ -1,10 +1,10 @@
 	db "PUNCHING@" ; species name
 	dw 407, 1110 ; height, weight
 
-	db   "To increase the"
-	next "strength of all"
-	next "its punch moves,"
+	db   "He doesn't want"
+	next "any trouble! He"
+	next "is not afraid to"
 
-	page "it spins its arms"
-	next "just before making"
-	next "contact.@"
+	page "fight, though. He"
+	next "might hit you with"
+	next "a belt or a coat.@"

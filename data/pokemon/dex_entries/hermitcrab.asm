@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
+	db "NOMAD@" ; species name
 	dw 303, 650 ; height, weight
 
-	db   "When nothing's"
-	next "left to extract"
-	next "from the bug, the"
+	db   "These are the"
+	next "original 'glampers'"
+	next "and they will"
 
-	page "mushrooms on its"
-	next "back leave spores"
-	next "on the bug's egg.@"
+	page "steal your house"
+	next "if it's fancy"
+	next "enough for them.@"

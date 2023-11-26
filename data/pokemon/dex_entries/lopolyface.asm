@@ -1,10 +1,10 @@
 	db "VIRTUAL@" ; species name
 	dw 207, 800 ; height, weight
 
-	db   "An artificial"
-	next "ANML created"
-	next "due to extensive"
+	db   "It's a human face,"
+	next "but it's got bad"
+	next "graphics and you"
 
-	page "research, it can"
-	next "perform only what"
-	next "is in its program.@"
+	page "can make it fight"
+	next "anyone that you"
+	next "want it to.@"

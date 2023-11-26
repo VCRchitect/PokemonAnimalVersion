@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
+	db "PISSED@" ; species name
 	dw 211, 420 ; height, weight
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
+	db   "They're cute, but"
+	next "they will maul you"
+	next "and everyone you"
 
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	page "know just for even"
+	next "thinking about its"
+	next "general direction.@"

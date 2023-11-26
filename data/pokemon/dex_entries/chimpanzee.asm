@@ -1,4 +1,4 @@
-	db "LONG TAIL@" ; species name
+	db "OOK OOK@" ; species name
 	dw 207, 250 ; height, weight
 
 	db   "Did you ever hear"

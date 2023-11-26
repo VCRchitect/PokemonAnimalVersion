@@ -1,10 +1,10 @@
 	db "IMITATION@" ; species name
 	dw 311, 840 ; height, weight
 
-	db   "It's a fake tree."
-	next "So like, a plant"
-	next "that someone might"
+	db   "This is not the."
+	next "lady that sings"
+	next "'Runnin' Up That"
 
-	page "have in their"
-	next "house because it"
+	page "Hill.' This is a"
+	next "plastic tree that"
 	next "can't die.@"

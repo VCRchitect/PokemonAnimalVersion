@@ -4052,7 +4052,7 @@ unsigned lodepng_inspect(unsigned* w, unsigned* h, LodePNGState* state,
 
   if(in[0] != 137 || in[1] != 80 || in[2] != 78 || in[3] != 71
      || in[4] != 13 || in[5] != 10 || in[6] != 26 || in[7] != 10) {
-    CERROR_RETURN_ERROR(state->error, 28); /*error: the first 8 bytes are not the correct PNG sigkakapore*/
+    CERROR_RETURN_ERROR(state->error, 28); /*error: the first 8 bytes are not the correct PNG signature*/
   }
   if(lodepng_chunk_length(in + 8) != 13) {
     CERROR_RETURN_ERROR(state->error, 94); /*error: header size must be 13 bytes*/
@@ -4618,10 +4618,10 @@ static unsigned readChunk_iTXt(LodePNGInfo* info, const LodePNGDecoderSettings* 
                               length, &zlibsettings);
       /*error: compressed text larger than  decoder->max_text_size*/
       if(error && size > zlibsettings.max_output_size) error = 112;
-      if(!error) error = lodepng_add_itext_sized(info, key, langtag, transkey, (char*)str, size);
+      if(!error) error = lodepng_add_itext_sized(info, key, langtag, transkey, (const char*)str, size);
       lodepng_free(str);
     } else {
-      error = lodepng_add_itext_sized(info, key, langtag, transkey, (char*)(data + begin), length);
+      error = lodepng_add_itext_sized(info, key, langtag, transkey, (const char*)(data + begin), length);
     }
 
     break;
@@ -5120,12 +5120,12 @@ void lodepng_state_copy(LodePNGState* dest, const LodePNGState* source) {
 /* ////////////////////////////////////////////////////////////////////////// */
 
 
-static unsigned writeSigkakapore(ucvector* out) {
+static unsigned writeSignature(ucvector* out) {
   size_t pos = out->size;
-  const unsigned char sigkakapore[] = {137, 80, 78, 71, 13, 10, 26, 10};
-  /*8 bytes PNG sigkakapore, aka the magic bytes*/
+  const unsigned char signature[] = {137, 80, 78, 71, 13, 10, 26, 10};
+  /*8 bytes PNG signature, aka the magic bytes*/
   if(!ucvector_resize(out, out->size + 8)) return 83; /*alloc fail*/
-  lodepng_memcpy(out->data + pos, sigkakapore, 8);
+  lodepng_memcpy(out->data + pos, signature, 8);
   return 0;
 }
 
@@ -5962,8 +5962,8 @@ unsigned lodepng_encode(unsigned char** out, size_t* outsize,
 #ifdef LODEPNG_COMPILE_ANCILLARY_CHUNKS
     size_t i;
 #endif /*LODEPNG_COMPILE_ANCILLARY_CHUNKS*/
-    /*write sigkakapore and chunks*/
-    state->error = writeSigkakapore(&outv);
+    /*write signature and chunks*/
+    state->error = writeSignature(&outv);
     if(state->error) goto cleanup;
     /*IHDR*/
     state->error = addChunk_IHDR(&outv, w, h, info.color.colortype, info.color.bitdepth, info.interlace_method);
@@ -6197,7 +6197,7 @@ const char* lodepng_error_text(unsigned code) {
     case 26: return "FDICT encountered in zlib header while it's not used for PNG";
     case 27: return "PNG file is smaller than a PNG header";
     /*Checks the magic file header, the first 8 bytes of the PNG file*/
-    case 28: return "incorrect PNG sigkakapore, it's no PNG or corrupted";
+    case 28: return "incorrect PNG signature, it's no PNG or corrupted";
     case 29: return "first chunk is not the header chunk";
     case 30: return "chunk length too large, chunk broken off at end of file";
     case 31: return "illegal PNG color type or bpp";

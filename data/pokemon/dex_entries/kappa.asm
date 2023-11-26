@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
+	db "SPIRIT@" ; species name
 	dw 507, 1690 ; height, weight
 
-	db   "It swims grace-"
-	next "fully along on the"
-	next "quiet, slow-moving"
+	db   "I liked the little"
+	next "KAPPA that was in"
+	next "Animal Crossing."
 
-	page "rivers and lakes"
-	next "of which it is so"
-	next "fond.@"
+	page "He had some cute"
+	next "shanties and was"
+	next "a friend.@"

@@ -1,10 +1,10 @@
-	db "ROCK SKIN@" ; species name
+	db "DINOSAUR@" ; species name
 	dw 200, 1590 ; height, weight
 
-	db   "Born deep under-"
-	next "ground, this"
-	next "ANML becomes a"
+	db   "These clever boys"
+	next "and girls will"
+	next "hunt you down and"
 
-	page "pupa after eating"
-	next "enough dirt to"
-	next "make a mountain.@"
+	page "trap your kids in"
+	next "a kitchen until"
+	next "they escape.@"

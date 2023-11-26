@@ -1,4 +1,4 @@
-	db "BIRD@" ; species name
+	db "LIBERTY@" ; species name
 	dw 411, 870 ; height, weight
 
 	db   "A symbol of"

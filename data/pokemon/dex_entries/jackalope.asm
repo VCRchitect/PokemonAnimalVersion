@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
+	db "MYTHICAL@" ; species name
 	dw 211, 430 ; height, weight
 
-	db   "It is easily"
-	next "agitated and uses"
-	next "its horn for"
+	db   "This is the boy"
+	next "version of the"
+	next "mystical bunny"
 
-	page "offense as soon as"
-	next "it notices an"
-	next "attacker.@"
+	page "that has antlers"
+	next "and literally no"
+	next "other powers.@"

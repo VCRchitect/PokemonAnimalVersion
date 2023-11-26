@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
+	db "MYTHICAL@" ; species name
 	dw 207, 440 ; height, weight
 
-	db   "It has a docile"
-	next "kakapore. If it is"
-	next "threatened with"
+	db   "This is the girl"
+	next "version of the"
+	next "mystical bunny"
 
-	page "attack, it raises"
-	next "the barbs that are"
-	next "all over its body.@"
+	page "that has antlers"
+	next "and absolutely no"
+	next "other powers.@"

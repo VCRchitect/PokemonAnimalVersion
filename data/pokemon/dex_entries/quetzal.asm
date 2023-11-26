@@ -1,10 +1,10 @@
-	db "MYSTIC@" ; species name
+	db "BIRD@" ; species name
 	dw 411, 330 ; height, weight
 
-	db   "Once it begins to"
-	next "meditate at sun-"
-	next "rise, the entire"
+	db   "Not to be confused"
+	next "with a knot of"
+	next "hard bread, that's"
 
-	page "day will pass"
-	next "before it will"
-	next "move again.@"
+	page "a pretzel. This is"
+	next "is a fancy bird"
+	next "from Mexico.@"

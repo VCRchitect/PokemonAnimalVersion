@@ -1,10 +1,10 @@
-	db "BUBBLE JET@" ; species name
+	db "SMELLS ODD@" ; species name
 	dw 303, 640 ; height, weight
 
-	db   "As it uses the"
-	next "fins on the tip"
-	next "of its tail to"
+	db   "I don't think they"
+	next "smell bad. If it's"
+	next "a WET DOG, it is"
 
-	page "swim, it blends"
-	next "with the water"
-	next "perfectly.@"
+	page "getting clean, so"
+	next "be supportive,"
+	next "ya dickhead.@"

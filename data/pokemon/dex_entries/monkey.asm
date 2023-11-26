@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
+	db "MONKEY@" ; species name
 	dw 108, 620 ; height, weight
 
-	db   "It lives in groups"
-	next "in the treetops."
-	next "If it loses sight"
+	db   "It's so hard to"
+	next "write entries for."
+	next "shit like a damn"
 
-	page "of its group, it"
-	next "becomes infuriated"
-	next "by its loneliness.@"
+	page "MONKEY. You know"
+	next "what a goddamn"
+	next "MONKEY is.@"

@@ -1,4 +1,4 @@
-	db "MILK COW@" ; species name
+	db "MILK MOO@" ; species name
 	dw 311, 1660 ; height, weight
 
 	db   "They make milk"

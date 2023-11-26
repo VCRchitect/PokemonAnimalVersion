@@ -1,10 +1,10 @@
-	db "FAERIE@" ; species name
+	db "BAD GENES@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "In truth, it is a"
-	next "cowardly ANML."
-	next "It growls eagerly"
+	db   "Between them big-"
+	next "ass ears and all"
+	next "their medical"
 
-	page "in order to hide"
-	next "its fear from its"
-	next "opponent.@"
+	page "issues, why does a"
+	next "a loving God let"
+	next "them exist?@"

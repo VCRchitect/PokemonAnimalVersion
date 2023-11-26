@@ -1,10 +1,10 @@
-	db "MANTIS@" ; species name
+	db "PRAYING@" ; species name
 	dw 411, 1230 ; height, weight
 
-	db   "It's very proud of"
-	next "its speed. It"
-	next "moves so fast that"
+	db   "A religous bug,"
+	next "the MANTIS is"
+	next "known for prayer"
 
-	page "its opponent does"
-	next "not even know what"
-	next "knocked it down.@"
+	page "and chewing its"
+	next "lovers' heads off"
+	next "so they can nut.@"

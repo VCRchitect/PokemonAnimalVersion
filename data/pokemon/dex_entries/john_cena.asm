@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
+	db "CANTSEEHIM@" ; species name
 	dw 204, 460 ; height, weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "There is just one"
+	next "man you need to"
+	next "know for this"
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "Wrestlemania..."
+	next "AND HIS NAME..."
+	next "IS JOHN CENA!@"

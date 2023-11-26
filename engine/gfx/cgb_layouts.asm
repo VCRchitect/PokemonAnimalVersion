@@ -308,6 +308,7 @@ _CGB_BillsPC:
 .GetMonPalette:
 	ld bc, wTempMonDVs
 	call GetPlayerOrMonPalettePointer
+	ld [wBattleTimeOfDay], a
 	call LoadPalette_White_Col1_Col2_Black
 .GotPalette:
 	call WipeAttrmap
@@ -615,6 +616,7 @@ _CGB_LettahPuzzle:
 	ret
 
 _CGB_TrainerCard:
+	ld [wBattleTimeOfDay], a
 	ld de, wBGPals1
 	xor a ; CHRIS
 	call GetTrainerPalettePointer

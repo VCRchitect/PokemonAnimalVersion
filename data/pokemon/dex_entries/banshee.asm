@@ -1,4 +1,4 @@
-	db "SCREECH@" ; species name
+	db "SCREAMER@" ; species name
 	dw 204, 20 ; height, weight
 
 	db   "I think they're"

@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
+	db "AUTOMOTIVE@" ; species name
 	dw 503, 1160 ; height, weight
 
-	db   "Legendary bird"
-	next "ANML. They say"
-	next "lightning caused"
+	db   "This car is nice"
+	next "as hell, but it"
+	next "doesn't have a ton"
 
-	page "by the flapping of"
-	next "its wings causes"
-	next "summer storms.@"
+	page "of modern features"
+	next "like an AUX port"
+	next "or heated seats.@"

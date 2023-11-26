@@ -1,10 +1,10 @@
 	db "TURTLE@" ; species name
 	dw 303, 500 ; height, weight
 
-	db   "Its long, furry"
-	next "tail is a symbol"
-	next "of longevity,"
+	db   "Some can swim, but"
+	next "most are meant for"
+	next "land life. So do"
 
-	page "making it quite"
-	next "popular among"
-	next "older people.@"
+	page "not accidentally"
+	next "drown them while"
+	next "trying to help.@"

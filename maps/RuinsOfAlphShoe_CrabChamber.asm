@@ -50,7 +50,15 @@ RuinsOfAlphShoe_CrabChamber_MapScripts:
 	end
 
 RuinsOfAlphShoe_CrabChamberReceptionistScript:
-	jumptextfaceplayer RuinsOfAlphShoe_CrabChamberReceptionistText
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic PICNICKER
+	writetext RuinsOfAlphShoe_CrabChamberReceptionistText
+	waitbutton
+	closetrainpic
+	closetext
+	end
 
 RuinsOfAlphShoe_CrabChamberPuzzle:
 	refreshscreen
@@ -82,7 +90,9 @@ RuinsOfAlphShoe_CrabChamberPuzzle:
 
 RuinsOfAlphShoe_CrabChamberScientistScript:
 	faceplayer
+	refreshscreen
 	opentext
+	trainerpic SCIENTIST
 	readvar VAR_LETTAHCOUNT
 	ifequal NUM_LETTAH, .AllLettahCaught
 	checkevent EVENT_WALL_OPENED_IN_SHOE_CRAB_CHAMBER
@@ -94,6 +104,7 @@ RuinsOfAlphShoe_CrabChamberScientistScript:
 .PuzzleIncomplete:
 	writetext RuinsOfAlphShoe_CrabChamberScientistCrypticText
 	waitbutton
+	closetrainpic
 	closetext
 	turnobject RUINSOFALPHSHOE_CRABCHAMBER_SCIENTIST, UP
 	end
@@ -101,12 +112,14 @@ RuinsOfAlphShoe_CrabChamberScientistScript:
 .WallOpen:
 	writetext RuinsOfAlphShoe_CrabChamberScientistHoleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 .AllLettahCaught:
 	writetext RuinsOfAlphResearchCenterScientist1Text_GotAllLettah
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -152,7 +165,7 @@ RuinsOfAlphShoe_CrabChamberReceptionistText:
 	para "There are sliding"
 	line "panels that depict"
 
-	para "a ANIMALs drawn by"
+	para "an ANIMAL drawn by"
 	line "the ancients."
 
 	para "Slide the panels"
@@ -177,7 +190,7 @@ RuinsOfAlphShoe_CrabChamberScientistCrypticText:
 
 	para "It's odd. They"
 	line "weren't here a"
-	cont "little while ago..."
+	cont "little while ago."
 
 	para "You should take a"
 	line "look at the walls."

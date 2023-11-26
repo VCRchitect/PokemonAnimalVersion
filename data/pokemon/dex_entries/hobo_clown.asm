@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
+	db "HAPPY HOBO@" ; species name
 	dw 100, 30 ; height, weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "When did we decide"
+	next "that clowns were"
+	next "scary? They're"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "supposed to be"
+	next "cute and funny,"
+	next "not evil or sad.@"

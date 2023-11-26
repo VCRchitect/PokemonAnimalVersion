@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "LAYERS@" ; species name
 	dw 607, 2210 ; height, weight
 
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
+	db   "Supposedly an"
+	next "ONION doesn't have"
+	next "a taste, only a"
 
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
+	page "smell. I call some"
+	next "bullshit, but who"
+	next "actually knows?@"

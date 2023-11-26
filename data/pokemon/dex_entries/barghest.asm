@@ -1,4 +1,4 @@
-	db "THUNDER@" ; species name
+	db "BIG DOG@" ; species name
 	dw 603, 3920 ; height, weight
 
 	db   "This is a spooky"

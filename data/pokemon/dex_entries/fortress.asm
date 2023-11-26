@@ -1,4 +1,4 @@
-	db "BAGWORM@" ; species name
+	db "STONE WALL@" ; species name
 	dw 311, 2770 ; height, weight
 
 	db   "A big-ass building"

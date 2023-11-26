@@ -660,64 +660,223 @@ AskNumber1MScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Jack:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext JackAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Huey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SAILOR
 	farwritetext HueyAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Gaven:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic COOLTRAINERM
 	farwritetext GavenAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Jose:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext JoseAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Joey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic YOUNGSTER
 	farwritetext JoeyAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+	
 .Wade:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext WadeAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Ralph:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext RalphAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Anthony:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext AnthonyAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Todd:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic CAMPER
 	farwritetext ToddAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Irwin:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic JUGGLER
 	farwritetext IrwinAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Arnie:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext ArnieAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Alan:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext AlanAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Chad:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext ChadAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Derek:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEFANM
 	farwritetext DerekAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Tully:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext TullyAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Brent:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEMANIAC
 	farwritetext BrentAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Vance:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext VanceAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Wilton:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext WiltonAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+	
 .Kenji:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BLACKBELT_T
 	farwritetext KenjiAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Parry:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext ParryAskNumber1Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
 
 AskNumber2MScript:
@@ -745,64 +904,223 @@ AskNumber2MScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Jack:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext JackAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Huey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SAILOR
 	farwritetext HueyAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Gaven:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic COOLTRAINERM
 	farwritetext GavenAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Jose:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext JoseAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Joey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic YOUNGSTER
 	farwritetext JoeyAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+	
 .Wade:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext WadeAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Ralph:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext RalphAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Anthony:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext AnthonyAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Todd:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic CAMPER
 	farwritetext ToddAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Irwin:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic JUGGLER
 	farwritetext IrwinAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Arnie:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext ArnieAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Alan:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext AlanAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Chad:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext ChadAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Derek:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEFANM
 	farwritetext DerekAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Tully:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext TullyAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Brent:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEMANIAC
 	farwritetext BrentAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Vance:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext VanceAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Wilton:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext WiltonAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+	
 .Kenji:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BLACKBELT_T
 	farwritetext KenjiAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
+
 .Parry:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext ParryAskNumber2Text
+	waitbutton
+	closetrainpic
+	closetext
 	end
 
 RegisteredNumberMScript:
@@ -836,103 +1154,222 @@ NumberAcceptedMScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Jack:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext JackNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Huey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SAILOR
 	farwritetext HueyNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Gaven:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic COOLTRAINERM
 	farwritetext GavenNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Jose:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext JoseNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Joey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic YOUNGSTER
 	farwritetext JoeyNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Wade:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext WadeNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Ralph:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext RalphNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Anthony:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext AnthonyNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Todd:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic CAMPER
 	farwritetext ToddNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Irwin:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic JUGGLER
 	farwritetext IrwinNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Arnie:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext ArnieNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Alan:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext AlanNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Chad:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext ChadNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Derek:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEFANM
 	farwritetext DerekNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Tully:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext TullyNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Brent:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEMANIAC
 	farwritetext BrentNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Vance:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext VanceNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Wilton:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext WiltonNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Kenji:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BLACKBELT_T
 	farwritetext KenjiNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Parry:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext ParryNumberAcceptedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -960,103 +1397,222 @@ NumberDeclinedMScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Jack:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext JackNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Huey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SAILOR
 	farwritetext HueyNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Gaven:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic COOLTRAINERM
 	farwritetext GavenNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Jose:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext JoseNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Joey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic YOUNGSTER
 	farwritetext JoeyNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Wade:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext WadeNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Ralph:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext RalphNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Anthony:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext AnthonyNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Todd:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic CAMPER
 	farwritetext ToddNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Irwin:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic JUGGLER
 	farwritetext IrwinNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Arnie:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext ArnieNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Alan:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext AlanNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Chad:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext ChadNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Derek:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEFANM
 	farwritetext DerekNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Tully:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext TullyNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Brent:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEMANIAC
 	farwritetext BrentNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Vance:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext VanceNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Wilton:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext WiltonNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Kenji:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BLACKBELT_T
 	farwritetext KenjiNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Parry:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext ParryNumberDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -1084,103 +1640,222 @@ PhoneFullMScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Jack:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext JackPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Huey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SAILOR
 	farwritetext HueyPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Gaven:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic COOLTRAINERM
 	farwritetext GavenPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Jose:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext JosePhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Joey:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic YOUNGSTER
 	farwritetext JoeyPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Wade:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext WadePhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Ralph:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext RalphPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Anthony:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext AnthonyPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Todd:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic CAMPER
 	farwritetext ToddPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Irwin:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic JUGGLER
 	farwritetext IrwinPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Arnie:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BUG_CATCHER
 	farwritetext ArniePhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Alan:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext AlanPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Chad:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic SCHOOLBOY
 	farwritetext ChadPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Derek:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEFANM
 	farwritetext DerekPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Tully:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext TullyPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Brent:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic POKEMANIAC
 	farwritetext BrentPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Vance:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BIRD_KEEPER
 	farwritetext VancePhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Wilton:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic FISHER
 	farwritetext WiltonPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Kenji:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic BLACKBELT_T
 	farwritetext KenjiPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Parry:
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic HIKER
 	farwritetext ParryPhoneFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -1205,88 +1880,155 @@ RematchMScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Jack:
+	refreshscreen
+	trainerpic SCHOOLBOY
 	farwritetext JackRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Huey:
+	refreshscreen
+	trainerpic SAILOR
 	farwritetext HueyRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Gaven:
+	refreshscreen
+	trainerpic COOLTRAINERM
 	farwritetext GavenRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Jose:
+	refreshscreen
+	trainerpic BIRD_KEEPER
 	farwritetext JoseRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Joey:
+	refreshscreen
+	trainerpic YOUNGSTER
 	farwritetext JoeyRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Wade:
+	refreshscreen
+	trainerpic BUG_CATCHER
 	farwritetext WadeRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Ralph:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext RalphRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Anthony:
+	refreshscreen
+	trainerpic HIKER
 	farwritetext AnthonyRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Todd:
+	refreshscreen
+	trainerpic CAMPER
 	farwritetext ToddRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Arnie:
+	refreshscreen
+	trainerpic BUG_CATCHER
 	farwritetext ArnieRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Alan:
+	refreshscreen
+	trainerpic SCHOOLBOY
 	farwritetext AlanRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Chad:
+	refreshscreen
+	trainerpic SCHOOLBOY
 	farwritetext ChadRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Tully:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext TullyRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Brent:
+	refreshscreen
+	trainerpic POKEMANIAC
 	farwritetext BrentRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Vance:
+	refreshscreen
+	trainerpic BIRD_KEEPER
 	farwritetext VanceRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Wilton:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext WiltonRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+	
 .Parry:
+	refreshscreen
+	trainerpic HIKER
 	farwritetext ParryRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -1301,32 +2043,59 @@ GiftMScript:
 	ifequal PHONE_BLACKBELT_KENJI, .Kenji
 
 .Jose:
+	refreshscreen
+	trainerpic BIRD_KEEPER
 	farwritetext JoseGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Wade:
+	refreshscreen
+	trainerpic BUG_CATCHER
 	farwritetext WadeGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Alan:
+	refreshscreen
+	trainerpic SCHOOLBOY
 	farwritetext AlanGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Derek:
+	refreshscreen
+	trainerpic POKEFANM
 	farwritetext DerekGiftText
 	promptbutton
+	closetrainpic
 	end
+	
 .Tully:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext TullyGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Wilton:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext WiltonGiftText
 	promptbutton
+	closetrainpic
 	end
+	
 .Kenji:
+	refreshscreen
+	trainerpic BLACKBELT_T
 	farwritetext KenjiGiftText
 	promptbutton
+	closetrainpic
 	end
 
 PackFullMScript:
@@ -1344,58 +2113,101 @@ PackFullMScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Huey:
+	refreshscreen
+	trainerpic SAILOR
 	farwritetext HueyPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Jose:
+	refreshscreen
+	trainerpic BIRD_KEEPER
 	farwritetext JosePackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Joey:
+	refreshscreen
+	trainerpic YOUNGSTER
 	farwritetext JoeyPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Wade:
+	refreshscreen
+	trainerpic BUG_CATCHER
 	farwritetext WadePackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Alan:
+	refreshscreen
+	trainerpic SCHOOLBOY
 	farwritetext AlanPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Derek:
+	refreshscreen
+	trainerpic POKEFANM
 	farwritetext DerekPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Tully:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext TullyPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Vance:
+	refreshscreen
+	trainerpic BIRD_KEEPER
 	farwritetext VancePackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Wilton:
+	refreshscreen
+	trainerpic FISHER
 	farwritetext WiltonPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Kenji:
+	refreshscreen
+	trainerpic BLACKBELT_T
 	farwritetext KenjiPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Parry:
+	refreshscreen
+	trainerpic HIKER
 	farwritetext ParryPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -1408,20 +2220,35 @@ RematchGiftMScript:
 	ifequal PHONE_HIKER_PARRY, .Parry
 
 .Huey:
+	refreshscreen
+	trainerpic SAILOR
 	farwritetext HueyRematchGiftText
 	promptbutton
+	closetrainpic
 	end
+	
 .Joey:
+	refreshscreen
+	trainerpic YOUNGSTER
 	farwritetext JoeyRematchGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Vance:
+	refreshscreen
+	trainerpic BIRD_KEEPER
 	farwritetext VanceRematchGiftText
 	promptbutton
+	closetrainpic
 	end
+	
 .Parry:
+	refreshscreen
+	trainerpic HIKER
 	farwritetext ParryRematchGiftText
 	promptbutton
+	closetrainpic
 	end
 
 AskNumber1FScript:
@@ -1436,28 +2263,58 @@ AskNumber1FScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyAskNumber1Text
+	closetrainpic
 	end
+	
 .Beth:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext BethAskNumber1Text
+	closetrainpic
 	end
+	
 .Reena:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext ReenaAskNumber1Text
+	closetrainpic
 	end
+	
 .Liz:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext LizAskNumber1Text
+	closetrainpic
 	end
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaAskNumber1Text
+	closetrainpic
 	end
+	
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaAskNumber1Text
+	closetrainpic
 	end
+	
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyAskNumber1Text
+	closetrainpic
 	end
+	
 .Erin:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinAskNumber1Text
+	closetrainpic
 	end
 
 AskNumber2FScript:
@@ -1472,28 +2329,58 @@ AskNumber2FScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyAskNumber2Text
+	closetrainpic
 	end
+	
 .Beth:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext BethAskNumber2Text
+	closetrainpic
 	end
+	
 .Reena:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext ReenaAskNumber2Text
+	closetrainpic
 	end
+	
 .Liz:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext LizAskNumber2Text
+	closetrainpic
 	end
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaAskNumber2Text
+	closetrainpic
 	end
+	
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaAskNumber2Text
+	closetrainpic
 	end
+	
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyAskNumber2Text
+	closetrainpic
 	end
+	
 .Erin:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinAskNumber2Text
+	closetrainpic
 	end
 
 RegisteredNumberFScript:
@@ -1515,43 +2402,74 @@ NumberAcceptedFScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Beth:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext BethNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Reena:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext ReenaNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Liz:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext LizNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Erin:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinNumberAcceptedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
 
@@ -1567,43 +2485,74 @@ NumberDeclinedFScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Beth:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext BethNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Reena:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext ReenaNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Liz:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext LizNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Erin:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinNumberDeclinedText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
 
@@ -1619,43 +2568,74 @@ PhoneFullFScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Beth:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext BethPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Reena:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext ReenaPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Liz:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext LizPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+	
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
+
 .Erin:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinPhoneFullText
 	waitbutton
+	closetrainpic	
 	closetext
 	end
 
@@ -1670,38 +2650,64 @@ RematchFScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beth:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext BethRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Reena:
+	refreshscreen
+	trainerpic COOLTRAINERF
 	farwritetext ReenaRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Liz:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext LizRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyRematchText
-	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Erin:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinRematchText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -1713,20 +2719,35 @@ GiftFScript:
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaGiftText
 	promptbutton
+	closetrainpic
 	end
+
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyGiftText
 	promptbutton
+	closetrainpic
 	end
 
 PackFullFScript:
@@ -1738,28 +2759,44 @@ PackFullFScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
+	refreshscreen
+	trainerpic POKEFANF
 	farwritetext BeverlyPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
+
 .Gina:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext GinaPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 .Dana:
+	refreshscreen
+	trainerpic LASS
 	farwritetext DanaPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 .Tiffany:
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext TiffanyPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
-.Erin:
+.Erin:	
+	refreshscreen
+	trainerpic PICNICKER
 	farwritetext ErinPackFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -1768,9 +2805,12 @@ RematchGiftFScript:
 	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Erin:
+	refreshscreen
 	opentext
+	trainerpic PICNICKER
 	farwritetext ErinRematchGiftText
 	promptbutton
+	closetrainpic
 	end
 
 GymStatue1Script:

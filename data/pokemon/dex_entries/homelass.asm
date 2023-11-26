@@ -1,10 +1,10 @@
-	db "PSI@" ; species name
+	db "DESTITUTE@" ; species name
 	dw 411, 1060 ; height, weight
 
-	db   "It has an IQ of"
-	next "5000. It calcu-"
-	next "lates many things"
+	db   "You think if you"
+	next "gave it a house,"
+	next "it would evolve"
 
-	page "in order to gain"
-	next "the edge in every"
-	next "battle.@"
+	page "into a regular old"
+	next "lady or would it"
+	next "just be weirder?@"

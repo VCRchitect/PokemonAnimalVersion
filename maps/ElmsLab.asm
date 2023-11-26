@@ -73,10 +73,6 @@ ElmsLab_MapScripts:
 	trainerpic ELM
 	writetext ElmText_GotAnEmail
 	waitbutton
-	closetrainpic
-	closetext
-	opentext
-	trainerpic ELM
 	turnobject ELMSLAB_ELM, RIGHT
 	writetext ElmText_MissionFromMrPokemon
 	waitbutton
@@ -187,6 +183,7 @@ SkunkPokeBallScript:
 	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
+	closetrainpic
 	waitsfx
 	getmonname STRING_BUFFER_3, SKUNK
 	writetext ReceivedStarterText
@@ -194,7 +191,6 @@ SkunkPokeBallScript:
 	waitsfx
 	promptbutton
 	givepoke SKUNK, 5, BERRY
-	closetrainpic
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
@@ -219,6 +215,7 @@ CaimanPokeBallScript:
 	setevent EVENT_GOT_TOTODILE_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
+	closetrainpic
 	waitsfx
 	getmonname STRING_BUFFER_3, CAIMAN
 	writetext ReceivedStarterText
@@ -226,7 +223,6 @@ CaimanPokeBallScript:
 	waitsfx
 	promptbutton
 	givepoke CAIMAN, 5, BERRY
-	closetrainpic
 	closetext
 	applymovement PLAYER, AfterCaimanMovement
 	sjump ElmDirectionsScript
@@ -249,6 +245,7 @@ SquirrelPokeBallScript:
 	setevent EVENT_GOT_SQUIRREL_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
+	closetrainpic
 	waitsfx
 	getmonname STRING_BUFFER_3, SQUIRREL
 	writetext ReceivedStarterText
@@ -256,7 +253,6 @@ SquirrelPokeBallScript:
 	waitsfx
 	promptbutton
 	givepoke SQUIRREL, 5, BERRY
-	closetrainpic
 	closetext
 	applymovement PLAYER, AfterSquirrelMovement
 	sjump ElmDirectionsScript
@@ -279,6 +275,7 @@ PineconePokeBallScript:
 	setevent EVENT_GOT_SQUIRREL_FROM_ELM
 	writetext ChosePineconeText
 	promptbutton
+	closetrainpic
 	waitsfx
 	getmonname STRING_BUFFER_3, PINECONE
 	writetext ReceivedStarterText
@@ -286,7 +283,6 @@ PineconePokeBallScript:
 	waitsfx
 	promptbutton
 	givepoke PINECONE, 8, BERRY
-	closetrainpic
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
@@ -306,27 +302,23 @@ ElmDirectionsScript:
 	trainerpic ELM
 	writetext ElmDirectionsText1
 	waitbutton
-	closetrainpic
 	closetext
 	addcellnum PHONE_ELM
 	opentext
-	trainerpic ELM
 	writetext GotElmsNumberText
 	playsound SFX_REGISTER_PHONE_NUMBER
 	waitsfx
 	waitbutton
-	closetrainpic
 	closetext
 	turnobject ELMSLAB_ELM, LEFT
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext ElmDirectionsText2
 	waitbutton
-	closetrainpic
 	closetext
 	turnobject ELMSLAB_ELM, DOWN
 	opentext
-	trainerpic ELM
 	writetext ElmDirectionsText3
 	waitbutton
 	closetrainpic

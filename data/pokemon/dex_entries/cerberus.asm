@@ -1,4 +1,4 @@
-	db "VOLCANO@" ; species name
+	db "THREE DOG@" ; species name
 	dw 607, 4370 ; height, weight
 
 	db   "This three-headed"

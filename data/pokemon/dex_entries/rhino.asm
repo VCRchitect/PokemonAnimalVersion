@@ -1,10 +1,10 @@
-	db "SPIKES@" ; species name
+	db "BIG HORN@" ; species name
 	dw 303, 2540 ; height, weight
 
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
+	db   "Isn't it weird how"
+	next "RHINOs look like"
+	next "they would kill"
 
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
+	page "the fuck outta"
+	next "you, but it's"
+	next "really HIPPOs?@"

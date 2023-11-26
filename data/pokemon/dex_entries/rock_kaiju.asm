@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
+	db "MONSTER@" ; species name
 	dw 603, 2650 ; height, weight
 
-	db   "By lightly spin-"
-	next "ning its drill-"
-	next "like horn, it can"
+	db   "Godzilla's got"
+	next "nothing on this"
+	next "dude. He's got"
 
-	page "easily shatter"
-	next "even a diamond in"
-	next "the rough.@"
+	page "radioactive tumors"
+	next "and a chip on his"
+	next "shoulder.@"

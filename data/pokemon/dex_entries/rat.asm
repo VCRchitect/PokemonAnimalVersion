@@ -1,10 +1,10 @@
 	db "RAT@" ; species name
 	dw 100, 80 ; height, weight
 
-	db   "This ANML's"
-	next "impressive vital-"
-	next "ity allows it to"
+	db   "I personally think"
+	next "RATs are cute. I"
+	next "like their little"
 
-	page "live anywhere. It"
-	next "also multiplies"
-	next "very quickly.@"
+	page "hands and big ol'"
+	next "ears. My dog would"
+	next "be mad, though.@"

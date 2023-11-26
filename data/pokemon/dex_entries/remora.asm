@@ -1,10 +1,10 @@
-	db "JET@" ; species name
+	db "FISH@" ; species name
 	dw 200, 260 ; height, weight
 
-	db   "To escape from an"
-	next "attacker, it may"
-	next "shoot water out of"
+	db   "I guess they eat"
+	next "the crud off of"
+	next "the bottom of a"
 
-	page "its mouth, then"
-	next "use that force to"
-	next "swim backward.@"
+	page "MANTA so the fish"
+	next "gets full and the"
+	next "MANTA gets clean.@"

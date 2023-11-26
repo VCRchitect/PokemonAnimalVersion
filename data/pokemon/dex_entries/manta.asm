@@ -1,10 +1,10 @@
-	db "KITE@" ; species name
+	db "RAY FISH@" ; species name
 	dw 611, 4850 ; height, weight
 
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
+	db   "Is this just a"
+	next "stingray? Like"
+	next "one of them dumb"
 
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+	page "bitches that"
+	next "killed Steve Irwin"
+	next "like a dick?@"

@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
+	db "DANCER@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
+	db   "I have always"
+	next "wondered if hula"
+	next "is real or if it's"
 
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+	page "something that"
+	next "Hollywood made up"
+	next "for the visuals.@"

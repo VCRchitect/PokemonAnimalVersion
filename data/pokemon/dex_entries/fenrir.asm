@@ -1,4 +1,4 @@
-	db "AURORA@" ; species name
+	db "ICE WOLF@" ; species name
 	dw 607, 4120 ; height, weight
 
 	db   "This is a big-ass"

@@ -1,10 +1,10 @@
 	db "FOX@" ; species name
 	dw 200, 220 ; height, weight
 
-	db   "As its body grows"
-	next "larger, its six"
-	next "warm tails become"
+	db   "Foxes are those"
+	next "red and white"
+	next "ANIMALs that look"
 
-	page "more beautiful,"
-	next "with a more luxur-"
-	next "ious coat of fur.@"
+	page "like a cat and a"
+	next "dog had a baby"
+	next "together somehow.@"

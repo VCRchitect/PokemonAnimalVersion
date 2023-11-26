@@ -1,4 +1,4 @@
-	db "BALLOON@" ; species name
+	db "LATEX DOG@" ; species name
 	dw 303, 260 ; height, weight
 
 	db   "I used to be able"

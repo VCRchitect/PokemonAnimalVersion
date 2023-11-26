@@ -50,10 +50,8 @@ RuinsOfAlphResearchCenter_MapScripts:
 	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterDexUpgradedText
 	playsound SFX_ITEM
-	closetrainpic
 	waitsfx
 	setflag ENGINE_LETTAH_DEX
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist3Text
 	waitbutton
 	closetrainpic

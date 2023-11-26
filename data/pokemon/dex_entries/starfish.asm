@@ -1,10 +1,10 @@
-	db "STARSHAPE@" ; species name
+	db "STARFISH@" ; species name
 	dw 207, 760 ; height, weight
 
-	db   "When the stars"
-	next "twinkle at night,"
-	next "it floats up from"
+	db   "Is this an ANIMAL?"
+	next "No, this is"
+	next "Patrick. Haha, I"
 
-	page "the sea floor, and"
-	next "its body's center"
-	next "core flickers.@"
+	page "kid, I know this"
+	next "is a real thing,"
+	next "not a cartoon.@"

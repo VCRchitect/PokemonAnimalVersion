@@ -1,4 +1,4 @@
-	db "FLAME@" ; species name
+	db "CHANGELING@" ; species name
 	dw 307, 420 ; height, weight
 
 	db   "They can change"

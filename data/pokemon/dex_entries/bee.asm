@@ -1,4 +1,4 @@
-	db "POISON BEE@" ; species name
+	db "HONEYBUN@" ; species name
 	dw 303, 650 ; height, weight
 
 	db   "I really wish"

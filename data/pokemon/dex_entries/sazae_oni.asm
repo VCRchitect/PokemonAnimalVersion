@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
+	db "CRAB MAN@" ; species name
 	dw 503, 1730 ; height, weight
 
-	db   "An attached"
-	next "CLAM won't let"
-	next "go because of the"
+	db   "I don't know what"
+	next "the fuck this is."
+	next "I think it's a"
 
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	page "Japanese spirit"
+	next "that inspired the"
+	next "SLOWBROs.@"

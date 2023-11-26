@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
+	db "DRAGON@" ; species name
 	dw 507, 2000 ; height, weight
 
-	db   "It uses its wings"
-	next "to fly high. The"
-	next "temperature of its"
+	db   "This shit will set"
+	next "your entire town"
+	next "on fire, and if"
 
-	page "fire increases as"
-	next "it gains exper-"
-	next "ience in battle.@"
+	page "no Dovahkiin are"
+	next "in the area, you"
+	next "are F'd in the A.@"

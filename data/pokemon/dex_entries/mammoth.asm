@@ -1,10 +1,10 @@
-	db "SWINE@" ; species name
+	db "FUR ELEPHANT@" ; species name
 	dw 307, 1230 ; height, weight
 
-	db   "Although its legs"
-	next "are short, its"
-	next "rugged hooves"
+	db   "Why did ELEPHANTs"
+	next "lose their fur?"
+	next "Is it because they"
 
-	page "prevent it from"
-	next "slipping, even on"
-	next "icy ground.@"
+	page "were too hot? What"
+	next "if they get cold"
+	next "again?@"

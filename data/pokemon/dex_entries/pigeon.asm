@@ -1,10 +1,10 @@
 	db "TINY BIRD@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
+	db   "There's literally"
+	next "no difference from"
+	next "a dove and a damn"
 
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	page "PIGEON other than"
+	next "feather colors"
+	next "and attitudes.@"

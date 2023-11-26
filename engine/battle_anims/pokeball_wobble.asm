@@ -1,5 +1,5 @@
 GetPokeBallWobble:
-; Returns whether a ANML Ball will wobble in the catch animation.
+; Returns whether a Poke Ball will wobble in the catch animation.
 ; Whether a Pokemon is caught is determined beforehand.
 
 	push de

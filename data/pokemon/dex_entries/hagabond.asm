@@ -1,10 +1,10 @@
-	db "PSI@" ; species name
+	db "POVERTY@" ; species name
 	dw 403, 1250 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "That sure is a lot"
+	next "of filth in her"
+	next "hair. She probably"
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "smells like a"
+	next "dumpster fell into"
+	next "a chemical plant.@"

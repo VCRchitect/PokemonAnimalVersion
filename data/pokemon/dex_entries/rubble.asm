@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
+	db "HUGE ROCK@" ; species name
 	dw 407, 6620 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "It's just a big"
+	next "rock. Like, a big"
+	next "boulder that broke"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"
+	page "off of a mountain"
+	next "or some shit like"
+	next "that.@"

@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
+	db "HANDSOME@" ; species name
 	dw 411, 1550 ; height, weight
 
-	db   "This tough ANML"
-	next "always stays in"
-	next "the zone. Its"
+	db   "Look at this beefy"
+	next "dude. He's got"
+	next "more muscles than"
 
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"
+	page "I've got issues."
+	next "He probably feels"
+	next "like leather. Eww.@"

@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
+	db "CLOWN@" ; species name
 	dw 407, 1650 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "The Duke of the"
+	next "Wicked, this man"
+	next "has been spraying"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "cheap soda on fans"
+	next "for 30 years and"
+	next "still won't die.@"

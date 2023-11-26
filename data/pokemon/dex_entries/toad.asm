@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
+	db "AMPHIBIAN@" ; species name
 	dw 403, 1190 ; height, weight
 
-	db   "It can use its"
-	next "well-developed"
-	next "arms and legs to"
+	db   "If you find one in"
+	next "your yard, it's a"
+	next "TOAD, not a FROG."
 
-	page "run on the surface"
-	next "of the water for a"
-	next "split second.@"
+	page "Unless you live in"
+	next "the rainforest,"
+	next "then it might be.@"

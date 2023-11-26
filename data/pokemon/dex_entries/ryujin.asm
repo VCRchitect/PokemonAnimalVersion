@@ -1,10 +1,10 @@
-	db "DIVING@" ; species name
+	db "DRAGON@" ; species name
 	dw 1701, 4760 ; height, weight
 
-	db   "It has an incred-"
-	next "ible ability to"
-	next "calm raging sto-"
+	db   "This is them shits"
+	next "you see in a"
+	next "parade. It's a"
 
-	page "rms. It is said"
-	next "that RYUJIN appears"
-	next "when storms start.@"
+	page "dragon, but it's"
+	next "long and can eat"
+	next "lighting.@"

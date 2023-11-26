@@ -1,10 +1,10 @@
 	db "SLEEPING@" ; species name
 	dw 611, 10140 ; height, weight
 
-	db   "This ANML's"
-	next "stomach is so"
-	next "strong, even"
+	db   "It's funny the"
+	next "lengths they have"
+	next "gone to get PANDAs"
 
-	page "eating moldy or"
-	next "rotten food will"
-	next "not affect it.@"
+	page "to mate. They even"
+	next "played some Marvin"
+	next "Gaye records.@"

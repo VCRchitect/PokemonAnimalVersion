@@ -1,10 +1,10 @@
-	db "GRIME@" ; species name
+	db "FILTH@" ; species name
 	dw 211, 660 ; height, weight
 
-	db   "When two of these"
-	next "ANML's bodies"
-	next "are combined"
+	db   "It's like a pile"
+	next "of crud and filth"
+	next "came to life and"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	page "decided to get"
+	next "involved with dog"
+	next "fights.@"

@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "ONIONS@" ; species name
 	dw 303, 290 ; height, weight
 
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
+	db   "It's like a little"
+	next "ONION. I have no"
+	next "clue what they."
 
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
+	page "taste like, but"
+	next "they smell just"
+	next "like an ONION.@"

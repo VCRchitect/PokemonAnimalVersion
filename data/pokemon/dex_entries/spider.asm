@@ -1,10 +1,10 @@
 	db "STRINGSPIT@" ; species name
 	dw 108, 190 ; height, weight
 
-	db   "If prey becomes"
-	next "ensnared in its"
-	next "nest of spun"
+	db   "It's weird how 6"
+	next "legs is chill, but"
+	next "you add two more"
 
-	page "string, it waits"
-	next "motionlessly until"
-	next "it becomes dark.@"
+	page "and I'm like, 'No,"
+	next "fuck this monster"
+	next "and its family.'@"

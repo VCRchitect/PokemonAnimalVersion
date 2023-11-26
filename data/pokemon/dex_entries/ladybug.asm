@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
+	db "BEETLE@" ; species name
 	dw 303, 240 ; height, weight
 
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
+	db   "One time, my dad"
+	next "was tearing down a"
+	next "house, and when he"
 
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
+	page "ripped out a wall,"
+	next "thousands of these"
+	next "fell out. Spoopy!@"

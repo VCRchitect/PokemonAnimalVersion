@@ -81,9 +81,8 @@ RuinsOfAlphOutsideFisherScript:
 	setevent EVENT_TALKED_TO_RUINS_COWARD
 	writetext RuinsOfAlphOutsideFisherText1
 	promptbutton
-	closetrainpic
 .Next:
-	trainerpic FISHER
+	refreshscreen
 	writetext RuinsOfAlphOutsideFisherText2
 	waitbutton
 	closetrainpic

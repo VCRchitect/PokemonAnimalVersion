@@ -1,10 +1,10 @@
 	db "FROG@" ; species name
 	dw 307, 750 ; height, weight
 
-	db   "When it expands"
-	next "its throat to"
-	next "croak out a tune,"
+	db   "So I guess frogs"
+	next "live in the water"
+	next "and can be super"
 
-	page "nearby TADPOLE and"
-	next "LEGTADPOLE gather"
-	next "immediately.@"
+	page "toxic to the touch"
+	next "and to eat. They"
+	next "got crazy colors.@"

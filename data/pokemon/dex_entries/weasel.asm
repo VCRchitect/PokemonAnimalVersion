@@ -1,10 +1,10 @@
 	db "SHARP CLAW@" ; species name
 	dw 211, 620 ; height, weight
 
-	db   "This cunning"
-	next "ANML hides"
-	next "under the cover"
+	db   "Not to be confused"
+	next "with your RAT of a"
+	next "cousin, this dude"
 
-	page "of darkness,"
-	next "waiting to attack"
-	next "its prey.@"
+	page "is like a FERRET"
+	next "that learned to be"
+	next "on the streets.@"

@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
+	db "GIRL BUN@" ; species name
 	dw 104, 150 ; height, weight
 
-	db   "Small and very"
-	next "docile, it pro-"
-	next "tects itself with"
+	db   "I think this is a"
+	next "bunny-type thing,"
+	next "but this is the"
 
-	page "its small, poison-"
-	next "ous horn when"
-	next "attacked.@"
+	page "girl version. You"
+	next "can tell because"
+	next "it has a bow.@"

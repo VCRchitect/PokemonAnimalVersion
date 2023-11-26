@@ -1,10 +1,10 @@
 	db "LIZARD@" ; species name
 	dw 200, 190 ; height, weight
 
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
+	db   "You ever caught"
+	next "a SALAMANDER? My"
+	next "sister and I used"
 
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
+	page "to flip rocks in"
+	next "the creek and try"
+	next "to catch them.@"

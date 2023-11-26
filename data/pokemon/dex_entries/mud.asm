@@ -1,10 +1,10 @@
 	db "GRIME@" ; species name
 	dw 311, 660 ; height, weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "If you get water"
+	next "in dirt, it will"
+	next "become MUD, like"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "I actually had to"
+	next "explain what MUD"
+	next "was.@"

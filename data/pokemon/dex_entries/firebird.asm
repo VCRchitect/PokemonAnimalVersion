@@ -1,4 +1,4 @@
-	db "FLAME@" ; species name
+	db "VEHICLE@" ; species name
 	dw 607, 1320 ; height, weight
 
 	db   "A sweet car,"

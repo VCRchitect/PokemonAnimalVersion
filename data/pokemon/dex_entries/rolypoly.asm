@@ -1,10 +1,10 @@
-	db "PATIENT@" ; species name
+	db "BOPPER@" ; species name
 	dw 403, 630 ; height, weight
 
-	db   "In order to con-"
-	next "ceal its black"
-	next "tail, it lives in"
+	db   "These dudes will"
+	next "fall, but they"
+	next "don't fall down."
 
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
+	page "You hit one and it"
+	next "will come back up"
+	next "and wreck ya.@"

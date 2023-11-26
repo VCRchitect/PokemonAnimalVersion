@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
+	db "GARNISH@" ; species name
 	dw 507, 340 ; height, weight
 
-	db   "Once ingested into"
-	next "this ANML's"
-	next "body, even the"
+	db   "I have no clue"
+	next "what these are. I"
+	next "looked them up and"
 
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	page "I still don't"
+	next "really know. I'm"
+	next "sorry.@"

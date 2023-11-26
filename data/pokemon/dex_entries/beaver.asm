@@ -1,4 +1,4 @@
-	db "DOPEY@" ; species name
+	db "BUILDER@" ; species name
 	dw 311, 790 ; height, weight
 
 	db   "They bite down"

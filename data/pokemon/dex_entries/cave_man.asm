@@ -1,4 +1,4 @@
-	db "LONELY@" ; species name
+	db "SIMPLETON@" ; species name
 	dw 104, 140 ; height, weight
 
 	db   "These are those"

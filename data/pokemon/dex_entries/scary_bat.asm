@@ -1,10 +1,10 @@
 	db "BAT@" ; species name
 	dw 503, 1210 ; height, weight
 
-	db   "When it plunges"
-	next "its fangs into its"
-	next "prey, it instantly"
+	db   "What if it flies"
+	next "into your hair and"
+	next "you can't get it"
 
-	page "draws and gulps"
-	next "down more than ten"
-	next "ounces of blood.@"
+	page "out? You're just"
+	next "stuck together,"
+	next "now roommates.@"

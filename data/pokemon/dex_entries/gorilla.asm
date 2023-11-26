@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
+	db "BIG MONKEY@" ; species name
 	dw 303, 710 ; height, weight
 
-	db   "It will beat up"
-	next "anyone who makes"
-	next "it mad, even if it"
+	db   "You ever seen that"
+	next "movie 'Congo'?"
+	next "Those were some"
 
-	page "has to chase them"
-	next "until the end of"
-	next "the world.@"
+	page "mean-ass gorillas,"
+	next "except Koko. She"
+	next "was a bro.@"

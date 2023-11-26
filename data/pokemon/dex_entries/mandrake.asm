@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
+	db "MAN PLANT@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "It's a plant that"
+	next "looks like a tiny"
+	next "man. That's it."
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "I guess they're"
+	next "supposed to have"
+	next "magic powers?@"

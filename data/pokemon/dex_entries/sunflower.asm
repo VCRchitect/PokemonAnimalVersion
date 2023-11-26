@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
+	db "FLOWER@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "As the hot season"
-	next "approaches, the"
-	next "petals on this"
+	db   "We used to have 3"
+	next "sunflowers in our"
+	next "front yard that"
 
-	page "ANML's face"
-	next "become more vivid"
-	next "and lively.@"
+	page "grew to be like 12"
+	next "feet tall so they"
+	next "could get sun.@"

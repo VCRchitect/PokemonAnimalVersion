@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "SEAHORSE@" ; species name
 	dw 104, 180 ; height, weight
 
-	db   "When they're in a"
-	next "safe location,"
-	next "they can be seen"
+	db   "They raise the"
+	next "babies in their"
+	next "pouch because the"
 
-	page "playfully tangling"
-	next "their tails"
-	next "together.@"
+	page "girl SEAHORSEs are"
+	next "too busy watching"
+	next "General Hospital.@"

@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
+	db "HORN WHALE@" ; species name
 	dw 403, 860 ; height, weight
 
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
+	db   "These are a living"
+	next "meme. You can't"
+	next "look at a whale"
 
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
+	page "with a unicorn"
+	next "horn and say it"
+	next "isn't a shitpost.@"

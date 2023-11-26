@@ -1,4 +1,4 @@
-	db "BALL@" ; species name
+	db "KABOOM@" ; species name
 	dw 311, 1470 ; height, weight
 
 	db   "These are them"

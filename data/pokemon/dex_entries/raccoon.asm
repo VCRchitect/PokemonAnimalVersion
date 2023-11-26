@@ -1,10 +1,10 @@
-	db "SCOUT@" ; species name
+	db "BANDIT@" ; species name
 	dw 207, 130 ; height, weight
 
-	db   "When acting as a"
-	next "lookout, it warns"
-	next "others of danger"
+	db   "Look at its tiny"
+	next "bandit mask and"
+	next "people hands! If"
 
-	page "by screeching and"
-	next "hitting the ground"
-	next "with its tail.@"
+	page "you give them some"
+	next "cotton candy, I"
+	next "will shoot you.@"

@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "SEAHORSE@" ; species name
 	dw 511, 3350 ; height, weight
 
-	db   "It stores energy"
-	next "by sleeping at"
-	next "underwater depths"
+	db   "This looks a lot"
+	next "like a SEAHORSE"
+	next "to me, but I wear"
 
-	page "at which no other"
-	next "life forms can"
-	next "survive.@"
+	page "glasses, so you"
+	next "can't trust shit"
+	next "that I see.@"

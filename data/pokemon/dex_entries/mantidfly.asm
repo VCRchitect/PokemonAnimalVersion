@@ -1,10 +1,10 @@
-	db "SCISSORS@" ; species name
+	db "PUNCH BUG@" ; species name
 	dw 511, 2600 ; height, weight
 
-	db   "This ANML's"
-	next "pincers, which"
-	next "contain steel, can"
+	db   "It's like a mantis"
+	next "that has CRAB"
+	next "hands instead of"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	page "blades like a"
+	next "MANTIS. I don't"
+	next "know for sure.@"

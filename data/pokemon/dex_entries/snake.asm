@@ -1,10 +1,10 @@
 	db "SNAKE@" ; species name
 	dw 607, 150 ; height, weight
 
-	db   "It flutters the"
-	next "tip of its tongue"
-	next "to seek out the"
+	db   "They're a snaaake,"
+	next "a slithery little"
+	next "sneaky snaaaake."
 
-	page "scent of prey,"
-	next "then swallows the"
-	next "prey whole.@"
+	page "You can't trust"
+	next "these fuckers, too"
+	next "suspicious.@"

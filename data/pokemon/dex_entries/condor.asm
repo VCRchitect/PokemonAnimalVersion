@@ -1,4 +1,4 @@
-	db "ARMOR BIRD@" ; species name
+	db "BIRD@" ; species name
 	dw 507, 1110 ; height, weight
 
 	db   "Why are there so"

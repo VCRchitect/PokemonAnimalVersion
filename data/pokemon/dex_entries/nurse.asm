@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
+	db "IMPORTANT?@" ; species name
 	dw 411, 1030 ; height, weight
 
-	db   "Biting into one"
-	next "of the delicious"
-	next "eggs that NURSE"
+	db   "Her son Aidan is"
+	next "her whole world"
+	next "and you would have"
 
-	page "provides will make"
-	next "everyone around"
-	next "smile with joy.@"
+	page "to be pretty damn"
+	next "specia to change"
+	next "that, okay?@"

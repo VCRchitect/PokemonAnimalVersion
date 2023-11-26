@@ -1,7 +1,7 @@
 	db "BONEKEEPER@" ; species name
 	dw 303, 990 ; height, weight
 
-	db   "A big-ass monster"
+	db   "A big-ass monster,"
 	next "these things are"
 	next "not misunderstood"
 

@@ -5,14 +5,14 @@ BattleText_PlayerPickedUpPayDayMoney:
 	line "¥@"
 	text_decimal wPayDayMoney, 3, 6
 	text "!"
-	prompt
+	autodone
 
 WildPokemonAppearedText:
 	text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "appeared!"
-	prompt
+	autodone
 
 HookedPokemonAttackedText:
 	text "The hooked"
@@ -20,76 +20,76 @@ HookedPokemonAttackedText:
 	text_ram wEnemyMonNickname
 	text_start
 	scroll "attacked!"
-	prompt
+	autodone
 
 PokemonFellFromTreeText:
 	text_ram wEnemyMonNickname
 	text " fell"
 	line "out of the tree!"
-	prompt
+	autodone
 
 WildCelebiAppearedText:
 	text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "appeared!"
-	prompt
+	autodone
 
 WantsToBattleText::
 	text "<ENEMY>"
 	line "wants to battle!"
-	prompt
+	autodone
 
 BattleText_WildFled:
 	text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "fled!"
-	prompt
+	autodone
 
 BattleText_EnemyFled:
 	text "Enemy @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "fled!"
-	prompt
+	autodone
 
 HurtByPoisonText:
 	text "<USER>"
 	line "is hurt by poison!"
-	prompt
+	autodone
 
 HurtByBurnText:
 	text "<USER>'s"
 	line "hurt by its burn!"
-	prompt
+	autodone
 
 LeechSeedSapsText:
 	text "LEECH SEED saps"
 	line "<USER>!"
-	prompt
+	autodone
 
 HasANightmareText:
 	text "<USER>"
 	line "has a NIGHTMARE!"
-	prompt
+	autodone
 
 HurtByCurseText:
 	text "<USER>'s"
 	line "hurt by the CURSE!"
-	prompt
+	autodone
 
 SandstormHitsText:
 	text "The SANDSTORM hits"
 	line "<USER>!"
-	prompt
+	autodone
 
 PerishCountText:
 	text "<USER>'s"
 	line "PERISH count is @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
-	prompt
+	autodone
 
 BattleText_TargetRecoveredWithItem:
 	text "<TARGET>"
@@ -97,7 +97,16 @@ BattleText_TargetRecoveredWithItem:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "."
-	prompt
+	autodone
+
+BattleText_TargetSmoked:
+	text "<TARGET>"
+	line "lit up a"
+	scroll "@"
+	text_ram wStringBuffer1
+	text "!"
+	autodone
+
 
 BattleText_UserRecoveredPPUsing:
 	text "<USER>"
@@ -105,59 +114,59 @@ BattleText_UserRecoveredPPUsing:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "."
-	prompt
+	autodone
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
 	line "was hit by FUTURE"
 	scroll "SIGHT!"
-	prompt
+	autodone
 
 BattleText_SafeguardFaded:
 	text "<USER>'s"
 	line "SAFEGUARD faded!"
-	prompt
+	autodone
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
 	text " ANIMAL's"
 	line "LIGHT SCREEN fell!"
-	prompt
+	autodone
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
 	text " ANIMAL's"
 	line "REFLECT faded!"
-	prompt
+	autodone
 
 BattleText_RainContinuesToFall:
-	text "Rain scrollinues to"
+	text "Rain continues to"
 	line "fall."
-	prompt
+	autodone
 
 BattleText_TheSunlightIsStrong:
 	text "The sunlight is"
 	line "strong."
-	prompt
+	autodone
 
 BattleText_TheSandstormRages:
 	text "The SANDSTORM"
 	line "rages."
-	prompt
+	autodone
 
 BattleText_TheRainStopped:
 	text "The rain stopped."
-	prompt
+	autodone
 
 BattleText_TheSunlightFaded:
 	text "The sunlight"
 	line "faded."
-	prompt
+	autodone
 
 BattleText_TheSandstormSubsided:
 	text "The SANDSTORM"
 	line "subsided."
-	prompt
+	autodone
 
 BattleText_EnemyMonFainted:
 	text "Enemy @"
@@ -171,17 +180,17 @@ GotMoneyForWinningText:
 	text_decimal wBattleReward, 3, 6
 	text_start
 	line "for winning!"
-	prompt
+	autodone
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
 	line "was defeated!"
-	prompt
+	autodone
 
 TiedAgainstText:
 	text "Tied against"
 	line "<ENEMY>!"
-	prompt
+	autodone
 
 SentSomeToMomText:
 	text "<PLAYER> got ¥@"
@@ -189,21 +198,21 @@ SentSomeToMomText:
 	text_start
 	line "for winning!"
 	scroll "Sent some to MOM!"
-	prompt
+	autodone
 
 SentHalfToMomText:
 	text "Sent half to MOM!"
-	prompt
+	autodone
 
 SentAllToMomText:
 	text "Sent all to MOM!"
-	prompt
+	autodone
 
 UnusedRivalLossText: ; unreferenced
 	text "<RIVAL>: Huh? I"
 	line "should've chosen"
 	scroll "your ANIMAL!"
-	prompt
+	autodone
 
 BattleText_MonFainted:
 	text_ram wBattleMonNickname
@@ -219,12 +228,12 @@ UnusedRivalWinText: ; unreferenced
 	text "<RIVAL>: Yes!"
 	line "I guess I chose a"
 	scroll "good ANIMAL!"
-	prompt
+	autodone
 
 LostAgainstText:
 	text "Lost against"
 	line "<ENEMY>!"
-	prompt
+	autodone
 
 BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "<ENEMY>"
@@ -235,7 +244,7 @@ BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 
 	autopara "Will <PLAYER>"
 	line "change ANIMALs?"
-	autodone
+	prompt
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
@@ -248,26 +257,26 @@ BattleText_EnemySentOut:
 BattleText_TheresNoWillToBattle:
 	text "There's no will to"
 	line "battle!"
-	prompt
+	autodone
 
 BattleText_AnEGGCantBattle:
 	text "An EGG can't"
 	line "battle!"
-	prompt
+	autodone
 
 BattleText_CantEscape2:
 	text "Can't escape!"
-	prompt
+	autodone
 
 BattleText_TheresNoEscapeFromTrainerBattle:
 	text "No! There's no"
 	line "running from a"
 	scroll "trainer battle!"
-	prompt
+	autodone
 
 BattleText_GotAwaySafely:
 	text "Got away safely!"
-	prompt
+	autodone
 
 BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
@@ -275,16 +284,16 @@ BattleText_UserFledUsingAStringBuffer1:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 BattleText_CantEscape:
 	text "Can't escape!"
-	prompt
+	autodone
 
 BattleText_UserHurtBySpikes:
 	text "<USER>'s"
 	line "hurt by SPIKES!"
-	prompt
+	autodone
 
 RecoveredUsingText:
 	text "<TARGET>"
@@ -292,7 +301,7 @@ RecoveredUsingText:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 BattleText_UsersStringBuffer1Activated:
 	text "<USER>'s"
@@ -300,34 +309,34 @@ BattleText_UsersStringBuffer1Activated:
 	text_ram wStringBuffer1
 	text_start
 	scroll "activated!"
-	prompt
+	autodone
 
 BattleText_ItemsCantBeUsedHere:
 	text "Items can't be"
 	line "used here."
-	prompt
+	autodone
 
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNickname
 	text_start
 	line "is already out."
-	prompt
+	autodone
 
 BattleText_MonCantBeRecalled:
 	text_ram wBattleMonNickname
 	text_start
 	line "can't be recalled!"
-	prompt
+	autodone
 
 BattleText_TheresNoPPLeftForThisMove:
 	text "There's no PP left"
 	line "for this move!"
-	prompt
+	autodone
 
 BattleText_TheMoveIsDisabled:
 	text "The move is"
 	line "DISABLED!"
-	prompt
+	autodone
 
 BattleText_MonHasNoMovesLeft:
 	text_ram wBattleMonNickname
@@ -338,7 +347,7 @@ BattleText_MonHasNoMovesLeft:
 BattleText_TargetsEncoreEnded:
 	text "<TARGET>'s"
 	line "ENCORE ended!"
-	prompt
+	autodone
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
@@ -356,64 +365,64 @@ BattleText_WildMonIsEating:
 	text_ram wEnemyMonNickname
 	text_start
 	line "is eating!"
-	prompt
+	autodone
 
 BattleText_WildMonIsAngry:
 	text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "is angry!"
-	prompt
+	autodone
 
 FastAsleepText:
 	text "<USER>"
 	line "is fast asleep!"
-	prompt
+	autodone
 
 WokeUpText:
 	text "<USER>"
 	line "woke up!"
-	prompt
+	autodone
 
 FrozenSolidText:
 	text "<USER>"
 	line "is frozen solid!"
-	prompt
+	autodone
 
 FlinchedText:
 	text "<USER>"
 	line "flinched!"
-	prompt
+	autodone
 
 MustRechargeText:
 	text "<USER>"
 	line "must recharge!"
-	prompt
+	autodone
 
 DisabledNoMoreText:
 	text "<USER>'s"
 	line "disabled no more!"
-	prompt
+	autodone
 
 IsConfusedText:
 	text "<USER>"
 	line "is confused!"
-	prompt
+	autodone
 
 HurtItselfText:
 	text "It hurt itself in"
 	line "its confusion!"
-	prompt
+	autodone
 
 ConfusedNoMoreText:
 	text "<USER>'s"
 	line "confused no more!"
-	prompt
+	autodone
 
 BecameConfusedText:
 	text "<TARGET>"
 	line "became confused!"
-	prompt
+	autodone
 
 BattleText_ItemHealedConfusion:
 	text "A @"
@@ -421,12 +430,12 @@ BattleText_ItemHealedConfusion:
 	text " rid"
 	line "<TARGET>"
 	scroll "of its confusion."
-	prompt
+	autodone
 
 AlreadyConfusedText:
 	text "<TARGET>'s"
 	line "already confused!"
-	prompt
+	autodone
 
 BattleText_UsersHurtByStringBuffer1:
 	text "<USER>'s"
@@ -434,7 +443,7 @@ BattleText_UsersHurtByStringBuffer1:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 BattleText_UserWasReleasedFromStringBuffer1:
 	text "<USER>"
@@ -442,45 +451,45 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 UsedBindText:
 	text "<USER>"
 	line "used BIND on"
 	scroll "<TARGET>!"
-	prompt
+	autodone
 
 WhirlpoolTrapText:
 	text "<TARGET>"
 	line "was trapped!"
-	prompt
+	autodone
 
 FireSpinTrapText:
 	text "<TARGET>"
 	line "was trapped!"
-	prompt
+	autodone
 
 WrappedByText:
 	text "<TARGET>"
 	line "was WRAPPED by"
 	scroll "<USER>!"
-	prompt
+	autodone
 
 ClampedByText:
 	text "<TARGET>"
 	line "was CLAMPED by"
 	scroll "<USER>!"
-	prompt
+	autodone
 
 StoringEnergyText:
 	text "<USER>"
 	line "is storing energy!"
-	prompt
+	autodone
 
 UnleashedEnergyText:
 	text "<USER>"
 	line "unleashed energy!"
-	prompt
+	autodone
 
 HungOnText:
 	text "<TARGET>"
@@ -488,24 +497,24 @@ HungOnText:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 EnduredText:
 	text "<TARGET>"
 	line "ENDURED the hit!"
-	prompt
+	autodone
 
 InLoveWithText:
 	text "<USER>"
 	line "is in love with"
 	scroll "<TARGET>!"
-	prompt
+	autodone
 
 InfatuationText:
 	text "<USER>'s"
 	line "infatuation kept"
 	scroll "it from attacking!"
-	prompt
+	autodone
 
 DisabledMoveText:
 	text "<USER>'s"
@@ -513,48 +522,48 @@ DisabledMoveText:
 	text_ram wStringBuffer1
 	text " is"
 	scroll "DISABLED!"
-	prompt
+	autodone
 
 LoafingAroundText:
 	text_ram wBattleMonNickname
 	text " is"
 	line "loafing around."
-	prompt
+	autodone
 
 BeganToNapText:
 	text_ram wBattleMonNickname
 	text " began"
 	line "to nap!"
-	prompt
+	autodone
 
 WontObeyText:
 	text_ram wBattleMonNickname
 	text " won't"
 	line "obey!"
-	prompt
+	autodone
 
 TurnedAwayText:
 	text_ram wBattleMonNickname
 	text " turned"
 	line "away!"
-	prompt
+	autodone
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
 	text " ignored"
 	line "orders!"
-	prompt
+	autodone
 
 IgnoredSleepingText:
 	text_ram wBattleMonNickname
 	text " ignored"
 	line "orders…sleeping!"
-	prompt
+	autodone
 
 NoPPLeftText:
 	text "But no PP is left"
 	line "for the move!"
-	prompt
+	autodone
 
 HasNoPPLeftText:
 	text "<USER>"
@@ -562,7 +571,7 @@ HasNoPPLeftText:
 	scroll "@"
 	text_ram wStringBuffer2
 	text "!"
-	prompt
+	autodone
 
 WentToSleepText:
 	text "<USER>"
@@ -578,77 +587,77 @@ RestedText:
 RegainedHealthText:
 	text "<USER>"
 	line "regained health!"
-	prompt
+	autodone
 
 AttackMissedText:
 	text "<USER>'s"
 	line "attack missed!"
-	prompt
+	autodone
 
 AttackMissed2Text:
 	text "<USER>'s"
 	line "attack missed!"
-	prompt
+	autodone
 
 CrashedText:
 	text "<USER>"
 	line "kept going and"
 	scroll "crashed!"
-	prompt
+	autodone
 
 UnaffectedText:
 	text "<TARGET>'s"
 	line "unaffected!"
-	prompt
+	autodone
 
 DoesntAffectText:
 	text "It doesn't affect"
 	line "<TARGET>!"
-	prompt
+	autodone
 
 CriticalHitText:
 	text "A critical hit!"
-	prompt
+	autodone
 
 OneHitKOText:
 	text "It's a one-hit KO!"
-	prompt
+	autodone
 
 SuperEffectiveText:
 	text "It's super-"
 	line "effective!"
-	prompt
+	autodone
 
 NotVeryEffectiveText:
 	text "It's not very"
 	line "effective…"
-	prompt
+	autodone
 
 TookDownWithItText:
 	text "<TARGET>"
 	line "took down with it,"
 	scroll "<USER>!"
-	prompt
+	autodone
 
 RageBuildingText:
 	text "<USER>'s"
 	line "RAGE is building!"
-	prompt
+	autodone
 
 GotAnEncoreText:
 	text "<TARGET>"
 	line "got an ENCORE!"
-	prompt
+	autodone
 
 SharedPainText:
 	text "The battlers"
 	line "shared pain!"
-	prompt
+	autodone
 
 TookAimText:
 	text "<USER>"
 	line "took aim!"
-	prompt
+	autodone
 
 SketchedText:
 	text "<USER>"
@@ -656,13 +665,13 @@ SketchedText:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 DestinyBondEffectText:
 	text "<USER>'s"
 	line "trying to take its"
 	scroll "opponent with it!"
-	prompt
+	autodone
 
 SpiteEffectText:
 	text "<TARGET>'s"
@@ -672,62 +681,62 @@ SpiteEffectText:
 	scroll "reduced by @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
-	prompt
+	autodone
 
 BellChimedText:
 	text "A bell chimed!"
 	line ""
-	prompt
+	autodone
 
 FellAsleepText:
 	text "<TARGET>"
 	line "fell asleep!"
-	prompt
+	autodone
 
 AlreadyAsleepText:
 	text "<TARGET>'s"
 	line "already asleep!"
-	prompt
+	autodone
 
 WasPoisonedText:
 	text "<TARGET>"
 	line "was poisoned!"
-	prompt
+	autodone
 
 BadlyPoisonedText:
 	text "<TARGET>'s"
 	line "badly poisoned!"
-	prompt
+	autodone
 
 AlreadyPoisonedText:
 	text "<TARGET>'s"
 	line "already poisoned!"
-	prompt
+	autodone
 
 SuckedHealthText:
 	text "Sucked health from"
 	line "<TARGET>!"
-	prompt
+	autodone
 
 DreamEatenText:
 	text "<TARGET>'s"
 	line "dream was eaten!"
-	prompt
+	autodone
 
 WasBurnedText:
 	text "<TARGET>"
 	line "was burned!"
-	prompt
+	autodone
 
 DefrostedOpponentText:
 	text "<TARGET>"
 	line "was defrosted!"
-	prompt
+	autodone
 
 WasFrozenText:
 	text "<TARGET>"
 	line "was frozen solid!"
-	prompt
+	autodone
 
 WontRiseAnymoreText:
 	text "<USER>'s"
@@ -735,7 +744,7 @@ WontRiseAnymoreText:
 	text_ram wStringBuffer2
 	text " won't"
 	scroll "rise anymore!"
-	prompt
+	autodone
 
 WontDropAnymoreText:
 	text "<TARGET>'s"
@@ -743,81 +752,81 @@ WontDropAnymoreText:
 	text_ram wStringBuffer2
 	text " won't"
 	scroll "drop anymore!"
-	prompt
+	autodone
 
 FledFromBattleText::
 	text "<USER>"
 	line "fled from battle!"
-	prompt
+	autodone
 
 FledInFearText:
 	text "<TARGET>"
 	line "fled in fear!"
-	prompt
+	autodone
 
 BlownAwayText:
 	text "<TARGET>"
 	line "was blown away!"
-	prompt
+	autodone
 
 PlayerHitTimesText:
 	text "Hit @"
 	text_decimal wPlayerDamageTaken, 1, 1
 	text " times!"
-	prompt
+	autodone
 
 EnemyHitTimesText:
 	text "Hit @"
 	text_decimal wEnemyDamageTaken, 1, 1
 	text " times!"
-	prompt
+	autodone
 
 MistText:
 	text "<USER>'s"
 	line "shrouded in MIST!"
-	prompt
+	autodone
 
 ProtectedByMistText:
 	text "<TARGET>'s"
 	line "protected by MIST."
-	prompt
+	autodone
 
 GettingPumpedText:
 	text_pause
 	text "<USER>'s"
 	line "getting pumped!"
-	prompt
+	autodone
 
 RecoilText:
 	text "<USER>'s"
 	line "hit with recoil!"
-	prompt
+	autodone
 
 MadeSubstituteText:
 	text "<USER>"
 	line "made a SUBSTITUTE!"
-	prompt
+	autodone
 
 HasSubstituteText:
 	text "<USER>"
 	line "has a SUBSTITUTE!"
-	prompt
+	autodone
 
 TooWeakSubText:
 	text "Too weak to make"
 	line "a SUBSTITUTE!"
-	prompt
+	autodone
 
 SubTookDamageText:
 	text "The SUBSTITUTE"
 	line "took damage for"
 	scroll "<TARGET>!"
-	prompt
+	autodone
 
 SubFadedText:
 	text "<TARGET>'s"
 	line "SUBSTITUTE faded!"
-	prompt
+	autodone
 
 MimicLearnedMoveText:
 	text "<USER>"
@@ -825,17 +834,17 @@ MimicLearnedMoveText:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 WasSeededText:
 	text "<TARGET>"
 	line "was seeded!"
-	prompt
+	autodone
 
 EvadedText:
 	text "<TARGET>"
 	line "evaded the attack!"
-	prompt
+	autodone
 
 WasDisabledText:
 	text "<TARGET>'s"
@@ -843,12 +852,12 @@ WasDisabledText:
 	text_ram wStringBuffer1
 	text " was"
 	scroll "DISABLED!"
-	prompt
+	autodone
 
 CoinsScatteredText:
 	text "Coins scattered"
 	line "everywhere!"
-	prompt
+	autodone
 
 TransformedTypeText:
 	text "<USER>"
@@ -856,12 +865,12 @@ TransformedTypeText:
 	scroll "the @"
 	text_ram wStringBuffer1
 	text "-type!"
-	prompt
+	autodone
 
 EliminatedStatsText:
 	text "All stat changes"
 	line "were eliminated!"
-	prompt
+	autodone
 
 TransformedText:
 	text "<USER>"
@@ -869,66 +878,66 @@ TransformedText:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 LightScreenEffectText:
 	text "<USER>'s"
 	line "SPCL.DEF rose!"
-	prompt
+	autodone
 
 ReflectEffectText:
 	text "<USER>'s"
 	line "DEFENSE rose!"
-	prompt
+	autodone
 
 NothingHappenedText:
 	text "But nothing"
 	line "happened."
-	prompt
+	autodone
 
 ButItFailedText:
 	text "But it failed!"
-	prompt
+	autodone
 
 ItFailedText:
 	text "It failed!"
-	prompt
+	autodone
 
 DidntAffect1Text:
 	text "It didn't affect"
 	line "<TARGET>!"
-	prompt
+	autodone
 
 DidntAffect2Text:
 	text "It didn't affect"
 	line "<TARGET>!"
-	prompt
+	autodone
 
 HPIsFullText:
 	text "<USER>'s"
 	line "HP is full!"
-	prompt
+	autodone
 
 DraggedOutText:
 	text "<USER>"
 	line "was dragged out!"
-	prompt
+	autodone
 
 ParalyzedText:
 	text "<TARGET>'s"
-	line "autoparalyzed! Maybe"
+	line "paralyzed! Maybe"
 	scroll "it can't attack!"
-	prompt
+	autodone
 
 FullyParalyzedText:
 	text "<USER>'s"
-	line "fully autoparalyzed!"
-	prompt
+	line "fully paralyzed!"
+	autodone
 
 AlreadyParalyzedText:
 	text "<TARGET>'s"
-	line "already autoparalyzed!"
-	prompt
+	line "already paralyzed!"
+	autodone
 
 ProtectedByText:
 	text "<TARGET>'s"
@@ -936,12 +945,12 @@ ProtectedByText:
 	scroll "@"
 	text_ram wStringBuffer1
 	text "!"
-	prompt
+	autodone
 
 MirrorMoveFailedText:
 	text "The MIRROR MOVE"
 	next "failed!"
-	prompt
+	autodone
 
 StoleText:
 	text "<USER>"
@@ -949,23 +958,23 @@ StoleText:
 	text_ram wStringBuffer1
 	text_start
 	scroll "from its foe!"
-	prompt
+	autodone
 
 CantEscapeNowText:
 	text "<TARGET>"
 	line "can't escape now!"
-	prompt
+	autodone
 
 StartedNightmareText:
 	text "<TARGET>"
 	line "started to have a"
 	scroll "NIGHTMARE!"
-	prompt
+	autodone
 
 WasDefrostedText:
 	text "<USER>"
 	line "was defrosted!"
-	prompt
+	autodone
 
 PutACurseText:
 	text "<USER>"
@@ -973,12 +982,12 @@ PutACurseText:
 
 	autopara "put a CURSE on"
 	line "<TARGET>!"
-	prompt
+	autodone
 
 ProtectedItselfText:
 	text "<USER>"
 	line "PROTECTED itself!"
-	prompt
+	autodone
 
 ProtectingItselfText:
 	text "<TARGET>'s"
@@ -989,82 +998,82 @@ SpikesText:
 	text "SPIKES scattered"
 	line "all around"
 	scroll "<TARGET>!"
-	prompt
+	autodone
 
 IdentifiedText:
 	text "<USER>"
 	line "identified"
 	scroll "<TARGET>!"
-	prompt
+	autodone
 
 StartPerishText:
 	text "Both ANIMALs will"
 	line "faint in 3 turns!"
-	prompt
+	autodone
 
 SandstormBrewedText:
 	text "A SANDSTORM"
 	line "brewed!"
-	prompt
+	autodone
 
 BracedItselfText:
 	text "<USER>"
 	line "braced itself!"
-	prompt
+	autodone
 
 FellInLoveText:
 	text "<TARGET>"
 	line "fell in love!"
-	prompt
+	autodone
 
 CoveredByVeilText:
 	text "<USER>'s"
 	line "covered by a veil!"
-	prompt
+	autodone
 
 SafeguardProtectText:
 	text "<TARGET>"
 	line "is protected by"
 	scroll "SAFEGUARD!"
-	prompt
+	autodone
 
 MagnitudeText:
 	text "Magnitude @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
-	prompt
+	autodone
 
 ReleasedByText:
 	text "<USER>"
 	line "was released by"
 	scroll "<TARGET>!"
-	prompt
+	autodone
 
 ShedLeechSeedText:
 	text "<USER>"
 	line "shed LEECH SEED!"
-	prompt
+	autodone
 
 BlewSpikesText:
 	text "<USER>"
 	line "blew away SPIKES!"
-	prompt
+	autodone
 
 DownpourText:
 	text "A downpour"
 	line "started!"
-	prompt
+	autodone
 
 SunGotBrightText:
 	text "The sunlight got"
 	line "bright!"
-	prompt
+	autodone
 
 BellyDrumText:
 	text "<USER>"
 	line "cut its HP and"
 	scroll "maximized ATTACK!"
-	prompt
+	autodone
 
 CopiedStatsText:
 	text "<USER>"
@@ -1072,12 +1081,12 @@ CopiedStatsText:
 
 	autopara "changes of"
 	line "<TARGET>!"
-	prompt
+	autodone
 
 ForesawAttackText:
 	text "<USER>"
 	line "foresaw an attack!"
-	prompt
+	autodone
 
 BeatUpAttackText:
 	text_ram wStringBuffer1
@@ -1088,19 +1097,19 @@ BeatUpAttackText:
 PresentFailedText:
 	text "<TARGET>"
 	line "refused the gift!"
-	prompt
+	autodone
 
 IgnoredOrders2Text:
 	text "<USER>"
 	line "ignored orders!"
-	prompt
+	autodone
 
 BattleText_LinkErrorBattleCanceled:
 	text "Link error…"
 
 	autopara "The battle has"
 	line "been canceled…"
-	prompt
+	autodone
 
 BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"

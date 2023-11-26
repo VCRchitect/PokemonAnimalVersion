@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
+	db "MONSTER@" ; species name
 	dw 403, 1320 ; height, weight
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
+	db   "So Godzilla was a"
+	next "girl, if I can"
+	next "remember right."
 
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"
+	page "She could shoot"
+	next "atomic lasers, so"
+	next "she's cool to me.@"

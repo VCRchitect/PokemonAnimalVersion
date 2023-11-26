@@ -1,4 +1,4 @@
-	db "FIVE STAR@" ; species name
+	db "GLOW BUTT@" ; species name
 	dw 407, 780 ; height, weight
 
 	db   "These are also"

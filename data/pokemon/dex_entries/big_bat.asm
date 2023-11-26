@@ -1,4 +1,4 @@
-	db "BAT@" ; species name
+	db "BIGGER BAT@" ; species name
 	dw 511, 1650 ; height, weight
 
 	db   "Okay, picture a"

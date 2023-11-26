@@ -1,4 +1,4 @@
-	db "DARK@" ; species name
+	db "POINTY DOG@" ; species name
 	dw 407, 770 ; height, weight
 
 	db   "Only an asshole"

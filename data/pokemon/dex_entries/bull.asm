@@ -1,4 +1,4 @@
-	db "WILD BULL@" ; species name
+	db "BOY COW@" ; species name
 	dw 407, 1950 ; height, weight
 
 	db   "This is just a boy"

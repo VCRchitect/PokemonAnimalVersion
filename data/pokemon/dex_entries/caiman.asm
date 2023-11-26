@@ -1,4 +1,4 @@
-	db "BIG JAW@" ; species name
+	db "LIZARD@" ; species name
 	dw 200, 210 ; height, weight
 
 	db   "I think this is a"

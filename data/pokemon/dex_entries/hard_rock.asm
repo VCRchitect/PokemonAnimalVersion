@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
+	db "DWAYNE@" ; species name
 	dw 303, 2320 ; height, weight
 
-	db   "It travels by rol-"
-	next "ling on mountain"
-	next "paths. If it gains"
+	db   "He will drop The"
+	next "People's Elbow on"
+	next "you and ask if you"
 
-	page "too much speed, it"
-	next "stops by running"
-	next "into huge rocks.@"
+	page "smell what he is"
+	next "cooking. But he"
+	next "ain't cooking.@"

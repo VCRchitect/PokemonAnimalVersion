@@ -1,10 +1,10 @@
-	db "GENETIC@" ; species name
+	db "SKINWALKER@" ; species name
 	dw 607, 2690 ; height, weight
 
-	db   "Said to rest qui-"
-	next "etly in an"
-	next "undiscovered cave,"
+	db   "Motherfuckin' SKIN"
+	next "WALKERs and shit."
+	next "They will haunt"
 
-	page "this ANML was"
-	next "created solely for"
-	next "battling.@"
+	page "your daydreams and"
+	next "visit your night-"
+	next "mares like dicks.@"

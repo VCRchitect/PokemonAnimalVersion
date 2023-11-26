@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
+	db "LEAF BEAR@" ; species name
 	dw 311, 350 ; height, weight
 
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
+	db   "They all have"
+	next "chlamydia. Like,"
+	next "all of them. These"
 
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	page "are natures bony"
+	next "sluts that will"
+	next "give you an STI.@"

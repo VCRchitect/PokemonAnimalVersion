@@ -1,10 +1,10 @@
-	db "LAVA@" ; species name
+	db "MOLLUSK@" ; species name
 	dw 204, 770 ; height, weight
 
-	db   "These group to-"
-	next "gether in areas"
-	next "that are hotter"
+	db   "Who was the sicko"
+	next "that poured salt"
+	next "on a SLUG the"
 
-	page "than normal. If it"
-	next "cools off, its"
-	next "skin hardens.@"
+	page "first time, saw it"
+	next "melt and said, 'I"
+	next "gotta share this.'@"

@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
+	db "MEAN DINO@" ; species name
 	dw 607, 4450 ; height, weight
 
-	db   "In just one of its"
-	next "mighty hands, it"
-	next "has the power to"
+	db   "A terrible lizard,"
+	next "this is the real"
+	next "life Godzilla,"
 
-	page "make the ground"
-	next "shake and moun-"
-	next "tains crumble.@"
+	page "but it will just"
+	next "eat you instead of"
+	next "giving you cancer.@"

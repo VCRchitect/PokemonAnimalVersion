@@ -1,4 +1,4 @@
-	db "EGG@" ; species name
+	db "12 EGGs@" ; species name
 	dw 104, 60 ; height, weight
 
 	db   "Remember when eggs"

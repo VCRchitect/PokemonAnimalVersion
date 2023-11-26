@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
+	db "BOSTON DOG@" ; species name
 	dw 211, 580 ; height, weight
 
-	db   "The tip of its"
-	next "forked tail"
-	next "quivers when it is"
+	db   "I love how their"
+	next "eyes never go the"
+	next "same direction,"
 
-	page "predicting its"
-	next "opponent's next"
-	next "move.@"
+	page "kind of like they"
+	next "can't decide where"
+	next "to go next.@"

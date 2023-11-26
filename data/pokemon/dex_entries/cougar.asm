@@ -1,4 +1,4 @@
-	db "CLASSY CAT@" ; species name
+	db "BIG CAT@" ; species name
 	dw 303, 710 ; height, weight
 
 	db   "Just a big-ass cat"

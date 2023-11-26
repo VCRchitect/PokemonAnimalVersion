@@ -1,4 +1,4 @@
-	db "SPIRAL@" ; species name
+	db "COTTURFEESH@" ; species name
 	dw 303, 770 ; height, weight
 
 	db   "I can't hear the"

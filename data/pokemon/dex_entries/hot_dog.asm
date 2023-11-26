@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
+	db "SHAKER@" ; species name
 	dw 211, 550 ; height, weight
 
-	db   "Once it has stored"
-	next "up enough heat,"
-	next "this ANML's"
+	db   "These are the dogs"
+	next "that shake all the"
+	next "time and were"
 
-	page "body temperature"
-	next "can reach up to"
-	next "1700 degrees.@"
+	page "apparently bred to"
+	next "hunt down rats"
+	next "and other stuff.@"

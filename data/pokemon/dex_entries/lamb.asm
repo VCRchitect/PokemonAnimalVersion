@@ -1,10 +1,10 @@
 	db "WOOL@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "It stores lots of"
-	next "air in its soft"
-	next "fur, allowing it"
+	db   "Why did Jesus want"
+	next "to be a LAMB and"
+	next "not like a tiger"
 
-	page "to stay cool in"
-	next "summer and warm"
-	next "in winter.@"
+	page "or maybe like a"
+	next "dragon? Look at"
+	next "this little loser.@"

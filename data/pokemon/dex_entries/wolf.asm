@@ -1,10 +1,10 @@
 	db "EVOLUTION@" ; species name
 	dw 100, 140 ; height, weight
 
-	db   "Its ability to"
-	next "evolve into many"
-	next "forms allows it to"
+	db   "It's crazy how"
+	next "these can go from"
+	next "majestic beasts"
 
-	page "adapt smoothly"
-	next "and perfectly to"
-	next "any environment.@"
+	page "that tamed the"
+	next "wilds to wheezing"
+	next "pugs and doodles.@"

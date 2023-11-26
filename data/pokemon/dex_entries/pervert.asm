@@ -1,10 +1,10 @@
 	db "LICKING@" ; species name
 	dw 311, 1440 ; height, weight
 
-	db   "It has a tongue"
-	next "that is over 6'6''"
-	next "long. It uses this"
+	db   "Gene Simmons is a"
+	next "scary man. They"
+	next "say he watched '2"
 
-	page "long tongue to"
-	next "lick its body"
-	next "clean.@"
+	page "Girls 1 Cup' and"
+	next "said weirder stuff"
+	next "happens on tour.@"

@@ -1,10 +1,10 @@
-	db "FLYSCORPIO@" ; species name
+	db "CRYPTID@" ; species name
 	dw 307, 1430 ; height, weight
 
-	db   "It builds its nest"
-	next "on a steep cliff."
-	next "When it is done"
+	db   "The MOTHMAN statue"
+	next "in Point Pleasant,"
+	next "West Virginia has"
 
-	page "gliding, it hops"
-	next "along the ground"
-	next "back to its nest.@"
+	page "a big ol' ass. You"
+	next "should look it up."
+	next "It's weird.@"

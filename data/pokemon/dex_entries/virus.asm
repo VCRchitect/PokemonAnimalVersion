@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
+	db "TINY THING@" ; species name
 	dw 200, 20 ; height, weight
 
-	db   "If one gets close"
-	next "enough to it when"
-	next "it expels poison-"
+	db   "It will get you"
+	next "sick and you will"
+	next "either miss some"
 
-	page "ous gas, the gas"
-	next "swirling inside it"
-	next "can be seen.@"
+	page "days of work, or"
+	next "you will die. No"
+	next "in-between.@"

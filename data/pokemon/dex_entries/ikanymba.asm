@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
+	db "PISSED OFF@" ; species name
 	dw 2104, 5180 ; height, weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "I have no clue,"
+	next "but I guess this"
+	next "is some kind of"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "waterfall spirit"
+	next "and it's always"
+	next "pissed off.@"

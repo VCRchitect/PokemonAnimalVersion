@@ -1,6 +1,6 @@
 	db PINECONE ; 204
 
-	db  50,  65,  90,  15,  35,  35
+	db  60,  75,  100,  35,  45,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type

@@ -232,6 +232,7 @@ AlphabeticalPokedexOrder:
 	db TREX
 	db JOHN_CENA
 	db XOLO_DOG
+	db LETTAH
 	db BEAR
 	db WET_DOG
 	db MOTH

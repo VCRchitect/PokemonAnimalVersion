@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
+	db "DARK DOG@" ; species name
 	dw 200, 240 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "I like these. They"
+	next "always look like"
+	next "they're trying to"
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	page "remember where"
+	next "they parked a car"
+	next "they don't own.@"

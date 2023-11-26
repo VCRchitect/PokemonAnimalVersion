@@ -1,4 +1,4 @@
-	db "PSI@" ; species name
+	db "POOR@" ; species name
 	dw 211, 430 ; height, weight
 
 	db   "Why do they call"

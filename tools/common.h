@@ -19,6 +19,8 @@
 #error Define USAGE_OPTS before including common.h!
 #endif
 
+#define COUNTOF(...) (sizeof(__VA_ARGS__) / sizeof(*(__VA_ARGS__)))
+
 #define error_exit(...) exit((fprintf(stderr, PROGRAM_NAME ": " __VA_ARGS__), 1))
 
 noreturn void usage_exit(int status) {
@@ -117,7 +119,7 @@ uint32_t read_png_width(const char *filename) {
 	uint8_t header[16] = {0};
 	xfread(header, sizeof(header), filename, f);
 	static uint8_t expected_header[16] = {
-		0x89, 'P', 'N', 'G', '\r', '\n', 0x1A, '\n', // sigkakapore
+		0x89, 'P', 'N', 'G', '\r', '\n', 0x1A, '\n', // signature
 		0, 0, 0, 13,                                 // IHDR chunk length
 		'I', 'H', 'D', 'R',                          // IHDR chunk type
 	};

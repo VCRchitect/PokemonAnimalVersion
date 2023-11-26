@@ -1,10 +1,10 @@
 	db "SHADOW@" ; species name
 	dw 411, 890 ; height, weight
 
-	db   "Hiding in people's"
-	next "shadows at night,"
-	next "it absorbs their"
+	db   "It looks tame now,"
+	next "but Lon Chaney's"
+	next "Phantom of the"
 
-	page "heat. The chill it"
-	next "causes makes the"
-	next "victims shake.@"
+	page "Opera was said to"
+	next "be so scary that"
+	next "people fainted.@"

@@ -1,4 +1,4 @@
-	db "NEW SPECIE@" ; species name
+	db "HEAD MEAT@" ; species name
 	dw 104, 90 ; height, weight
 
 	db   "This is that"

@@ -1,4 +1,4 @@
-	db "BALL@" ; species name
+	db "BIG BOOM@" ; species name
 	dw 108, 230 ; height, weight
 
 	db   "That clock tells"

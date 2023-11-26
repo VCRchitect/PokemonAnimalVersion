@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
+	db "SNOW MAN@" ; species name
 	dw 507, 1220 ; height, weight
 
-	db   "Legendary bird"
-	next "ANML. As it"
-	next "flies through the"
+	db   "If a bigfoot goes"
+	next "into a snowy area,"
+	next "does it become a"
 
-	page "sky, it cools the"
-	next "air, causing snow"
-	next "to fall.@"
+	page "YETI? Or does it"
+	next "have to be born"
+	next "there first?@"

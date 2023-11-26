@@ -33,7 +33,9 @@ MeetMomRightScript:
 .OnRight:
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksToPlayerMovement
 MeetMomScript:
+	refreshscreen
 	opentext
+	trainerpic MOM
 	writetext ElmsLookingForYouText
 	promptbutton
 	getstring STRING_BUFFER_4, PokegearName
@@ -46,6 +48,7 @@ MeetMomScript:
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	writetext MomGivesPokegearText
 	promptbutton
+	closetrainpic
 	special SetDayOfWeek
 .SetDayOfWeek:
 	writetext IsItDSTText
@@ -61,6 +64,8 @@ MeetMomScript:
 	yesorno
 	iffalse .SetDayOfWeek
 .DayOfWeekDone:
+	refreshscreen
+	trainerpic MOM
 	writetext ComeHomeForDSTText
 	yesorno
 	iffalse .ExplainPhone
@@ -79,6 +84,7 @@ MeetMomScript:
 .FinishPhone:
 	writetext InstructionsNextText
 	waitbutton
+	closetrainpic
 	closetext
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue .FromRight

@@ -1,4 +1,4 @@
-	db "GAS@" ; species name
+	db "DEAD AF@" ; species name
 	dw 403, 2 ; height, weight
 
 	db   "This looks a lot"

@@ -1,10 +1,10 @@
-	db "POISONMOTH@" ; species name
+	db "POWDERWING@" ; species name
 	dw 411, 280 ; height, weight
 
-	db   "The scales it"
-	next "scatters will"
-	next "paralyze anyone"
+	db   "You ever seen that"
+	next "comic where they"
+	next "drew a MOTH as a"
 
-	page "who touches them,"
-	next "making that person"
-	next "unable to stand.@"
+	page "sexy lady? I swear"
+	next "The Internet will"
+	next "fuck anything.@"

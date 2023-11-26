@@ -23,12 +23,23 @@ CherrygroveEvolutionSpeechHouseLassScript:
 	trainerpic PICNICKER
 	writetext CherrygroveEvolutionSpeechHouseLassText
 	waitbutton
+	applymovement CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS, CherrygroveAbuseMovement
+	playsound SFX_TACKLE
+	applymovement CHERRYGROVEEVOLUTIONSPEECHHOUSE_LASS, CherrygroveAbuseMovement
+	playsound SFX_TACKLE
 	closetrainpic
 	closetext
 	end
 
 CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
+
+
+CherrygroveAbuseMovement:
+	fix_facing
+	big_step LEFT
+	big_step RIGHT
+	step_end
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
 	text "I am so sick of"

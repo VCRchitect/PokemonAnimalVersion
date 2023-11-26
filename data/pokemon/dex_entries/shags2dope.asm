@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
+	db "CLOWN@" ; species name
 	dw 104, 190 ; height, weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db   "This wicked clown"
+	next "is one half of the"
+	next "rap dup, Insane"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "Clown Posse. Some"
+	next "call him 'Stretch"
+	next "Nutz'.@"

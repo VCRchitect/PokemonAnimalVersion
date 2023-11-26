@@ -1,4 +1,4 @@
-	db "LIVE COAL@" ; species name
+	db "TIT BIRD@" ; species name
 	dw 204, 470 ; height, weight
 
 	db   "Don't laugh, you"

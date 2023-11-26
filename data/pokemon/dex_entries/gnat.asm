@@ -1,10 +1,10 @@
-	db "INSECT@" ; species name
+	db "PEST@" ; species name
 	dw 303, 660 ; height, weight
 
-	db   "The small bugs it"
-	next "eats appear only"
-	next "at night, so it"
+	db   "Annoying as all"
+	next "fuck, these are"
+	next "little flying bugs"
 
-	page "sleeps in a hole"
-	next "in a tree until"
-	next "night falls.@"
+	page "that serve zero"
+	next "purpose in the"
+	next "ecosystem.@"

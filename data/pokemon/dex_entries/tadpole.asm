@@ -1,10 +1,10 @@
 	db "TADPOLE@" ; species name
 	dw 200, 270 ; height, weight
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
+	db   "Look at the little"
+	next "wiggly fin. It's a"
+	next "fast little guy."
 
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	page "He could swim so"
+	next "fast that he could"
+	next "go back in time.@"

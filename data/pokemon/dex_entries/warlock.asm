@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
+	db "WIZARD@" ; species name
 	dw 607, 1750 ; height, weight
 
-	db   "Every time it ya-"
-	next "wns, CLAM"
-	next "injects more poi-"
+	db   "This dude will"
+	next "cast a spell on"
+	next "you so you can't"
 
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	page "get it up at the"
+	next "worse possible"
+	next "times.@"

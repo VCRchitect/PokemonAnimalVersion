@@ -1,4 +1,4 @@
-	db "HANDSTAND@" ; species name
+	db "WOODEN TOP@" ; species name
 	dw 407, 1060 ; height, weight
 
 	db   "I don't know much"

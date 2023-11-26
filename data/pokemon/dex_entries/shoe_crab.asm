@@ -1,10 +1,10 @@
 	db "SHELLFISH@" ; species name
 	dw 108, 250 ; height, weight
 
-	db   "Three hundred"
-	next "million years ago,"
-	next "it hid on the sea"
+	db   "Remember when they"
+	next "made a movie about"
+	next "violent horseshoe"
 
-	page "floor. It also has"
-	next "eyes on its back"
-	next "that glow.@"
+	page "crabs and said it"
+	next "was JAWs for"
+	next "crustaceans?@"

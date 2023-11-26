@@ -1,10 +1,10 @@
-	db "FIRE MOUSE@" ; species name
+	db "STANK PET@" ; species name
 	dw 108, 170 ; height, weight
 
-	db   "The fire that"
-	next "spouts from its"
-	next "back burns hottest"
+	db   "Supposedly you can"
+	next "have their stank"
+	next "glands removed and"
 
-	page "when it is angry."
-	next "The flaring flames"
-	next "intimidate foes.@"
+	page "keep them as pets,"
+	next "but just get a CAT"
+	next "at that point.@"

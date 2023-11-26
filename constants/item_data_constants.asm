@@ -100,7 +100,7 @@ MAIL_STRUCT_LENGTH EQU $2f ; mailmsg struct
 
 	const_next 40
 	const_skip
-	const_skip
+	const HELD_CIGARETTE
 	const HELD_METAL_POWDER
 
 	const_next 50

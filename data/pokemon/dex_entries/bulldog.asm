@@ -1,4 +1,4 @@
-	db "FAERIE@" ; species name
+	db "WHEEZER@" ; species name
 	dw 407, 1070 ; height, weight
 
 	db   "God, a genetic"

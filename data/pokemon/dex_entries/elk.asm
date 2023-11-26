@@ -1,4 +1,4 @@
-	db "BIG HORN@" ; species name
+	db "ANTLERS@" ; species name
 	dw 407, 1570 ; height, weight
 
 	db   "People hunt these"

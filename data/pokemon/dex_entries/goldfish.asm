@@ -1,10 +1,10 @@
 	db "GOLDFISH@" ; species name
 	dw 200, 330 ; height, weight
 
-	db   "During spawning"
-	next "season, they swim"
-	next "gracefully in the"
+	db   "I heard that a"
+	next "GOLDFISH will grow"
+	next "to the size of the"
 
-	page "water, searching"
-	next "for their perfect"
-	next "mate.@"
+	page "container it's put"
+	next "in, so wild ones"
+	next "get huge.@"

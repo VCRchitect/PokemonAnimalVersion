@@ -1,4 +1,4 @@
-	db "FLOWER@" ; species name
+	db "GARNISH@" ; species name
 	dw 204, 90 ; height, weight
 
 	db   "They always bring"

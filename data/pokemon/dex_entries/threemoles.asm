@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
+	db "MOLES@" ; species name
 	dw 204, 730 ; height, weight
 
-	db   "These MOLE"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "This is like a"
+	next "MOLE, but if there"
+	next "are 3 standing"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "near each other,"
+	next "they become one,"
+	next "like triplets.@"

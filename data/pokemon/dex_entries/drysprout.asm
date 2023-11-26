@@ -1,4 +1,4 @@
-	db "FLYCATCHER@" ; species name
+	db "GARNISH@" ; species name
 	dw 303, 140 ; height, weight
 
 	db   "This is the dry"

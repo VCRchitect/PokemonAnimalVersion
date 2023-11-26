@@ -1100,7 +1100,7 @@ NPCTextTable::
 	
 .127
 	text "Yo, I'm trying to"
-	line "back a cake and"
+	line "bake a cake and"
 	para "shit, but shit's"
 	line "rough nowadays."
 	done

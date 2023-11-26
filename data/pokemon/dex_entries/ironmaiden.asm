@@ -1,10 +1,10 @@
-	db "HARD SHELL@" ; species name
+	db "TORTURE@" ; species name
 	dw 311, 3350 ; height, weight
 
-	db   "It will not stay"
-	next "still, even while"
-	next "it's a pupa. It"
+	db   "These things look"
+	next "spooky, but I"
+	next "guess they didn't"
 
-	page "already has arms"
-	next "and legs under its"
-	next "solid shell.@"
+	page "actually put"
+	next "people inside and"
+	next "squish them.@"

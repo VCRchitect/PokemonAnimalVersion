@@ -1,10 +1,10 @@
 	db "LONG NECK@" ; species name
 	dw 411, 910 ; height, weight
 
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
+	db   "This is like a"
+	next "horse if it's head"
+	next "got stuck and"
 
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"
+	page "people pulled on"
+	next "it until its neck"
+	next "stretched out.@"

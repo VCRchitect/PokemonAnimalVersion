@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
+	db "LARGE HORSE@" ; species name
 	dw 507, 2090 ; height, weight
 
-	db   "It just loves to"
-	next "gallop. The faster"
-	next "it goes, the long-"
+	db   "People love these"
+	next "things. Whether it"
+	next "is the weird girl"
 
-	page "er the swaying"
-	next "flames of its mane"
-	next "will become.@"
+	page "in your class or a"
+	next "cowboy, they're"
+	next "all fans.@"

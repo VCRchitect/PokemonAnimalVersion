@@ -1,4 +1,4 @@
-	db "RIVER CRAB@" ; species name
+	db "RIVER PINCHES@" ; species name
 	dw 104, 140 ; height, weight
 
 	db   "They got little"

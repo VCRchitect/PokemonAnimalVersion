@@ -1,10 +1,10 @@
 	db "LAND SNAKE@" ; species name
 	dw 411, 310 ; height, weight
 
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
+	db   "I caught one of"
+	next "these in 'Snake"
+	next "Eater' and I was"
 
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"
+	page "tempted to eat it,"
+	next "even though it did"
+	next "unlock stuff.@"

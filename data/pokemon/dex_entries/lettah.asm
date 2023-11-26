@@ -1,10 +1,10 @@
 	db "SYMBOL@" ; species name
 	dw 108, 110 ; height, weight
 
-	db   "Because different"
-	next "types of LETTAH"
-	next "exist, it is said"
+	db   "It's like a"
+	next "typical letter,"
+	next "but I didn't want"
 
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
+	page "to mess up any"
+	next "programming with a"
+	next "normal name.@"

@@ -1,10 +1,10 @@
 	db "VIRTUAL@" ; species name
 	dw 200, 720 ; height, weight
 
-	db   "This manmade"
-	next "ANML evolved"
-	next "from the latest"
+	db   "I decided that a"
+	next "face could become"
+	next "a kiwi. Fuck you,"
 
-	page "technology. It"
-	next "may have unprog-"
-	next "rammed reactions.@"
+	page "it's my game, it"
+	next "doesn't have to"
+	next "make sense.@"

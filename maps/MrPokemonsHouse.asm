@@ -42,13 +42,10 @@ MrPokemonsHouse_MapScripts:
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	blackoutmod CHERRYGROVE_CITY
 	refreshscreen
-	trainerpic GENTLEMAN
 	writetext MrPokemonIntroText3
 	promptbutton
-	closetrainpic
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, RIGHT
 	refreshscreen
-	trainerpic GENTLEMAN
 	writetext MrPokemonIntroText4
 	promptbutton
 	closetrainpic

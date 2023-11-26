@@ -62,6 +62,7 @@ NewPokedexOrder:
 	db DRIFTER
 	db SPOOKY
 	db PHANTOM
+	db LETTAH
 	db WYRM
 	db DEATHWORM
 	db BEANSPROUT

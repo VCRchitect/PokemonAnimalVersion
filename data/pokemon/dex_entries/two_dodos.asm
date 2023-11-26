@@ -1,10 +1,10 @@
-	db "TRIPLEBIRD@" ; species name
+	db "DEAD BIRDS@" ; species name
 	dw 511, 1880 ; height, weight
 
-	db   "An enemy that"
-	next "takes its eyes off"
-	next "any of the three"
+	db   "Remember when I"
+	next "said they were all"
+	next "dead because they"
 
-	page "heads--even for a"
-	next "second--will get"
-	next "pecked severely.@"
+	page "were dumb? Well,"
+	next "this is what two"
+	next "would look like.@"

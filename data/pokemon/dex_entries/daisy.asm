@@ -1,4 +1,4 @@
-	db "COTTONWEED@" ; species name
+	db "LAME FLOWER@" ; species name
 	dw 200, 20 ; height, weight
 
 	db   "A flower that is"

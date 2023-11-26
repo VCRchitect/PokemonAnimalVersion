@@ -1,10 +1,10 @@
-	db "PARENT@" ; species name
+	db "POUCH@" ; species name
 	dw 703, 1760 ; height, weight
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
+	db   "It's got a pouch"
+	next "that it can use to"
+	next "carry its babies,"
 
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"
+	page "or it can pull a"
+	next "Glock 9mm and ice"
+	next "your dumbass.@"

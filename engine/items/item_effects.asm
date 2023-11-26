@@ -158,7 +158,7 @@ ItemEffects:
 	dw NoEffect            ; ITEM_8E
 	dw NoEffect            ; METAL_COAT
 	dw NoEffect            ; DRAGON_FANG
-	dw NoEffect            ; ITEM_91
+	dw NoEffect            ; CIGARETTE
 	dw NoEffect            ; LEFTOVERS
 	dw NoEffect            ; ITEM_93
 	dw NoEffect            ; ITEM_94

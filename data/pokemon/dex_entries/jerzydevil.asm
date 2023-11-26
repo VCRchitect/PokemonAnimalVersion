@@ -1,10 +1,10 @@
-	db "TIMETRAVEL@" ; species name
+	db "CRYPTID@" ; species name
 	dw 200, 110 ; height, weight
 
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, JERZYDEVIL"
+	db   "He got a big old"
+	next "horse snout and"
+	next "wings. But only a"
 
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
+	page "crackhead from"
+	next "Jersey could make"
+	next "these up.@"

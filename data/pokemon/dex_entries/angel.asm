@@ -1,8 +1,8 @@
-	db "DIVINITY@" ; species name
+	db "DIVINE@" ; species name
 	dw 403, 880 ; height, weight
 
 	db 	 "Angels are them"
-	next" people that hang" 
+	next "people that hang" 
 	next "out with Jesus."
 	
 	page "They're often seen"

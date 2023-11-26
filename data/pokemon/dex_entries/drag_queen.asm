@@ -1,4 +1,4 @@
-	db "HUMANSHAPE@" ; species name
+	db "PERFORMER@" ; species name
 	dw 407, 900 ; height, weight
 
 	db   "More than a dude"

@@ -144,7 +144,7 @@ ItemNames::
 	li "TERU-SAMA"
 	li "METAL COAT"
 	li "DRAGON FANG"
-	li "TERU-SAMA"
+	li "CIGARETTE"
 	li "LEFTOVERS"
 	li "TERU-SAMA"
 	li "TERU-SAMA"

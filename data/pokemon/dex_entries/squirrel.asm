@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
+	db "NUTTY@" ; species name
 	dw 211, 140 ; height, weight
 
-	db   "It loves to bask"
-	next "in the sunlight."
-	next "It uses the leaf"
+	db   "This nutty little"
+	next "man is the bane of"
+	next "every dog's life."
 
-	page "on its head to"
-	next "seek out warm"
-	next "places.@"
+	page "Just the sight of"
+	next "a SQUIRREL will"
+	next "piss them off.@"

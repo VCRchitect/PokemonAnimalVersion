@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
+	db "SMELLY@" ; species name
 	dw 311, 410 ; height, weight
 
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
+	db   "They say these"
+	next "smell like rotten"
+	next "meat and use that"
 
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	page "to draw in the"
+	next "bugs that it will"
+	next "dissolve inside.@"

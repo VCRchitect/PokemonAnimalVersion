@@ -69,7 +69,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_PresentSmokescreen
 	dw BattleAnimFunction_StrengthSeismicToss
 	dw BattleAnimFunction_SpeedLine
-	dw BattleAnimFunction_Grime
+	dw BattleAnimFunction_Sludge
 	dw BattleAnimFunction_MetronomeHand
 	dw BattleAnimFunction_MetronomeSparkleSketch
 	dw BattleAnimFunction_Agility
@@ -143,7 +143,7 @@ BattleAnimFunction_ThrowFromUserToTarget:
 	ret
 
 BattleAnimFunction_MoveWaveToTarget:
-; Wave motion from one mon to another. Obj is cleared when it reaches x coord $88. Examples: Shadow Ball, Red_Dragon Rage
+; Wave motion from one mon to another. Obj is cleared when it reaches x coord $88. Examples: Shadow Ball, Dragon Rage
 	ld hl, BATTLEANIMSTRUCT_XCOORD
 	add hl, bc
 	ld a, [hl]
@@ -429,10 +429,32 @@ BattleAnimFunction_PokeBallBlocked:
 	ret
 
 GetBallAnimPal:
+	ld hl, BallColors
+	ldh a, [rSVBK]
+	push af
+	ld a, BANK(wCurItem)
+	ldh [rSVBK], a
+	ld a, [wCurItem]
+	ld e, a
+	pop af
+	ldh [rSVBK], a
+.IsInArray:
+	ld a, [hli]
+	cp -1
+	jr z, .load
+	cp e
+	jr z, .load
+	inc hl
+	jr .IsInArray
+
+.load
+	ld a, [hl]
 	ld hl, BATTLEANIMSTRUCT_PALETTE
 	add hl, bc
-	ld [hl], PAL_BATTLE_OB_RED 
+	ld [hl], a
 	ret
+
+INCLUDE "data/battle_anims/ball_colors.asm"
 
 BattleAnimFunction_Ember:
 	call BattleAnim_AnonJumptable
@@ -3535,7 +3557,7 @@ BattleAnimFunction_SpeedLine:
 	dec [hl]
 	ret
 
-BattleAnimFunction_Grime:
+BattleAnimFunction_Sludge:
 ; Object moves upward for $c frames and switches to FRAMESET_20
 	call BattleAnim_AnonJumptable
 .anon_dw

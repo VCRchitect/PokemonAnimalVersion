@@ -1,10 +1,10 @@
 	db "RAT@" ; species name
 	dw 204, 410 ; height, weight
 
-	db   "The webs on its"
-	next "hind legs enable"
-	next "it to cross"
+	db   "Why did Ron have a"
+	next "a MOLERAT as a pet"
+	next "and we all were"
 
-	page "rivers. It search-"
-	next "es wide areas for"
-	next "food.@"
+	page "okay with it, like"
+	next "he isn't carrying"
+	next "a pet scrotum?@"

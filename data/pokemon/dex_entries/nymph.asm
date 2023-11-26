@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
+	db "LITTLE BUG@" ; species name
 	dw 100, 120 ; height, weight
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "ANML's back"
+	db   "Not to be confused"
+	next "with your skank of"
+	next "a mom, this is a"
 
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	page "NYMPH, not a"
+	next "nympho(maniac)."
+	next "Shame on her.@"

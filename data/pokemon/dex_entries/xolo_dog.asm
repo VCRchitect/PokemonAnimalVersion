@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
+	db "DARK DOG@" ; species name
 	dw 303, 600 ; height, weight
 
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
+	db   "I think these are"
+	next "the cooler version"
+	next "of those hairless"
 
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	page "dogs. They're cute"
+	next "and they'd wreck a"
+	next "mouthy fool.@"

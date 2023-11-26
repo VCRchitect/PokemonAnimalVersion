@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
+	db "MONSTER@" ; species name
 	dw 407, 1370 ; height, weight
 
-	db   "It uses its thick"
-	next "arms, legs and"
-	next "tail to attack"
+	db   "King of Monsters,"
+	next "this dude will"
+	next "stomp your city"
 
-	page "forcefully. Melee"
-	next "combat is its"
-	next "specialty.@"
+	page "and wreck your"
+	next "military just for"
+	next "existing.@"

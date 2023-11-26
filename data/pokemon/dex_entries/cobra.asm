@@ -1,4 +1,4 @@
-	db "COBRA@" ; species name
+	db "BIG SNAKE@" ; species name
 	dw 1106, 1430 ; height, weight
 
 	db   "Like quicksand,"

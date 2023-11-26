@@ -1341,6 +1341,37 @@ HandleLeftovers:
 	ld hl, BattleText_TargetRecoveredWithItem
 	jp StdBattleTextbox
 
+HandleCigarette:
+	ldh a, [hSerialConnectionStatus]
+	cp USING_EXTERNAL_CLOCK
+	jr z, .DoEnemyFirst
+	call SetPlayerTurn
+	call .do_it
+	call SetEnemyTurn
+	jp .do_it
+
+.DoEnemyFirst:
+	call SetEnemyTurn
+	call .do_it
+	call SetPlayerTurn
+.do_it
+	callfar GetUserItem
+	ld a, [hl]
+	ld [wNamedObjectIndex], a
+	call GetItemName
+	ld a, b
+	cp HELD_CIGARETTE
+	ret nz
+
+	ld hl, wBattleMonHP
+	ldh a, [hBattleTurn]
+	and a
+	call GetSixteenthMaxHP
+	call SubtractHPFromTarget
+	call SubtractHPFromUser
+	ld hl, BattleText_TargetSmoked
+	jp StdBattleTextbox
+
 HandleMysteryberry:
 	ldh a, [hSerialConnectionStatus]
 	cp USING_EXTERNAL_CLOCK

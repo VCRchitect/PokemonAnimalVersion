@@ -1,4 +1,4 @@
-	db "COTTONWEED@" ; species name
+	db "WISH SEED@" ; species name
 	dw 207, 70 ; height, weight
 
 	db   "If you blow one"

@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "NOT FURRY@" ; species name
 	dw 703, 4630 ; height, weight
 
-	db   "It is said that"
-	next "somewhere in the"
-	next "ocean lies an"
+	db   "This is the not-"
+	next "scary version of a"
+	next "furry. These hang"
 
-	page "island where these"
-	next "gather. Only they"
-	next "live there.@"
+	page "out at pep rallies"
+	next "and ball games,"
+	next "not sex clubs.@"

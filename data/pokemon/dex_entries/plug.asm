@@ -1,10 +1,10 @@
 	db "ELECTRIC@" ; species name
 	dw 200, 520 ; height, weight
 
-	db   "It loves violent"
-	next "thunder. The space"
-	next "between its horns"
+	db   "This is based off"
+	next "of the American"
+	next "electrical PLUGs,"
 
-	page "flickers bluish-"
-	next "white when it is"
-	next "charging energy.@"
+	page "not that ugly-ass"
+	next "European bullshit"
+	next "the world loves.@"

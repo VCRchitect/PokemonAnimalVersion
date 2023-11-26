@@ -1,10 +1,10 @@
 	db "OWL@" ; species name
 	dw 503, 900 ; height, weight
 
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
+	db   "Look at how good"
+	next "those graphics"
+	next "turned out! It's"
 
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
+	page "crazy to me how"
+	next "much detail you"
+	next "can fit 4 colors.@"

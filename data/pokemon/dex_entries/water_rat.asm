@@ -1,10 +1,10 @@
 	db "AQUAMOUSE@" ; species name
 	dw 104, 190 ; height, weight
 
-	db   "The fur on its"
-	next "body kakaporally"
-	next "repels water. It"
+	db   "Isn't this just a"
+	next "BEAVER? They're"
+	next "supposedly totally"
 
-	page "can stay dry, even"
-	next "when it plays in"
-	next "the water.@"
+	page "different, but I"
+	next "call bullshit."
+	next "They're identical.@"

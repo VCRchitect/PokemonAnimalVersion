@@ -1,10 +1,10 @@
 	db "SEA LION@" ; species name
 	dw 307, 1980 ; height, weight
 
-	db   "The light blue fur"
-	next "that covers it"
-	next "keeps it protected"
+	db   "What kind of sick"
+	next "asshole can look"
+	next "at these and hit"
 
-	page "against the cold."
-	next "It loves iceberg-"
-	next "filled oceans.@"
+	page "it with a club?"
+	next "Do people even use"
+	next "SEALs for stuff?@"

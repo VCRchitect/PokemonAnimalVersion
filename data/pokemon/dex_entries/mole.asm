@@ -1,10 +1,10 @@
 	db "MOLE@" ; species name
 	dw 8, 20 ; height, weight
 
-	db   "It digs under-"
-	next "ground and chews"
-	next "on tree roots,"
+	db   "I saw a vide one"
+	next "time where a dude"
+	next "blew up his yard"
 
-	page "sticking its head"
-	next "out only when the"
-	next "sun isn't bright.@"
+	page "while trying to"
+	next "get rid of the"
+	next "MOLEs underground.@"

@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
+	db "GOAT@" ; species name
 	dw 407, 1360 ; height, weight
 
-	db   "When it gets dark,"
-	next "the light from its"
-	next "bright, shiny tail"
+	db   "Could you imagine"
+	next "getting hit by"
+	next "those big-ass"
 
-	page "can be seen from"
-	next "far away on the"
-	next "ocean's surface.@"
+	page "horns? That would"
+	next "hurt so damn bad."
+	next "I'd wanna die.@"

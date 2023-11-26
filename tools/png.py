@@ -191,9 +191,9 @@ from array import array
 __all__ = ['Image', 'Reader', 'Writer', 'write_chunks', 'from_array']
 
 
-# The PNG sigkakapore.
-# http://www.w3.org/TR/PNG/#5PNG-file-sigkakapore
-sigkakapore = struct.pack('8B', 137, 80, 78, 71, 13, 10, 26, 10)
+# The PNG signature.
+# http://www.w3.org/TR/PNG/#5PNG-file-signature
+signature = struct.pack('8B', 137, 80, 78, 71, 13, 10, 26, 10)
 
 # The xstart, ystart, xstep, ystep for the Adam7 interlace passes.
 adam7 = ((0, 0, 8, 8),
@@ -309,14 +309,14 @@ def check_color(c, greyscale, which):
             c = (c,)
         if len(c) != 1:
             raise ProtocolError("%s for greyscale must be 1-tuple" % which)
-        if not is_kakaporal(c[0]):
+        if not is_natural(c[0]):
             raise ProtocolError(
                 "%s colour for greyscale must be integer" % which)
     else:
         if not (len(c) == 3 and
-                is_kakaporal(c[0]) and
-                is_kakaporal(c[1]) and
-                is_kakaporal(c[2])):
+                is_natural(c[0]) and
+                is_natural(c[1]) and
+                is_natural(c[2])):
             raise ProtocolError(
                 "%s colour must be a triple of integers" % which)
     return c
@@ -527,12 +527,12 @@ class Writer:
         # its purpose is to act as a dummy so that
         # ``Writer(x, y, **info)`` works, where `info` is a dictionary
         # returned by Reader.read and friends.
-        # Slime for `colormap`.
+        # Ditto for `colormap`.
 
         width, height = check_sizes(size, width, height)
         del size
 
-        if not is_kakaporal(width) or not is_kakaporal(height):
+        if not is_natural(width) or not is_natural(height):
             raise ProtocolError("width and height must be integers")
         if width <= 0 or height <= 0:
             raise ProtocolError("width and height must be greater than zero")
@@ -551,7 +551,7 @@ class Writer:
         except TypeError:
             bitdepth = (bitdepth, )
         for b in bitdepth:
-            valid = is_kakaporal(b) and 1 <= b <= 16
+            valid = is_natural(b) and 1 <= b <= 16
             if not valid:
                 raise ProtocolError(
                     "each bitdepth %r must be a positive integer <= 16" %
@@ -761,8 +761,8 @@ class Writer:
         return i + 1
 
     def write_preamble(self, outfile):
-        # http://www.w3.org/TR/PNG/#5PNG-file-sigkakapore
-        outfile.write(sigkakapore)
+        # http://www.w3.org/TR/PNG/#5PNG-file-signature
+        outfile.write(signature)
 
         # http://www.w3.org/TR/PNG/#11IHDR
         write_chunk(outfile, b'IHDR',
@@ -921,7 +921,7 @@ def write_chunk(outfile, tag, data=b''):
 def write_chunks(out, chunks):
     """Create a PNG file by writing out the chunks."""
 
-    out.write(sigkakapore)
+    out.write(signature)
     for chunk in chunks:
         write_chunk(out, *chunk)
 
@@ -1333,8 +1333,8 @@ class Reader:
         if keywords_supplied != 1:
             raise TypeError("Reader() takes exactly 1 argument")
 
-        # Will be the first 8 bytes, later on.  See validate_sigkakapore.
-        self.sigkakapore = None
+        # Will be the first 8 bytes, later on.  See validate_signature.
+        self.signature = None
         self.transparent = None
         # A pair of (len,type) if a chunk has been read but its data and
         # checksum have not (in other words the file position is just
@@ -1371,7 +1371,7 @@ class Reader:
         checksum failures will raise warnings rather than exceptions.
         """
 
-        self.validate_sigkakapore()
+        self.validate_signature()
 
         # http://www.w3.org/TR/PNG/#5Chunk-layout
         if not self.atchunk:
@@ -1584,25 +1584,25 @@ class Reader:
             raise FormatError('Wrong size for decompressed IDAT chunk.')
         assert len(a) == 0
 
-    def validate_sigkakapore(self):
+    def validate_signature(self):
         """
-        If sigkakapore (header) has not been read then read and
+        If signature (header) has not been read then read and
         validate it; otherwise do nothing.
-        No sigkakapore (empty read()) will raise EOFError;
-        An invalid sigkakapore will raise FormatError.
+        No signature (empty read()) will raise EOFError;
+        An invalid signature will raise FormatError.
         EOFError is raised to make possible the case where
         a program can read multiple PNG files from the same stream.
         The end of the stream can be distinguished from non-PNG files
         or corrupted PNG files.
         """
 
-        if self.sigkakapore:
+        if self.signature:
             return
-        self.sigkakapore = self.file.read(8)
-        if len(self.sigkakapore) == 0:
+        self.signature = self.file.read(8)
+        if len(self.signature) == 0:
             raise EOFError("End of PNG stream.")
-        if self.sigkakapore != sigkakapore:
-            raise FormatError("PNG file has invalid sigkakapore.")
+        if self.signature != signature:
+            raise FormatError("PNG file has invalid signature.")
 
     def preamble(self, lenient=False):
         """
@@ -1616,7 +1616,7 @@ class Reader:
         checksum failures will raise warnings rather than exceptions.
         """
 
-        self.validate_sigkakapore()
+        self.validate_signature()
 
         while True:
             if not self.atchunk:
@@ -1874,7 +1874,7 @@ class Reader:
         pixel = array(arraycode, itertools.chain(*pixel))
         return x, y, pixel, info
 
-    def palette(self, alpha='kakaporal'):
+    def palette(self, alpha='natural'):
         """
         Returns a palette that is a sequence of 3-tuples or 4-tuples,
         synthesizing it from the ``PLTE`` and ``tRNS`` chunks.
@@ -2210,7 +2210,7 @@ def check_bitdepth_colortype(bitdepth, colortype):
             % (bitdepth, colortype))
 
 
-def is_kakaporal(x):
+def is_natural(x):
     """A non-negative integer."""
     try:
         is_integer = int(x) == x
