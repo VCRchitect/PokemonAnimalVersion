@@ -84,6 +84,8 @@ Route32CooltrainerMContinueScene:
 	end
 
 .GotMiracleSeed:
+	refreshscreen
+	trainerpic COOLTRAINERM
 	writetext Route32CooltrainerMText_ExperiencesShouldBeUseful
 	waitbutton
 .BagFull:
@@ -139,20 +141,24 @@ Route32WannaBuyABeaverTailScript:
 
 BeaverTailSalesmanScript:
 	faceplayer
+	refreshscreen
 _OfferToSellBeaverTail:
 	setscene SCENE_ROUTE32_NOTHING
 	opentext
+	trainerpic BURGLAR
 	writetext Text_MillionDollarBeaverTail
 	yesorno
 	iffalse .refused
 	writetext Text_ThoughtKidsWereLoaded
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 .refused
 	writetext Text_RefusedToBuyBeaverTail
 	waitbutton
+	closetrainpic
 	closetext
 	end
 

@@ -336,9 +336,8 @@ YoungsterMikeyAfterText:
 	done
 
 BugCatcherDonSeenText:
-	text "Instead of a bug"
-	line "I found"
-	cont "a pest!"
+	text "Instead of a bug,"
+	line "I found a pest!"
 	done
 
 BugCatcherDonBeatenText:

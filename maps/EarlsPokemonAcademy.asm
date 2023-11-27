@@ -354,7 +354,7 @@ AcademyNotebookText:
 	done
 
 AcademyNotebookText1:
-	text "Before throwing as"
+	text "Before throwing an"
 	line "ANML BALL, weaken"
 	cont "the target first."
 

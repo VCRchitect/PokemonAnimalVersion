@@ -19,12 +19,12 @@ _ObtainedFruitText::
 
 _FruitPackIsFullText::
 	text "But the PACK is"
-	line "full…"
+	line "full..."
 	done
 
 _NothingHereText::
 	text "There's nothing"
-	line "here…"
+	line "here..."
 	done
 
 _WhichApricornText::
@@ -154,10 +154,10 @@ _CardFolderOpenText::
 	text_end
 
 _OakTimeWokeUpText::
-	text "<……><……><……><……><……><……>"
-	line "<……><……><……><……><……><……>"
+	text "<......><......><......><......><......><......>"
+	line "<......><......><......><......><......><......>"
 
-	para "Zzz… Hm? Wha…?"
+	para "Zzz... Hm? Wha...?"
 	line "You woke me up!"
 
 	para "Will you check the"
@@ -474,7 +474,7 @@ _MobilePlayersMonTradeText::
 	text "'s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text " trade…"
+	text " trade..."
 	done
 
 _MobileTakeGoodCareOfMonText::
@@ -489,7 +489,7 @@ _MobilePlayersMonTrade2Text::
 	text "'s"
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
-	text " trade…"
+	text " trade..."
 	done
 
 _MobileTakeGoodCareOfText::
@@ -962,7 +962,7 @@ _PnP_Text5::
 
 _RocketRadioText1::
 	text_start
-	line "… …Ahem, we are"
+	line "... ...Ahem, we are"
 	done
 
 _RocketRadioText2::
@@ -1030,7 +1030,7 @@ _BuenaRadioText2::
 
 _BuenaRadioText3::
 	text_start
-	line "Let me think… It's"
+	line "Let me think... It's"
 	done
 
 _BuenaRadioText4::
@@ -1057,7 +1057,7 @@ _BuenaRadioText7::
 
 _BuenaRadioMidnightText1::
 	text_start
-	line "BUENA: Oh my…"
+	line "BUENA: Oh my..."
 	done
 
 _BuenaRadioMidnightText2::
@@ -1100,7 +1100,7 @@ _BuenaRadioMidnightText9::
 	done
 
 _BuenaRadioMidnightText10::
-	text "…"
+	text "..."
 	done
 
 _BuenaOffTheAirText::
@@ -1154,7 +1154,7 @@ _YourMonsHPWasHealedText:: ; unreferenced
 	prompt
 
 _WarpingText:: ; unreferenced
-	text "Warping…"
+	text "Warping..."
 	done
 
 _ChangeWhichNumberText:: ; unreferenced
@@ -1284,7 +1284,7 @@ _TradingMonForOTMonText::
 	text_start
 	line "for @"
 	text_ram wStringBuffer1
-	text "…"
+	text "..."
 	done
 
 ; Mobile Adapter End
@@ -1323,7 +1323,7 @@ _PlayerFoundItemText::
 
 _ButNoSpaceText::
 	text "But <PLAYER> has"
-	line "no space left…"
+	line "no space left..."
 	done
 
 _JustSawSomeRareMonText::
@@ -1341,7 +1341,7 @@ _JustSawSomeRareMonText::
 	prompt
 
 _SavingRecordText::
-	text "SAVING RECORD…"
+	text "SAVING RECORD..."
 	line "DON'T TURN OFF!"
 	done
 
@@ -1403,7 +1403,7 @@ _NPCTradeIntroText1::
 
 _NPCTradeCancelText1::
 	text "You don't want to"
-	line "trade? Aww…"
+	line "trade? Aww..."
 	done
 
 _NPCTradeWrongText1::
@@ -1411,7 +1411,7 @@ _NPCTradeWrongText1::
 	line "@"
 	text_ram wStringBuffer1
 	text ". "
-	cont "What a letdown…"
+	cont "What a letdown..."
 	done
 
 _NPCTradeCompleteText1::
@@ -1449,7 +1449,7 @@ _NPCTradeCancelText2::
 	line "one either?"
 
 	para "Gee, that's really"
-	line "disappointing…"
+	line "disappointing..."
 	done
 
 _NPCTradeWrongText2::
@@ -1495,7 +1495,7 @@ _NPCTradeIntroText3::
 
 _NPCTradeCancelText3::
 	text "You don't want to"
-	line "trade? Oh, darn…"
+	line "trade? Oh, darn..."
 	done
 
 _NPCTradeWrongText3::
@@ -1534,7 +1534,7 @@ _NPCTradeCompleteText4::
 	done
 
 _NPCTradeAfterText4::
-	text "Trading is so odd…"
+	text "Trading is so odd..."
 
 	para "I still have a lot"
 	line "to learn about it."
@@ -1547,10 +1547,10 @@ _MomLeavingText1::
 	para "Where did you get"
 	line "it?"
 
-	para "…"
+	para "..."
 
 	para "So, you're leaving"
-	line "on an adventure…"
+	line "on an adventure..."
 
 	para "OK!"
 	line "I'll help too."
@@ -1824,7 +1824,7 @@ _ComeAgainText::
 	done
 
 _NotYetText::
-	text "Not yet…"
+	text "Not yet..."
 	done
 
 _FoundAnEggText::

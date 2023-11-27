@@ -282,6 +282,7 @@ BattleAnimations::
 	dw BattleAnim_Wobble
 	dw BattleAnim_Shake
 	dw BattleAnim_HitConfusion
+	dw BattleAnim_Smoke
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
 BattleAnim_0:
@@ -608,6 +609,15 @@ BattleAnim_HitConfusion:
 	anim_sound 0, 0, SFX_POUND
 	anim_obj ANIM_OBJ_HIT, 44, 96, $0
 	anim_wait 16
+	anim_ret
+
+BattleAnim_Smoke:
+.loop
+	anim_sound 0, 1, SFX_MENU
+	anim_obj ANIM_OBJ_SMOKE, 132, 60, $20
+	anim_wait 8
+	anim_loop 5, .loop
+	anim_wait 128
 	anim_ret
 
 BattleAnim_Miss:

@@ -62,7 +62,7 @@ SageNicoAfterBattleText:
 	done
 
 SageEdmondSeenText:
-	text "...Sway like leaves"
+	text "Sway like leaves"
 	line "in the wind..."
 	done
 

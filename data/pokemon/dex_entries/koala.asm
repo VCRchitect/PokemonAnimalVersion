@@ -5,6 +5,6 @@
 	next "chlamydia. Like,"
 	next "all of them. These"
 
-	page "are natures bony"
+	page "are nature's bony"
 	next "sluts that will"
 	next "give you an STI.@"

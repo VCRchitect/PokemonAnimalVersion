@@ -112,10 +112,26 @@ AzaleaTownRivalBattleScript:
 	end
 
 AzaleaTownRocket1Script:
-	jumptextfaceplayer AzaleaTownRocket1Text
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic GRUNTM
+	writetext AzaleaTownRocket1Text
+	waitbutton
+	closetrainpic
+	closetext
+	end
 
 AzaleaTownRocket2Script:
-	jumptextfaceplayer AzaleaTownRocket2Text
+	faceplayer
+	refreshscreen
+	opentext
+	trainerpic GRUNTM
+	writetext AzaleaTownRocket2Text
+	waitbutton
+	closetrainpic
+	closetext
+	end
 
 AzaleaTownGrampsScript:
 	faceplayer

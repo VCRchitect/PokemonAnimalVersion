@@ -144,7 +144,7 @@ _BattleMonNickCommaText::
 
 _ThatsEnoughComeBackText::
 	text " that's"
-	line "enough! Come back,@"
+	line "enough! Come back!@"
 	text_end
 
 _OKComeBackText::

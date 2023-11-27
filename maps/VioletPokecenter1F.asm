@@ -16,8 +16,8 @@ VioletPokecenterNurse:
 VioletPokecenter1F_ElmsAideScript:
 	faceplayer
 	refreshscreen
-	trainerpic SCIENTIST
 	opentext
+	trainerpic SCIENTIST
 	checkevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
 	iftrue .SecondTimeAsking
 	writetext VioletPokecenterElmsAideFavorText

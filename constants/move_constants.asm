@@ -268,6 +268,7 @@ NUM_ATTACKS EQU const_value - 1
 	const ANIM_CONFUSED          ; 103
 	const ANIM_SLP               ; 104
 	const ANIM_BRN               ; 105
+	const ANIM_SMOKE			 ; 116
 	const ANIM_PSN               ; 106
 	const ANIM_SAP               ; 107
 	const ANIM_FRZ               ; 108

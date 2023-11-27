@@ -656,7 +656,20 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	jr .nextscene
 
 .cgb
+	ld hl, .rocketpals
+	ld a, [wOtherTrainerClass]
+	cp GRUNTM
+	jr z, .load_rocket_pals
+	cp GRUNTF
+	jr z, .load_rocket_pals
+	cp EXECUTIVEM
+	jr z, .load_rocket_pals
+	cp EXECUTIVEF
+	jr z, .load_rocket_pals
+	cp SCIENTIST
+	jr z, .load_rocket_pals
 	ld hl, .pals
+.load_rocket_pals	
 	ld a, [wTimeOfDayPalset]
 	cp DARKNESS_PALSET
 	jr nz, .not_dark
@@ -711,6 +724,9 @@ INCLUDE "gfx/overworld/trainer_battle.pal"
 
 .darkpals:
 INCLUDE "gfx/overworld/trainer_battle_dark.pal"
+
+.rocketpals:
+INCLUDE "gfx/overworld/rocket_battle.pal"
 
 .loadpokeballgfx:
 	ld de, TeamRocketTransition

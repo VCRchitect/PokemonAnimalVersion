@@ -25,6 +25,7 @@ Route32Pokecenter1FFishingGuruScript:
 	promptbutton
 	closetrainpic
 	verbosegiveitem OLD_ROD
+	refreshscreen
 	trainerpic FISHER
 	writetext Route32Pokecenter1FFishingGuruText_GiveOldRod
 	waitbutton

@@ -2,7 +2,7 @@
 	dw 108, 620 ; height, weight
 
 	db   "It's so hard to"
-	next "write entries for."
+	next "write entries for"
 	next "shit like a damn"
 
 	page "MONKEY. You know"

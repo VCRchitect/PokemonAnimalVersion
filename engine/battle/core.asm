@@ -1355,6 +1355,8 @@ HandleCigarette:
 	call .do_it
 	call SetPlayerTurn
 .do_it
+	call HasUserFainted
+	ret z
 	callfar GetUserItem
 	ld a, [hl]
 	ld [wNamedObjectIndex], a
@@ -1362,15 +1364,30 @@ HandleCigarette:
 	ld a, b
 	cp HELD_CIGARETTE
 	ret nz
-
 	ld hl, wBattleMonHP
 	ldh a, [hBattleTurn]
-	and a
+	ld hl, wEnemyMonHP
+	ld hl, BattleText_TargetSmoked
+	ld de, ANIM_SMOKE
 	call GetSixteenthMaxHP
 	call SubtractHPFromTarget
 	call SubtractHPFromUser
-	ld hl, BattleText_TargetSmoked
 	jp StdBattleTextbox
+	call HasUserFainted
+	jp z, .fainted
+
+.check_fainted
+	ld a, [hli]
+	or [hl]
+	ret nz
+
+.fainted
+	call RefreshBattleHuds
+	ld c, 20
+	call DelayFrames
+	xor a
+	ret
+
 
 HandleMysteryberry:
 	ldh a, [hSerialConnectionStatus]

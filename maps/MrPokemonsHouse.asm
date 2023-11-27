@@ -49,7 +49,6 @@ MrPokemonsHouse_MapScripts:
 	refreshscreen
 	writetext MrPokemonIntroText4
 	promptbutton
-	closetrainpic
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, DOWN
 	turnobject MRPOKEMONSHOUSE_OAK, LEFT
 	refreshscreen

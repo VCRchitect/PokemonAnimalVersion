@@ -317,7 +317,7 @@ SoWhatWasProfElmsErrandText:
 	text "So, what was PROF."
 	line "ELM's errand?"
 
-	para "..."
+	para "Uh-huh. Uh-huh."
 
 	para "That does sound"
 	line "dangerous."

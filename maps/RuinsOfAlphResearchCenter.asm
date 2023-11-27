@@ -48,11 +48,12 @@ RuinsOfAlphResearchCenter_MapScripts:
 	closetext
 	applymovement RUINSOFALPHRESEARCHCENTER_SCIENTIST3, RuinsOfAlphResearchCenterApproachesPlayerMovement
 	opentext
-	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterDexUpgradedText
 	playsound SFX_ITEM
 	waitsfx
 	setflag ENGINE_LETTAH_DEX
+	refreshscreen
+	trainerpic SCIENTIST
 	writetext RuinsOfAlphResearchCenterScientist3Text
 	waitbutton
 	closetrainpic

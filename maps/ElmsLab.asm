@@ -332,7 +332,6 @@ ElmDirectionsScript:
 ElmDescribesMrPokemonScript:
 	writetext ElmDescribesMrPokemonText
 	waitbutton
-	closetrainpic
 	closetext
 	end
 
@@ -646,7 +645,10 @@ CopScript:
 	trainerpic OFFICER
 	writetext ElmsLabOfficerText1
 	promptbutton
+	closetrainpic
 	special NameRival
+	refreshscreen
+	trainerpic OFFICER
 	writetext ElmsLabOfficerText2
 	waitbutton
 	closetrainpic

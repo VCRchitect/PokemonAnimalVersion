@@ -26,7 +26,6 @@ VioletGymFalknerScript:
 	reloadmapafterbattle
 	setevent EVENT_BEAT_FALKNER
 	opentext
-	trainerpic FALKNER
 	writetext ReceivedZephyrBadgeText
 	playsound SFX_GET_BADGE
 	waitsfx
@@ -40,12 +39,15 @@ VioletGymFalknerScript:
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
 	setmapscene ELMS_LAB, SCENE_ELMSLAB_NOTHING
 	specialphonecall SPECIALCALL_ASSISTANT
+	refreshscreen
+	trainerpic FALKNER
 	writetext FalknerZephyrBadgeText
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_MUD_SLAP
 	iffalse .NoRoomForMudSlap
 	setevent EVENT_GOT_TM31_MUD_SLAP
+	refreshscreen
 	trainerpic FALKNER
 	writetext FalknerTMMudSlapText
 	waitbutton
@@ -54,11 +56,9 @@ VioletGymFalknerScript:
 	end
 
 .SpeechAfterTM:
-	trainerpic FALKNER
 	writetext FalknerFightDoneText
 	waitbutton
 .NoRoomForMudSlap:
-	closetrainpic
 	closetext
 	end
 
@@ -115,7 +115,6 @@ VioletGymGuideScript:
 	end
 
 .VioletGymGuideWinScript:
-	trainerpic GUIDE
 	writetext VioletGymGuideWinText
 	waitbutton
 	closetrainpic

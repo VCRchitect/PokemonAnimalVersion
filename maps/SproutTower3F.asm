@@ -97,7 +97,6 @@ SageLiScript:
 	end
 
 .GotFlash:
-	trainerpic SAGE
 	writetext SageLiAfterBattleText
 	waitbutton
 	closetrainpic
