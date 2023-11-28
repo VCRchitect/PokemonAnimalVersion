@@ -139,7 +139,8 @@ wUnusedScriptByte:: db
 
 wMapTimeOfDay:: db
 wBattleTimeOfDay:: db
-	ds 2
+wBattleTimeOfDayBackup:: db
+	ds 1
 
 wPrinterConnectionOpen:: db
 wPrinterOpcode:: db

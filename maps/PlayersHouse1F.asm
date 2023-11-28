@@ -38,6 +38,7 @@ MeetMomScript:
 	trainerpic MOM
 	writetext ElmsLookingForYouText
 	promptbutton
+	closetrainpic
 	getstring STRING_BUFFER_4, PokegearName
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
@@ -48,7 +49,6 @@ MeetMomScript:
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	writetext MomGivesPokegearText
 	promptbutton
-	closetrainpic
 	special SetDayOfWeek
 .SetDayOfWeek:
 	writetext IsItDSTText
@@ -118,7 +118,6 @@ PlayersHouse1FReceiveItemStd:
 
 MomScript:
 	faceplayer
-	refreshscreen
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 	checkscene
 	iffalse MeetMomTalkedScript ; SCENE_DEFAULT

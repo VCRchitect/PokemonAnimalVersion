@@ -52,7 +52,6 @@ MrPokemonsHouse_MapScripts:
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, DOWN
 	turnobject MRPOKEMONSHOUSE_OAK, LEFT
 	refreshscreen
-	trainerpic GENTLEMAN
 	writetext MrPokemonIntroText5
 	waitbutton
 	closetrainpic

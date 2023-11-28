@@ -6,5 +6,5 @@
 	next "and you would have"
 
 	page "to be pretty damn"
-	next "specia to change"
+	next "special to change"
 	next "that, okay?@"

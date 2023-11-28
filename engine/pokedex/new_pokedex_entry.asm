@@ -1,4 +1,5 @@
 NewPokedexEntry:
+	xor a
 	ld [wBattleTimeOfDay], a
 	ldh a, [hMapAnims]
 	push af

@@ -49,6 +49,7 @@ ElmsLab_MapScripts:
 	applymovement PLAYER, ElmsLab_WalkUpToElmMovement
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
 	turnobject ELMSLAB_ELM, RIGHT
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext ElmText_Intro
@@ -82,6 +83,7 @@ ElmsLab_MapScripts:
 	turnobject PLAYER, UP
 	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement2
 	turnobject PLAYER, RIGHT
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext ElmText_ChooseAPokemon
@@ -93,6 +95,7 @@ ElmsLab_MapScripts:
 
 ProfElmScript:
 	faceplayer
+	refreshscreen
 	opentext
 	trainerpic ELM
 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
@@ -156,6 +159,7 @@ ElmCheckGotEggAgain:
 
 LabTryToLeaveScript:
 	turnobject ELMSLAB_ELM, DOWN
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext LabWhereGoingText
@@ -174,6 +178,7 @@ SkunkPokeBallScript:
 	cry SKUNK
 	waitbutton
 	closepokepic
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext TakeSkunkText
@@ -206,6 +211,7 @@ CaimanPokeBallScript:
 	cry CAIMAN
 	waitbutton
 	closepokepic
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext TakeCaimanText
@@ -236,6 +242,7 @@ SquirrelPokeBallScript:
 	cry SQUIRREL
 	waitbutton
 	closepokepic
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext TakeSquirrelText
@@ -266,6 +273,7 @@ PineconePokeBallScript:
 	cry PINECONE
 	waitbutton
 	closepokepic
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext TakePineconeText
@@ -309,6 +317,7 @@ ElmDirectionsScript:
 	playsound SFX_REGISTER_PHONE_NUMBER
 	waitsfx
 	waitbutton
+	closetrainpic
 	closetext
 	turnobject ELMSLAB_ELM, LEFT
 	refreshscreen
@@ -387,10 +396,13 @@ ElmAfterTheftScript:
 	checkitem MYSTERY_EGG
 	iffalse ElmAfterTheftDoneScript
 	promptbutton
+	closetrainpic
 	writetext ElmAfterTheftText2
 	waitbutton
 	takeitem MYSTERY_EGG
 	scall ElmJumpBackScript1
+	refreshscreen
+	trainerpic ELM
 	writetext ElmAfterTheftText3
 	waitbutton
 	scall ElmJumpBackScript2
@@ -848,7 +860,7 @@ ElmText_Intro:
 
 	para "'Why Kids Doing"
 	line "Dog Fights is so"
-	cont "Damn Funny."
+	cont "Damn Funny.'"
 
 	para "But there are some"
 	line "things I don't"

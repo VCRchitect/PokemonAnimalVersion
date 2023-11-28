@@ -9,6 +9,11 @@ STAT_PAGE_MASK EQU %00000011
 BattleStatsScreenInit:
 ; Load current Battle Time of Day into Backup
     ld a, [wBattleTimeOfDay] 
+	ld [wBattleTimeOfDayBackup], a
+	
+	ld a, 0
+	ld [wBattleTimeOfDay], a
+	
 	
  ; Clear Weather and Time to 0, giving the stats screen the day palette.
 	ld a, 0
@@ -157,6 +162,7 @@ StatsScreen_Exit:
 	ret
 	
 StatsScreen_Exit2:
+	ld a, [wBattleTimeOfDayBackup]
   ld [wBattleTimeOfDay], a
 
 MonStatsInit:

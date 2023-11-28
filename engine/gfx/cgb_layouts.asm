@@ -308,6 +308,7 @@ _CGB_BillsPC:
 .GetMonPalette:
 	ld bc, wTempMonDVs
 	call GetPlayerOrMonPalettePointer
+	xor a
 	ld [wBattleTimeOfDay], a
 	call LoadPalette_White_Col1_Col2_Black
 .GotPalette:

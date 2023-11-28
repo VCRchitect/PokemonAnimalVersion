@@ -502,7 +502,7 @@ SilverCherrygroveLossText:
 	done
 
 CherrygroveRivalText_YouWon:
-	text "... ... ... ... ... ..."
+	text "... ..."
 
 	para "My name's ???."
 
