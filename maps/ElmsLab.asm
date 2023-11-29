@@ -306,10 +306,12 @@ DidntChooseStarterScript:
 
 ElmDirectionsScript:
 	turnobject PLAYER, UP
+	refreshscreen
 	opentext
 	trainerpic ELM
 	writetext ElmDirectionsText1
 	waitbutton
+	closetrainpic
 	closetext
 	addcellnum PHONE_ELM
 	opentext
@@ -317,7 +319,6 @@ ElmDirectionsScript:
 	playsound SFX_REGISTER_PHONE_NUMBER
 	waitsfx
 	waitbutton
-	closetrainpic
 	closetext
 	turnobject ELMSLAB_ELM, LEFT
 	refreshscreen
@@ -325,9 +326,12 @@ ElmDirectionsScript:
 	trainerpic ELM
 	writetext ElmDirectionsText2
 	waitbutton
+	closetrainpic
 	closetext
 	turnobject ELMSLAB_ELM, DOWN
+	refreshscreen
 	opentext
+	trainerpic ELM
 	writetext ElmDirectionsText3
 	waitbutton
 	closetrainpic
@@ -564,7 +568,10 @@ AideScript_GivePotion:
 	trainerpic SCIENTIST
 	writetext AideText_GiveYouPotion
 	promptbutton
+	closetrainpic
 	verbosegiveitem POTION
+	refreshscreen
+	trainerpic SCIENTIST
 	writetext AideText_AlwaysBusy
 	waitbutton
 	closetrainpic
@@ -592,9 +599,12 @@ AideScript_GiveYouBalls:
 	trainerpic SCIENTIST
 	writetext AideText_GiveYouBalls
 	promptbutton
+	closetrainpic
 	getitemname STRING_BUFFER_4, POKE_BALL
 	scall AideScript_ReceiveTheBalls
 	giveitem POKE_BALL, 5
+	refreshscreen
+	trainerpic SCIENTIST
 	writetext AideText_ExplainBalls
 	promptbutton
 	itemnotify

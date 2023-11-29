@@ -2063,9 +2063,10 @@ BrainEvosAttacks:
 SquirrelEvosAttacks:
 	db EVOLVE_LEVEL, 15, KOALA
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, GROWL
-	db 8, RAZOR_LEAF
+	db 1, SPLASH
+	db 1, TAIL_WHIP
+	db 1, CONFUSION
+	db 1, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
 	db 22, SYNTHESIS

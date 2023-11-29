@@ -33,7 +33,6 @@ MeetMomRightScript:
 .OnRight:
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksToPlayerMovement
 MeetMomScript:
-	refreshscreen
 	opentext
 	trainerpic MOM
 	writetext ElmsLookingForYouText
