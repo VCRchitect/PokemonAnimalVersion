@@ -264,6 +264,9 @@ HandleBetweenTurnEffects:
 	call HandlePerishSong
 	call CheckFaint_PlayerThenEnemy
 	ret c
+	call HandleCigarette
+	call CheckFaint_PlayerThenEnemy
+	ret c
 	jr .NoMoreFaintingConditions
 
 .CheckEnemyFirst:
@@ -1368,9 +1371,11 @@ HandleCigarette:
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, wEnemyMonHP
+	ld de, ANIM_SMOKE
 	call GetSixteenthMaxHP
 	call SwitchTurnCore
 	call SubtractHPFromUser
+	call SubtractHPFromTarget
 	ld hl, BattleText_TargetSmoked
 	jp StdBattleTextbox
 
