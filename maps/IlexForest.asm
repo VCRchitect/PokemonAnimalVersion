@@ -788,7 +788,7 @@ IlexForestApprenticeIntroText:
 	cont "ILEX FOREST."
 
 	para "It's too big, dark"
-	line "and scary for me..."
+	line "and scary for me."
 	done
 
 IlexForestApprenticeAfterText:

@@ -311,8 +311,8 @@ GruntF1AfterBattleText:
 	done
 
 BeaverWellB1FBeaverWithMailText:
-	text "A BEAVER with"
-	line "its TAIL cut off..."
+	text "It's a BEAVER with"
+	line "its TAIL cut off."
 
 	para "Huh? It has MAIL."
 	line "Read it?"
@@ -336,8 +336,8 @@ BeaverWellB1FBeaverMailText:
 	done
 
 BeaverWellB1FTaillessBeaverText:
-	text "A BEAVER with"
-	line "its TAIL cut off..."
+	text "It's a BEAVER with"
+	line "its TAIL cut off."
 	done
 
 BeaverWellB1F_MapEvents:

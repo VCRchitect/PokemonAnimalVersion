@@ -80,10 +80,9 @@ RuinsOfAlphOutsideFisherScript:
 	iftrue .Next
 	setevent EVENT_TALKED_TO_RUINS_COWARD
 	writetext RuinsOfAlphOutsideFisherText1
-	promptbutton
+	waitbutton
 .Next:
 	refreshscreen
-	trainerpic FISHER
 	writetext RuinsOfAlphOutsideFisherText2
 	waitbutton
 	closetrainpic

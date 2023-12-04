@@ -69,6 +69,7 @@ Kurt1:
 	end
 
 .ClearedBeaverWell:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtHonoredToMakeBallsText
 	promptbutton
@@ -125,6 +126,7 @@ Kurt1:
 	end
 
 .IMakeBallsFromApricorns:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtBallsFromApricornsText
 	waitbutton
@@ -133,6 +135,7 @@ Kurt1:
 	end
 
 .AskApricorn:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtAskYouHaveAnApricornText
 	promptbutton
@@ -176,6 +179,7 @@ Kurt1:
 
 .GaveKurtApricorns:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtGetStartedText
 	waitbutton
@@ -190,6 +194,7 @@ Kurt1:
 	end
 
 .Cancel:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtThatsALetdownText
 	waitbutton
@@ -200,6 +205,7 @@ Kurt1:
 ._ThatTurnedOutGreat:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 .ThatTurnedOutGreat:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtTurnedOutGreatText
 	waitbutton
@@ -211,6 +217,7 @@ Kurt1:
 .GiveLevelBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -223,6 +230,7 @@ Kurt1:
 .GiveLureBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -235,6 +243,7 @@ Kurt1:
 .GiveMoonBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -247,6 +256,7 @@ Kurt1:
 .GiveFriendBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -259,6 +269,7 @@ Kurt1:
 .GiveFastBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -271,6 +282,7 @@ Kurt1:
 .GiveHeavyBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -283,6 +295,7 @@ Kurt1:
 .GiveLoveBall:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
@@ -297,6 +310,7 @@ Kurt1:
 	iftrue .GaveGSBallToKurt
 	checkitem GS_BALL
 	iffalse .NoGSBall
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtWhatIsThatText
 	waitbutton
@@ -310,10 +324,12 @@ Kurt1:
 .GaveGSBallToKurt:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iffalse .NotMakingBalls
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtImCheckingItNowText
 	waitbutton
 	closetrainpic
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtAhHaISeeText
 	waitbutton
@@ -322,6 +338,7 @@ Kurt1:
 	end
 
 .NotMakingBalls:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtThisBallStartedToShakeText
 	waitbutton
@@ -371,6 +388,7 @@ KurtMakingBallsScript:
 	end
 
 Script_FirstTimeBuggingKurt:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtGranddaughterHelpingWorkFasterText
 	waitbutton
@@ -381,6 +399,7 @@ Script_FirstTimeBuggingKurt:
 	end
 
 KurtScript_ImCheckingItNow:
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtImCheckingItNowText
 	waitbutton
@@ -727,13 +746,11 @@ KurtsGranddaughterGSBallText:
 	done
 
 KurtsHouseBeaverText:
-	text "BEAVER: ..."
-	line "Yawn?"
+	text "BEAVER: Yawn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "...A young PROF."
-	line "OAK?"
+	text "A young PROF. OAK?"
 	done
 
 KurtsHouseCelebiStatueText:

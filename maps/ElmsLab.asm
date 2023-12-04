@@ -391,7 +391,6 @@ ElmsLabHealingMachine_HealParty:
 
 ElmAfterTheftDoneScript:
 	waitbutton
-	closetrainpic
 	closetext
 	end
 
@@ -400,18 +399,18 @@ ElmAfterTheftScript:
 	checkitem MYSTERY_EGG
 	iffalse ElmAfterTheftDoneScript
 	promptbutton
-	closetrainpic
 	writetext ElmAfterTheftText2
 	waitbutton
+	closetrainpic
 	takeitem MYSTERY_EGG
 	scall ElmJumpBackScript1
-	refreshscreen
-	trainerpic ELM
 	writetext ElmAfterTheftText3
 	waitbutton
 	scall ElmJumpBackScript2
+	refreshscreen
 	writetext ElmAfterTheftText4
 	promptbutton
+	trainerpic ELM
 	writetext ElmAfterTheftText5
 	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
@@ -505,7 +504,6 @@ ElmGiveTicketScript:
 	end
 
 ElmJumpBackScript1:
-	closetrainpic
 	closetext
 	readvar VAR_FACING
 	ifequal DOWN, ElmJumpDownScript
@@ -515,7 +513,6 @@ ElmJumpBackScript1:
 	end
 
 ElmJumpBackScript2:
-	closetrainpic
 	closetext
 	readvar VAR_FACING
 	ifequal DOWN, ElmJumpUpScript
@@ -607,8 +604,8 @@ AideScript_GiveYouBalls:
 	trainerpic SCIENTIST
 	writetext AideText_ExplainBalls
 	promptbutton
-	itemnotify
 	closetrainpic
+	itemnotify
 	closetext
 	setscene SCENE_ELMSLAB_NOTHING
 	end
@@ -1374,7 +1371,7 @@ AideText_TheftTestimony:
 
 	para "When we went to"
 	line "look, someone"
-	cont "stole aN ANIMAL."
+	cont "stole an ANIMAL."
 
 	para "It's unbelievable"
 	line "that anyone would"

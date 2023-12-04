@@ -31,4 +31,12 @@ StartBattleWithMapTrainerScript:
 	loadmem wRunningTrainerBattleScript, -1
 
 AlreadyBeatenTrainerScript:
-	scripttalkafter
+	refreshscreen
+	loadtemptrainer
+	opentext
+	trainerpic TEMP_TRAINER_PIC
+	randomtext NPCKTextTable
+	waitbutton
+	closetrainpic
+	closetext
+	

@@ -85,11 +85,9 @@ Route32CooltrainerMContinueScene:
 
 .GotMiracleSeed:
 	refreshscreen
-	trainerpic COOLTRAINERM
 	writetext Route32CooltrainerMText_ExperiencesShouldBeUseful
 	waitbutton
 .BagFull:
-	closetrainpic
 	closetext
 	end
 

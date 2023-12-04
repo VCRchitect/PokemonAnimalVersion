@@ -107,6 +107,50 @@ NPCKTextTable::
 	dw .105
 	dw .106
 	dw .107
+	dw .108
+	dw .109
+	dw .110
+	dw .111
+	dw .112
+	dw .113
+	dw .114
+	dw .115
+	dw .116
+	dw .117
+	dw .118
+	dw .119
+	dw .120
+	dw .121
+	dw .122
+	dw .123
+	dw .124
+	dw .125
+	dw .126
+	dw .127
+	dw .128
+	dw .129
+	dw .130
+	dw .131
+	dw .132
+	dw .133
+	dw .134
+	dw .135
+	dw .136
+	dw .137
+	dw .138
+	dw .139
+	dw .140
+	dw .141
+	dw .142
+	dw .143
+	dw .144
+	dw .145
+	dw .146
+	dw .147
+	dw .148
+	dw .149
+	dw .150
+	dw .151
 
   ; and so on, add as many as you want
 .end
@@ -975,5 +1019,361 @@ NPCKTextTable::
 	para "trying to enjoy"
 	line "their meal. I'm"
 	cont "not sure why."
+	done
+
+.108
+	text "I don't get the"
+	line "appeal of DIGIMON."
+	
+	para "They're just"
+	line "ANIMALS with guns."
+	done
+	
+.109
+	text "I think there are"
+	line "times when the"
+
+	para "morality of ANIMAL"
+	line "battles seems to"
+
+	para "be very gray."
+	done
+
+.110
+	text "I've seen you and"
+	line "your thickness."
+
+	para "You always lookin'"
+	line "like a snack?"
+	done
+	
+.111
+	text "If you weaken them"
+	line "first, ANIMALs are"
+	cont "easier to catch."
+	
+	para "I think it's cuz"
+	line "they just give up"
+	cont "on life."
+	done
+	
+.112
+	text "Yo. How are your"
+	line "ANIMALs?"
+
+	para "If they're weak"
+	line "and not ready for"
+
+	para "fights, you best"
+	line "stay home."
+	done
+
+.113
+	text "My cousin jumped"
+	line "off a ledge and"
+	cont "broke his leg."
+	para "My dad had to"
+	line "shoot him."
+	done
+
+.114
+	text "Becoming a good"
+	line "trainer is really"
+	cont "tough."
+	para "I'm gonna feed" 
+	line "my ANIMALs candies"
+	cont "so they get tough!"
+	done
+
+.115
+	text "My radio's busted?"
+	line "Lately, I only"
+	
+	para "hear this dude who"
+	line "sounds homeless"
+	cont "and angry."
+	
+	para "Something about a"
+	line "death grip and eh."
+	done
+
+.116
+	text "You look your face"
+	line "could be used to"
+	cont "sand furniture."
+	done
+
+.117
+	text "I like to chew on"
+	line "aluminum foil."
+	done
+
+.118
+	text "Skinny legs make"
+	line "skinny steps."
+	done
+
+.119
+	text "You mess with me"
+	line "and I'll turn your"	
+	para "glasses into some"
+	line "contacts."
+	done
+
+.120
+	text "You look cold!"
+	
+	para "Them nippley-bits"
+	line "could carve logs!"
+	done
+
+.121
+	text "You should invest"
+	line "in long-term bonds"
+	cont "to support the US."
+	done
+
+.122
+	text "My sister is so"
+	line "ugly that they"
+	para "breastfed her with"
+	line "a straw."
+	done
+
+.123
+	text "My ANIMALs just"
+	line "got beat so bad"
+	
+	para "it looks like they"
+	line "got pulled through"
+	cont "a keyhole."
+	done
+
+.124
+	text "Never hopeful,"
+	line "never disappointed"
+	cont "is my motto."
+	done
+
+.125
+	text "I blaze my own"
+	line "path. I'm alpha."
+	done
+
+.126
+	text "I really should"
+	line "buy a bidet. My"
+	
+	para "toilet paper"
+	line "budget is more"
+	
+	para "than my food bill."
+	done
+
+.127
+	text "I sure love those"
+	line "ARMOUR BRAND"
+	cont "vienna sausages."
+	done
+
+.128
+	text "Sometimes I feel"
+	line "like my life is"
+	
+	para "like a movie."
+	line "But, like, a"
+	cont "disaster movie."
+	done
+
+.129
+	text "My shoes are new."
+	done
+
+.130
+	text "When you have a"
+	line "BICYCLE, you can"
+	cont "go anywhere."
+	done
+
+.131
+	text "Sometimes, I ask"
+	line "myself if we're"
+
+	para "all living in a"
+	line "simulation."
+
+	para "Between ANIMALS"
+	line "and glitches, it"
+
+	para "all feels like a"
+	line "game."
+	done
+
+.132
+	text "The more I think"
+	line "about it, the more"
+	cont "I wanna be vegan."
+	done
+
+.133
+	text "When I was walking"
+	line "in the grass, a"
+
+	para "SPIDER bit"
+	line "my ANIMAL!"
+
+	para "I just kept going,"
+	line "but they had to"
+	cont "take his foot."
+
+	para "You should keep an"
+	line "ANTIDOTE with you."
+	done
+
+.134
+	text "Sometimes, I like"
+	line "to put on shoes"
+	cont "that are too big."
+	
+	para "I walk around the"
+	line "house and pretend"
+	cont "I'm a clown."
+	
+	para "If you tell anyone"
+	line "I said that, they"
+	cont "won't believe you."
+	done
+
+.135
+	text "What happened to"
+	line "your face? You"
+	para "look like someone"
+	line "set you on fire"
+	para "and put it out"
+	line "with a corkscrew."
+	done
+
+.136
+	text "Yeah, I like to"
+	line "rock, but only"
+	cont "responsibly."
+	done
+
+.137
+	text "Electric guitars"
+	line "won't work when"
+	
+	para "plugged into an"
+	line "electric ANIMAL."
+	
+	para "Or that's what"
+	line "I've heard..."
+	done
+
+.138
+	text "I taught my ANIMAL"
+	line "how to read and"
+	
+	para "now it wants to"
+	line "vote and be"
+	cont "respected."
+	done
+
+.139
+	text "My glasses are"
+	line "always filthy."
+	done
+
+.140
+	text "I buy people drugs"
+	line "but I give them to"
+	
+	para "my ANIMALs because"
+	line "I'm a cheapskate."
+	done
+
+.141
+	text "Some ANIMALs have"
+	line "strong opinions."
+	done
+
+.142
+	text "Your underbite"
+	line "is impressive!"
+
+	para "Were your parents"
+	line "siblings?"
+	done
+
+.143
+	text "They say we"
+	line "all evolved."
+
+	para "I was amazed cuz"
+	line "I was never an"
+	cont "ANIMAL!"
+
+	para "I mean, my dad is"
+	line "a bum, but not an"
+	cont "ANIMAL."
+
+	para "...sigh..."
+
+	para "I wish I could"
+	line "live in the woods."
+	done
+
+.144
+	text "When I grow up,"
+	line "I'm going to be"
+	cont "just like my dad!"
+
+	para "I'm going to work"
+	line "and have regrets!"
+	done
+
+.145
+	text "This is getting to"
+	line "be kind of crazy."
+	done
+
+.146
+	text "I need to become"
+	line "President. I want"
+	para "it to be illegal"
+	line "to be cold outside"
+	done
+
+.147
+	text "Not now, Chief."
+	para "I'm in the fuckin'"
+	line "zone."
+	done
+
+.148
+	text "I just got a new"
+	line "haircut. You know"
+	cont "what that means."
+	done
+
+.149
+	text "It's nothing"
+	line "personal. I just"
+	cont "hate you."
+	done
+
+.150
+	text "I've been drinking"
+	line "the shampoo to"
+	para "see what would"
+	line "happen. My hair is"
+	para "smooth but my"
+	line "dumps is smoother."
+	done
+
+.151
+	text "Slenderman and"
+	line "Longfellow are the"
+	cont "same name."
 	done
 	

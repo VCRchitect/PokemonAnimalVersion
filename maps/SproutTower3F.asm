@@ -91,8 +91,11 @@ SageLiScript:
 	verbosegiveitem HM_FLASH
 	setevent EVENT_GOT_HM05_FLASH
 	setevent EVENT_BEAT_SAGE_LI
+	refreshscreen
+	trainerpic SAGE
 	writetext SageLiFlashExplanationText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
