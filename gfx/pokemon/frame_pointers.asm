@@ -128,7 +128,7 @@ FramesPointers:
 	dw StagbeetleFrames
 	dw BullFrames
 	dw CarpFrames
-	dw IkanymbaFrames
+	dw InkanyambaFrames
 	dw PlesiosaurFrames
 	dw SlimeFrames
 	dw WolfFrames

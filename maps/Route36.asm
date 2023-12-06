@@ -197,9 +197,7 @@ TrainerSchoolboyAlan1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_SCHOOLBOY_ALAN
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic SCHOOLBOY
 	checkflag ENGINE_ALAN_READY_FOR_REMATCH
 	iftrue .ChooseRematch
 	checkflag ENGINE_ALAN_HAS_FIRE_STONE
@@ -210,7 +208,6 @@ TrainerSchoolboyAlan1:
 	iftrue .AskAgainForPhoneNumber
 	writetext SchoolboyAlanBooksText
 	promptbutton
-	closetrainpic
 	setevent EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .ContinueAskForPhoneNumber

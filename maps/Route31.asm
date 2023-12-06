@@ -28,9 +28,7 @@ TrainerBugCatcherWade1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_BUG_CATCHER_WADE
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic BUG_CATCHER
 	checkflag ENGINE_WADE_READY_FOR_REMATCH
 	iftrue .WadeRematch
 	checkflag ENGINE_WADE_HAS_ITEM
@@ -41,7 +39,6 @@ TrainerBugCatcherWade1:
 	iftrue .AskAgain
 	writetext BugCatcherWade1AfterText
 	waitbutton
-	closetrainpic
 	setevent EVENT_WADE_ASKED_FOR_PHONE_NUMBER
 	scall .AskPhoneNumberSTD
 	sjump .Continue

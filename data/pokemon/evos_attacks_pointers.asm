@@ -131,7 +131,7 @@ EvosAttacksPointers::
 	dw StagbeetleEvosAttacks
 	dw BullEvosAttacks
 	dw CarpEvosAttacks
-	dw IkanymbaEvosAttacks
+	dw InkanyambaEvosAttacks
 	dw PlesiosaurEvosAttacks
 	dw SlimeEvosAttacks
 	dw WolfEvosAttacks

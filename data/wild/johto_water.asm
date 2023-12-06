@@ -251,7 +251,7 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 15, CARP
 	db 10, CARP
-	db 15, IKANYMBA
+	db 15, INKANYAMBA
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY

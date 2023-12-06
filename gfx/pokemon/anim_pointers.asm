@@ -128,7 +128,7 @@ AnimationPointers:
 	dw StagbeetleAnimation
 	dw BullAnimation
 	dw CarpAnimation
-	dw IkanymbaAnimation
+	dw InkanyambaAnimation
 	dw PlesiosaurAnimation
 	dw SlimeAnimation
 	dw WolfAnimation

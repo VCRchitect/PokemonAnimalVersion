@@ -186,7 +186,7 @@ EcruteakPokecenter1FGymGuideText:
 	text "LAKE OF RAGE..."
 
 	para "The appearance of"
-	line "am IKANYMBA swarm."
+	line "am INKANYAMBA swarm."
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

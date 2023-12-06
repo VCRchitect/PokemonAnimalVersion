@@ -261,8 +261,8 @@ PokemonPicPointers::
 	dba_pic BullBackpic
 	dba_pic CarpFrontpic
 	dba_pic CarpBackpic
-	dba_pic IkanymbaFrontpic
-	dba_pic IkanymbaBackpic
+	dba_pic InkanyambaFrontpic
+	dba_pic InkanyambaBackpic
 	dba_pic PlesiosaurFrontpic
 	dba_pic PlesiosaurBackpic
 	dba_pic SlimeFrontpic

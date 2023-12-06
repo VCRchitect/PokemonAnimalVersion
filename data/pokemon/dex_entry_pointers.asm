@@ -130,7 +130,7 @@ PokedexDataPointerTable:
 	dw StagbeetlePokedexEntry
 	dw BullPokedexEntry
 	dw CarpPokedexEntry
-	dw IkanymbaPokedexEntry
+	dw InkanyambaPokedexEntry
 	dw PlesiosaurPokedexEntry
 	dw SlimePokedexEntry
 	dw WolfPokedexEntry

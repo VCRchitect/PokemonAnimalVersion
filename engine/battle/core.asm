@@ -264,9 +264,6 @@ HandleBetweenTurnEffects:
 	call HandlePerishSong
 	call CheckFaint_PlayerThenEnemy
 	ret c
-	call HandleCigarette
-	call CheckFaint_PlayerThenEnemy
-	ret c
 	jr .NoMoreFaintingConditions
 
 .CheckEnemyFirst:
@@ -287,6 +284,7 @@ HandleBetweenTurnEffects:
 
 .NoMoreFaintingConditions:
 	call HandleLeftovers
+	call HandleCigarette
 	call HandleMysteryberry
 	call HandleDefrost
 	call HandleSafeguard
@@ -1367,18 +1365,10 @@ HandleCigarette:
 	cp HELD_CIGARETTE
 	ret nz
 
-	ld hl, wBattleMonHP
-	ldh a, [hBattleTurn]
-	and a
-	ld hl, wEnemyMonHP
-	ld de, ANIM_SMOKE
-	call GetSixteenthMaxHP
+	ld de, ANIM_CIGARETTE
 	call SwitchTurnCore
-	call SubtractHPFromUser
-	call SubtractHPFromTarget
 	ld hl, BattleText_TargetSmoked
 	jp StdBattleTextbox
-
 
 HandleMysteryberry:
 	ldh a, [hSerialConnectionStatus]
@@ -6108,7 +6098,7 @@ LoadEnemyMon:
 ; Register a contains wBattleType
 
 ; Forced shiny battle type
-; Used by Red Ikanymba at Lake of Rage
+; Used by Red Inkanyamba at Lake of Rage
 	cp BATTLETYPE_SHINY
 	jr nz, .GenerateDVs
 

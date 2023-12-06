@@ -7,7 +7,7 @@
 	const LAKEOFRAGE_FISHER2
 	const LAKEOFRAGE_COOLTRAINER_M
 	const LAKEOFRAGE_COOLTRAINER_F2
-	const LAKEOFRAGE_IKANYMBA
+	const LAKEOFRAGE_INKANYAMBA
 	const LAKEOFRAGE_WESLEY
 	const LAKEOFRAGE_POKE_BALL1
 	const LAKEOFRAGE_POKE_BALL2
@@ -84,17 +84,17 @@ LakeOfRageLanceScript:
 	iffalse .RefusedToHelp
 	sjump .AgreedToHelp
 
-RedIkanymba:
+RedInkanyamba:
 	opentext
-	writetext LakeOfRageIkanymbaCryText
+	writetext LakeOfRageInkanyambaCryText
 	pause 15
-	cry IKANYMBA
+	cry INKANYAMBA
 	closetext
-	loadwildmon IKANYMBA, 30
+	loadwildmon INKANYAMBA, 30
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
 	startbattle
 	ifequal LOSE, .NotBeaten
-	disappear LAKEOFRAGE_IKANYMBA
+	disappear LAKEOFRAGE_INKANYAMBA
 .NotBeaten:
 	reloadmapafterbattle
 	opentext
@@ -280,7 +280,7 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 
 LakeOfRageLanceForcedToEvolveText:
 	text "This lake is full"
-	line "of IKANYMBA but"
+	line "of INKANYAMBA but"
 	cont "nothing else..."
 
 	para "So the CARP"
@@ -346,8 +346,8 @@ LakeOfRageLanceAskHelpText:
 	line "going to help me?"
 	done
 
-LakeOfRageIkanymbaCryText:
-	text "IKANYMBA: Gyashaa!"
+LakeOfRageInkanyambaCryText:
+	text "INKANYAMBA: Gyashaa!"
 	done
 
 LakeOfRageGotRedScaleText:
@@ -356,7 +356,7 @@ LakeOfRageGotRedScaleText:
 	done
 
 LakeOfRageGrampsText:
-	text "The IKANYMBA are"
+	text "The INKANYAMBA are"
 	line "angry!"
 
 	para "It's a bad omen!"
@@ -370,7 +370,7 @@ LakeOfRageGrampsText_ClearedRocketHideout:
 LakeOfRageSuperNerdText:
 	text "I heard this lake"
 	line "was made by ram-"
-	cont "paging IKANYMBA."
+	cont "paging INKANYAMBA."
 
 	para "I wonder if there"
 	line "is any connection"
@@ -383,11 +383,11 @@ LakeOfRageCooltrainerFText:
 	text "Did my eyes de-"
 	line "ceive me? I saw a"
 
-	para "red IKANYMBA in"
+	para "red INKANYAMBA in"
 	line "the LAKE..."
 
 	para "But I thought"
-	line "IKANYMBA were"
+	line "INKANYAMBA were"
 	cont "usually blue?"
 	done
 
@@ -455,7 +455,7 @@ CooltrainermAaronAfterBattleText:
 
 CooltrainerfLoisSeenText:
 	text "What happened to"
-	line "the red IKANYMBA?"
+	line "the red INKANYAMBA?"
 
 	para "It's gone?"
 
@@ -519,7 +519,7 @@ WesleyNotWednesdayText:
 LakeOfRageSignText:
 	text "LAKE OF RAGE,"
 	line "also known as"
-	cont "IKANYMBA LAKE."
+	cont "INKANYAMBA LAKE."
 	done
 
 FishingGurusHouseSignText:
@@ -552,7 +552,7 @@ LakeOfRage_MapEvents:
 	object_event 24, 26, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerFisherRaymond, EVENT_LAKE_OF_RAGE_CIVILIANS
 	object_event  4, 15, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerCooltrainermAaron, EVENT_LAKE_OF_RAGE_CIVILIANS
 	object_event 36,  7, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerCooltrainerfLois, EVENT_LAKE_OF_RAGE_CIVILIANS
-	object_event 18, 22, SPRITE_IKANYMBA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RedIkanymba, EVENT_LAKE_OF_RAGE_RED_IKANYMBA
+	object_event 18, 22, SPRITE_INKANYAMBA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RedInkanyamba, EVENT_LAKE_OF_RAGE_RED_INKANYAMBA
 	object_event  4,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WesleyScript, EVENT_LAKE_OF_RAGE_WESLEY_OF_WEDNESDAY
 	object_event  7, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageElixer, EVENT_LAKE_OF_RAGE_ELIXER
 	object_event 35,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageTMDetect, EVENT_LAKE_OF_RAGE_TM_DETECT

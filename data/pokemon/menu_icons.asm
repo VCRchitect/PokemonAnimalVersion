@@ -131,7 +131,7 @@ MonMenuIcons:
 	db ICON_BUG         ; STAGBEETLE
 	db ICON_EQUINE      ; BULL
 	db ICON_FISH        ; CARP
-	db ICON_IKANYMBA    ; IKANYMBA
+	db ICON_INKANYAMBA    ; INKANYAMBA
 	db ICON_PLESIOSAUR      ; PLESIOSAUR
 	db ICON_BLOB        ; SLIME
 	db ICON_FOX         ; WOLF

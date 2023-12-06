@@ -114,7 +114,7 @@ AlphabeticalPokedexOrder:
 	db  HULA_GIRL
 	db  HUNK
 	db  HYDRA
-	db  IKANYMBA
+	db  INKANYAMBA
 	db  IRONMAIDEN
 	db  JACKALOPE
 	db  JACKIECHAN

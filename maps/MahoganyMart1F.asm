@@ -198,7 +198,7 @@ MahoganyMart1FBlackBeltText:
 	para "CARP are just"
 	line "worthless, but"
 
-	para "IKANYMBA are big"
+	para "INKANYAMBA are big"
 	line "moneymakers."
 	done
 

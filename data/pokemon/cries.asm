@@ -135,7 +135,7 @@ PokemonCries::
 	mon_cry CRY_OSPREY,     0,  256 ; STAGBEETLE
 	mon_cry CRY_SEA_TURTLE,     17,  192 ; BULL
 	mon_cry CRY_SNAKE,       128,  128 ; CARP
-	mon_cry CRY_SNAKE,         0,  256 ; IKANYMBA
+	mon_cry CRY_SNAKE,         0,  256 ; INKANYAMBA
 	mon_cry CRY_PLESIOSAUR,        0,  256 ; PLESIOSAUR
 	mon_cry CRY_PIGEON,      255,  383 ; SLIME
 	mon_cry CRY_GNAT,     136,  224 ; WOLF

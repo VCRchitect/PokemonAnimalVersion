@@ -2,9 +2,9 @@
 	dw 1701, 4760 ; height, weight
 
 	db   "This is them shits"
-	next "you see in a"
-	next "parade. It's a"
+	next "that lives in the"
+	next "sea, but really,"
 
-	page "dragon, but it's"
-	next "long and can eat"
+	page "really, deep down"
+	next "and likes to eat"
 	next "lighting.@"

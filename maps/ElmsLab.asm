@@ -399,18 +399,16 @@ ElmAfterTheftScript:
 	checkitem MYSTERY_EGG
 	iffalse ElmAfterTheftDoneScript
 	promptbutton
+	closetrainpic
 	writetext ElmAfterTheftText2
 	waitbutton
-	closetrainpic
 	takeitem MYSTERY_EGG
-	scall ElmJumpBackScript1
+	refreshscreen
+	trainerpic ELM
 	writetext ElmAfterTheftText3
 	waitbutton
-	scall ElmJumpBackScript2
-	refreshscreen
 	writetext ElmAfterTheftText4
 	promptbutton
-	trainerpic ELM
 	writetext ElmAfterTheftText5
 	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM

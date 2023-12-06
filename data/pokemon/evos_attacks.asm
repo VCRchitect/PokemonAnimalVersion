@@ -1757,14 +1757,14 @@ BullEvosAttacks:
 	db 0 ; no more level-up moves
 
 CarpEvosAttacks:
-	db EVOLVE_LEVEL, 20, IKANYMBA
+	db EVOLVE_LEVEL, 20, INKANYAMBA
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 15, TACKLE
 	db 30, FLAIL
 	db 0 ; no more level-up moves
 
-IkanymbaEvosAttacks:
+InkanyambaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THRASH
 	db 20, BITE

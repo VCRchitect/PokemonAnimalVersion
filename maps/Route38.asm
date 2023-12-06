@@ -46,9 +46,7 @@ TrainerLassDana1:
 .Script
 	loadvar VAR_CALLERID, PHONE_LASS_DANA
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic LASS
 	checkflag ENGINE_DANA_READY_FOR_REMATCH
 	iftrue .DanaRematch
 	checkflag ENGINE_DANA_HAS_THUNDERSTONE
@@ -59,7 +57,6 @@ TrainerLassDana1:
 	iftrue .SecondTimeAsking
 	writetext LassDanaMoomooMilkText
 	promptbutton
-	closetrainpic
 	setevent EVENT_DANA_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1F
 	sjump .AskForPhoneNumber
@@ -187,9 +184,7 @@ TrainerSchoolboyChad1:
 .Script
 	loadvar VAR_CALLERID, PHONE_SCHOOLBOY_CHAD
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic SCHOOLBOY
 	checkflag ENGINE_CHAD_READY_FOR_REMATCH
 	iftrue .ChadRematch
 	checkcellnum PHONE_SCHOOLBOY_CHAD
@@ -198,7 +193,6 @@ TrainerSchoolboyChad1:
 	iftrue .SecondTimeAsking
 	writetext SchoolboyChadSoManyTestsText
 	promptbutton
-	closetrainpic
 	setevent EVENT_CHAD_ASKED_FOR_PHONE_NUMBER
 	scall .AskPhoneNumber1
 	sjump .AskToRegisterNumber

@@ -519,7 +519,7 @@ ElixerDesc:
 
 RedScaleDesc:
 	db   "A scale from the"
-	next "red IKANYMBA.@"
+	next "red INKANYAMBA.@"
 
 SecretPotionDesc:
 	db   "Fully heals any"

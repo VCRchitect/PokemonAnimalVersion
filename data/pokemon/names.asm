@@ -129,7 +129,7 @@ PokemonNames::
 	db "STAGBEETLE"
 	db "BULL@@@@@@"
 	db "CARP@@@@@@"
-	db "IKANYMBA@@"
+	db "INKANYAMBA"
 	db "PLESIOSAUR"
 	db "SLIME@@@@@"
 	db "WOLF@@@@@@"

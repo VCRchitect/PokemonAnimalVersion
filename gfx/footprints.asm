@@ -301,7 +301,7 @@ INCBIN "gfx/footprints/stagbeetle.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/bull.1bpp",     footprint_bottom
 ; 129-136 top halves
 INCBIN "gfx/footprints/carp.1bpp",   footprint_top
-INCBIN "gfx/footprints/ikanymba.1bpp",   footprint_top
+INCBIN "gfx/footprints/inkanyamba.1bpp",   footprint_top
 INCBIN "gfx/footprints/plesiosaur.1bpp",     footprint_top
 INCBIN "gfx/footprints/slime.1bpp",      footprint_top
 INCBIN "gfx/footprints/wolf.1bpp",      footprint_top
@@ -310,7 +310,7 @@ INCBIN "gfx/footprints/greyhound.1bpp",    footprint_top
 INCBIN "gfx/footprints/hot_dog.1bpp",    footprint_top
 ; 129-136 bottom halves
 INCBIN "gfx/footprints/carp.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/ikanymba.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/inkanyamba.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/plesiosaur.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/slime.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/wolf.1bpp",      footprint_bottom

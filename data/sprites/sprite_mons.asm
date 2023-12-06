@@ -33,7 +33,7 @@ SpriteMons:
 	db ROCK_KAIJU
 	db FIREBIRD
 	db PANDA
-	db IKANYMBA
+	db INKANYAMBA
 	db RYUJIN
 	db PHOENIX
 	assert_table_length NUM_POKEMON_SPRITES

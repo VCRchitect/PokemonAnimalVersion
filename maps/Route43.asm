@@ -58,9 +58,7 @@ TrainerPokemaniacBrent:
 .Script:
 	loadvar VAR_CALLERID, PHONE_POKEMANIAC_BRENT
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic POKEMANIAC
 	checkflag ENGINE_BRENT_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_POKEMANIAC_BRENT
@@ -69,7 +67,6 @@ TrainerPokemaniacBrent:
 	iftrue .AskedAlready
 	writetext PokemaniacBrentAfterBattleText
 	promptbutton
-	closetrainpic
 	setevent EVENT_BRENT_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber
@@ -194,9 +191,7 @@ TrainerPicnickerTiffany:
 .Script:
 	loadvar VAR_CALLERID, PHONE_PICNICKER_TIFFANY
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic PICNICKER
 	checkflag ENGINE_TIFFANY_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkflag ENGINE_TIFFANY_HAS_PINK_BOW
@@ -209,7 +204,6 @@ TrainerPicnickerTiffany:
 	iftrue .AskedAlready
 	writetext PicnickerTiffanyWantsPicnicText
 	promptbutton
-	closetrainpic
 	setevent EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber

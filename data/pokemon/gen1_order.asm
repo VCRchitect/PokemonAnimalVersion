@@ -21,7 +21,7 @@ Pokered_MonIndices:
 	db PLESIOSAUR
 	db SHISA
 	db BRAIN
-	db IKANYMBA
+	db INKANYAMBA
 	db CLAM
 	db JELLYFISH
 	db DRIFTER

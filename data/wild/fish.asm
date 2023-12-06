@@ -16,7 +16,7 @@ FishGroups:
 	fishgroup 50 percent + 1, .Serpent_Old,          .Serpent_Good,          .Serpent_Super
 	fishgroup 50 percent + 1, .Blowfish_Swarm_Old,   .Blowfish_Swarm_Good,   .Blowfish_Swarm_Super
 	fishgroup 50 percent + 1, .Remora_Swarm_Old,   .Remora_Swarm_Good,   .Remora_Swarm_Super
-	fishgroup 50 percent + 1, .Ikanymba_Old,         .Ikanymba_Good,         .Ikanymba_Super
+	fishgroup 50 percent + 1, .Inkanyamba_Old,         .Inkanyamba_Good,         .Inkanyamba_Super
 	fishgroup 50 percent + 1, .Serpent_2_Old,        .Serpent_2_Good,        .Serpent_2_Super
 	fishgroup 50 percent + 1, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 50 percent + 1, .Blowfish_Old,         .Blowfish_Good,         .Blowfish_Super
@@ -129,16 +129,16 @@ FishGroups:
 	db  90 percent + 1, REMORA,   40
 	db 100 percent,     REMORA,   40
 
-.Ikanymba_Old:
+.Inkanyamba_Old:
 	db  70 percent + 1, CARP,   10
 	db  85 percent + 1, CARP,   10
 	db 100 percent,     CARP,   10
-.Ikanymba_Good:
+.Inkanyamba_Good:
 	db  35 percent,     CARP,   20
 	db  70 percent,     CARP,   20
 	db  90 percent + 1, CARP,   20
 	db 100 percent,     time_group 14
-.Ikanymba_Super:
+.Inkanyamba_Super:
 	db  40 percent,     CARP,   40
 	db  70 percent,     time_group 15
 	db  90 percent + 1, CARP,   40
@@ -223,8 +223,8 @@ TimeFishGroups:
 	db BLOWFISH,   40,  BLOWFISH,   40 ; 11
 	db REMORA,   20,  REMORA,   20 ; 12
 	db REMORA,   40,  REMORA,   40 ; 13
-	db IKANYMBA,   20,  IKANYMBA,   20 ; 14
-	db IKANYMBA,   40,  IKANYMBA,   40 ; 15
+	db INKANYAMBA,   20,  INKANYAMBA,   20 ; 14
+	db INKANYAMBA,   40,  INKANYAMBA,   40 ; 15
 	db SERPENT,    10,  SERPENT,    10 ; 16
 	db SERPENT,    10,  SERPENT,    10 ; 17
 	db SEAHORSE,     20,  SEAHORSE,     20 ; 18

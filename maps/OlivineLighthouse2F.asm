@@ -27,9 +27,7 @@ TrainerSailorHuey:
 .Script:
 	loadvar VAR_CALLERID, PHONE_SAILOR_HUEY
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic SAILOR
 	checkflag ENGINE_HUEY_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_SAILOR_HUEY
@@ -39,7 +37,6 @@ TrainerSailorHuey:
 	setevent EVENT_HUEY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber
-	closetrainpic
 
 .AskedBefore:
 	scall .AskNumber2
@@ -112,12 +109,9 @@ TrainerSailorHuey:
 	end
 
 .HasProtein:
-	refreshscreen
 	opentext
-	trainerpic SAILOR
 	writetext SailorHueyGiveProteinText
 	waitbutton
-	closetrainpic
 	verbosegiveitem PROTEIN
 	iffalse .PackFull
 	clearevent EVENT_HUEY_PROTEIN

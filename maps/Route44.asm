@@ -22,9 +22,7 @@ TrainerBirdKeeperVance1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_BIRDKEEPER_VANCE
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic BIRD_KEEPER
 	checkflag ENGINE_VANCE_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_BIRDKEEPER_VANCE
@@ -33,7 +31,6 @@ TrainerBirdKeeperVance1:
 	iftrue .AskedAlready
 	writetext BirdKeeperVanceLegendaryBirdsText
 	promptbutton
-	closetrainpic
 	setevent EVENT_VANCE_ASKED_FOR_PHONE_NUMBER
 	scall Route44AskNumber1M
 	sjump .AskForNumber
@@ -97,10 +94,8 @@ TrainerBirdKeeperVance1:
 
 .Carbos:
 	opentext
-	trainerpic BIRD_KEEPER
 	writetext BirdKeeperVance2BeatenText
 	waitbutton
-	closetrainpic
 	verbosegiveitem CARBOS
 	iffalse VancePackFull
 	clearevent EVENT_VANCE_CARBOS
@@ -172,9 +167,7 @@ TrainerFisherWilton1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_FISHER_WILTON
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic FISHER
 	checkflag ENGINE_WILTON_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkflag ENGINE_WILTON_HAS_ITEM
@@ -185,7 +178,6 @@ TrainerFisherWilton1:
 	iftrue .AskedAlready
 	writetext FisherWiltonHugeTadpoleText
 	promptbutton
-	closetrainpic
 	setevent EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
 	scall Route44AskNumber1M
 	sjump .AskForNumber

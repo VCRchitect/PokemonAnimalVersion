@@ -131,7 +131,7 @@ KantoMonSpecials:
 	db  55 ; STAGBEETLE
 	db  70 ; BULL
 	db  20 ; CARP
-	db 100 ; IKANYMBA
+	db 100 ; INKANYAMBA
 	db  95 ; PLESIOSAUR
 	db  48 ; SLIME
 	db  65 ; WOLF

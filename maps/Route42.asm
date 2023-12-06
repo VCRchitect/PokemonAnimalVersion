@@ -40,9 +40,7 @@ TrainerFisherTully:
 .Script:
 	loadvar VAR_CALLERID, PHONE_FISHER_TULLY
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic FISHER
 	checkflag ENGINE_TULLY_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkflag ENGINE_TULLY_HAS_WATER_STONE
@@ -53,7 +51,6 @@ TrainerFisherTully:
 	iftrue .AskedAlready
 	writetext FisherTullyAfterBattleText
 	promptbutton
-	closetrainpic
 	setevent EVENT_TULLY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber

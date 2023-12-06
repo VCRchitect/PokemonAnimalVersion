@@ -148,7 +148,7 @@
 	const STAGBEETLE     ; 7f
 	const BULL     ; 80
 	const CARP   ; 81
-	const IKANYMBA   ; 82
+	const INKANYAMBA   ; 82
 	const PLESIOSAUR     ; 83
 	const SLIME      ; 84
 	const WOLF      ; 85

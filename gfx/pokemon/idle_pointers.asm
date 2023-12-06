@@ -128,7 +128,7 @@ AnimationIdlePointers:
 	dw StagbeetleAnimationIdle
 	dw BullAnimationIdle
 	dw CarpAnimationIdle
-	dw IkanymbaAnimationIdle
+	dw InkanyambaAnimationIdle
 	dw PlesiosaurAnimationIdle
 	dw SlimeAnimationIdle
 	dw WolfAnimationIdle

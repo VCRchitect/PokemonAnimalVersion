@@ -128,7 +128,7 @@ BitmasksPointers:
 	dw StagbeetleBitmasks
 	dw BullBitmasks
 	dw CarpBitmasks
-	dw IkanymbaBitmasks
+	dw InkanyambaBitmasks
 	dw PlesiosaurBitmasks
 	dw SlimeBitmasks
 	dw WolfBitmasks

@@ -98,9 +98,7 @@ TrainerCamperTodd1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_CAMPER_TODD
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic CAMPER
 	checkflag ENGINE_TODD_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_GOLDENROD_DEPT_STORE_SALE_IS_ON
@@ -111,7 +109,6 @@ TrainerCamperTodd1:
 	iftrue .AskAgain
 	writetext CamperTodd1AfterText
 	promptbutton
-	closetrainpic
 	setevent EVENT_TODD_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber
 	sjump .FinishAsk
@@ -227,9 +224,7 @@ TrainerPicnickerGina1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_PICNICKER_GINA
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic PICNICKER
 	checkflag ENGINE_GINA_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_GINA_HAS_LEAF_STONE
@@ -240,7 +235,6 @@ TrainerPicnickerGina1:
 	iftrue .AskAgain
 	writetext PicnickerGina1AfterText
 	promptbutton
-	closetrainpic
 	setevent EVENT_GINA_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .FinishAsk

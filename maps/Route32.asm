@@ -76,7 +76,6 @@ Route32CooltrainerMContinueScene:
 	sjump .GotMiracleSeed
 
 .DontHaveZephyrBadge:
-	trainerpic COOLTRAINERM
 	writetext Route32CooltrainerMText_VioletGym
 	waitbutton
 	closetrainpic
@@ -194,9 +193,7 @@ TrainerFisherRalph1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_FISHER_RALPH
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic FISHER
 	checkflag ENGINE_RALPH_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_BLOWFISH_SWARM
@@ -207,7 +204,6 @@ TrainerFisherRalph1:
 	iftrue .AskAgain
 	writetext FisherRalphAfterText
 	promptbutton
-	closetrainpic
 	setevent EVENT_RALPH_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber
@@ -336,9 +332,7 @@ TrainerPicnickerLiz1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_PICNICKER_LIZ
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic PICNICKER
 	checkflag ENGINE_LIZ_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkcellnum PHONE_PICNICKER_LIZ
@@ -347,7 +341,6 @@ TrainerPicnickerLiz1:
 	iftrue .AskAgain
 	writetext PicnickerLiz1AfterText
 	promptbutton
-	closetrainpic
 	setevent EVENT_LIZ_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber

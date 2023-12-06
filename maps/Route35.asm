@@ -36,16 +36,13 @@ TrainerJugglerIrwin:
 .Script:
 	loadvar VAR_CALLERID, PHONE_JUGGLER_IRWIN
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic JUGGLER
 	checkcellnum PHONE_JUGGLER_IRWIN
 	iftrue Route35NumberAcceptedM
 	checkevent EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
 	writetext JugglerIrwinAfterBattleText
 	promptbutton
-	closetrainpic
 	setevent EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
 	scall Route35AskNumber1M
 	sjump .AskForNumber

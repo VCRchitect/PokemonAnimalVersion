@@ -107,7 +107,7 @@ CarpLengthRaterText_LakeOfRageHistory:
 	line "actually a crater"
 
 	para "made by rampaging"
-	line "IKANYMBA."
+	line "INKANYAMBA."
 
 	para "The crater filled"
 	line "up with rainwater"

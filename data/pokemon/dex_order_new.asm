@@ -78,7 +78,7 @@ NewPokedexOrder:
 	db TOAD
 	db FROG
 	db CARP
-	db IKANYMBA
+	db INKANYAMBA
 	db GOLDFISH
 	db NARWHAL
 	db BEAVER

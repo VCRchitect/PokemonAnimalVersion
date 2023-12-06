@@ -126,9 +126,7 @@ TrainerSchoolboyJack1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_SCHOOLBOY_JACK
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic SCHOOLBOY
 	checkflag ENGINE_JACK_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkcellnum PHONE_SCHOOLBOY_JACK
@@ -137,7 +135,6 @@ TrainerSchoolboyJack1:
 	iftrue .AskAgain
 	writetext SchoolboyJackTradeMonText
 	promptbutton
-	closetrainpic
 	setevent EVENT_JACK_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .RequestNumber
@@ -260,9 +257,7 @@ TrainerPokefanfBeverly1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_POKEFAN_BEVERLY
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic POKEFANF
 	checkflag ENGINE_BEVERLY_HAS_NUGGET
 	iftrue .GiveNugget
 	checkcellnum PHONE_POKEFAN_BEVERLY
@@ -273,7 +268,6 @@ TrainerPokefanfBeverly1:
 	iftrue .AskAgain
 	writetext PokefanBeverlyCuteMonText
 	promptbutton
-	closetrainpic
 	setevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .RequestNumber

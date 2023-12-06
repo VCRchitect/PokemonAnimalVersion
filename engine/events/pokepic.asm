@@ -115,12 +115,12 @@ CloseTrainpic::
 
 PokepicMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 4, 3, 12, 11
+	menu_coords 5, 3, 13, 11
 	dw NULL
 	db 1 ; default option
 
 PokepicMenuHeader2:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 4, 3, 12, 11
+	menu_coords 5, 3, 13, 11
 	dw NULL
 	db 1 ; default option

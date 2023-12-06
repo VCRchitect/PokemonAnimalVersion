@@ -42,9 +42,7 @@ TrainerYoungsterJoey:
 .Script:
 	loadvar VAR_CALLERID, PHONE_YOUNGSTER_JOEY
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic YOUNGSTER
 	checkflag ENGINE_JOEY_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkcellnum PHONE_YOUNGSTER_JOEY

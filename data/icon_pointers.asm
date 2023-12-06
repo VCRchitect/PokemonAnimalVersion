@@ -36,7 +36,7 @@ IconPointers:
 	dw PandaIcon
 	dw PhoenixIcon
 	dw RyujinIcon
-	dw IkanymbaIcon
+	dw InkanyambaIcon
 	dw BeaverIcon
 	dw Fake_BushIcon
 	dw BigmonIcon

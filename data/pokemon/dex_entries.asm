@@ -140,7 +140,7 @@ BullPokedexEntry::     INCLUDE "data/pokemon/dex_entries/bull.asm"
 SECTION "Pokedex Entries 129-192", ROMX
 
 CarpPokedexEntry::   INCLUDE "data/pokemon/dex_entries/carp.asm"
-IkanymbaPokedexEntry::   INCLUDE "data/pokemon/dex_entries/ikanymba.asm"
+InkanyambaPokedexEntry::   INCLUDE "data/pokemon/dex_entries/inkanyamba.asm"
 PlesiosaurPokedexEntry::     INCLUDE "data/pokemon/dex_entries/plesiosaur.asm"
 SlimePokedexEntry::      INCLUDE "data/pokemon/dex_entries/slime.asm"
 WolfPokedexEntry::      INCLUDE "data/pokemon/dex_entries/wolf.asm"

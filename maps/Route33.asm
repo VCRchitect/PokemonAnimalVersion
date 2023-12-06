@@ -25,9 +25,7 @@ TrainerHikerAnthony:
 .Script:
 	loadvar VAR_CALLERID, PHONE_HIKER_ANTHONY
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic HIKER
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_TSUCHINOKO_SWARM
@@ -38,7 +36,6 @@ TrainerHikerAnthony:
 	iftrue .AskAgain
 	writetext HikerAnthony2AfterText
 	promptbutton
-	closetrainpic
 	setevent EVENT_ANTHONY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForPhoneNumber

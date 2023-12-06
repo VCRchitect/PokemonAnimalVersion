@@ -31,9 +31,7 @@ TrainerPicnickerErin1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_PICNICKER_ERIN
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic PICNICKER
 	checkflag ENGINE_ERIN_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_PICNICKER_ERIN
@@ -42,7 +40,6 @@ TrainerPicnickerErin1:
 	iftrue .AskedAlready
 	writetext PicnickerErinAfterBattleText
 	promptbutton
-	closetrainpic
 	setevent EVENT_ERIN_ASKED_FOR_PHONE_NUMBER
 	scall Route46AskNumber1F
 	sjump .AskForNumber
@@ -106,10 +103,8 @@ TrainerPicnickerErin1:
 
 .HasCalcium:
 	opentext
-	trainerpic PICNICKER
 	writetext PicnickerErin2BeatenText
 	waitbutton
-	closetrainpic
 	verbosegiveitem CALCIUM
 	iffalse ErinNoRoomForCalcium
 	clearevent EVENT_ERIN_CALCIUM

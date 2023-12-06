@@ -24,9 +24,7 @@ TrainerBlackbeltKenji:
 .Script:
 	loadvar VAR_CALLERID, PHONE_BLACKBELT_KENJI
 	endifjustbattled
-	refreshscreen
 	opentext
-	trainerpic BLACKBELT_T
 	checkcellnum PHONE_BLACKBELT_KENJI
 	iftrue .Registered
 	checkevent EVENT_KENJI_ASKED_FOR_PHONE_NUMBER
@@ -34,7 +32,6 @@ TrainerBlackbeltKenji:
 	special SampleKenjiBreakCountdown
 	writetext BlackbeltKenjiAfterBattleText
 	waitbutton
-	closetrainpic
 	setevent EVENT_KENJI_ASKED_FOR_PHONE_NUMBER
 	scall Route45AskNumber1M
 	sjump .AskForNumber
