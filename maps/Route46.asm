@@ -31,7 +31,6 @@ TrainerPicnickerErin1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_PICNICKER_ERIN
 	endifjustbattled
-	opentext
 	checkflag ENGINE_ERIN_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_PICNICKER_ERIN

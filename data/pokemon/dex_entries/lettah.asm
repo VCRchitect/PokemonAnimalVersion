@@ -7,4 +7,4 @@
 
 	page "to mess up any"
 	next "programming with a"
-	next "normal name.@"
+	next "normal spelling.@"

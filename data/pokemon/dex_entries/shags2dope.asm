@@ -3,7 +3,7 @@
 
 	db   "This wicked clown"
 	next "is one half of the"
-	next "rap dup, Insane"
+	next "rap duo, Insane"
 
 	page "Clown Posse. Some"
 	next "call him 'Stretch"

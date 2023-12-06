@@ -2,7 +2,7 @@
 	dw 104, 140 ; height, weight
 
 	db   "These are those"
-	next "people from way."
+	next "people from way"
 	next "back in the day."
 
 	page "They made fire,"

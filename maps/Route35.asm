@@ -36,7 +36,6 @@ TrainerJugglerIrwin:
 .Script:
 	loadvar VAR_CALLERID, PHONE_JUGGLER_IRWIN
 	endifjustbattled
-	opentext
 	checkcellnum PHONE_JUGGLER_IRWIN
 	iftrue Route35NumberAcceptedM
 	checkevent EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER

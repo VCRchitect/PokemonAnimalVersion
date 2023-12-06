@@ -25,7 +25,6 @@ TrainerHikerAnthony:
 .Script:
 	loadvar VAR_CALLERID, PHONE_HIKER_ANTHONY
 	endifjustbattled
-	opentext
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_TSUCHINOKO_SWARM

@@ -24,7 +24,6 @@ TrainerBlackbeltKenji:
 .Script:
 	loadvar VAR_CALLERID, PHONE_BLACKBELT_KENJI
 	endifjustbattled
-	opentext
 	checkcellnum PHONE_BLACKBELT_KENJI
 	iftrue .Registered
 	checkevent EVENT_KENJI_ASKED_FOR_PHONE_NUMBER

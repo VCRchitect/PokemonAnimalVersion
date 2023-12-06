@@ -98,7 +98,6 @@ TrainerCamperTodd1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_CAMPER_TODD
 	endifjustbattled
-	opentext
 	checkflag ENGINE_TODD_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_GOLDENROD_DEPT_STORE_SALE_IS_ON
@@ -224,7 +223,6 @@ TrainerPicnickerGina1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_PICNICKER_GINA
 	endifjustbattled
-	opentext
 	checkflag ENGINE_GINA_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkflag ENGINE_GINA_HAS_LEAF_STONE

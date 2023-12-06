@@ -3,7 +3,7 @@
 
 	db   "This three-headed"
 	next "dog lives in the"
-	next "underworld and,"
+	next "underworld and"
 
 	page "hangs out with"
 	next "James Woods from"

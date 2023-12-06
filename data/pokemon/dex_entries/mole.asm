@@ -1,7 +1,7 @@
 	db "MOLE@" ; species name
 	dw 8, 20 ; height, weight
 
-	db   "I saw a vide one"
+	db   "I saw a video one"
 	next "time where a dude"
 	next "blew up his yard"
 

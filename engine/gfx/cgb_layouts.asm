@@ -617,6 +617,8 @@ _CGB_LettahPuzzle:
 	ret
 
 _CGB_TrainerCard:
+    xor a
+	ld [wBattleWeather], a
 	ld [wBattleTimeOfDay], a
 	ld de, wBGPals1
 	xor a ; CHRIS

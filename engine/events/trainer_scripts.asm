@@ -31,4 +31,5 @@ StartBattleWithMapTrainerScript:
 	loadmem wRunningTrainerBattleScript, -1
 
 AlreadyBeatenTrainerScript:
+	refreshscreen
 	scripttalkafter

@@ -42,7 +42,6 @@ TrainerYoungsterJoey:
 .Script:
 	loadvar VAR_CALLERID, PHONE_YOUNGSTER_JOEY
 	endifjustbattled
-	opentext
 	checkflag ENGINE_JOEY_READY_FOR_REMATCH
 	iftrue .Rematch
 	checkcellnum PHONE_YOUNGSTER_JOEY
@@ -51,7 +50,6 @@ TrainerYoungsterJoey:
 	iftrue .AskAgain
 	writetext YoungsterJoey1AfterText
 	promptbutton
-	closetrainpic
 	setevent EVENT_JOEY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .RequestNumber

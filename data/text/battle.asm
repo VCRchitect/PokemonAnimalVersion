@@ -101,11 +101,8 @@ BattleText_TargetRecoveredWithItem:
 
 BattleText_TargetSmoked:
 	text "<TARGET>"
-	line "lit up a"
-	scroll "@"
-	text_ram wStringBuffer1
-	text "!"
-	autodone
+	line "took a puff!"
+	prompt
 
 
 BattleText_UserRecoveredPPUsing:

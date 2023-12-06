@@ -22,7 +22,6 @@ TrainerBirdKeeperVance1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_BIRDKEEPER_VANCE
 	endifjustbattled
-	opentext
 	checkflag ENGINE_VANCE_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_BIRDKEEPER_VANCE
@@ -167,7 +166,6 @@ TrainerFisherWilton1:
 .Script:
 	loadvar VAR_CALLERID, PHONE_FISHER_WILTON
 	endifjustbattled
-	opentext
 	checkflag ENGINE_WILTON_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkflag ENGINE_WILTON_HAS_ITEM

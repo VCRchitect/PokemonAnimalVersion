@@ -1,4 +1,4 @@
-	db "STRINGSPIT@" ; species name
+	db "STRINGSHIT@" ; species name
 	dw 108, 190 ; height, weight
 
 	db   "It's weird how 6"

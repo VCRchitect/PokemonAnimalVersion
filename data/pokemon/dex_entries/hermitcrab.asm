@@ -2,7 +2,7 @@
 	dw 303, 650 ; height, weight
 
 	db   "These are the"
-	next "original 'glampers'"
+	next "original hobos"
 	next "and they will"
 
 	page "steal your house"
