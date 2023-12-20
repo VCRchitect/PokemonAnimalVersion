@@ -36327,7 +36327,7 @@ ROMX bank #100:
     SLACK: $0cf7 bytes
 
 ROMX bank #101:
-  SECTION: $4000-$7157 ($3158 bytes) ["Map Scripts 18"]
+  SECTION: $4000-$7151 ($3152 bytes) ["Map Scripts 18"]
            $4000 = Route36_MapScripts
            $400d = Route36_MapScripts.DummyScene0
            $400e = Route36_MapScripts.DummyScene1
@@ -36662,43 +36662,43 @@ ROMX bank #101:
            $68a5 = MrPokemonsHouse_MapScripts.MeetMrPokemon
            $68a9 = MrPokemonsHouse_MapScripts.DummyScene
            $68aa = MrPokemonsHouse_MapScripts.MrPokemonEvent
-           $68fe = MrPokemonsHouse_MrPokemonScript
-           $6916 = MrPokemonsHouse_MrPokemonScript.AlwaysNewDiscoveries
-           $6921 = MrPokemonsHouse_MrPokemonScript.RedScale
-           $6939 = MrPokemonsHouse_MrPokemonScript.refused
-           $6942 = MrPokemonsHouse_MrPokemonScript.full
-           $6945 = MrPokemonsHouse_OakScript
-           $69d9 = MrPokemonsHouse_OakScript.RivalTakesSquirrel
-           $69dd = MrPokemonsHouse_OakScript.RivalTakesSkunk
-           $69e1 = MrPokemonsHouse_ForeignMagazines
-           $69e4 = MrPokemonsHouse_BrokenComputer
-           $69e7 = MrPokemonsHouse_StrangeCoins
-           $69ea = MrPokemonsHouse_PlayerWalksToMrPokemon
-           $69ed = MrPokemonsHouse_OakWalksToPlayer
-           $69f1 = MrPokemonsHouse_OakExits
-           $69f6 = MrPokemonIntroText1
-           $6a36 = MrPokemonIntroText2
-           $6a60 = MrPokemonsHouse_GotEggText
-           $6a79 = MrPokemonIntroText3
-           $6b1f = MrPokemonIntroText4
-           $6b44 = MrPokemonIntroText5
-           $6b7a = MrPokemonsHouse_MrPokemonHealText
-           $6bc6 = MrPokemonText_ImDependingOnYou
-           $6bdd = MrPokemonText_AlwaysNewDiscoveries
-           $6c16 = MrPokemonsHouse_OakText1
-           $6e81 = MrPokemonsHouse_GetDexText
-           $6e98 = MrPokemonsHouse_OakText2
-           $6f3a = MrPokemonText_GimmeTheScale
-           $6fd7 = MrPokemonText_Disappointed
-           $700e = MrPokemonsHouse_ForeignMagazinesText
-           $7053 = MrPokemonsHouse_BrokenComputerText
-           $707d = MrPokemonsHouse_StrangeCoinsText
-           $70c3 = MrPokemonsHouse_MapEvents
-           $7106 = Route31VioletGate_MapScripts
-           $7108 = Route31VioletGateOfficerScript
-           $7116 = Route31VioletGateCooltrainerFScript
-           $7124 = Route31VioletGate_MapEvents
-    SLACK: $0ea8 bytes
+           $68f8 = MrPokemonsHouse_MrPokemonScript
+           $6910 = MrPokemonsHouse_MrPokemonScript.AlwaysNewDiscoveries
+           $691b = MrPokemonsHouse_MrPokemonScript.RedScale
+           $6933 = MrPokemonsHouse_MrPokemonScript.refused
+           $693c = MrPokemonsHouse_MrPokemonScript.full
+           $693f = MrPokemonsHouse_OakScript
+           $69d3 = MrPokemonsHouse_OakScript.RivalTakesSquirrel
+           $69d7 = MrPokemonsHouse_OakScript.RivalTakesSkunk
+           $69db = MrPokemonsHouse_ForeignMagazines
+           $69de = MrPokemonsHouse_BrokenComputer
+           $69e1 = MrPokemonsHouse_StrangeCoins
+           $69e4 = MrPokemonsHouse_PlayerWalksToMrPokemon
+           $69e7 = MrPokemonsHouse_OakWalksToPlayer
+           $69eb = MrPokemonsHouse_OakExits
+           $69f0 = MrPokemonIntroText1
+           $6a30 = MrPokemonIntroText2
+           $6a5a = MrPokemonsHouse_GotEggText
+           $6a73 = MrPokemonIntroText3
+           $6b19 = MrPokemonIntroText4
+           $6b3e = MrPokemonIntroText5
+           $6b74 = MrPokemonsHouse_MrPokemonHealText
+           $6bc0 = MrPokemonText_ImDependingOnYou
+           $6bd7 = MrPokemonText_AlwaysNewDiscoveries
+           $6c10 = MrPokemonsHouse_OakText1
+           $6e7b = MrPokemonsHouse_GetDexText
+           $6e92 = MrPokemonsHouse_OakText2
+           $6f34 = MrPokemonText_GimmeTheScale
+           $6fd1 = MrPokemonText_Disappointed
+           $7008 = MrPokemonsHouse_ForeignMagazinesText
+           $704d = MrPokemonsHouse_BrokenComputerText
+           $7077 = MrPokemonsHouse_StrangeCoinsText
+           $70bd = MrPokemonsHouse_MapEvents
+           $7100 = Route31VioletGate_MapScripts
+           $7102 = Route31VioletGateOfficerScript
+           $7110 = Route31VioletGateCooltrainerFScript
+           $711e = Route31VioletGate_MapEvents
+    SLACK: $0eae bytes
 
 ROMX bank #102:
   SECTION: $4000-$7642 ($3643 bytes) ["Map Scripts 19"]
@@ -56513,7 +56513,7 @@ HRAM bank #0:
 
 USED:
     ROM0: $3f1b bytes in 1 bank
-    ROMX: $168f86 bytes in 127 banks
+    ROMX: $168f80 bytes in 127 banks
     SRAM: $ac36 bytes in 8 banks
     WRAM0: $0fcc bytes in 1 bank
     WRAMX: $4999 bytes in 7 banks

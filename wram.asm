@@ -158,8 +158,8 @@ wScriptVar:: db
 
 wPlayerNextMovement:: db
 wPlayerMovement:: db
-
-	ds 2
+wRoomCount:: db
+	ds 1
 
 wMovementObject::
 	db
