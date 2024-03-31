@@ -248,7 +248,9 @@ MrPokemonIntroText4:
 MrPokemonIntroText5:
 	text "If my assumption"
 	line "is correct, PROF."
-	cont "ELM will know it."
+	para "ELM will know all"
+	line "about ANIMALS"
+	cont "getting freaky."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:

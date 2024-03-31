@@ -151,6 +151,7 @@ NPCKTextTable::
 	dw .149
 	dw .150
 	dw .151
+	dw .152
 
   ; and so on, add as many as you want
 .end
@@ -1375,5 +1376,13 @@ NPCKTextTable::
 	text "Slenderman and"
 	line "Longfellow are the"
 	cont "same name."
+	done
+	
+.152
+	text "I couldn't imagine"
+	line "somebody like"
+	para "Osama Bin Laden"
+	line "understanding the"
+	cont "joy of Hanukkah."
 	done
 	

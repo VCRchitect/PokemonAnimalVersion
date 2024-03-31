@@ -50,8 +50,21 @@ OldmanTextTable::
 	dw .048
 	dw .049
 	dw .050
+	dw .051
+	dw .052
+	dw .053
+	dw .054
+	dw .055
+	dw .056
+	dw .057
+	dw .058
+	dw .059
+	dw .060
+	dw .061
+	dw .062
+	dw .063
+	dw .064
 	
-  ; and so on, add as many as you want
 .end
 
 .001
@@ -414,5 +427,118 @@ OldmanTextTable::
 	para "of her shit to get"
 	line "to see where it"
 	cont "came from."
+	done
+	
+.051
+	text "Caught a broke boy"
+	line "trying to come up"
+	para "on my Amazon"
+	line "package, so I"
+	para "skinned his ass"
+	line "alive. AAAAAUUGGH!"
+	done
+
+.052
+	text "They needed a"
+	line "stealth soldier,"
+	para "so I put my hands"
+	line "on the hibachi hot"
+	para "plate at Benihana"
+	line "and burned my"
+	para "fuckin' finger-"
+	line "prints off. They"
+	cont "will not find me."
+	done
+	
+.053	
+	text "I blew her back"
+	line "out using a"
+	para "mammoth-skin"
+	line "condom."
+	done
+
+.054
+	text "These cops are"
+	line "interrogating me"
+	para "about an ounce of"
+	line "weed, as if I"
+	para "didn't just kill"
+	line "an Applebee's"
+	para "hostess two miles"
+	line "away."
+	done
+	
+.055	
+	text "They said I"
+	line "wouldn't shit on"
+	para "'em, I spread my"
+	line "cheeks and hit 'em"
+	para "with an absolute"
+	line "screamer."
+	done
+	
+.056	
+	text "My watch worth the"
+	line "GDP of Kanto. If"
+	para "this watch breaks,"
+	line "the stock market"
+	para "will take a 28"
+	line "percent hit."
+	cont "People will die."
+	done
+	
+.057	
+	text "My diamonds come"
+	line "from the most"
+	para "horrific situa-"
+	line "tions possible." 
+	done
+	
+.058
+	text "Opp was sneak-"
+	line "dissing on the"
+	para "'gram, so I turned"
+	line "his city into"
+	cont "Cinnabar Island."
+	done
+	
+.059	
+	text "What the fuck is"
+	line "Obamacare?"
+	para "Obama, I don't"
+	line "care about shit."
+	done
+
+.060
+	text "I smoked a trainer"
+	line "and his meat came"
+	para "right off the"
+	line "bone."
+	done
+	
+.061	
+	text "I'll air this"
+	line "bitch out like I"
+	cont "just shit in it."
+	done
+	
+.062
+	text "I got so much"
+	line "cheese in my"
+	para "pocket that they"
+	line "thought I was a"
+	cont "fucking calzone."
+	done
+	
+.063	
+	text "I had to cast a"
+	line "spell on that"
+	cont "motherfucker."
+	done
+
+.064	
+	text "If Santa comes"
+	line "down my chimney,"
+	cont "I'm gonna fuck em."	
 	done
 	
