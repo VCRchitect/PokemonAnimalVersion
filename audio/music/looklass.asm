@@ -5,6 +5,7 @@ Music_LookLass:
 	channel 3, Music_LookLass_Ch3
 	channel 4, Music_LookLass_Ch4
 
+
 Music_LookLass_Ch1:
 	tempo 132
 	volume 7, 7
@@ -133,16 +134,19 @@ Music_LookLass_Ch3:
 
 Music_LookLass_Ch4:
 	toggle_noise 4
+	drum_speed 12
 	volume $77
 	rest 12
 .mainloop:
-	drum_speed 6
-	drum_note 3, 8
-	drum_note 2, 8
-	drum_note 2, 8
-	drum_note 2, 4
-	drum_note 3, 1
-	drum_note 2, 1
-	drum_note 2, 1
-	drum_note 2, 1
+	drum_note 4, 4
+	drum_note 3, 3
+	drum_note 4, 2
+	drum_note 4, 3
+	drum_note 3, 4
+	drum_note 4, 4
+	drum_note 3, 3
+	drum_note 4, 2
+	drum_note 4, 3
+	drum_note 3, 2
+	drum_note 4, 2
 	sound_loop 0, .mainloop

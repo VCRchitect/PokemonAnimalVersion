@@ -1,179 +1,153 @@
 Music_LookSage:
-	channel_count 2
+	channel_count 4
 	channel 1, Music_LookSage_Ch1
+	channel 2, Music_LookSage_Ch2
 	channel 3, Music_LookSage_Ch3
+	channel 4, Music_LookSage_Ch4
+
 
 Music_LookSage_Ch1:
 	tempo 144
-	stereo_panning FALSE, TRUE
 	volume 7, 7
 	duty_cycle 3
 	note_type 12, 11, 3
-	rest 2
-	rest 16
-	sound_call .sub1
-	volume_envelope 11, 3
+;Bar 1
+	octave 2
+	note G_, 2
+	note A#, 1
 	octave 3
-	note D_, 2
-	volume_envelope 9, 3
-	note D_, 2
-	volume_envelope 11, 3
-	note E_, 2
-	volume_envelope 9, 3
-	note E_, 2
-	volume_envelope 11, 3
-	note A_, 2
-	volume_envelope 9, 3
-	note A_, 2
-	volume_envelope 11, 3
-	note F_, 2
-	volume_envelope 9, 3
-	note F_, 2
+	note D_, 3
+	note D#, 2
+	note F_, 4
 .mainloop:
-	volume_envelope 11, 3
-	note D_, 2
-	volume_envelope 9, 3
-	note D_, 2
-	volume_envelope 11, 3
+;Bar 2
 	octave 2
-	note B_, 2
-	volume_envelope 9, 3
-	note B_, 2
-	volume_envelope 11, 3
-	note A_, 2
-	volume_envelope 9, 3
-	note A_, 2
-	volume_envelope 11, 3
-	note B_, 2
-	volume_envelope 9, 3
-	note B_, 2
-	volume_envelope 11, 3
-	octave 3
-	note D_, 2
-	volume_envelope 9, 3
-	note D_, 2
-	volume_envelope 11, 3
-	octave 2
-	note B_, 2
-	volume_envelope 9, 3
-	note B_, 2
-	volume_envelope 11, 3
-	octave 3
-	note D_, 2
-	volume_envelope 9, 3
-	note D_, 2
-	volume_envelope 11, 3
-	note E_, 2
-	volume_envelope 9, 3
-	note E_, 2
-	volume_envelope 11, 3
-	note F_, 2
-	volume_envelope 9, 3
-	note F_, 2
-	volume_envelope 11, 3
-	note D_, 2
-	volume_envelope 9, 3
-	note D_, 2
-	volume_envelope 11, 3
-	note E_, 2
-	volume_envelope 9, 3
-	note E_, 2
-	volume_envelope 11, 3
-	note A_, 2
-	volume_envelope 9, 3
-	note A_, 2
-	volume_envelope 11, 3
-	note D_, 2
-	volume_envelope 9, 3
-	note D_, 2
-	volume_envelope 11, 3
-	octave 2
-	note B_, 2
-	volume_envelope 9, 3
-	note B_, 2
-	volume_envelope 11, 3
-	note A_, 2
-	volume_envelope 9, 3
-	note A_, 2
-	volume_envelope 11, 3
-	note B_, 2
-	volume_envelope 9, 3
-	note B_, 2
-	sound_call .sub1
-	sound_loop 0, .mainloop
-
-.sub1:
-	volume_envelope 11, 3
-	octave 2
-	note E_, 2
-	volume_envelope 9, 3
-	note E_, 2
-	volume_envelope 11, 3
-	note A_, 2
-	volume_envelope 9, 3
-	note A_, 2
-	volume_envelope 11, 3
-	note B_, 2
-	volume_envelope 9, 3
-	note B_, 2
-	volume_envelope 11, 3
-	note A_, 2
-	volume_envelope 9, 3
-	note A_, 2
-	sound_ret
-
-Music_LookSage_Ch3:
-	stereo_panning TRUE, FALSE
-	vibrato 22, 2, 3
-	note_type 12, 1, 0
-	octave 5
-	note B_, 1
-	octave 6
-	note C_, 1
-	octave 5
-	note B_, 16
-	vibrato 7, 2, 3
-	note B_, 8
-	vibrato 20, 2, 3
-	octave 6
-	note D_, 6
-	note E_, 1
-	note F_, 1
-	note E_, 14
+	note G_, 2
+	note A#, 1
 	note G_, 1
-	note G#, 1
-.mainloop:
-	note A_, 12
-	note B_, 4
-	note D_, 9
-	note E_, 1
+	note A#, 2
+	octave 3
+	note C_, 2
+	note D#, 3
+	note D_, 3
+	octave 2
+	note A#, 6
+;Bar 3
+	note G_, 2
+	note F_, 2
+	note G_, 3
+	octave 3
+	note C_, 5
+;Bar 4
+	octave 2
+	note D_, 2
 	note F_, 1
 	note D_, 1
-	vibrato 0, 0, 0
-	note E_, 4
-	vibrato 7, 2, 3
-	note E_, 8
-	vibrato 20, 2, 3
-	octave 5
-	note B_, 8
-	octave 6
-	note F_, 8
-	note_type 6, 1, 0
-	note E_, 1
+	note F_, 2
+	note G_, 2
+	note A#, 3
+	note A_, 3
+	note F_, 5
+;Bar 5
+	rest 1
+	note G_, 2
+	note A#, 2
+	note A_, 3
+	note F_, 5
+;Bar 6
+	note G_, 2
+	note A#, 1
+	note G_, 1
+	note A#, 2
+	octave 3
+	note C_, 2
+	note D#, 3
+	note D_, 3
+	note F_, 6
+;Bar 7
+	note A#, 2
+	note A_, 2
+	note F_, 6
+	rest 2
+;Bar 8
+	note A#, 3
+	note A_, 3
+	note F_, 2
+	note G_, 3
+	note D_, 5
+;Bar 9
+	note G_, 3
+	note F_, 3
+	note G_, 6
+	note F_, 1
 	note D#, 1
 	note D_, 1
-	note C#, 1
 	note C_, 1
-	octave 5
-	note B_, 1
-	note A#, 1
-	note A_, 1
-	rest 4
-	octave 6
-	note E_, 2
+	sound_loop 0, .mainloop
+
+Music_LookSage_Ch2:
+	vibrato 4, 6, 4
+	duty_cycle 3
+	note_type 12, 11, 7
+	rest 12
+	volume $55
+.mainloop:
+	octave 1
+	note G_, 2
+	rest 1
+	note G_, 2
+	rest 1
+	note A#, 4
+	note G_, 2
 	note F_, 2
+	note D#, 2
+;Bar 3
+	note A#, 2
+	rest 1
+	octave 2
+	note C_, 2
+	rest 1
+	octave 1
+	note A#, 4
+	note F_, 2
+	note D#, 2
+	note F_, 2
+	sound_loop 0, .mainloop
+
+Music_LookSage_Ch3:
+	vibrato 22, 2, 3
 	note_type 12, 1, 0
-	note E_, 14
+	volume $33
+	rest 12
+.mainloop:
+	octave 1
+	note G_, 2
+	rest 1
 	note G_, 1
-	note G#, 1
+	note G_, 2
+	rest 1
+	note G_, 1
+	note G_, 2
+	rest 1
+	note G_, 1
+	note G_, 4
+	sound_loop 0, .mainloop
+
+Music_LookSage_Ch4:
+	toggle_noise 4
+	drum_speed 12
+	volume $77
+	rest 12
+.mainloop:
+	drum_note 4, 4
+	drum_note 3, 3
+	drum_note 4, 2
+	drum_note 4, 3
+	drum_note 3, 4
+	drum_note 4, 4
+	drum_note 3, 3
+	drum_note 4, 2
+	drum_note 4, 3
+	drum_note 3, 2
+	drum_note 4, 2
 	sound_loop 0, .mainloop

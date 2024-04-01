@@ -11,7 +11,7 @@ Music_RuinsOfAlphInterior_Ch1:
 	notetype 12, $a7
 .mainloop:
 ;Bar 1
-	octave 4
+	octave 3
 	note E_, 3
 	note __, 1
 	note G_, 5
@@ -31,7 +31,7 @@ Music_RuinsOfAlphInterior_Ch1:
 ;Bar 3
 	note B_, 3
 	note __, 1
-	octave 4
+	octave 3
 	note D_, 5
 	note __, 1
 	note E_, 2
@@ -39,7 +39,7 @@ Music_RuinsOfAlphInterior_Ch1:
 	note __, 1
 	note C#, 2
 ;Bar 4
-	octave 3
+	octave 2
 	note G_, 12
 	note __, 4
 ;Bar 5
@@ -64,13 +64,13 @@ Music_RuinsOfAlphInterior_Ch1:
 	note __, 1
 	note A_, 5
 	note __, 1
-	octave 4
+	octave 3
 	note E_, 2
 	note D_, 1
 	note __, 1
 	note C#, 2
 ;Bar 8
-	octave 3
+	octave 2
 	note A_, 12
 	note __, 4
 ;Bar 9

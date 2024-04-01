@@ -248,7 +248,7 @@ Music_AzaleaTown_Ch2:
 	duty_cycle 0
 	notetype 12, $a7
 .mainloop:
-	octave 3
+	octave 2
 	note A_, 8
 	note E_, 8
 ;Bar 2
@@ -270,9 +270,9 @@ Music_AzaleaTown_Ch2:
 	note E_, 6
 	note __, 4
 ;Bar 7
-	octave 4
-	note C_, 4
 	octave 3
+	note C_, 4
+	octave 2
 	note B_, 4
 	note A_, 4
 	note G_, 2
@@ -301,9 +301,9 @@ Music_AzaleaTown_Ch2:
 	note E_, 6
 	note __, 4
 ;Bar 15
-	octave 4
-	note C_, 4
 	octave 3
+	note C_, 4
+	octave 2
 	note B_, 4
 	note A_, 4
 	note G_, 2
@@ -332,9 +332,9 @@ Music_AzaleaTown_Ch2:
 	note E_, 6
 	note __, 4
 ;Bar 23
-	octave 4
-	note C_, 4
 	octave 3
+	note C_, 4
+	octave 2
 	note B_, 4
 	note A_, 4
 	note G_, 2
@@ -363,9 +363,9 @@ Music_AzaleaTown_Ch2:
 	note E_, 6
 	note __, 4
 ;Bar 31
-	octave 4
+	octave 2
 	note C_, 4
-	octave 3
+	octave 1
 	note B_, 4
 	note A_, 4
 	note G_, 2
