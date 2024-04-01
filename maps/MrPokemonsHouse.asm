@@ -44,12 +44,7 @@ MrPokemonsHouse_MapScripts:
 	refreshscreen
 	trainerpic GENTLEMAN
 	writetext MrPokemonIntroText3
-	promptbutton
-	refreshscreen
-	writetext MrPokemonIntroText4
-	promptbutton
-	turnobject MRPOKEMONSHOUSE_OAK, LEFT
-	refreshscreen
+	waitbutton
 	writetext MrPokemonIntroText5
 	waitbutton
 	closetrainpic
@@ -60,7 +55,7 @@ MrPokemonsHouse_MrPokemonScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic GENTLEMAN
+ 	trainerpic GENTLEMAN
 	checkitem RED_SCALE
 	iftrue .RedScale
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM

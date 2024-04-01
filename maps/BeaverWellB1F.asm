@@ -119,8 +119,8 @@ TrainerGruntF1:
 BeaverWellB1FBeaverWithMailScript:
 	faceplayer
 	refreshscreen
-	pokepic BEAVER
 	opentext
+	pokepic BEAVER
 	cry BEAVER
 	writetext BeaverWellB1FBeaverWithMailText
 	yesorno

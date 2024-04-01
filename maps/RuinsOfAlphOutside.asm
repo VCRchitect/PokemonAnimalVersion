@@ -76,14 +76,7 @@ RuinsOfAlphOutsideFisherScript:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	checkevent EVENT_TALKED_TO_RUINS_COWARD
-	iftrue .Next
-	setevent EVENT_TALKED_TO_RUINS_COWARD
-	writetext RuinsOfAlphOutsideFisherText1
-	waitbutton
-.Next:
-	refreshscreen
-	writetext RuinsOfAlphOutsideFisherText2
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

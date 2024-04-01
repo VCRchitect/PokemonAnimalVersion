@@ -12,14 +12,14 @@ Music_VioletCity_Ch1:
 	notetype 12, $a7
 ;Bar 1
 .mainloop:
-	octave 4
+	octave 3
 	note D_, 2
 	note C#, 2
 	note __, 2
-	octave 3
+	octave 2
 	note B_, 2
 	note __, 4
-	octave 4
+	octave 3
 	note C#, 2
 	note __, 6
 ;Bar 2
@@ -29,25 +29,25 @@ Music_VioletCity_Ch1:
 	note E_, 2
 	note C#, 2
 	note __, 2
-	octave 3
+	octave 2
 	note B_, 2
 	note __, 4
-	octave 4
+	octave 3
 	note C#, 2
 	note __, 2
 ;Bar 4
-	octave 3
+	octave 2
 	note G_, 12
 	note __, 4
 ;Bar 5
-	octave 4
+	octave 3
 	note D_, 2
 	note C#, 2
 	note __, 2
-	octave 3
+	octave 2
 	note B_, 2
 	note __, 4
-	octave 4
+	octave 3
 	note C#, 2
 	note __, 6
 ;Bar 6
@@ -57,63 +57,63 @@ Music_VioletCity_Ch1:
 	note E_, 2
 	note C#, 2
 	note __, 2
-	octave 3
+	octave 2
 	note B_, 2
 	note __, 4
-	octave 4
+	octave 3
 	note C#, 2
 	note __, 2
 ;Bar 8
-	octave 3
+	octave 2
 	note A_, 12
 	note __, 4
 ;Bar 9
-	octave 4
+	octave 3
 	note D_, 1
 	note C#, 1
 	note __, 1
-	octave 3
+	octave 2
 	note B_, 1
 	note __, 2
-	octave 4
+	octave 3
 	note C#, 1
 	note __, 3
-	octave 3
+	octave 2
 	note G_, 4
 	note __, 2
 ;Bar 10
-	octave 4
+	octave 3
 	note D_, 1
 	note C#, 1
 	note __, 1
-	octave 3
+	octave 2
 	note B_, 1
 	note __, 2
-	octave 4
+	octave 3
 	note C#, 5
 	note __, 5
 ;Bar 11
 	note D_, 1
 	note C#, 1
 	note __, 1
-	octave 3
+	octave 2
 	note B_, 1
 	note __, 2
-	octave 4
+	octave 3
 	note C#, 1
 	note __, 3
-	octave 3
+	octave 2
 	note G_, 4
 	note __, 2
 ;Bar 12
-	octave 4
+	octave 3
 	note D_, 1
 	note C#, 1
 	note __, 1
-	octave 3
+	octave 2
 	note B_, 1
 	note __, 2
-	octave 4
+	octave 3
 	note F#, 2
 	note E_, 8
 	sound_loop 0, .mainloop
@@ -123,7 +123,7 @@ Music_VioletCity_Ch2:
 	notetype 12, $a7
 	volume $22
 .mainloop:
-	octave 2
+	octave 1
 	note D_, 1
 	note __, 2
 	note D_, 1
@@ -173,7 +173,7 @@ Music_VioletCity_Ch2:
 	note __, 2
 	note A_, 1
 	note __, 1
-	octave 2
+	octave 1
 	note C#, 1
 	octave 1
 	note B_, 1
@@ -183,7 +183,7 @@ Music_VioletCity_Ch2:
 	note B_, 1
 	note __, 1
 ;Bar 5
-	octave 2
+	octave 1
 	note D_, 1
 	note __, 2
 	note D_, 1
@@ -233,7 +233,7 @@ Music_VioletCity_Ch2:
 	note __, 2
 	note A_, 1
 	note __, 1
-	octave 2
+	octave 1
 	note C#, 1
 	octave 1
 	note B_, 1
@@ -243,7 +243,7 @@ Music_VioletCity_Ch2:
 	note B_, 1
 	note __, 1
 ;Bar 9
-	octave 2
+	octave 1
 	note D_, 1
 	note __, 2
 	note D_, 1
@@ -293,7 +293,7 @@ Music_VioletCity_Ch2:
 	note __, 2
 	note A_, 1
 	note __, 1
-	octave 2
+	octave 1
 	note C#, 1
 	octave 1
 	note B_, 1
@@ -307,7 +307,7 @@ Music_VioletCity_Ch3:
 	note_type 12, 1, 4
 	volume 1, 1
 .mainloop:
-	octave 3
+	octave 2
 	note D_, 4
 	note __, 2
 	octave 1
@@ -322,7 +322,7 @@ Music_VioletCity_Ch3:
 	note B_, 2
 	note G_, 4
 ;Bar 3
-	octave 2
+	octave 1
 	note F#, 4
 	note __, 2
 	note C#, 4
@@ -330,7 +330,7 @@ Music_VioletCity_Ch3:
 	note A_, 2
 	note F#, 4
 ;Bar 4
-	octave 2
+	octave 1
 	note A_, 4
 	note __, 2
 	note E_, 4
@@ -338,10 +338,10 @@ Music_VioletCity_Ch3:
 	octave 1 ;WARNING: Octave 0 isn't supported, won't work correctly
 	note A_, 4
 ;Bar 5
-	octave 3
+	octave 2
 	note D_, 4
 	note __, 2
-	octave 2
+	octave 1
 	note A_, 4
 	note F#, 2
 	note D_, 4
@@ -353,7 +353,7 @@ Music_VioletCity_Ch3:
 	note B_, 2
 	note G_, 4
 ;Bar 7
-	octave 2
+	octave 1
 	note F#, 4
 	note __, 2
 	note C#, 4
@@ -361,7 +361,7 @@ Music_VioletCity_Ch3:
 	note A_, 2
 	note F#, 4
 ;Bar 8
-	octave 2
+	octave 1
 	note A_, 4
 	note __, 2
 	note E_, 4
@@ -369,10 +369,10 @@ Music_VioletCity_Ch3:
 	octave 1 ;WARNING: Octave 0 isn't supported, won't work correctly
 	note A_, 4
 ;Bar 9
-	octave 3
+	octave 2
 	note D_, 4
 	note __, 2
-	octave 2
+	octave 1
 	note A_, 4
 	note F#, 2
 	note D_, 4
@@ -384,7 +384,7 @@ Music_VioletCity_Ch3:
 	note B_, 2
 	note G_, 4
 ;Bar 11
-	octave 2
+	octave 1
 	note F#, 4
 	note __, 2
 	note C#, 4
@@ -392,7 +392,7 @@ Music_VioletCity_Ch3:
 	note A_, 2
 	note F#, 4
 ;Bar 12
-	octave 2
+	octave 1
 	note A_, 4
 	note __, 2
 	note E_, 4

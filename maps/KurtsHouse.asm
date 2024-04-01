@@ -99,6 +99,7 @@ Kurt1:
 	iftrue .CheckApricorns
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
 	iftrue .CheckApricorns
+	refreshscreen
 	trainerpic KURT
 	writetext KurtsHouseKurtBallsFromApricornsText
 	waitbutton
