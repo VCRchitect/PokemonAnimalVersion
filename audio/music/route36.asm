@@ -8,6 +8,7 @@ Music_Route36:
 Music_Route36_Ch1:
 	tempo 147
 	duty_cycle 2
+	transpose 1, 0
 	notetype 12, $a7
 .mainloop:
 	octave 3
@@ -152,15 +153,8 @@ Music_Route36_Ch1:
 	note A#, 6
 ;Bar 21
 	octave 4
-	note E_, 4
-	note C_, 4
-	octave 3
-	note A#, 2
-	octave 4
-	note C_, 2
-	octave 3
-	note A#, 2
-	octave 4
+	note E_, 10
+	note D_, 4
 	note C_, 8
 ;Bar 22
 	octave 3
@@ -186,6 +180,7 @@ Music_Route36_Ch2:
 	duty_cycle 0
 	vibrato 18, 3, 6
 	notetype 12, $a7
+	transpose -1, 0
 .mainloop:
 	octave 2
 	note C_, 1
@@ -725,13 +720,13 @@ Music_Route36_Ch4:
 	toggle_noise 4
 	drum_speed 12
 .mainloop:
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 3
-	drum_note 4, 1
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 3
-	drum_note 4, 1
+	drum_note 11, 1
 	sound_loop 0, .mainloop
 	

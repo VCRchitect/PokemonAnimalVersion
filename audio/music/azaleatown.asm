@@ -7,6 +7,7 @@ Music_AzaleaTown:
 
 Music_AzaleaTown_Ch1:
 	tempo 169
+	transpose 1, 0
 	duty_cycle 3
 	notetype 12, $a7
 .mainloop:
@@ -246,6 +247,7 @@ Music_AzaleaTown_Ch1:
 
 Music_AzaleaTown_Ch2:
 	duty_cycle 0
+	transpose 1, 0
 	notetype 12, $a7
 .mainloop:
 	octave 2
@@ -701,15 +703,15 @@ Music_AzaleaTown_Ch4:
 	toggle_noise 4
 	drum_speed 12
 .mainloop:
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 3, 3
-	drum_note 4, 2
-	drum_note 4, 3
+	drum_note 11, 2
+	drum_note 11, 3
 	drum_note 3, 4
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 3, 3
-	drum_note 4, 2
-	drum_note 4, 3
+	drum_note 11, 2
+	drum_note 11, 3
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	sound_loop 0, .mainloop

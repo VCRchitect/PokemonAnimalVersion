@@ -28,6 +28,7 @@ AzaleaGymBugsyScript:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_BUGSY
+	refreshscreen
 	opentext
 	trainerpic BUGSY
 	writetext Text_ReceivedHiveBadge
@@ -49,6 +50,7 @@ AzaleaGymBugsyScript:
 	verbosegiveitem TM_FURY_CUTTER
 	iffalse .NoRoomForFuryCutter
 	setevent EVENT_GOT_TM49_FURY_CUTTER
+	refreshscreen
 	trainerpic BUGSY
 	writetext BugsyText_FuryCutterSpeech
 	waitbutton
@@ -57,6 +59,7 @@ AzaleaGymBugsyScript:
 	end
 
 .GotFuryCutter:
+	refreshscreen
 	trainerpic BUGSY
 	writetext BugsyText_BugMonsAreDeep
 	waitbutton
@@ -294,7 +297,7 @@ BugCatcherAlAfterBattleText:
 	para "don't like bug"
 	line "ANIMALs."
 
-	para "I don't know why..."
+	para "I don't know why."
 	done
 
 BugCatcherJoshSeenText:

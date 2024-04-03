@@ -231,9 +231,9 @@ Music_MagnetTrain_Ch4:
 	drum_note 11, 1
 	drum_note 11, 1
 	drum_speed 6
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 7, 4
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 7, 4
 	drum_note 11, 4
 	drum_note 7, 4

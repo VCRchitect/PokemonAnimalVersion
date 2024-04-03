@@ -172,10 +172,10 @@ Music_Mom_Ch4:
 	drum_speed 12
 	rest 16
 .mainloop:
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 3, 2
-	drum_note 4, 1
-	drum_note 4, 3
-	drum_note 4, 2
+	drum_note 11, 1
+	drum_note 11, 3
+	drum_note 11, 2
 	drum_note 3, 4
 	sound_loop 0, .mainloop

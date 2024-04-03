@@ -465,7 +465,7 @@ Music_Route2_Ch4:
 	drum_note 10, 4
 	drum_note 10, 2
 	drum_note 10, 2
-	drum_note 4, 4
+	drum_note 11, 4
 .mainloop:
 .loop2:
 	drum_note 10, 4
@@ -488,7 +488,7 @@ Music_Route2_Ch4:
 	drum_note 10, 4
 	drum_note 10, 2
 	drum_note 10, 2
-	drum_note 4, 4
+	drum_note 11, 4
 .loop4:
 	drum_note 12, 4
 	drum_note 1, 4
@@ -512,5 +512,5 @@ Music_Route2_Ch4:
 	drum_note 1, 4
 	drum_note 3, 2
 	drum_note 3, 2
-	drum_note 4, 4
+	drum_note 11, 4
 	sound_loop 0, .mainloop

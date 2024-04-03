@@ -97,7 +97,6 @@ IlexForestCharcoalApprenticeScript:
 	end
 
 .DoneDuck:
-	trainerpic YOUNGSTER
 	writetext IlexForestApprenticeAfterText
 	waitbutton
 	closetrainpic
@@ -366,6 +365,7 @@ IlexForestCharcoalMasterScript:
 	closetrainpic
 	verbosegiveitem HM_CUT
 	setevent EVENT_GOT_HM01_CUT
+	refreshscreen
 	trainerpic BLACKBELT_T
 	writetext Text_CharcoalMasterOutro
 	waitbutton
@@ -380,6 +380,7 @@ IlexForestCharcoalMasterScript:
 	end
 
 .AlreadyGotCut:
+	refreshscreen
 	trainerpic BLACKBELT_T
 	writetext Text_CharcoalMasterTalkAfter
 	waitbutton
@@ -401,6 +402,7 @@ IlexForestHeadbuttGuyScript:
 	iffalse .BagFull
 	setevent EVENT_GOT_TM02_HEADBUTT
 .AlreadyGotHeadbutt:
+	refreshscreen
 	trainerpic BLACKBELT_T
 	writetext Text_HeadbuttOutro
 	waitbutton

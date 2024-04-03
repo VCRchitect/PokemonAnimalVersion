@@ -106,6 +106,8 @@ TrainerCamperTodd1:
 	iftrue .NumberAccepted
 	checkevent EVENT_TODD_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic CAMPER
 	writetext CamperTodd1AfterText
 	promptbutton
 	setevent EVENT_TODD_ASKED_FOR_PHONE_NUMBER

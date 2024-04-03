@@ -804,7 +804,7 @@ GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:
 
 GoldenrodUndergroundSwitchRoomEntrances_TeacherText:
 	text "There are some"
-	line "shops downstairs..."
+	line "shops downstairs,"
 
 	para "But there are"
 	line "also trainers."

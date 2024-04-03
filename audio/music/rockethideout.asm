@@ -283,8 +283,8 @@ Music_RocketHideout_Ch4:
 	rest 16
 	drum_note 3, 1
 	drum_note 3, 1
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	sound_call .sub1
 .mainloop:
 	sound_call .sub1
@@ -299,12 +299,12 @@ Music_RocketHideout_Ch4:
 
 .sub1:
 	stereo_panning TRUE, FALSE
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	stereo_panning FALSE, TRUE
 	drum_note 10, 4
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	stereo_panning TRUE, FALSE
 	drum_note 10, 4
 	sound_ret

@@ -783,7 +783,7 @@ Music_VictoryRoad_Ch4:
 	drum_speed 12
 	volume $77
 .mainloop:
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 8, 2
 	drum_note 3, 2
 	drum_note 8, 2

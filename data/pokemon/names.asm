@@ -73,7 +73,7 @@ PokemonNames::
 	db "MUNGSPROUT"
 	db "JELLYFISH@"
 	db "MAN O WAR@"
-	db "ROCKY@@@@@"
+	db "THE ROCK@@"
 	db "HARD ROCK@"
 	db "RUBBLE@@@@"
 	db "PONY@@@@@@"

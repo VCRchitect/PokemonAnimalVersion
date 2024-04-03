@@ -322,10 +322,10 @@ Music_ProfOaksPokemonTalk_Ch4:
 	toggle_noise 4
 	drum_speed 12
 .mainloop:
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 4
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 4
 	sound_loop 0, .mainloop

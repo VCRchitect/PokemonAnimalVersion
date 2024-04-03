@@ -396,11 +396,11 @@ Music_Clair_Ch4:
 	drum_note 12, 8
 	drum_note 12, 6
 	stereo_panning TRUE, TRUE
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	drum_note 3, 2
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	drum_note 3, 2
 	drum_note 3, 1
 	drum_note 3, 1
@@ -414,7 +414,7 @@ Music_Clair_Ch4:
 	sound_loop 0, .mainloop
 
 .sub1:
-	drum_note 4, 2
+	drum_note 11, 2
 	stereo_panning TRUE, FALSE
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
@@ -424,7 +424,7 @@ Music_Clair_Ch4:
 	drum_note 8, 1
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
-	drum_note 4, 1
+	drum_note 11, 1
 	stereo_panning TRUE, FALSE
 	drum_note 8, 1
 	stereo_panning TRUE, TRUE

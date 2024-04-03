@@ -59,6 +59,7 @@ Route34IlexForestGateTeacherScript:
 	iffalse .NoRoom
 	setevent EVENT_GOT_TM12_SWEET_SCENT
 .GotSweetScent:
+	refreshscreen
 	trainerpic TEACHER
 	writetext Route34IlexForestGateTeacher_GotSweetScent
 	waitbutton

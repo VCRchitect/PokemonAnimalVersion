@@ -2209,7 +2209,7 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaANML: db "Choose a <AN><ML>.@"
+PCString_ChooseaANML: db "Choose an <AN><ML>.@"
 PCString_WhatsUp: db "What's up?@"
 PCString_ReleaseANML: db "Release <AN><ML>?@"
 PCString_MoveToWhere: db "Move to where?@"

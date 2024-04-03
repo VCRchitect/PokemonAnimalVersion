@@ -304,7 +304,7 @@ Music_ShowMeAround_Ch4:
 	rest 16
 	rest 8
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 4
 .mainloop:
 	sound_call .sub1
@@ -316,31 +316,31 @@ Music_ShowMeAround_Ch4:
 	sound_loop 0, .mainloop
 
 .sub1:
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 8, 2
 	drum_note 7, 4
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 4
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 8, 2
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	sound_ret
 
 .sub2:
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 8, 2
 	drum_note 7, 4
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 4
 	drum_note 3, 2
 	drum_note 3, 2

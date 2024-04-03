@@ -1,4 +1,4 @@
-	db "RIVER PINCHES@" ; species name
+	db "RIVER PINCH@" ; species name
 	dw 104, 140 ; height, weight
 
 	db   "They got little"

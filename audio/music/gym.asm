@@ -29,7 +29,7 @@ Music_Gym_Ch1:
 	note __, 8
 ;Bar 5
 	octave 4
-	note D_, 4
+ 	note D_, 4
 	note D#, 4
 	note D_, 4
 	octave 3
@@ -50,36 +50,40 @@ Music_Gym_Ch1:
 	note __, 8
 ;Bar 9
 	octave 3
-	note F_, 4
-	note D_, 8
-	note C_, 8
-;Bar 10
-	octave 2
 	note A#, 4
-	note __, 8
-;Bar 11
-	octave 3
-	note F_, 4
-	note D_, 8
 	note G_, 8
-;Bar 12
-	note F_, 4
-	note __, 8
-;Bar 13
-	note A_, 4
-	note A#, 4
-	note A_, 4
 	note F_, 8
-;Bar 14
-	note D_, 4
+;Bar 2
+	note D#, 4
 	note __, 8
-;Bar 15
-	note A_, 4
+;Bar 3
 	note A#, 4
-	note A_, 4
+	note G_, 8
 	octave 4
-	note D_, 8
-;Bar 16
+	note C_, 8
+;Bar 4
+	octave 3
+	note A#, 4
+	note __, 8
+;Bar 5
+	octave 4
+ 	note D_, 4
+	note D#, 4
+	note D_, 4
+	octave 3
+	note A#, 8
+;Bar 6
+	note G_, 4
+	note __, 8
+;Bar 7
+	octave 4
+	note D_, 4
+	note D#, 4
+	note D_, 4
+	octave 3
+	note A#, 8
+;Bar 8
+	octave 4
 	note C_, 4
 	note __, 8
 ;Bar 17
@@ -218,24 +222,23 @@ Music_Gym_Ch3:
 	sound_loop 0, .mainloop
 
 Music_Gym_Ch4:
-	volume $77
 	toggle_noise 4
 	drum_speed 12
 .mainloop:
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 3
-	drum_note 4, 1
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 3
-	drum_note 4, 1
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 3
-	drum_note 4, 1
-	drum_note 4, 3
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 3
+	drum_note 11, 1
 	drum_note 3, 3
 	drum_note 3, 1
 	sound_loop 0, .mainloop

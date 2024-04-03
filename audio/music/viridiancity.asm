@@ -747,36 +747,36 @@ Music_ViridianCity_Ch4:
 	sound_ret
 
 .sub3:
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 4, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 4
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 4, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	sound_ret
 
 .sub4:
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 4, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 4
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 7, 2
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 4, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	drum_note 3, 2
 	drum_note 3, 2
 	drum_note 7, 2

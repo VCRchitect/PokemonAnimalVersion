@@ -316,9 +316,9 @@ Music_AfterTheRivalFight_Ch4:
 	toggle_noise 4
 	drum_speed 12
 .mainloop:
-	drum_note 4, 4
-	drum_note 4, 4
-	drum_note 4, 4
-	drum_note 4, 4
+	drum_note 11, 4
+	drum_note 11, 4
+	drum_note 11, 4
+	drum_note 11, 4
 	sound_loop 0, .mainloop
 	

@@ -54,7 +54,7 @@ GnatPokedexEntry::    INCLUDE "data/pokemon/dex_entries/gnat.asm"
 MothPokedexEntry::   INCLUDE "data/pokemon/dex_entries/moth.asm"
 MolePokedexEntry::    INCLUDE "data/pokemon/dex_entries/mole.asm"
 ThreeMolesPokedexEntry::    INCLUDE "data/pokemon/dex_entries/threemoles.asm"
-CatPokedexEntry::     INCLUDE "data/pokemon/dex_entries/cat.asm"
+CatPokedexEntry::    INCLUDE "data/pokemon/dex_entries/cat.asm"
 CougarPokedexEntry::    INCLUDE "data/pokemon/dex_entries/cougar.asm"
 FluffyduckPokedexEntry::    INCLUDE "data/pokemon/dex_entries/fluffyduck.asm"
 KappaPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kappa.asm"
@@ -70,7 +70,6 @@ HagabondPokedexEntry::    INCLUDE "data/pokemon/dex_entries/hagabond.asm"
 
 
 SECTION "Pokedex Entries 065-128", ROMX
-
 HomelassPokedexEntry::   INCLUDE "data/pokemon/dex_entries/homelass.asm"
 ScrawnyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/scrawny.asm"
 HunkPokedexEntry::    INCLUDE "data/pokemon/dex_entries/hunk.asm"

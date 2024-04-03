@@ -389,24 +389,24 @@ Music_GymLeaderVictory_Ch4:
 	drum_note 12, 16
 .mainloop:
 	sound_call .sub1
-	drum_note 4, 6
-	drum_note 4, 2
-	drum_note 4, 8
+	drum_note 11, 6
+	drum_note 11, 2
+	drum_note 11, 8
 	sound_call .sub1
-	drum_note 4, 6
-	drum_note 4, 2
-	drum_note 4, 4
+	drum_note 11, 6
+	drum_note 11, 2
+	drum_note 11, 4
 	drum_note 2, 1
 	drum_note 2, 1
 	drum_note 2, 1
 	drum_note 2, 1
 .loop1:
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 8, 2
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 8, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 3, 2
 	drum_note 8, 2
 	sound_loop 16, .loop1
@@ -414,10 +414,10 @@ Music_GymLeaderVictory_Ch4:
 
 .sub1:
 .sub1loop1:
-	drum_note 4, 6
-	drum_note 4, 2
-	drum_note 4, 4
+	drum_note 11, 6
+	drum_note 11, 2
+	drum_note 11, 4
 	drum_note 3, 2
-	drum_note 4, 2
+	drum_note 11, 2
 	sound_loop 3, .sub1loop1
 	sound_ret

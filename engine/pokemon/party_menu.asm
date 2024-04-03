@@ -759,10 +759,10 @@ MoveToWhereString:
 	db "Move to where?@"
 
 ChooseAFemaleANMLString: ; unreferenced
-	db "Choose a ♀<AN><ML>.@"
+	db "Choose an ♀<AN><ML>.@"
 
 ChooseAMaleANMLString: ; unreferenced
-	db "Choose a ♂<AN><ML>.@"
+	db "Choose an ♂<AN><ML>.@"
 
 ToWhichANMLString:
 	db "To which <AN><ML>?@"

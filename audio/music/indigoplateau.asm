@@ -153,28 +153,28 @@ Music_IndigoPlateau_Ch4:
 	toggle_noise 0
 	drum_speed 12
 .mainloop:
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 4, 2
-	drum_note 4, 2
+	drum_note 11, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	drum_note 3, 4
 	drum_note 3, 2
 	drum_note 3, 2
 	drum_speed 6
 	drum_note 3, 1
 	drum_note 3, 1
-	drum_note 4, 1
-	drum_note 4, 1
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	drum_note 3, 1
 	drum_note 3, 1
 	drum_speed 12
-	drum_note 4, 4
+	drum_note 11, 4
 	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 4, 2
+	drum_note 11, 2
+	drum_note 11, 2
 	drum_note 3, 2
 	drum_note 2, 4
 	drum_note 3, 2

@@ -562,7 +562,7 @@ Music_BuenasPassword_Ch3:
 Music_BuenasPassword_Ch4:
 	toggle_noise 3
 	drum_speed 12
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 3, 2
 	drum_note 3, 2
 	drum_note 3, 1
@@ -578,7 +578,7 @@ Music_BuenasPassword_Ch4:
 	sound_call .sub1
 	sound_call .sub1
 	stereo_panning TRUE, TRUE
-	drum_note 4, 2
+	drum_note 11, 2
 	stereo_panning TRUE, FALSE
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
@@ -597,7 +597,7 @@ Music_BuenasPassword_Ch4:
 
 .sub1:
 	stereo_panning TRUE, TRUE
-	drum_note 4, 2
+	drum_note 11, 2
 	stereo_panning TRUE, FALSE
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
@@ -608,7 +608,7 @@ Music_BuenasPassword_Ch4:
 	stereo_panning TRUE, FALSE
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 3, 2
 	stereo_panning FALSE, TRUE
 	drum_note 8, 2
@@ -616,7 +616,7 @@ Music_BuenasPassword_Ch4:
 
 .sub2:
 	stereo_panning TRUE, TRUE
-	drum_note 4, 2
+	drum_note 11, 2
 	stereo_panning TRUE, FALSE
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
@@ -627,7 +627,7 @@ Music_BuenasPassword_Ch4:
 	stereo_panning TRUE, FALSE
 	drum_note 8, 2
 	stereo_panning TRUE, TRUE
-	drum_note 4, 2
+	drum_note 11, 2
 	drum_note 3, 2
 	drum_note 3, 1
 	drum_note 3, 1
