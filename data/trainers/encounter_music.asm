@@ -78,5 +78,5 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; bill_t
 	db MUSIC_HIKER_ENCOUNTER       ; kurt
 	db MUSIC_HIKER_ENCOUNTER       ; guide
-	
+	db MUSIC_HIKER_ENCOUNTER       ; papa
 	assert_table_length NUM_TRAINER_CLASSES + 1

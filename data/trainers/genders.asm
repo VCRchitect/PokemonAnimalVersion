@@ -77,6 +77,7 @@ BTTrainerClassGenders:
 	db MALE ; BILL_T
 	db MALE ; KURT
 	db MALE ; GUIDE
+	db MALE ; PAPA
 
 	assert_table_length NUM_TRAINER_CLASSES
 	

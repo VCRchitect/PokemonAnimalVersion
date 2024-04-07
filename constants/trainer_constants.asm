@@ -723,5 +723,8 @@ KRIS EQU __trainer_class__
 
 	trainerclass GUIDE ; 50
 	const GUIDE1
+	
+	trainerclass PAPA ; 51
+	const PAPA1
 
 NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

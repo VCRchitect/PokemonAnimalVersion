@@ -6,9 +6,8 @@ Music_Route37:
 	channel 4, Music_Route37_Ch4
 
 Music_Route37_Ch1:
-	transpose 1, 0
 	tempo 213
-	duty_cycle 1
+	duty_cycle 2
 	vibrato 16, 2, 2
 	notetype 12, $a7
 .mainloop:
@@ -124,7 +123,6 @@ Music_Route37_Ch1:
 
 Music_Route37_Ch2:
 	duty_cycle 0
-	transpose 1, 0
 	vibrato 28, 1, 2
 	notetype 12, $a7
 .mainloop:
@@ -153,7 +151,7 @@ Music_Route37_Ch2:
 	sound_loop 0, .mainloop
 
 Music_Route37_Ch3:
-	notetype 12, $a6
+	note_type 12, 2, 7
 .mainloop:
 	octave 1
 	note G_, 2

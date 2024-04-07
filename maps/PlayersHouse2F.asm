@@ -44,11 +44,15 @@ PlayersHouseGameConsoleScript:
 	describedecoration DECODESC_CONSOLE
 
 PlayersHousePosterScript:
-	conditional_event EVENT_PLAYERS_ROOM_POSTER, .Script
-
-.Script:
-	describedecoration DECODESC_POSTER
-
+	refreshscreen
+	opentext
+	trainerpic PAPA
+	writetext PlayersHousePapaPicText
+	waitbutton
+	closetrainpic
+	closetext
+	end
+	
 PlayersHouseRadioScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue .NormalRadio
@@ -130,6 +134,17 @@ PlayersRadioText4:
 	cont "softly plays..."
 	done
 
+PlayersHousePapaPicText:
+	text "It's my favorite"
+	line "picture of Papa"
+	para "from before that"
+	line "OSPREY carried him"
+	para "away. He was a"
+	line "good man. I miss"
+	para "his mustache and"
+	line "hearty chortle."
+	done
+
 PlayersHouse2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -142,7 +157,7 @@ PlayersHouse2F_MapEvents:
 	bg_event  2,  1, BGEVENT_UP, PlayersHousePCScript
 	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadioScript
 	bg_event  5,  1, BGEVENT_READ, PlayersHouseBookshelfScript
-	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePosterScript
+	bg_event  6,  0, BGEVENT_READ, PlayersHousePosterScript
 
 	def_object_events
 	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PlayersHouseGameConsoleScript, EVENT_PLAYERS_HOUSE_2F_CONSOLE

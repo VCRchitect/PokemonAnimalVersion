@@ -104,6 +104,7 @@
 	const SPRITE_CERBERUS ; 64
 	const SPRITE_BARGHEST ; 65
 	const SPRITE_STANDING_YOUNGSTER ; 66
+	const SPRITE_PAPA ; 67
 NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

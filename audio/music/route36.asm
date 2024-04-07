@@ -8,7 +8,6 @@ Music_Route36:
 Music_Route36_Ch1:
 	tempo 147
 	duty_cycle 2
-	transpose 1, 0
 	notetype 12, $a7
 .mainloop:
 	octave 3
@@ -177,10 +176,9 @@ Music_Route36_Ch1:
 	sound_loop 0, .mainloop
 
 Music_Route36_Ch2:
-	duty_cycle 0
+	duty_cycle 2
 	vibrato 18, 3, 6
 	notetype 12, $a7
-	transpose -1, 0
 .mainloop:
 	octave 2
 	note C_, 1
@@ -603,7 +601,7 @@ Music_Route36_Ch2:
 	sound_loop 0, .mainloop
 
 Music_Route36_Ch3:
-	note_type 12, 1, 6
+	note_type 12, 2, 5
 	volume $55
 .mainloop:
 	octave 1

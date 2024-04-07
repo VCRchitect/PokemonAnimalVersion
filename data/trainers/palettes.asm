@@ -83,5 +83,5 @@ INCBIN "gfx/trainers/nurselady.gbcpal", middle_colors
 INCBIN "gfx/trainers/bill_t.gbcpal", middle_colors
 INCBIN "gfx/trainers/kurt.gbcpal", middle_colors
 INCBIN "gfx/trainers/guide.gbcpal", middle_colors
-
+INCBIN "gfx/trainers/papa.gbcpal", middle_colors
 	assert_table_length NUM_TRAINER_CLASSES + 1

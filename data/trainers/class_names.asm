@@ -75,5 +75,5 @@ TrainerClassNames::
 	li "BILL"
 	li "KURT"
 	li "GUIDE"
-
+	li "PAPA"
 	assert_list_length NUM_TRAINER_CLASSES

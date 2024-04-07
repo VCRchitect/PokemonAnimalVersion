@@ -77,4 +77,5 @@ TrainerGroups:
 	dw BillGroup
 	dw KurtGroup
 	dw GuideGroup
+	dw PapaGroup
 	assert_table_length NUM_TRAINER_CLASSES

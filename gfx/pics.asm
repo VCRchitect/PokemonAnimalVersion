@@ -652,7 +652,7 @@ NurseladyPic::              INCBIN "gfx/trainers/nurselady.2bpp.lz"
 BillTPic::              INCBIN "gfx/trainers/bill_t.2bpp.lz"
 KurtPic::              INCBIN "gfx/trainers/kurt.2bpp.lz"
 GuidePic::              INCBIN "gfx/trainers/guide.2bpp.lz"
-
+PapaPic::              INCBIN "gfx/trainers/papa.2bpp.lz"
 CuttlefishBackpic:		 INCBIN "gfx/pokemon/cuttlefish/back.2bpp.lz"
 
 

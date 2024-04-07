@@ -30,8 +30,8 @@ MaleTrainers:
 	db ELM
 	db BILL_T
 	db KURT
-	db GUIDE
-	
+	db GUIDE	
+	db PAPA
 .End
 
 FemaleTrainers:

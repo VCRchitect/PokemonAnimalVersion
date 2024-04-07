@@ -76,4 +76,5 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; BILL_T
 	dn  9,  8,  8,  8 ; KURT
 	dn  9,  8,  8,  8 ; GUIDE
+	dn  9,  8,  8,  8 ; PAPA
 	assert_table_length NUM_TRAINER_CLASSES

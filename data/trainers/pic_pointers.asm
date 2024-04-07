@@ -77,4 +77,5 @@ TrainerPicPointers::
 	dba_pic BillTPic
 	dba_pic KurtPic
 	dba_pic GuidePic
+	dba_pic PapaPic
 	assert_table_length NUM_TRAINER_CLASSES

@@ -75,5 +75,6 @@ BTTrainerClassSprites:
 	db SPRITE_BILL
 	db SPRITE_KURT
 	db SPRITE_GYM_GUIDE
+	db SPRITE_PAPA
 	assert_table_length NUM_TRAINER_CLASSES
 	
