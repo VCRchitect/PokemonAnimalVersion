@@ -19,15 +19,15 @@
 	const SPRITE_DAISY ; 0f
 	const SPRITE_ELM ; 10
 	const SPRITE_WILL ; 11
-	const SPRITE_FALKNER ; 12
+	const SPRITE_BIG_BIRD ; 12
 	const SPRITE_WHITNEY ; 13
 	const SPRITE_BUGSY ; 14
-	const SPRITE_MORTY ; 15
+	const SPRITE_JASON ; 15
 	const SPRITE_JOSE ; 16
 	const SPRITE_JASMINE ; 17
 	const SPRITE_PRYCE ; 18
 	const SPRITE_CLAIR ; 19
-	const SPRITE_BROCK ; 1a
+	const SPRITE_KID_ROCK ; 1a
 	const SPRITE_KAREN ; 1b
 	const SPRITE_BRUNO ; 1c
 	const SPRITE_MISTY ; 1d

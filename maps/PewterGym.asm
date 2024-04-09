@@ -1,5 +1,5 @@
 	object_const_def
-	const PEWTERGYM_BROCK
+	const PEWTERGYM_KID_ROCK
 	const PEWTERGYM_YOUNGSTER
 	const PEWTERGYM_GYM_GUIDE
 
@@ -8,22 +8,22 @@ PewterGym_MapScripts:
 
 	def_callbacks
 
-PewterGymBrockScript:
+PewterGymKid_RockScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic BROCK
+	trainerpic KID_ROCK
 	checkflag ENGINE_BOULDERBADGE
 	iftrue .FightDone
-	writetext BrockIntroText
+	writetext Kid_RockIntroText
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext BrockWinLossText, 0
-	loadtrainer BROCK, BROCK1
+	winlosstext Kid_RockWinLossText, 0
+	loadtrainer KID_ROCK, KID_ROCK1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_BROCK
+	setevent EVENT_BEAT_KID_ROCK
 	setevent EVENT_BEAT_CAMPER_JERRY
 	opentext
 	writetext ReceivedBoulderBadgeText
@@ -31,15 +31,15 @@ PewterGymBrockScript:
 	waitsfx
 	setflag ENGINE_BOULDERBADGE
 	refreshscreen
-	trainerpic BROCK
-	writetext BrockBoulderBadgeText
+	trainerpic KID_ROCK
+	writetext Kid_RockBoulderBadgeText
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .FightDone:
-	writetext BrockFightDoneText
+	writetext Kid_RockFightDoneText
 	waitbutton
 	closetrainpic
 	closetext
@@ -64,7 +64,7 @@ PewterGymGuideScript:
 	refreshscreen
 	opentext
 	trainerpic GUIDE
-	checkevent EVENT_BEAT_BROCK
+	checkevent EVENT_BEAT_KID_ROCK
 	iftrue .PewterGymGuideWinScript
 	writetext PewterGymGuideText
 	waitbutton
@@ -84,42 +84,33 @@ PewterGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, BROCK, BROCK1
+	gettrainername STRING_BUFFER_4, KID_ROCK, KID_ROCK1
 	jumpstd GymStatue2Script
 
-BrockIntroText:
-	text "BROCK: Wow, it's"
-	line "not often that we"
+Kid_RockIntroText:
+	text "KID ROCK: MY NAME"
+	line "IS KIIIIIIIIID..."
 
-	para "get a challenger"
-	line "from JOHTO."
-
-	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	para "KID ROCK!"
 
 	para "I'm an expert on"
-	line "rock-type ANIMALs."
+	line "rocks."
 
-	para "My ANIMALs are im-"
-	line "pervious to most"
+	para "My ANIMALs have"
+	line "been hit with all"
 
 	para "physical attacks."
 	line "You'll have a hard"
 
-	para "time inflicting"
+	para "time causing"
 	line "any damage."
 
 	para "Come on!"
 	done
 
-BrockWinLossText:
-	text "BROCK: Your animal"
-	line "and its attacks"
-	cont "overcame my"
-	cont "rock-hard defense."
-
-	para "You're stronger"
-	line "than I expected..."
+Kid_RockWinLossText:
+	text "KID ROCK:"
+	line "BAWITADABA DABANG!"
 
 	para "Go ahead--take"
 	line "this BADGE."
@@ -130,8 +121,8 @@ ReceivedBoulderBadgeText:
 	line "BOULDERBADGE."
 	done
 
-BrockBoulderBadgeText:
-	text "BROCK: <PLAY_G>,"
+Kid_RockBoulderBadgeText:
+	text "KID ROCK: <PLAY_G>,"
 	line "thanks. I enjoyed"
 
 	para "battling you, even"
@@ -145,8 +136,8 @@ BrockBoulderBadgeText:
 	line "powerful."
 	done
 
-BrockFightDoneText:
-	text "BROCK: The world"
+Kid_RockFightDoneText:
+	text "KID ROCK: Earth"
 	line "is huge. There are"
 
 	para "still many strong"
@@ -180,7 +171,7 @@ CamperJerryBeatenText:
 
 CamperJerryAfterBattleText:
 	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	line "from JOHTO! KROCK"
 
 	para "is tough. He'll"
 	line "punish you if you"
@@ -234,6 +225,6 @@ PewterGym_MapEvents:
 	bg_event  7, 11, BGEVENT_READ, PewterGymStatue
 
 	def_object_events
-	object_event  5,  1, SPRITE_BROCK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PewterGymBrockScript, -1
+	object_event  5,  1, SPRITE_KID_ROCK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PewterGymKid_RockScript, -1
 	object_event  2,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperJerry, -1
 	object_event  6, 11, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 1, PewterGymGuideScript, -1

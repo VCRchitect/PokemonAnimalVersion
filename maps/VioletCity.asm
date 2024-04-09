@@ -24,7 +24,7 @@ VioletCityEarlScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANM
-	writetext Text_EarlAsksIfYouBeatFalkner
+	writetext Text_EarlAsksIfYouBeatBig_Bird
 	yesorno
 	iffalse .FollowEarl
 	sjump .PointlessJump
@@ -216,7 +216,7 @@ VioletCitySpinningEarl_MovementData:
 	turn_head DOWN
 	step_end
 
-Text_EarlAsksIfYouBeatFalkner:
+Text_EarlAsksIfYouBeatBig_Bird:
 	text "Hello!"
 	line "Did you beat the"
 	cont "GYM LEADER?"
@@ -261,17 +261,15 @@ VioletCitySuperNerdText:
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
+	text "BIG BIRD, from the"
 	line "VIOLET ANIMAL"
 
 	para "GYM, is a fine"
 	line "trainer!"
 
-	para "He inherited his"
-	line "father's gym and"
-
-	para "has done a great"
-	line "job with it."
+	para "He was once a"
+	line "big time TV star,"
+	cont "but gave it up."
 	done
 
 VioletCityYoungsterText:
@@ -292,7 +290,7 @@ VioletCitySignText:
 VioletGymSignText:
 	text "VIOLET CITY"
 	line "ANIMAL GYM"
-	cont "LEADER: FALKNER"
+	cont "LEADER: BIG_BIRD"
 
 	para "The Elegant Master"
 	line "of Flying ANIMALs"

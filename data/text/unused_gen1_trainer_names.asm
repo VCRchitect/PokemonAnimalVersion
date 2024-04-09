@@ -33,7 +33,7 @@ Gen1TrainerClassNames:
 	dw .CooltrainerM
 	dw .CooltrainerF
 	dw wOTClassName ; bruno
-	dw wOTClassName ; brock
+	dw wOTClassName ; kid_rock
 	dw wOTClassName ; misty
 	dw wOTClassName ; lt.surge
 	dw wOTClassName ; erika

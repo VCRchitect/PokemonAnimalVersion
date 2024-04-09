@@ -93,11 +93,11 @@ LizRuinsOfAlphGossipText:
 	line "was. So strange!"
 	done
 
-LizFalknerGossipText:
+LizBig_BirdGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "FALKNER of VIOLET"
+	line "BIG BIRD of VIOLET"
 
 	para "GYM is cool and"
 	line "handsome?"
@@ -109,7 +109,7 @@ LizFalknerGossipText:
 	line "road, is even more"
 
 	para "cool and handsome"
-	line "than FALKNER."
+	line "than BIG BIRD."
 
 	para "I wish I could"
 	line "meet him!"

@@ -128,10 +128,12 @@ PewterCitySignText:
 PewterGymSignText:
 	text "PEWTER CITY"
 	line "ANIMAL GYM"
-	cont "LEADER: BROCK"
+	cont "LEADER: KID ROCK"
 
 	para "The Rock Solid"
 	line "ANIMAL Trainer"
+	para "On account of the"
+	line "crack rocks."
 	done
 
 PewterMuseumSignText:

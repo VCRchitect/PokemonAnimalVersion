@@ -1,5 +1,5 @@
 	object_const_def
-	const VIOLETGYM_FALKNER
+	const VIOLETGYM_BIG_BIRD
 	const VIOLETGYM_YOUNGSTER1
 	const VIOLETGYM_YOUNGSTER2
 	const VIOLETGYM_GYM_GUIDE
@@ -9,22 +9,22 @@ VioletGym_MapScripts:
 
 	def_callbacks
 
-VioletGymFalknerScript:
+VioletGymBig_BirdScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic FALKNER
-	checkevent EVENT_BEAT_FALKNER
+	trainerpic BIG_BIRD
+	checkevent EVENT_BEAT_BIG_BIRD
 	iftrue .FightDone
-	writetext FalknerIntroText
+	writetext Big_BirdIntroText
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext FalknerWinLossText, 0
-	loadtrainer FALKNER, FALKNER1
+	winlosstext Big_BirdWinLossText, 0
+	loadtrainer BIG_BIRD, BIG_BIRD1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_FALKNER
+	setevent EVENT_BEAT_BIG_BIRD
 	opentext
 	writetext ReceivedZephyrBadgeText
 	playsound SFX_GET_BADGE
@@ -40,23 +40,23 @@ VioletGymFalknerScript:
 	setmapscene ELMS_LAB, SCENE_ELMSLAB_NOTHING
 	specialphonecall SPECIALCALL_ASSISTANT
 	refreshscreen
-	trainerpic FALKNER
-	writetext FalknerZephyrBadgeText
+	trainerpic BIG_BIRD
+	writetext Big_BirdZephyrBadgeText
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_MUD_SLAP
 	iffalse .NoRoomForMudSlap
 	setevent EVENT_GOT_TM31_MUD_SLAP
 	refreshscreen
-	trainerpic FALKNER
-	writetext FalknerTMMudSlapText
+	trainerpic BIG_BIRD
+	writetext Big_BirdTMMudSlapText
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .SpeechAfterTM:
-	writetext FalknerFightDoneText
+	writetext Big_BirdFightDoneText
 	waitbutton
 .NoRoomForMudSlap:
 	closetext
@@ -106,7 +106,7 @@ VioletGymGuideScript:
 	refreshscreen
 	opentext
 	trainerpic GUIDE
-	checkevent EVENT_BEAT_FALKNER
+	checkevent EVENT_BEAT_BIG_BIRD
 	iftrue .VioletGymGuideWinScript
 	writetext VioletGymGuideText
 	waitbutton
@@ -126,18 +126,18 @@ VioletGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, FALKNER, FALKNER1
+	gettrainername STRING_BUFFER_4, BIG_BIRD, BIG_BIRD1
 	jumpstd GymStatue2Script
 
-FalknerIntroText:
-	text "I'm FALKNER, the"
+Big_BirdIntroText:
+	text "I'm BIG BIRD, the"
 	line "VIOLET ANIMAL GYM"
 	cont "leader!"
 
 	para "People say you can"
 	line "clip flying-type"
 
-	para "ANIMAL's wings"
+	para "ANIMALs' wings"
 	line "with a jolt of"
 	cont "electricity..."
 
@@ -152,10 +152,10 @@ FalknerIntroText:
 	line "ANIMAL!"
 	done
 
-FalknerWinLossText:
-	text "My dead dad's"
-	line "cherished bird"
-	cont "ANIMALs..."
+Big_BirdWinLossText:
+	text "I never should've"
+	line "left Sesame Street"
+	cont "to be a leader..."
 
 	para "All right."
 	line "Take this."
@@ -170,7 +170,7 @@ ReceivedZephyrBadgeText:
 	line "ZEPHYRBADGE."
 	done
 
-FalknerZephyrBadgeText:
+Big_BirdZephyrBadgeText:
 	text "ZEPHYRBADGE"
 	line "raises the attack"
 	cont "power of ANIMALs."
@@ -185,7 +185,7 @@ FalknerZephyrBadgeText:
 	line "too."
 	done
 
-FalknerTMMudSlapText:
+Big_BirdTMMudSlapText:
 	text "By using a TM, an"
 	line "ANIMAL will"
 
@@ -206,7 +206,7 @@ FalknerTMMudSlapText:
 	cont "and offensive."
 	done
 
-FalknerFightDoneText:
+Big_BirdFightDoneText:
 	text "There are ANIMAL"
 	line "GYMS in cities and"
 	cont "towns ahead."
@@ -241,7 +241,7 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
+	text "BIG BIRD's skills"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -252,7 +252,7 @@ BirdKeeperRodAfterBattleText:
 BirdKeeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face FALKNER!"
+	cont "face BIG BIRD!"
 	done
 
 BirdKeeperAbeBeatenText:
@@ -309,7 +309,7 @@ VioletGym_MapEvents:
 	bg_event  6, 13, BGEVENT_READ, VioletGymStatue
 
 	def_object_events
-	object_event  5,  1, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VioletGymFalknerScript, -1
+	object_event  5,  1, SPRITE_BIG_BIRD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletGymBig_BirdScript, -1
 	object_event  7,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperRod, -1
 	object_event  2, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperAbe, -1
 	object_event  7, 13, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletGymGuideScript, -1

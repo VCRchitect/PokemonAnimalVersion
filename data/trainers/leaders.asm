@@ -5,10 +5,10 @@
 ; accounted for prior to the list check.
 
 GymLeaders:
-	db FALKNER
+	db BIG_BIRD
 	db WHITNEY
 	db BUGSY
-	db MORTY
+	db JASON
 	db PRYCE
 	db JASMINE
 	db JOSE
@@ -21,7 +21,7 @@ GymLeaders:
 	db RED
 ; fallthrough
 KantoGymLeaders:
-	db BROCK
+	db KID_ROCK
 	db MISTY
 	db LT_SURGE
 	db ERIKA

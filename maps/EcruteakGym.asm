@@ -1,5 +1,5 @@
 	object_const_def
-	const ECRUTEAKGYM_MORTY
+	const ECRUTEAKGYM_JASON
 	const ECRUTEAKGYM_SAGE1
 	const ECRUTEAKGYM_SAGE2
 	const ECRUTEAKGYM_GRANNY1
@@ -21,22 +21,22 @@ EcruteakGym_MapScripts:
 .DummyScene:
 	end
 
-EcruteakGymMortyScript:
+EcruteakGymJasonScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic MORTY
-	checkevent EVENT_BEAT_MORTY
+	trainerpic JASON
+	checkevent EVENT_BEAT_JASON
 	iftrue .FightDone
-	writetext MortyIntroText
+	writetext JasonIntroText
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext MortyWinLossText, 0
-	loadtrainer MORTY, MORTY1
+	winlosstext JasonWinLossText, 0
+	loadtrainer JASON, JASON1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_MORTY
+	setevent EVENT_BEAT_JASON
 	opentext
 	writetext Text_ReceivedFogBadge
 	playsound SFX_GET_BADGE
@@ -55,23 +55,23 @@ EcruteakGymMortyScript:
 	setevent EVENT_BEAT_MEDIUM_MARTHA
 	setevent EVENT_BEAT_MEDIUM_GRACE
 	refreshscreen
-	trainerpic MORTY
-	writetext MortyText_FogBadgeSpeech
+	trainerpic JASON
+	writetext JasonText_FogBadgeSpeech
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_SHADOW_BALL
 	iffalse .NoRoomForShadowBall
 	setevent EVENT_GOT_TM30_SHADOW_BALL
 	refreshscreen
-	trainerpic MORTY
-	writetext MortyText_ShadowBallSpeech
+	trainerpic JASON
+	writetext JasonText_ShadowBallSpeech
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .GotShadowBall:
-	writetext MortyFightDoneText
+	writetext JasonFightDoneText
 	waitbutton
 .NoRoomForShadowBall:
 	closetrainpic
@@ -169,7 +169,7 @@ EcruteakGymGuideScript:
 	refreshscreen
 	opentext
 	trainerpic GUIDE
-	checkevent EVENT_BEAT_MORTY
+	checkevent EVENT_BEAT_JASON
 	iftrue .EcruteakGymGuideWinScript
 	writetext EcruteakGymGuideText
 	waitbutton
@@ -189,7 +189,7 @@ EcruteakGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, MORTY, MORTY1
+	gettrainername STRING_BUFFER_4, JASON, JASON1
 	jumpstd GymStatue2Script
 
 EcruteakGymPlayerStepUpMovement:
@@ -206,7 +206,7 @@ EcruteakGymGrampsSlowStepDownMovement:
 	slow_step DOWN
 	step_end
 
-MortyIntroText:
+JasonIntroText:
 	text "Good of you to"
 	line "have come."
 
@@ -247,7 +247,7 @@ MortyIntroText:
 	cont "level!"
 	done
 
-MortyWinLossText:
+JasonWinLossText:
 	text "I'm not good"
 	line "enough yet..."
 
@@ -260,7 +260,7 @@ Text_ReceivedFogBadge:
 	line "FOGBADGE."
 	done
 
-MortyText_FogBadgeSpeech:
+JasonText_FogBadgeSpeech:
 	text "By having FOG-"
 	line "BADGE, ANIMALs up"
 
@@ -277,7 +277,7 @@ MortyText_FogBadgeSpeech:
 	line "this too."
 	done
 
-MortyText_ShadowBallSpeech:
+JasonText_ShadowBallSpeech:
 	text "It's SHADOW BALL."
 	line "It causes damage"
 
@@ -288,7 +288,7 @@ MortyText_ShadowBallSpeech:
 	line "appeals to you."
 	done
 
-MortyFightDoneText:
+JasonFightDoneText:
 	text "I see..."
 
 	para "Your journey has"
@@ -404,7 +404,7 @@ EcruteakGymGuideWinText:
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
+	text "JASON, the GYM"
 	line "LEADER, is absent."
 
 	para "Sorry, but you'll"
@@ -458,7 +458,7 @@ EcruteakGym_MapEvents:
 	bg_event  6, 15, BGEVENT_READ, EcruteakGymStatue
 
 	def_object_events
-	object_event  5,  1, SPRITE_MORTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakGymMortyScript, -1
+	object_event  5,  1, SPRITE_JASON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakGymJasonScript, -1
 	object_event  2,  7, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSageJeffrey, -1
 	object_event  3, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSagePing, -1
 	object_event  7,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumMartha, -1

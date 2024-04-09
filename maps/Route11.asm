@@ -24,15 +24,15 @@ TrainerYoungsterOwen:
 	closetext
 	end
 
-TrainerYoungsterJason:
-	trainer YOUNGSTER, JASON, EVENT_BEAT_YOUNGSTER_JASON, YoungsterJasonSeenText, YoungsterJasonBeatenText, 0, .Script
+TrainerYoungsterJoseph:
+	trainer YOUNGSTER, JOSEPH, EVENT_BEAT_YOUNGSTER_JOSEPH, YoungsterJosephSeenText, YoungsterJosephBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	writetext YoungsterJasonAfterBattleText
+	writetext YoungsterJosephAfterBattleText
 	waitbutton
 	closetrainpic
 	closetext
@@ -96,7 +96,7 @@ YoungsterOwenAfterBattleText:
 	line "this at all."
 	done
 
-YoungsterJasonSeenText:
+YoungsterJosephSeenText:
 	text "It itches and"
 	line "tickles a bit when"
 
@@ -104,12 +104,12 @@ YoungsterJasonSeenText:
 	line "the grass."
 	done
 
-YoungsterJasonBeatenText:
+YoungsterJosephBeatenText:
 	text "Aiyaaah!"
 	line "I got stomped!"
 	done
 
-YoungsterJasonAfterBattleText:
+YoungsterJosephAfterBattleText:
 	text "I'm going to catch"
 	line "more ANIMALs in"
 	cont "the grass."
@@ -168,7 +168,7 @@ Route11_MapEvents:
 
 	def_object_events
 	object_event 22, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterOwen, -1
-	object_event 20,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJason, -1
+	object_event 20,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoseph, -1
 	object_event 28,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerPsychicHerman, -1
 	object_event  8,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPsychicFidel, -1
 	object_event 32,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route11FruitTree, -1

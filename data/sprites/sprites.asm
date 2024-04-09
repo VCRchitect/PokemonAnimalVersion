@@ -24,15 +24,15 @@ OverworldSprites:
 	overworld_sprite DaisySpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite ElmSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite WillSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
-	overworld_sprite FalknerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite Big_BirdSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite WhitneySpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite BugsySpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite MortySpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite JasonSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite JoseSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite JasmineSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite PryceSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ClairSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite BrockSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite Kid_RockSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite KarenSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BrunoSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MistySpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE

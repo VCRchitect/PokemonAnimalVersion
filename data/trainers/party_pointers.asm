@@ -3,10 +3,10 @@
 TrainerGroups:
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	table_width 2, TrainerGroups
-	dw FalknerGroup
+	dw Big_BirdGroup
 	dw WhitneyGroup
 	dw BugsyGroup
-	dw MortyGroup
+	dw JasonGroup
 	dw PryceGroup
 	dw JasmineGroup
 	dw JoseGroup
@@ -19,7 +19,7 @@ TrainerGroups:
 	dw KarenGroup
 	dw KogaGroup
 	dw ChampionGroup
-	dw BrockGroup
+	dw Kid_RockGroup
 	dw MistyGroup
 	dw LtSurgeGroup
 	dw ScientistGroup

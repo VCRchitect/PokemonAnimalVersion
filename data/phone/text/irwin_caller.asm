@@ -203,7 +203,7 @@ IrwinCalledRightAwayText:
 IrwinFogBadgeGossipText:
 	text "I saw, I heard!"
 
-	para "You beat MORTY of"
+	para "You beat JASON of"
 	line "ECRUTEAK GYM!"
 
 	para "Th-that's just"
