@@ -6,134 +6,370 @@ Music_MtMoon:
 	channel 4, Music_MtMoon_Ch4
 
 Music_MtMoon_Ch1:
-	tempo 208
-	volume 7, 7
+	tempo 202
 	duty_cycle 2
-	pitch_offset 1
-	vibrato 8, 1, 4
-	stereo_panning TRUE, FALSE
-	note_type 12, 4, 5
-	rest 2
-	sound_loop 0, Music_MtMoon_Ch2.mainloop
+	vibrato 16, 2, 2
+	notetype 12, $a7
+.mainloop:
+;Bar 1
+	octave 3
+	note F#, 2
+	octave 4
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 2
+	note F#, 2
+	octave 4
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 6
+	note __, 4
+;Bar 3
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 4
+;Bar 4
+	note F#, 2
+	note E_, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 6
+	note __, 4
+;Bar 5
+	note C#, 2
+	note D#, 2
+	note E_, 2
+	note F#, 4
+	note G#, 2
+	note F#, 2
+	note E_, 2
+;Bar 6
+	note B_, 2
+	note G#, 2
+	note F#, 2
+	note G#, 4
+	note B_, 2
+	note G#, 4
+;Bar 7
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 8
+	note F#, 2
+	note D#, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 4
+	note D#, 2
+	octave 2
+	note B_, 4
+;Bar 9
+	octave 3
+	note C#, 2
+	note D#, 4
+	note E_, 4
+	note F#, 4
+	note E_, 6
+;Bar 10
+	note C#, 2
+	octave 2
+	note B_, 2
+	note G#, 4
+	note B_, 4
+;Bar 11
+	octave 3
+	note D#, 2
+	octave 2
+	note B_, 4
+	note G#, 4
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 12
+	note D#, 2
+	octave 2
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 13
+	note F#, 2
+	octave 4
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 14
+	note F#, 2
+	octave 4
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 6
+	note __, 4
+;Bar 15
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 4
+;Bar 16
+	note F#, 2
+	note E_, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 6
+	note __, 4
+;Bar 17
+	note C#, 2
+	note D#, 2
+	note E_, 2
+	note F#, 4
+	note G#, 2
+	note F#, 2
+	note E_, 2
+;Bar 18
+	note B_, 2
+	note G#, 2
+	note F#, 2
+	note G#, 4
+	note B_, 2
+	note G#, 4
+;Bar 19
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 20
+	note F#, 2
+	note D#, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 4
+	note D#, 2
+	octave 2
+	note B_, 4
+;Bar 21
+	octave 3
+	note C#, 2
+	note D#, 4
+	note E_, 4
+	note F#, 4
+	note E_, 6
+;Bar 22
+	note C#, 2
+	octave 2
+	note B_, 2
+	note G#, 4
+	note B_, 4
+;Bar 23
+	octave 3
+	note D#, 2
+	octave 2
+	note B_, 4
+	note G#, 4
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 24
+	note D#, 2
+	octave 2
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 25
+	note C#, 8
+	octave 2
+	note B_, 8
+;Bar 26
+	octave 3
+	note D#, 8
+	octave 2
+	note B_, 8
+;Bar 27
+	octave 3
+	note E_, 8
+	note D#, 8
+;Bar 28
+	note C#, 8
+	octave 2
+	note B_, 8
+;Bar 29
+	octave 3
+	note C#, 8
+	octave 2
+	note B_, 8
+;Bar 30
+	octave 3
+	note D#, 8
+	octave 2
+	note B_, 8
+;Bar 31
+	octave 3
+	note E_, 8
+	note D#, 8
+;Bar 32
+	note C#, 8
+	octave 2
+	note B_, 8	
+	sound_loop 0, .mainloop
 
 Music_MtMoon_Ch2:
-	vibrato 11, 1, 5
 	duty_cycle 2
-	note_type 12, 8, 4
-	stereo_panning FALSE, TRUE
+	vibrato 28, 1, 2
+	notetype 12, $a7
 .mainloop:
-	octave 4
-	note D#, 6
-	note C#, 6
-	octave 3
-	note B_, 2
-	octave 4
+	octave 2
 	note C#, 2
-	note D#, 2
-	note G_, 2
-	note D#, 2
-	note C#, 6
-	octave 3
-	note B_, 2
-	octave 4
+	note G#, 1
+	note __, 1
+	note F#, 2
+	note E_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
 	note C#, 2
-	note D#, 2
-	note G_, 2
-	note D#, 2
-	note C#, 6
-	octave 3
+	note E_, 2
+;Bar 2
+	note C#, 2
+	note G#, 1
+	note __, 1
+	note F#, 2
+	note E_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note C#, 2
+	note E_, 2
+;Bar 3
 	note B_, 2
-	note A#, 2
-	note B_, 6
-	octave 4
-	note C#, 10
-	note G#, 6
-	note F#, 6
-	note E_, 2
-	note F#, 2
-	note G#, 2
-	octave 5
-	note C_, 2
-	octave 4
-	note G#, 2
-	note F#, 6
-	note E_, 2
-	note F#, 2
-	note G#, 2
-	octave 5
-	note C_, 2
-	octave 4
-	note G#, 2
-	note F#, 6
+	note F#, 1
+	note __, 1
 	note E_, 2
 	note D#, 2
-	note E_, 6
-	note F#, 6
-	note E_, 4
+	note E_, 1
+	note __, 1
+	note D#, 2
+	note B_, 2
+	note D#, 2
+;Bar 4
+	note B_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note D#, 2
+	note E_, 1
+	note __, 1
+	note D#, 2
+	note B_, 2
 	sound_loop 0, .mainloop
 
 Music_MtMoon_Ch3:
+	notetype 12, $a6
 .mainloop:
-	note_type 12, 2, 8
-.loop1:
-	octave 2
-	note B_, 2
-	octave 3
-	note D#, 2
-	note G_, 2
-	octave 2
-	note B_, 2
-	octave 3
-	note D#, 2
-	note G_, 2
-	octave 2
-	note B_, 2
-	octave 3
-	note D#, 2
-	sound_loop 3, .loop1
-	octave 2
-	note B_, 2
-	octave 3
-	note D#, 2
-	note G_, 2
-	octave 2
-	note B_, 2
-	octave 3
-	note D#, 2
-	note G_, 2
-	note D#, 2
+	octave 1
+	note C#, 2
+	note G#, 1
+	note __, 1
+	note F#, 2
 	note E_, 2
-.loop2:
+	note F#, 1
+	note __, 1
 	note E_, 2
-	note G#, 2
-	octave 4
-	note C_, 2
-	octave 3
+	note C#, 2
 	note E_, 2
-	note G#, 2
-	octave 4
-	note C_, 2
-	octave 3
+;Bar 2
+	note C#, 2
+	note G#, 1
+	note __, 1
+	note F#, 2
 	note E_, 2
-	note G#, 2
-	sound_loop 4, .loop2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note C#, 2
+	note E_, 2
+;Bar 3
+	note B_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note D#, 2
+	note E_, 1
+	note __, 1
+	note D#, 2
+	note B_, 2
+	note D#, 2
+;Bar 4
+	note B_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note D#, 2
+	note E_, 1
+	note __, 1
+	note D#, 2
+	note B_, 2
+	note D#, 2
 	sound_loop 0, .mainloop
 
 Music_MtMoon_Ch4:
-	toggle_noise 5
+	toggle_noise 4
 	drum_speed 12
 .mainloop:
-	stereo_panning FALSE, TRUE
+	drum_note 11, 2
+	drum_note 11, 1
+	drum_note 11, 1
+	
+	drum_note 3, 3
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 3, 4
 	drum_note 11, 4
-	drum_note 11, 8
-	drum_note 11, 4
-	stereo_panning TRUE, FALSE
-	drum_note 11, 4
-	drum_note 11, 4
-	drum_note 11, 4
-	stereo_panning FALSE, TRUE
-	drum_note 11, 4
-	drum_note 11, 4
-	stereo_panning TRUE, FALSE
-	drum_note 11, 8
+	
+	drum_note 3, 3
+	drum_note 11, 3
+	drum_note 11, 2
+	drum_note 3, 2
+	drum_note 11, 2
+	
 	sound_loop 0, .mainloop

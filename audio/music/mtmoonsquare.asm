@@ -4,105 +4,297 @@ Music_MtMoonSquare:
 	channel 2, Music_MtMoonSquare_Ch2
 
 Music_MtMoonSquare_Ch1:
-	tempo 112
-	volume 7, 7
+	tempo 274
 	duty_cycle 2
-	pitch_offset 1
-	rest 1
+	notetype 12, $a7
 .mainloop:
-	note_type 12, 4, 4
-.loop1:
-	octave 4
-	note D_, 2
-	note E_, 2
-	note F#, 4
+;Bar 1
+	octave 3
 	note F#, 2
-	note A_, 2
-	octave 5
-	note D_, 4
-	sound_loop 2, .loop1
-.loop2:
-	octave 4
-	note E_, 2
-	note F#, 2
-	note G#, 4
-	note G#, 2
-	note B_, 2
-	octave 5
-	note E_, 4
-	sound_loop 2, .loop2
-.loop3:
 	octave 4
 	note C#, 2
-	note D_, 2
-	note E_, 4
-	note E_, 2
-	note G_, 2
-	octave 5
-	note C#, 4
-	sound_loop 2, .loop3
-.loop4:
+	octave 3
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 2
+	note F#, 2
 	octave 4
-	note D_, 2
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 6
+	note __, 4
+;Bar 3
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 4
+;Bar 4
+	note F#, 2
+	note E_, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 6
+	note __, 4
+;Bar 5
+	note C#, 2
+	note D#, 2
 	note E_, 2
 	note F#, 4
+	note G#, 2
 	note F#, 2
-	note A_, 2
-	octave 5
-	note D_, 4
-	sound_loop 2, .loop4
+	note E_, 2
+;Bar 6
+	note B_, 2
+	note G#, 2
+	note F#, 2
+	note G#, 4
+	note B_, 2
+	note G#, 4
+;Bar 7
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 8
+	note F#, 2
+	note D#, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 4
+	note D#, 2
+	octave 2
+	note B_, 4
+;Bar 9
+	octave 3
+	note C#, 2
+	note D#, 4
+	note E_, 4
+	note F#, 4
+	note E_, 6
+;Bar 10
+	note C#, 2
+	octave 2
+	note B_, 2
+	note G#, 4
+	note B_, 4
+;Bar 11
+	octave 3
+	note D#, 2
+	octave 2
+	note B_, 4
+	note G#, 4
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 12
+	note D#, 2
+	octave 2
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 13
+	note F#, 2
+	octave 4
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 14
+	note F#, 2
+	octave 4
+	note C#, 2
+	octave 3
+	note G#, 2
+	note B_, 6
+	note __, 4
+;Bar 15
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 4
+;Bar 16
+	note F#, 2
+	note E_, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 6
+	note __, 4
+;Bar 17
+	note C#, 2
+	note D#, 2
+	note E_, 2
+	note F#, 4
+	note G#, 2
+	note F#, 2
+	note E_, 2
+;Bar 18
+	note B_, 2
+	note G#, 2
+	note F#, 2
+	note G#, 4
+	note B_, 2
+	note G#, 4
+;Bar 19
+	octave 4
+	note C#, 2
+	octave 3
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	note G#, 2
+	note F#, 2
+	note G#, 2
+;Bar 20
+	note F#, 2
+	note D#, 2
+	octave 2
+	note B_, 2
+	octave 3
+	note C#, 4
+	note D#, 2
+	octave 2
+	note B_, 4
+;Bar 21
+	octave 3
+	note C#, 2
+	note D#, 4
+	note E_, 4
+	note F#, 4
+	note E_, 6
+;Bar 22
+	note C#, 2
+	octave 2
+	note B_, 2
+	note G#, 4
+	note B_, 4
+;Bar 23
+	octave 3
+	note D#, 2
+	octave 2
+	note B_, 4
+	note G#, 4
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 24
+	note D#, 2
+	octave 2
+	note B_, 2
+	note G#, 2
+	note B_, 4
+	octave 3
+	note C#, 4
+;Bar 25
+	note C#, 8
+	octave 2
+	note B_, 8
+;Bar 26
+	octave 3
+	note D#, 8
+	octave 2
+	note B_, 8
+;Bar 27
+	octave 3
+	note E_, 8
+	note D#, 8
+;Bar 28
+	note C#, 8
+	octave 2
+	note B_, 8
+;Bar 29
+	octave 3
+	note C#, 8
+	octave 2
+	note B_, 8
+;Bar 30
+	octave 3
+	note D#, 8
+	octave 2
+	note B_, 8
+;Bar 31
+	octave 3
+	note E_, 8
+	note D#, 8
+;Bar 32
+	note C#, 8
+	octave 2
+	note B_, 8	
 	sound_loop 0, .mainloop
 
 Music_MtMoonSquare_Ch2:
 	duty_cycle 2
-	vibrato 24, 2, 4
+	notetype 12, $a7
 .mainloop:
-	note_type 12, 8, 2
-.loop1:
-	octave 4
-	note D_, 2
-	note E_, 2
-	note F#, 4
-	note F#, 2
-	note A_, 2
-	octave 5
-	note D_, 4
-	note_type 12, 6, 2
-	sound_loop 2, .loop1
-	note_type 12, 8, 2
-.loop2:
-	octave 4
-	note E_, 2
-	note F#, 2
-	note G#, 4
-	note G#, 2
-	note B_, 2
-	octave 5
-	note E_, 4
-	note_type 12, 6, 2
-	sound_loop 2, .loop2
-	note_type 12, 8, 2
-.loop3:
-	octave 4
+	octave 2
 	note C#, 2
-	note D_, 2
-	note E_, 4
-	note E_, 2
-	note G_, 2
-	octave 5
-	note C#, 4
-	note_type 12, 6, 2
-	sound_loop 2, .loop3
-	note_type 12, 8, 2
-.loop4:
-	octave 4
-	note D_, 2
-	note E_, 2
-	note F#, 4
+	note G#, 1
+	note __, 1
 	note F#, 2
-	note A_, 2
-	octave 5
-	note D_, 4
-	note_type 12, 6, 2
-	sound_loop 2, .loop4
+	note E_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note C#, 2
+	note E_, 2
+;Bar 2
+	note C#, 2
+	note G#, 1
+	note __, 1
+	note F#, 2
+	note E_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note C#, 2
+	note E_, 2
+;Bar 3
+	note B_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note D#, 2
+	note E_, 1
+	note __, 1
+	note D#, 2
+	note B_, 2
+	note D#, 2
+;Bar 4
+	note B_, 2
+	note F#, 1
+	note __, 1
+	note E_, 2
+	note D#, 2
+	note E_, 1
+	note __, 1
+	note D#, 2
+	note B_, 2
 	sound_loop 0, .mainloop

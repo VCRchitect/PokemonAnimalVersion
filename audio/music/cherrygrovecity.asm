@@ -6,355 +6,266 @@ Music_CherrygroveCity:
 	channel 4, Music_CherrygroveCity_Ch4
 
 Music_CherrygroveCity_Ch1:
-	tempo 182
+	tempo 204
 	duty_cycle 1
-	vibrato 16, 2, 2
-	notetype 12, $a7
+	vibrato 18, 1, 5
+	transpose 1,0
+	note_type 12, 11, 7
 .mainloop:
 	octave 3
-	note C#, 10
-	note E_, 4
-	note B_, 14
+	note A#, 2
+	note __, 2
+	note A#, 2
+	note __, 1
+	note A#, 1
+	note A#, 1
+	note __, 3
+	note G_, 2
+	note F_, 2
 ;Bar 2
-	note __, 4
+	note A#, 4
+	note G_, 2
+	note A#, 4
+	note __, 2
+	note G_, 2
+	note A#, 2
 ;Bar 3
 	octave 4
-	note C#, 6
+	note C_, 4
+	note __, 2
+	note C_, 6
 	octave 3
-	note B_, 4
-	note G#, 4
-	note B_, 4
+	note G_, 2
+	note A#, 2
 ;Bar 4
-	note G#, 4
-	note E_, 2
-	note F#, 8
+	octave 4
+	note C_, 4
+	note __, 2
+	note C_, 6
+	note __, 4
 ;Bar 5
-	octave 2
-	note G#, 10
-	note B_, 4
 	octave 3
-	note F#, 14
+	note A#, 2
+	note __, 2
+	note A#, 2
+	note __, 1
+	note A#, 1
+	note A#, 1
+	note __, 3
+	note G_, 2
+	note F_, 2
 ;Bar 6
-	note __, 4
+	note A#, 4
+	note G_, 2
+	note A#, 4
+	note __, 2
+	note G_, 2
+	note A#, 2
 ;Bar 7
-	note G#, 6
-	note F#, 4
-	note E_, 4
-	note F#, 4
+	octave 4
+	note C_, 4
+	note D_, 2
+	octave 3
+	note A#, 4
+	note __, 2
+	note G_, 2
+	note A#, 2
 ;Bar 8
-	note E_, 4
-	octave 2
-	note B_, 2
+	octave 4
+	note C_, 4
+	note D_, 4
 	octave 3
-	note C#, 8
+	note A#, 6
+	note __, 2
 ;Bar 9
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 2
-	note F#, 2
+	note D#, 4
 	note D#, 2
-	note C#, 2
+	note F_, 2
+	note D#, 4
+	note D#, 2
+	note C_, 2
 ;Bar 10
-	octave 2
-	note B_, 2
-	note __, 1
-	note B_, 2
-	note __, 1
-	octave 3
-	note C#, 5
-	note __, 5
+	note D#, 4
+	note F_, 2
+	note G_, 6
+	note __, 4
 ;Bar 11
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 2
-	note F#, 2
-	note D#, 2
-	note C#, 2
+	note G_, 4
+	note G_, 2
+	note F_, 2
+	note G_, 4
+	note F_, 2
+	note G_, 2
 ;Bar 12
-	octave 2
-	note B_, 2
-	note __, 1
-	note B_, 2
-	note __, 1
-	octave 3
-	note C#, 5
-	note __, 5
+	note A#, 4
+	note G_, 2
+	note A#, 6
+	note __, 4
 ;Bar 13
-	note C#, 1
-	note E_, 1
-	note __, 1
-	note C#, 1
+	note G_, 2
 	note __, 2
-	octave 2
-	note B_, 1
+	note G_, 2
 	note __, 1
-	octave 3
-	note C#, 1
-	note E_, 1
-	note __, 1
-	note C#, 1
-	note __, 4
+	note G_, 1
+	note G_, 1
+	note __, 3
+	note F_, 2
+	note D#, 2
 ;Bar 14
-	note G#, 1
-	note F#, 1
-	note __, 1
-	note G#, 1
+	octave 2
+	note A#, 4
 	note __, 2
-	note B_, 1
-	note __, 1
-	note G#, 1
-	note F#, 1
-	note __, 1
-	note G#, 1
-	note __, 4
+	octave 3
+	note C_, 4
+	note __, 2
+	note D#, 2
+	note F_, 2
 ;Bar 15
-	octave 4
-	note C#, 1
-	octave 3
-	note B_, 1
-	note __, 1
-	note G#, 1
+	note G_, 2
 	note __, 2
-	note F#, 1
+	note G_, 2
 	note __, 1
-	octave 4
-	note C#, 1
-	octave 3
-	note B_, 1
-	note __, 1
-	note G#, 1
-	note __, 2
-	note F#, 1
-	note __, 1
+	note G_, 1
+	note G_, 1
+	note __, 3
+	note F_, 2
+	note G_, 2
 ;Bar 16
-	note C#, 1
-	note __, 1
-	octave 2
-	note B_, 1
-	note __, 1
-	octave 3
-	note C#, 1
-	note E_, 1
-	note __, 1
-	note C#, 4
-	note __, 5
+	note A#, 4
+	note G_, 2
+	note A#, 6
+	note __, 4
 ;Bar 17
-	note C#, 1
-	note __, 3
-	note E_, 1
-	note __, 3
-	note C#, 1
+	note G_, 2
+	note __, 2
+	note G_, 2
 	note __, 1
-	note E_, 1
+	note G_, 1
+	note G_, 1
 	note __, 3
-	note C#, 1
-	note __, 1
+	note F_, 2
+	note D#, 2
 ;Bar 18
-	note F#, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note B_, 1
-	note __, 1
-	note G#, 4
-	note __, 6
+	octave 2
+	note A#, 4
+	note __, 2
+	octave 3
+	note C_, 4
+	note __, 2
+	note F_, 2
+	note D#, 2
 ;Bar 19
-	octave 4
-	note C#, 1
-	note __, 1
-	octave 3
-	note B_, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note B_, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note F#, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note C#, 1
-	note __, 1
+	note F_, 2
+	note G_, 2
+	note F_, 2
+	note G_, 4
+	note __, 2
+	note F_, 2
+	note G_, 2
 ;Bar 20
-	note F#, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note C#, 4
-	note __, 6
+	note A#, 4
+	octave 4
+	note C_, 2
+	octave 3
+	note A#, 6
+	note __, 4
 ;Bar 21
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 2
-	note F#, 2
+	note D#, 4
 	note D#, 2
-	note C#, 2
+	note F_, 2
+	note D#, 4
+	note D#, 2
+	note C_, 2
 ;Bar 22
-	octave 2
-	note B_, 2
-	note __, 1
-	note B_, 2
-	note __, 1
-	octave 3
-	note C#, 5
-	note __, 5
+	note D#, 4
+	note F_, 2
+	note G_, 6
+	note __, 4
 ;Bar 23
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 1
-	note C#, 2
-	note __, 2
-	note F#, 2
-	note D#, 2
-	note C#, 2
+	note G_, 4
+	note G_, 2
+	note F_, 2
+	note G_, 4
+	note F_, 2
+	note G_, 2
 ;Bar 24
-	octave 2
-	note B_, 2
-	note __, 1
-	note B_, 2
-	note __, 1
-	octave 3
-	note C#, 10
+	note A#, 4
+	note G_, 2
+	note A#, 10
 	sound_loop 0, .mainloop
-
+	
 Music_CherrygroveCity_Ch2:
-	duty_cycle 0
-	transpose 1, 0
-	vibrato 28, 1, 2
-	notetype 12, $a7
-.mainloop:
+	duty_cycle 2
+	vibrato 20, 3, 4
+	transpose 1,0
+	note_type 12, 12, 3
+.mainloop:	
 	octave 2
-	note C#, 2
-	note F#, 2
-	note C#, 2
-	note F#, 6
-	note C#, 2
-	note F#, 4
+	note G_, 8
+	note D#, 4
+	octave 3
+	note C_, 4
 ;Bar 2
-	note G#, 2
-	octave 3
-	note C#, 2
 	octave 2
-	note G#, 2
+	note A#, 8
+	note G_, 4
 	octave 3
-	note C#, 2
-	octave 2
-	note G#, 2
-	note F#, 4
+	note D#, 4
 ;Bar 3
-	note C#, 2
-	note F#, 2
-	note C#, 2
-	note F#, 6
-	note C#, 2
-	note F#, 4
+	note D_, 8
+	octave 2
+	note A#, 4
+	octave 3
+	note D_, 4
 ;Bar 4
-	note G#, 2
-	note B_, 2
-	note G#, 2
-	note D#, 2
-	note B_, 4
-	note G#, 2
-	sound_loop 0, .mainloop
+	note C_, 8
+	octave 2
+	note A#, 8
+	sound_loop 0, .mainloop	
 
 Music_CherrygroveCity_Ch3:
 	notetype 12, $a6
 .mainloop:
 	octave 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 3
-	note C#, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note C#, 1
-	note __, 1
+	note G_, 4
+	note G_, 4
+	note D#, 4
+	note D#, 4
 ;Bar 2
-	note F#, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note F#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
+	note A#, 4
+	note A#, 4
+	note C_, 4
+	note C_, 4
 ;Bar 3
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 3
-	note C#, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note C#, 1
-	note __, 1
+	note D#, 4
+	note D#, 4
+	note G_, 4
+	note G_, 4
 ;Bar 4
-	note F#, 1
-	note __, 1
-	note G#, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 1
-	note __, 1
-	note C#, 2
+	note F_, 4
+	note D#, 4
+	note F_, 4
+	note D#, 4
+
 	sound_loop 0, .mainloop
 
 Music_CherrygroveCity_Ch4:
-	toggle_noise 4
+	toggle_noise 3
 	drum_speed 12
 .mainloop:
-	drum_note 11, 4
-	
-	drum_note 3, 3
-	drum_note 11, 3
-	drum_note 11, 2
-	drum_note 3, 4
-	drum_note 11, 4
-	
-	drum_note 3, 3
-	drum_note 11, 3
+	drum_note 11, 1
+	drum_note 8, 1
+	drum_note 11, 1
+	drum_note 8, 1
+
+	drum_note 3, 2
+	drum_note 8, 1 
+	drum_note 3, 1
+
 	drum_note 11, 2
 	drum_note 3, 2
-	drum_note 11, 2
-	
+
+	drum_note 8, 2
+	drum_note 8, 2
+
 	sound_loop 0, .mainloop

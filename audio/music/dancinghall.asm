@@ -1,306 +1,405 @@
 Music_DancingHall:
-	channel_count 3
+	channel_count 4
 	channel 1, Music_DancingHall_Ch1
 	channel 2, Music_DancingHall_Ch2
 	channel 3, Music_DancingHall_Ch3
-
-	db $3 ; unused, leftover from a channel 4
+	channel 4, Music_DancingHall_Ch4
 
 Music_DancingHall_Ch1:
-	tempo 208
-	volume 7, 7
-	stereo_panning FALSE, TRUE
-	note_type 6, 11, 7
-	rest 3
-	duty_cycle 0
-.mainloop:
+	tempo 147
+	duty_cycle 2
+	vibrato 18, 1, 5
 	note_type 12, 11, 7
-	sound_call .sub1
-	rest 16
-	sound_call .sub1
-	rest 16
-	rest 16
-	rest 16
-	volume_envelope 11, 1
-	octave 2
-	note B_, 1
-	octave 3
-	note D_, 1
-	note F_, 1
-	note A_, 1
-	note B_, 1
-	note A_, 1
-	note B_, 1
-	octave 4
-	note D_, 1
-	note F_, 2
-	note_type 8, 11, 1
-	note D_, 1
-	note E_, 1
-	note D_, 1
-	octave 3
-	note B_, 3
-	note A_, 3
-	note_type 12, 11, 1
-	note B_, 1
-	note A_, 1
-	note D_, 1
-	note E_, 1
-	octave 4
-	note F_, 2
-	note_type 8, 11, 1
-	octave 3
-	note B_, 1
-	octave 4
-	note D_, 1
-	octave 3
-	note B_, 1
-	note_type 12, 11, 5
-	note A_, 1
-	rest 1
-	note B_, 1
-	note B_, 1
-	note A_, 1
-	rest 1
-	note F_, 2
-	sound_loop 0, .mainloop
-
-.sub1:
-	octave 3
-	note B_, 1
-	rest 1
-	note A_, 1
-	rest 1
-	note B_, 1
-	rest 1
-	note A_, 1
-	rest 1
-	octave 4
-	note E_, 1
-	rest 1
-	note D_, 1
-	rest 1
-	octave 3
-	note B_, 1
-	rest 1
-	octave 4
-	note D_, 1
-	rest 1
-	sound_ret
-
-Music_DancingHall_Ch2:
-	stereo_panning TRUE, FALSE
-	note_type 6, 10, 1
-	duty_cycle 0
-	vibrato 16, 2, 4
-	rest 3
 .mainloop:
-	note_type 6, 10, 2
-	sound_call .sub1
-	sound_call .sub1
-	volume_envelope 10, 7
-	octave 2
-	note D_, 16
-	note F_, 16
-	note_type 12, 10, 7
-	note E_, 16
 	octave 3
-	note F_, 1
-	note A_, 1
-	note B_, 1
-	octave 4
-	note D_, 1
-	note E_, 1
-	note D_, 1
-	note E_, 1
-	note A_, 1
-	note B_, 2
-	note_type 8, 10, 7
-	note A_, 1
-	note B_, 1
-	note A_, 1
-	note F_, 3
-	note D_, 3
-	note_type 12, 10, 7
-	note E_, 1
-	note D_, 1
-	octave 3
-	note A_, 1
-	note B_, 1
-	octave 4
-	note A_, 2
-	note_type 8, 10, 7
-	note F_, 1
-	note A_, 1
-	note F_, 1
-	note_type 12, 10, 7
-	note E_, 1
-	rest 1
-	note F_, 1
-	note F_, 1
-	note E_, 1
-	rest 1
-	note D_, 2
-	sound_loop 0, .mainloop
-
-.sub1:
-	volume_envelope 10, 1
-	octave 4
-	note E_, 4
-	octave 2
-	note E_, 4
-	octave 4
-	note E_, 4
-	octave 2
-	note E_, 4
-	octave 4
-	note B_, 4
-	note A_, 4
+	note C_, 4
+	note A#, 4
+	note C_, 4
+	note A#, 4
+;Bar 2
+	note __, 4
 	note F_, 4
-	note A_, 4
-	volume_envelope 3, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 6, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 9, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 12, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 14, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 10, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 8, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 5, 3
-	note D_, 1
-	note F_, 1
-	volume_envelope 7, 3
-	octave 3
-	note B_, 1
+	note __, 4
+	note F_, 4
+;Bar 3
+	note C_, 4
+	note A#, 4
+	note C_, 4
+	note A#, 4
+;Bar 4
+	note __, 4
 	octave 4
-	note E_, 1
-	volume_envelope 10, 3
+	note C_, 4
 	octave 3
-	note B_, 1
+	note A#, 4
+	note __, 4
+;Bar 5
+	note C_, 4
+	note A#, 4
+	note C_, 4
+	note A#, 4
+;Bar 6
+	note __, 4
+	note F_, 4
+	note __, 4
+	note F_, 4
+;Bar 7
+	note C_, 4
+	note A#, 4
+	note C_, 4
+	note A#, 4
+;Bar 8
+	note __, 4
 	octave 4
-	note E_, 1
-	volume_envelope 11, 3
+	note C_, 4
 	octave 3
-	note A_, 1
+	note A#, 4
+	note __, 4
+;Bar 9
+	note C_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note A#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+;Bar 10
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note A#, 1
+	note __, 3
+	note G_, 1
+	note __, 3
+;Bar 11
+	note C_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note A#, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+;Bar 12
+	note F_, 1
+	note __, 1
+	note D#, 1
+	note __, 3
+	note C_, 1
+	note __, 3
+	note D#, 1
+	note __, 3
+;Bar 13
+	note C_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note A#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+;Bar 14
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note A#, 1
+	note __, 3
+	note G_, 1
+	note __, 3
+;Bar 15
+	note C_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note A#, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+;Bar 16
+	note F_, 1
+	note __, 1
+	note D#, 1
+	note __, 3
+	note C_, 1
+	note __, 3
+	note D#, 1
+	note __, 3
+;Bar 17
 	octave 4
-	note D_, 1
-	volume_envelope 12, 3
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note __, 1
 	octave 3
-	note A_, 1
+	note A#, 1
+	note __, 3
+	note G_, 1
+	note __, 1
+	note A#, 1
+	note __, 3
+;Bar 18
+	note F_, 1
+	note __, 1
+	note G_, 1
+	note __, 3
+	note G_, 1
+	note __, 3
+	note A#, 1
+	note __, 3
+;Bar 19
+	note G_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+;Bar 20
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note C_, 1
+	note __, 3
+	octave 2
+	note A#, 1
+	note __, 3
+;Bar 21
 	octave 4
-	note D_, 1
-	volume_envelope 13, 3
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note __, 1
 	octave 3
-	note E_, 1
-	note B_, 1
-	volume_envelope 14, 3
-	note E_, 1
-	note B_, 1
-	volume_envelope 15, 3
-	note A_, 1
-	octave 4
-	note D_, 1
-	volume_envelope 15, 3
+	note A#, 1
+	note __, 3
+	note G_, 1
+	note __, 1
+	note A#, 1
+	note __, 3
+;Bar 22
+	note F_, 1
+	note __, 1
+	note G_, 1
+	note __, 3
+	note G_, 1
+	note __, 3
+	note A#, 1
+	note __, 3
+;Bar 23
+	note G_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+;Bar 24
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note C_, 1
+	note __, 3
+	octave 2
+	note A#, 1
+	note __, 3
+;Bar 25
 	octave 3
-	note A_, 1
-	octave 4
-	note D_, 1
-	sound_ret
+	note C_, 8
+	note D#, 4
+	octave 2
+	note A#, 8
+;Bar 26
+	octave 3
+	note C_, 4
+	octave 2
+	note A#, 4
+	octave 3
+	note C_, 4
+;Bar 27
+	note F_, 8
+	note A#, 4
+	note G_, 12
+;Bar 28
+	note __, 8
+;Bar 29
+	note C_, 8
+	note D#, 4
+	octave 2
+	note A#, 8
+;Bar 30
+	note A#, 4
+	note G_, 4
+	note A#, 4
+;Bar 31
+	octave 3
+	note C_, 8
+	octave 2
+	note A#, 4
+	octave 3
+	note C_, 16
+	note C_, 4
+	sound_loop 0, .mainloop
+	
+Music_DancingHall_Ch2:
+	duty_cycle 1
+	vibrato 20, 3, 4
+	note_type 12, 12, 3
+
+.mainloop:
+	octave 2
+	note G_, 4
+	note C_, 4
+	note G_, 4
+	note C_, 4
+;Bar 2
+	note F_, 4
+	octave 1
+	note A#, 4
+	octave 2
+	note F_, 4
+	octave 1
+	note A#, 4
+;Bar 3
+	octave 2
+	note D#, 4
+	note C_, 4
+	note D#, 4
+	note C_, 4
+;Bar 4
+	note D_, 4
+	octave 1
+	note A#, 4
+	octave 2
+	note D_, 4
+	octave 1
+	note A#, 4
+	sound_loop 0, .mainloop	
 
 Music_DancingHall_Ch3:
-	stereo_panning TRUE, TRUE
-	vibrato 22, 2, 4
-	note_type 6, 1, 0
-	octave 5
-	note A_, 1
-	note B_, 1
-	octave 6
-	note D_, 1
+	notetype 12, $a6
 .mainloop:
-	note E_, 13
-	note D_, 1
-	note E_, 1
-	note A_, 1
-	note B_, 16
-	volume_envelope 1, 4
+	octave 2
+	note C_, 1
+	note __, 1
 	octave 3
-	note F_, 16
-	note E_, 14
-	volume_envelope 1, 0
-	octave 6
-	note E_, 1
-	note F_, 1
-	note E_, 13
-	note D_, 1
-	note E_, 1
-	note A_, 1
-	note B_, 16
-	volume_envelope 1, 4
-	octave 3
-	note F_, 16
-	note E_, 16
-	volume_envelope 1, 3
-	octave 4
-	note F_, 2
-	note A_, 2
-	note B_, 2
-	octave 5
-	note D_, 2
-	note E_, 2
-	note D_, 2
-	note E_, 2
-	note A_, 2
+	note C_, 1
+	note __, 1
+	octave 2
+	note G_, 1
+	note __, 1
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
 	note A#, 1
-	note B_, 3
-	note_type 8, 1, 3
-	note A_, 1
-	note B_, 1
-	note A_, 1
-	note F_, 3
-	note D_, 3
-	note_type 12, 1, 3
-	note E_, 1
-	note D_, 1
-	octave 4
-	note A_, 1
-	note B_, 1
-	octave 5
-	note A_, 2
-	note_type 8, 1, 3
+	note __, 1
+	octave 2
+	note A#, 1
+	note __, 3
 	note F_, 1
-	note A_, 1
-	note F_, 1
-	note_type 6, 1, 3
-	note D#, 1
-	note E_, 3
-	note D_, 4
-	octave 4
-	note B_, 4
-	octave 5
-	note D_, 4
-	volume_envelope 1, 4
+	note __, 1
+	note G_, 1
+	note __, 3
+;Bar 2
+	note A#, 1
+	note __, 1
+	note G_, 1
+	note __, 3
 	octave 3
-	note D_, 16
-	note F_, 16
-	note E_, 16
-	note E_, 13
-	volume_envelope 1, 0
-	octave 5
-	note A_, 1
-	note B_, 1
-	octave 6
-	note D_, 1
+	note C_, 1
+	note __, 3
+	octave 2
+	note A#, 1
+	note __, 3
+;Bar 3
+	note C_, 1
+	note __, 1
+	octave 3
+	note C_, 1
+	note __, 1
+	octave 2
+	note G_, 1
+	note __, 1
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 1
+	note __, 1
+	octave 2
+	note A#, 1
+	note __, 3
+	note F_, 1
+	note __, 1
+	note G_, 1
+	note __, 3
+;Bar 4
+	note G_, 1
+	note __, 1
+	note F_, 1
+	note __, 3
+	note G_, 1
+	note __, 3
+	note A#, 4
+	sound_loop 0, .mainloop
+
+Music_DancingHall_Ch4:
+	toggle_noise 3
+	drum_speed 12
+.mainloop:
+	drum_note 11, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	
+	drum_note 3, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+
 	sound_loop 0, .mainloop

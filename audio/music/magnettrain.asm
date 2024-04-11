@@ -6,276 +6,260 @@ Music_MagnetTrain:
 	channel 4, Music_MagnetTrain_Ch4
 
 Music_MagnetTrain_Ch1:
-	tempo 110
-	volume 7, 7
-	stereo_panning FALSE, TRUE
+	tempo 144
 	vibrato 20, 2, 3
-	duty_cycle 2
+	duty_cycle 0
+	transpose 1,0
 	note_type 12, 11, 2
-	rest 16
-	rest 16
-	volume_envelope 11, 7
-	octave 4
-	note D_, 1
-	note C_, 1
+.mainloop:
 	octave 3
-	note G_, 1
+	note F_, 8
 	octave 4
-	note C_, 1
-	note D_, 1
-	note C_, 1
+	note C_, 8
+;Bar 2
 	octave 3
-	note G_, 1
+	note A#, 6
+	note A_, 10
+;Bar 3
 	octave 4
-	note C_, 1
-	note D_, 1
-	note C_, 1
+	note D_, 4
+	note C_, 4
 	octave 3
-	note G_, 1
+	note A#, 8
+;Bar 4
+	note A_, 2
+	note A#, 4
 	octave 4
-	note C_, 1
-	note D_, 1
-	note C_, 1
+	note C_, 10
+;Bar 5
 	octave 3
-	note G_, 1
+	note C_, 8
+	note G_, 8
+;Bar 6
+	note F_, 6
+	note E_, 10
+;Bar 7
+	note A_, 4
+	note G_, 4
+	note F_, 8
+;Bar 8
+	note E_, 2
+	note F_, 4
+	note G_, 10
+;Bar 9
+	note F_, 4
 	octave 4
-	note C_, 1
-	note E_, 1
-	note C_, 1
+	note C_, 4
 	octave 3
-	note A_, 1
+	note A#, 2
+	note A_, 6
+;Bar 10
 	octave 4
-	note C_, 1
-	note E_, 1
-	note C_, 1
+	note D_, 2
+	note C_, 4
 	octave 3
-	note A_, 1
-	octave 4
-	note C_, 1
-	note E_, 1
-	note C_, 1
-	octave 3
-	note A_, 1
-	octave 4
-	note C_, 1
-	note E_, 1
-	note C_, 1
-	note_type 6, 11, 7
-	note F#, 1
-	rest 1
-	note F#, 1
-	rest 1
-	note_type 12, 11, 7
-	note D_, 16
-	sound_ret
+	note A#, 4
+	note G_, 6
+;Bar 11
+	note C_, 4
+	note G_, 4
+	note F_, 2
+	note E_, 6
+;Bar 12
+	note A_, 2
+	note G_, 4
+	note F_, 4
+	note G_, 6
+;Bar 13
+	note F_, 8
+	note G_, 8
+;Bar 14
+	note A_, 6
+	note A#, 10
+;Bar 15
+	note F_, 4
+	note G_, 4
+	note A_, 8
+;Bar 16
+	note A#, 2
+	note G_, 4
+	note F_, 10
+	sound_loop 0, .mainloop
 
 Music_MagnetTrain_Ch2:
-	vibrato 20, 2, 3
 	duty_cycle 1
-	note_type 12, 13, 2
-	stereo_panning TRUE, FALSE
-	note_type 12, 13, 8
-	octave 1
-	note F_, 12
-	rest 2
-	note_type 6, 13, 7
-	note F_, 1
-	rest 1
-	note F_, 1
-	rest 1
+	vibrato 28, 1, 2
+	notetype 12, $a7
+.mainloop:
 	octave 2
-	note F_, 4
-	rest 4
-	note F_, 4
-	rest 4
-	note F_, 4
-	rest 4
-	note F_, 4
-	rest 4
-	duty_cycle 3
-	note_type 12, 13, 7
-	octave 4
-	note G_, 16
-	note A_, 13
-	rest 1
-	note_type 6, 13, 7
-	note A_, 1
-	rest 1
-	note A_, 1
-	rest 1
-	note_type 12, 13, 7
-	note A_, 16
-	sound_ret
+	note C_, 4
+	octave 1
+	note A_, 8
+	note G_, 8
+;Bar 2
+	note F_, 12
+;Bar 3
+	note A_, 4
+	note A#, 8
+	note A_, 8
+;Bar 4
+	octave 2
+	note C_, 10
+	note __, 2
+;Bar 5
+	note C_, 4
+	octave 1
+	note A_, 8
+	note G_, 8
+;Bar 6
+	note F_, 12
+;Bar 7
+	note A_, 4
+	note A#, 8
+	note A_, 8
+;Bar 8
+	octave 2
+	note C_, 10
+	note __, 2
+;Bar 9
+	note C_, 4
+	octave 1
+	note A_, 8
+	note G_, 8
+;Bar 10
+	note F_, 12
+;Bar 11
+	note A_, 4
+	note A#, 8
+	note A_, 8
+;Bar 12
+	octave 2
+	note C_, 10
+	note __, 2
+;Bar 13
+	note C_, 4
+	octave 1
+	note A_, 8
+	note G_, 8
+;Bar 14
+	note F_, 12
+;Bar 15
+	note A_, 4
+	note A#, 8
+	note A_, 8
+;Bar 16
+	octave 2
+	note C_, 12
+	sound_loop 0, .mainloop
 
 Music_MagnetTrain_Ch3:
-	stereo_panning TRUE, TRUE
-	vibrato 16, 2, 3
-	note_type 12, 1, 5
-	octave 6
-	note C_, 1
-	octave 5
-	note G_, 1
-	note D#, 1
-	note C_, 1
-	note G_, 1
-	note D#, 1
-	note C_, 1
-	octave 4
-	note G_, 1
-	octave 5
-	note D#, 1
-	note C_, 1
-	octave 4
-	note G_, 1
-	note D#, 1
-	octave 5
-	note C_, 1
-	octave 4
-	note G_, 1
-	note D#, 1
-	note C_, 1
-	note G_, 1
-	note D#, 1
-	note C_, 1
-	octave 3
-	note G_, 1
-	octave 4
-	note C_, 1
-	note D#, 1
-	note G_, 1
-	note C_, 1
-	note D#, 1
-	note G_, 1
-	octave 5
-	note C_, 1
-	octave 4
-	note G_, 1
-	octave 5
-	note C_, 1
-	note D#, 1
-	note G_, 1
-	note C_, 1
+	notetype 12, $a6
+.mainloop:
 	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
+	note C_, 2
+	octave 1
+	note A_, 4
+	note E_, 4
+	note F_, 6
+;Bar 2
+	note A_, 2
+	note A#, 4
+	note A_, 8
+	note __, 2
+;Bar 3
 	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
+	note C_, 2
+	octave 1
+	note A_, 4
+	note E_, 4
+	note F_, 6
+;Bar 4
+	note A_, 2
+	note A#, 4
+	note F_, 8
+	note __, 2
+;Bar 5
+	note F_, 2
+	note E_, 2
+	note F_, 2
+	note G_, 4
+	note A_, 4
+	note __, 2
+;Bar 6
+	note F_, 2
+	note E_, 2
+	note F_, 2
+	note A#, 4
+	note A_, 6
+;Bar 7
 	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
+	note C_, 2
+	octave 1
+	note A_, 4
+	note E_, 4
+	note F_, 6
+;Bar 8
+	note A_, 2
+	note G_, 4
+	note F_, 8
+	note __, 2
+;Bar 9
 	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
+	note C_, 2
+	octave 1
+	note A_, 4
+	note E_, 4
+	note F_, 6
+;Bar 10
+	note A_, 2
+	note A#, 4
+	note A_, 8
+	note __, 2
+;Bar 11
 	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
+	note C_, 2
+	octave 1
+	note A_, 4
+	note E_, 4
+	note F_, 6
+;Bar 12
+	note A_, 2
+	note A#, 4
+	note F_, 8
+	note __, 2
+;Bar 13
+	note F_, 2
+	note E_, 2
+	note F_, 2
+	note G_, 4
+	note A_, 4
+	note __, 2
+;Bar 14
+	note F_, 2
+	note E_, 2
+	note F_, 2
+	note A#, 4
+	note A_, 6
+;Bar 15
 	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note D_, 16
-	sound_ret
+	note C_, 2
+	octave 1
+	note A_, 4
+	note E_, 4
+	note F_, 6
+;Bar 16
+	note A_, 2
+	note G_, 4
+	note F_, 10
+	sound_loop 0, .mainloop
 
 Music_MagnetTrain_Ch4:
-	toggle_noise 3
+	toggle_noise 4
 	drum_speed 12
-	drum_note 12, 12
+.mainloop:
+	drum_note 11, 2
+	drum_note 8, 2
 	drum_note 3, 2
-	drum_note 11, 1
-	drum_note 11, 1
-	drum_speed 6
-	drum_note 11, 4
-	drum_note 7, 4
-	drum_note 11, 4
-	drum_note 7, 4
-	drum_note 11, 4
-	drum_note 7, 4
-	drum_note 11, 4
-	drum_note 3, 2
-	drum_note 3, 2
-	sound_call .sub2
-	sound_call .sub2
-	drum_speed 12
-	drum_note 12, 16
-	sound_ret
+	drum_note 8, 2
 
-.sub1: ; unreferenced
-	drum_note 9, 1
-	drum_note 8, 1
-	drum_note 8, 1
-	drum_note 9, 1
-	drum_note 8, 1
-	drum_note 8, 1
-	drum_note 9, 1
-	drum_note 8, 1
-	drum_note 8, 1
-	drum_note 9, 1
-	drum_note 8, 1
-	drum_note 8, 1
-	sound_ret
-
-.sub2:
-	drum_note 9, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 9, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 9, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 9, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 8, 2
-	sound_ret
+	sound_loop 0, .mainloop
