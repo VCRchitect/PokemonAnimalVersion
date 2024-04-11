@@ -6,287 +6,763 @@ Music_TinTower:
 	channel 4, Music_TinTower_Ch4
 
 Music_TinTower_Ch1:
-	tempo 208
-	volume 7, 7
-	duty_cycle 3
-	pitch_offset 4
+	tempo 245
+	transpose 1,0
+	duty_cycle 0
 	vibrato 8, 4, 5
+	note_type 12, 10, 3
 .mainloop:
-	stereo_panning TRUE, FALSE
-	note_type 12, 10, 5
 	octave 3
-	note G_, 4
-	note C_, 4
-	note G#, 8
-	note G_, 4
-	note C_, 4
-	octave 2
-	note A#, 2
-	octave 3
-	note C_, 2
-	note C#, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note G_, 4
-	note C_, 4
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 2
+	note D#, 1
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note F#, 1
+	note __, 1
 	note G#, 4
-	note F_, 4
-	note G_, 4
-	octave 2
-	note G_, 4
-	octave 3
-	note G_, 6
-	note A#, 2
-	note G_, 2
-	note F_, 2
-	note C#, 2
-	note G_, 2
-	note G#, 8
-	note G_, 4
-	octave 4
-	note C_, 4
-	octave 3
-	note G#, 2
-	note G_, 2
-	note F_, 2
-	note G#, 2
-	note G_, 2
-	note C#, 2
-	octave 2
-	note A#, 2
-	octave 3
-	note G_, 2
-	note G#, 4
-	note F_, 4
-	note G_, 4
-	octave 2
-	note G_, 4
-	octave 3
-	note G_, 8
-	volume_envelope 10, 2
-	octave 2
-	note G_, 4
-	note G_, 12
-	note G_, 4
-	note G_, 8
-	volume_envelope 10, 7
-	note G_, 4
-	volume_envelope 10, 2
-	note G#, 4
-	note G#, 8
-	volume_envelope 10, 7
-	note G_, 4
-	volume_envelope 10, 2
-	note G#, 4
-	note G#, 8
-	volume_envelope 10, 7
-	note A#, 4
-	volume_envelope 10, 2
-	note G_, 4
-	note G_, 12
-	note G_, 4
-	note G_, 12
-	note G_, 4
-	note G_, 12
-	note G_, 4
-	note G_, 8
-	volume_envelope 10, 5
-	octave 3
-	note A#, 4
-	sound_loop 0, .mainloop
-
-Music_TinTower_Ch2:
-	duty_cycle 3
-	pitch_offset 2
-	vibrato 24, 4, 4
-.mainloop:
-	stereo_panning TRUE, TRUE
-.loop1:
-	note_type 12, 11, 5
-	octave 4
-	note C_, 4
-	note C_, 4
-	note C#, 2
-	note C_, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note C#, 2
-	note C_, 4
-	note F_, 4
-	note C#, 4
-	octave 3
-	note A#, 4
-	octave 4
-	note C_, 4
-	note C_, 4
-	note C#, 2
-	note C_, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note C#, 2
-	note C_, 4
-	octave 3
-	note C_, 4
-	octave 4
-	note C_, 8
-	stereo_panning FALSE, TRUE
-	sound_loop 2, .loop1
-	volume_envelope 11, 2
-	octave 3
-	note C_, 4
-	note C_, 12
-	note C_, 4
-	note C_, 8
-	volume_envelope 11, 7
-	note C_, 4
-	volume_envelope 11, 2
-	note C#, 4
-	note C#, 8
-	volume_envelope 11, 7
-	note C_, 4
-	volume_envelope 11, 2
-	note C#, 4
-	note C#, 8
-	volume_envelope 11, 7
+	note __, 5
+;Bar 3
+	note A#, 1
+	note G#, 1
+	note __, 2
+	note G#, 1
+	note F#, 1
+	note __, 2
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 4
+	note D#, 1
+	note __, 1
+	note F#, 1
+	note __, 1
+	note F#, 1
+	note C#, 1
+	note __, 1
 	note D#, 4
-	volume_envelope 9, 0
-	stereo_panning TRUE, TRUE
-	note G_, 4
+	note __, 5
+;Bar 5
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 6
+	note D#, 1
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note F#, 1
+	note __, 1
+	note G#, 4
+	note __, 5
+;Bar 7
+	note A#, 1
+	note G#, 1
+	note __, 2
+	note G#, 1
+	note F#, 1
+	note __, 2
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 8
+	note D#, 1
+	note __, 1
+	note F#, 1
+	note __, 1
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 4
+	note __, 5
+;Bar 9
+	note D#, 1
+	note F#, 1
+	note G#, 1
 	octave 4
-	note C_, 4
+	note C#, 1
 	octave 3
-	note A#, 2
-	note G#, 2
-	note G_, 2
-	note G#, 2
-	note G_, 4
-	note C_, 4
-	note G_, 8
-	note G_, 4
-	octave 4
-	note C_, 4
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+;Bar 10
+	octave 2
+	note A#, 1
 	octave 3
-	note A#, 2
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 4
+;Bar 11
+	note D#, 1
+	note F#, 1
+	note G#, 1
 	octave 4
-	note C_, 2
-	note C#, 2
+	note C#, 1
 	octave 3
-	note A#, 2
-	octave 4
-	note C_, 4
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+;Bar 12
+	octave 2
+	note A#, 1
 	octave 3
-	note C_, 4
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note D#, 4
+;Bar 13
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 14
+	note D#, 1
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note F#, 1
+	note __, 1
+	note G#, 4
+	note __, 5
+;Bar 15
+	note A#, 1
+	note G#, 1
+	note __, 2
+	note G#, 1
+	note F#, 1
+	note __, 2
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 16
+	note D#, 1
+	note __, 1
+	note F#, 1
+	note __, 1
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 4
+	note __, 5
+;Bar 17
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note D#, 1
+	note __, 2
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 18
+	note D#, 1
+	note F#, 1
+	note __, 2
+	note D#, 1
+	note F#, 1
+	note __, 1
+	note G#, 4
+	note __, 5
+;Bar 19
+	note A#, 1
+	note G#, 1
+	note __, 2
+	note G#, 1
+	note F#, 1
+	note __, 2
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 1
+;Bar 20
+	note D#, 1
+	note __, 1
+	note F#, 1
+	note __, 1
+	note F#, 1
+	note C#, 1
+	note __, 1
+	note D#, 4
+	note __, 5
+;Bar 21
+	note D#, 1
+	note F#, 1
+	note G#, 1
 	octave 4
-	note C_, 6
-	volume_envelope 9, 5
-	note C#, 2
+	note C#, 1
+	octave 3
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+;Bar 22
+	octave 2
+	note A#, 1
+	octave 3
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 4
+;Bar 23
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	octave 4
+	note C#, 1
+	octave 3
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+;Bar 24
+	octave 2
+	note A#, 1
+	octave 3
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note D#, 4
+;Bar 25
+	note C#, 8
+	note D#, 3
+	octave 2
+	note A#, 3
+	octave 3
+	note C#, 10
+;Bar 26
+	note D#, 6
+	note __, 2
+;Bar 27
+	note G#, 3
+	note D#, 3
+	note F#, 4
+	note D#, 4
+	note D#, 2
+;Bar 28
+	note C#, 3
+	note C#, 3
+	note D#, 10
+;Bar 29
+	note C#, 8
+	note D#, 3
+	octave 2
+	note A#, 3
+	octave 3
+	note C#, 10
+;Bar 30
+	note D#, 6
+	note __, 2
+;Bar 31
+	note G#, 3
+	note D#, 3
+	note F#, 4
+	note D#, 4
+	note D#, 2
+;Bar 32
+	note C#, 3
+	note C#, 3
+	note D#, 10
+;Bar 33
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	octave 4
+	note C#, 1
+	octave 3
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+;Bar 34
+	octave 2
+	note A#, 1
+	octave 3
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 4
+;Bar 35
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	octave 4
+	note C#, 1
+	octave 3
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note A#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+;Bar 36
+	octave 2
+	note A#, 1
+	octave 3
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note G#, 1
+	note F#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note D#, 1
+	note F#, 1
+	note D#, 4
+;Bar 37
+	octave 2
+	note A#, 1
+	note __, 2
+	note A#, 1
+	note __, 2
+	note A#, 1
+	note __, 2
+	octave 3
+	note C#, 1
+	note __, 2
+	octave 2
+	note A#, 1
+	note __, 1
+	note G#, 1
+	note __, 1
+;Bar 38
+	note G#, 1
+	note __, 2
+	note F#, 1
+	note __, 2
+	note A#, 4
+	note __, 6
+;Bar 39
+	octave 3
+	note D#, 1
+	note __, 2
+	note C#, 1
+	note __, 2
+	octave 2
+	note A#, 1
+	note __, 2
+	octave 3
+	note C#, 1
+	note __, 2
+	octave 2
+	note A#, 1
+	note __, 1
+	note G#, 1
+	note __, 1
+;Bar 40
+	note A#, 1
+	note __, 2
+	note G#, 1
+	note __, 2
+	note F#, 10
 	sound_loop 0, .mainloop
+	
+Music_TinTower_Ch2:
+	duty_cycle 1
+	vibrato 8, 4, 8
+	note_type 12, 11, 2
+	transpose 1, 0
+.mainloop:	
+	octave 2
+	note A#, 16
+;Bar 2
+	octave 3
+	note C#, 16
+;Bar 3
+	octave 2
+	note F#, 16
+;Bar 4
+	note D#, 16
+;Bar 5
+	note A#, 16
+;Bar 6
+	octave 3
+	note C#, 16
+;Bar 7
+	octave 2
+	note F#, 16
+;Bar 8
+	note D#, 16
+;Bar 9
+	note A#, 16
+;Bar 10
+	octave 3
+	note C#, 16
+;Bar 11
+	octave 2
+	note F#, 16
+;Bar 12
+	note D#, 16
+;Bar 13
+	note A#, 16
+;Bar 14
+	octave 3
+	note C#, 16
+;Bar 15
+	octave 2
+	note F#, 16
+;Bar 16
+	note D#, 16
+;Bar 17
+	note A#, 16
+;Bar 18
+	octave 3
+	note C#, 16
+;Bar 19
+	octave 2
+	note F#, 16
+;Bar 20
+	note D#, 16
+;Bar 21
+	note A#, 16
+;Bar 22
+	octave 3
+	note C#, 16
+;Bar 23
+	octave 2
+	note F#, 16
+;Bar 24
+	note D#, 16
+;Bar 25
+	note A#, 16
+;Bar 26
+	octave 3
+	note C#, 16
+;Bar 27
+	octave 2
+	note F#, 16
+;Bar 28
+	note D#, 16
+;Bar 29
+	note A#, 16
+;Bar 30
+	octave 3
+	note C#, 16
+;Bar 31
+	octave 2
+	note F#, 16
+;Bar 32
+	note D#, 16
+;Bar 33
+	note A#, 16
+;Bar 34
+	octave 3
+	note C#, 16
+;Bar 35
+	octave 2
+	note F#, 16
+;Bar 36
+	note D#, 16
+;Bar 37
+	note A#, 16
+;Bar 38
+	octave 3
+	note C#, 16
+;Bar 39
+	octave 2
+	note F#, 16
+;Bar 40
+	note D#, 16
+	sound_loop 0, .mainloop	
 
 Music_TinTower_Ch3:
-	note_type 12, 1, 4
+	vibrato 20, 14, 8
+	note_type 12, 2, 4
 .mainloop:
-	rest 16
-	rest 16
-	rest 16
-	rest 10
 	octave 2
-	note G_, 2
-	note G#, 2
-	note A#, 2
-	octave 3
-	note C_, 8
+	note D#, 8
 	note C#, 8
-	note E_, 8
+;Bar 2
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
 	octave 2
-	note A#, 2
-	octave 3
-	note C_, 2
-	note C#, 2
-	note D#, 2
-	note C_, 8
 	note C#, 8
-	note E_, 8
-	octave 4
-	note C_, 8
-	octave 3
-	note C_, 1
-	rest 3
-	note C_, 1
-	rest 11
-	note C_, 1
-	rest 3
-	note C_, 1
-	rest 7
-	note C_, 4
-	note C#, 1
-	rest 3
-	note C#, 1
-	rest 7
-	note C_, 4
-	note C#, 1
-	rest 3
-	note C#, 1
-	rest 7
-	note D#, 4
-	stereo_panning FALSE, TRUE
-	note C_, 1
-	rest 3
-	note C_, 1
-	rest 11
-	note C_, 1
-	rest 3
-	note C_, 1
-	rest 3
-	stereo_panning TRUE, TRUE
+;Bar 3
+	note D#, 8
+	note F#, 8
+;Bar 4
+	note G#, 8
+	note F#, 8
+;Bar 5
+	note D#, 8
+	note C#, 8
+;Bar 6
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
 	octave 2
-	note A#, 2
-	octave 3
-	note C_, 2
-	note C#, 2
-	note D#, 2
-	stereo_panning FALSE, TRUE
-	note C_, 1
-	rest 3
-	note C_, 1
-	rest 11
-	note C_, 1
-	rest 3
-	note C_, 1
-	rest 11
-	stereo_panning TRUE, TRUE
+	note C#, 8
+;Bar 7
+	note D#, 8
+	note F#, 8
+;Bar 8
+	note G#, 8
+	note F#, 8
+;Bar 9
+	note D#, 8
+	note C#, 8
+;Bar 10
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 11
+	note D#, 8
+	note F#, 8
+;Bar 12
+	note G#, 8
+	note F#, 8
+;Bar 13
+	note D#, 8
+	note C#, 8
+;Bar 14
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 15
+	note D#, 8
+	note F#, 8
+;Bar 16
+	note G#, 8
+	note F#, 8
+;Bar 17
+	note D#, 8
+	note C#, 8
+;Bar 18
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 19
+	note D#, 8
+	note F#, 8
+;Bar 20
+	note G#, 8
+	note F#, 8
+;Bar 21
+	note D#, 8
+	note C#, 8
+;Bar 22
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 23
+	note D#, 8
+	note F#, 8
+;Bar 24
+	note G#, 8
+	note F#, 8
+;Bar 25
+	note D#, 8
+	note C#, 8
+;Bar 26
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 27
+	note D#, 8
+	note F#, 8
+;Bar 28
+	note G#, 8
+	note F#, 8
+;Bar 29
+	note D#, 8
+	note C#, 8
+;Bar 30
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 31
+	note D#, 8
+	note F#, 8
+;Bar 32
+	note G#, 8
+	note F#, 8
+;Bar 33
+	note D#, 8
+	note C#, 8
+;Bar 34
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 35
+	note D#, 8
+	note F#, 8
+;Bar 36
+	note G#, 8
+	note F#, 8
+;Bar 37
+	note D#, 8
+	note C#, 8
+;Bar 38
+	octave 1 ;WARNING: octave 1 isn't supported, won't work correctly
+	note A#, 8
+	octave 2
+	note C#, 8
+;Bar 39
+	note D#, 8
+	note F#, 8
+;Bar 40
+	note G#, 8
+	note F#, 8
 	sound_loop 0, .mainloop
 
 Music_TinTower_Ch4:
-	toggle_noise 0
+	toggle_noise 3
 	drum_speed 12
 .mainloop:
-	stereo_panning FALSE, TRUE
-	drum_note 8, 2
-	stereo_panning TRUE, FALSE
+	drum_note 11, 3
 	drum_note 8, 1
+	
+	drum_note 3, 3
 	drum_note 8, 1
-	stereo_panning FALSE, TRUE
-	drum_note 8, 2
-	stereo_panning TRUE, FALSE
-	drum_note 6, 4
-	stereo_panning FALSE, TRUE
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 6, 2
-	stereo_panning TRUE, FALSE
-	drum_note 8, 2
-	stereo_panning FALSE, TRUE
+	
+	drum_note 11, 2
 	drum_note 8, 1
+	drum_note 11, 1
+
+	drum_note 3, 3
 	drum_note 8, 1
-	stereo_panning TRUE, FALSE
-	drum_note 8, 2
-	stereo_panning FALSE, TRUE
-	drum_note 6, 4
-	stereo_panning TRUE, FALSE
-	drum_note 8, 2
-	drum_note 8, 2
-	drum_note 6, 2
+	
 	sound_loop 0, .mainloop

@@ -6,169 +6,692 @@ Music_HallOfFame:
 	channel 4, Music_HallOfFame_Ch4
 
 Music_HallOfFame_Ch1:
-	tempo 112
-	volume 7, 7
+	tempo 174
 	duty_cycle 2
 	vibrato 12, 2, 2
 	pitch_offset 1
-	stereo_panning TRUE, FALSE
 	note_type 12, 9, 3
-	rest 16
-	rest 16
-	rest 16
-	rest 12
-	octave 3
-	note D_, 1
-	note E_, 1
-	note F_, 1
-	note F#, 1
-.mainloop:
-.loop1:
-	volume_envelope 9, 7
-	octave 4
-	note C_, 8
-	volume_envelope 7, 7
-	note C_, 8
-	volume_envelope 9, 7
-	note E_, 8
-	volume_envelope 7, 7
-	note E_, 8
-	volume_envelope 9, 7
-	note F#, 8
-	volume_envelope 7, 7
-	note F#, 8
-	volume_envelope 7, 7
-	note F_, 8
-	volume_envelope 5, 7
-	note F_, 8
-	sound_loop 3, .loop1
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	sound_loop 0, .mainloop
+	transpose 1,0
 
-Music_HallOfFame_Ch2:
-	vibrato 8, 2, 5
-	duty_cycle 3
 .mainloop:
-	note_type 12, 12, 4
 	octave 3
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 2
+	note F_, 1
+	note __, 2
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 2
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 3
+	note C_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 4
+	note F_, 1
+	note __, 1
+	note G#, 1
+	note __, 1
+	note F_, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 5
+	note F_, 6
+	note C_, 4
+	note D#, 6
+;Bar 6
+	note D#, 4
+	note F_, 2
+	note D#, 8
+	note __, 2
+;Bar 7
+	note C_, 6
+	octave 2
+	note A#, 4
+	octave 3
+	note C_, 6
+;Bar 8
+	note F_, 4
+	note C_, 2
+	note D#, 8
+	note __, 2
+;Bar 9
+	note G_, 4
+	note G#, 2
+	note G_, 4
+	note D#, 6
+;Bar 10
+	note F_, 4
+	note D#, 2
+	note F_, 6
+	note __, 4
+;Bar 11
+	note G#, 4
 	note G_, 2
-	note D_, 2
+	note D#, 6
+	note F_, 4
+;Bar 12
+	note D#, 2
+	note F_, 2
+	note D#, 4
+	note F_, 4
+	note __, 4
+;Bar 13
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 2
+	note F_, 1
+	note __, 2
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 14
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 15
+	note C_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 16
+	note F_, 1
+	note __, 1
+	note G#, 1
+	note __, 1
+	note F_, 1
+	note __, 2
+	note D#, 1
+	note __, 2
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 17
 	note G_, 2
-	note A_, 10
+	note __, 1
+	note F_, 2
+	note __, 1
 	note G_, 2
-	note D_, 2
-	note G_, 2
+	note G#, 2
+	note A#, 2
 	octave 4
 	note C_, 4
+;Bar 18
 	octave 3
-	note B_, 4
-	note A_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note A_, 10
+	note F_, 2
+	note __, 1
+	note D#, 2
+	note __, 1
 	note F_, 2
 	note C_, 2
-	note F_, 2
+	note D#, 2
+	note F_, 4
+;Bar 19
+	note G_, 2
+	note __, 1
+	note G#, 2
+	note __, 1
+	note G_, 2
+	note D#, 2
+	note C_, 2
+	note D#, 4
+;Bar 20
+	note G_, 2
+	note __, 1
+	note G#, 2
+	note __, 1
+	note G_, 2
+	note A#, 2
+	octave 4
+	note C_, 2
+	octave 3
 	note A#, 4
-	note A_, 4
-	note F_, 2
 	sound_loop 0, .mainloop
+	
+Music_HallOfFame_Ch2:
+	transpose 1,0
+	vibrato 8, 2, 5
+	duty_cycle 3
+	note_type 12, 12, 4
+.mainloop:
+	octave 2
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 2
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 3
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 4
+	note C_, 1
+	note D#, 1
+	note __, 1
+	note C_, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note C_, 1
+	note __, 1
+	note D#, 1
+	note F_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 5
+	note F_, 6
+	note C_, 4
+	note D#, 6
+;Bar 6
+	note D#, 4
+	note F_, 2
+	note D#, 8
+	note __, 2
+;Bar 7
+	note C_, 6
+	octave 1
+	note A#, 4
+	octave 2
+	note C_, 6
+;Bar 8
+	note F_, 4
+	note C_, 2
+	note D#, 8
+	note __, 2
+;Bar 9
+	note G_, 4
+	note G#, 2
+	note G_, 4
+	note D#, 6
+;Bar 10
+	note F_, 4
+	note D#, 2
+	note F_, 6
+	note __, 4
+;Bar 11
+	note G#, 4
+	note G_, 2
+	note D#, 6
+	note F_, 4
+;Bar 12
+	note D#, 2
+	note F_, 2
+	note D#, 4
+	note F_, 4
+	note __, 4
+;Bar 13
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 14
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 15
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 16
+	note C_, 1
+	note D#, 1
+	note __, 1
+	note C_, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note C_, 1
+	note __, 1
+	note D#, 1
+	note F_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 17
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+;Bar 18
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 19
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G#, 1
+	note G#, 1
+	note __, 1
+	note G_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 20
+	note C_, 1
+	note D#, 1
+	note __, 1
+	note C_, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note C_, 1
+	note __, 1
+	note D#, 1
+	note F_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note F_, 2
+	sound_loop 0, .mainloop	
 
 Music_HallOfFame_Ch3:
-.mainloop:
 	note_type 12, 2, 8
-.loop1:
-	octave 3
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	octave 3
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	octave 3
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	octave 3
-	note C_, 2
+.mainloop:
+	octave 1
+	note F_, 1
+	note D#, 2
 	note F_, 2
-	note C_, 2
+	note __, 1
+	note G#, 2
+	note __, 2
 	note F_, 2
-	note C_, 2
+	note D#, 2
 	note F_, 2
+;Bar 2
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
 	note C_, 2
+	note D#, 2
 	note F_, 2
-	sound_loop 3, .loop1
-	note D_, 4
-	note G_, 4
-	note D_, 4
-	note G_, 4
-	note E_, 4
-	note G_, 4
-	note E_, 4
-	note G_, 4
-	note F#, 4
-	note A_, 4
-	note F#, 4
-	note A_, 4
-	note E_, 4
-	note G_, 4
-	note E_, 4
-	note G_, 4
+;Bar 3
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note A#, 2
+	note D#, 2
+;Bar 4
+	note C_, 1
+	note D#, 2
+	note C_, 2
+	note __, 1
+	note A#, 2
+	note __, 2
+	note G#, 2
+	note F_, 2
+	note D#, 2
+;Bar 5
+	note F_, 1
+	note D#, 2
+	note F_, 2
+	note __, 1
+	note G#, 2
+	note __, 2
+	note F_, 2
+	note D#, 2
+	note F_, 2
+;Bar 6
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note D#, 2
+	note F_, 2
+;Bar 7
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note A#, 2
+	note D#, 2
+;Bar 8
+	note C_, 1
+	note D#, 2
+	note C_, 2
+	note __, 1
+	note A#, 2
+	note __, 2
+	note G#, 2
+	note F_, 2
+	note D#, 2
+;Bar 9
+	note F_, 1
+	note D#, 2
+	note F_, 2
+	note __, 1
+	note G#, 2
+	note __, 2
+	note F_, 2
+	note D#, 2
+	note F_, 2
+;Bar 10
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note D#, 2
+	note F_, 2
+;Bar 11
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note A#, 2
+	note D#, 2
+;Bar 12
+	note C_, 1
+	note D#, 2
+	note C_, 2
+	note __, 1
+	note A#, 2
+	note __, 2
+	note G#, 2
+	note F_, 2
+	note D#, 2
+;Bar 13
+	note F_, 1
+	note D#, 2
+	note F_, 2
+	note __, 1
+	note G#, 2
+	note __, 2
+	note F_, 2
+	note D#, 2
+	note F_, 2
+;Bar 14
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note D#, 2
+	note F_, 2
+;Bar 15
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note A#, 2
+	note D#, 2
+;Bar 16
+	note C_, 1
+	note D#, 2
+	note C_, 2
+	note __, 1
+	note A#, 2
+	note __, 2
+	note G#, 2
+	note F_, 2
+	note D#, 2
+;Bar 17
+	note F_, 1
+	note D#, 2
+	note F_, 2
+	note __, 1
+	note G#, 2
+	note __, 2
+	note F_, 2
+	note D#, 2
+	note F_, 2
+;Bar 18
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note D#, 2
+	note F_, 2
+;Bar 19
+	note C_, 1
+	note D#, 2
+	note D#, 2
+	note __, 1
+	note D#, 2
+	note __, 2
+	note C_, 2
+	note A#, 2
+	note D#, 2
+;Bar 20
+	note C_, 1
+	note D#, 2
+	note C_, 2
+	note __, 1
+	note A#, 2
+	note __, 2
+	note G#, 2
+	note F_, 2
+	note D#, 2
 	sound_loop 0, .mainloop
 
 Music_HallOfFame_Ch4:
-	toggle_noise 5
+	toggle_noise 3
 	drum_speed 12
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	drum_speed 6
 .mainloop:
-	stereo_panning FALSE, TRUE
-	drum_note 11, 4
-	drum_note 11, 8
-	drum_note 11, 4
-	drum_note 11, 4
-	drum_note 11, 4
-	stereo_panning TRUE, FALSE
-	drum_note 10, 2
-	drum_note 10, 2
-	drum_note 11, 2
-	drum_note 11, 2
-	drum_note 11, 4
-	drum_note 11, 4
-	drum_note 11, 8
-	drum_note 11, 4
-	drum_note 11, 4
-	stereo_panning FALSE, TRUE
+	drum_note 11, 3
 	drum_note 11, 1
+	drum_note 3, 3
 	drum_note 11, 1
-	drum_note 10, 1
-	drum_note 10, 1
+	drum_note 11, 3
 	drum_note 11, 1
+	drum_note 3, 3
 	drum_note 11, 1
+	drum_note 11, 3
 	drum_note 11, 1
+	drum_note 3, 3
 	drum_note 11, 1
+	drum_note 11, 3
+	drum_note 11, 1
+	drum_note 3, 3
+	drum_note 3, 1
 	sound_loop 0, .mainloop
