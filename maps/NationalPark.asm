@@ -132,8 +132,11 @@ TrainerSchoolboyJack1:
 	iftrue .NumberAccepted
 	checkevent EVENT_JACK_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic SCHOOLBOY
 	writetext SchoolboyJackTradeMonText
 	promptbutton
+	closetrainpic
 	setevent EVENT_JACK_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .RequestNumber
@@ -264,8 +267,11 @@ TrainerPokefanfBeverly1:
 	iffalse .NoWater_Rat
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic POKEFANF
 	writetext PokefanBeverlyCuteMonText
 	promptbutton
+	closetrainpic
 	setevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .RequestNumber

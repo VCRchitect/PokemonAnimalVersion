@@ -48,8 +48,11 @@ TrainerYoungsterJoey:
 	iftrue .NumberAccepted
 	checkevent EVENT_JOEY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic YOUNGSTER
 	writetext YoungsterJoey1AfterText
 	promptbutton
+	closetrainpic
 	setevent EVENT_JOEY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .RequestNumber

@@ -36,8 +36,11 @@ TrainerBugCatcherWade1:
 	iftrue .AcceptedNumberSTD
 	checkevent EVENT_WADE_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic BUG_CATCHER
 	writetext BugCatcherWade1AfterText
 	waitbutton
+	closetrainpic
 	setevent EVENT_WADE_ASKED_FOR_PHONE_NUMBER
 	scall .AskPhoneNumberSTD
 	sjump .Continue

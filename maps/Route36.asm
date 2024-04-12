@@ -205,8 +205,11 @@ TrainerSchoolboyAlan1:
 	iftrue .NumberAccepted
 	checkevent EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgainForPhoneNumber
+	refreshscreen
+	trainerpic SCHOOLBOY
 	writetext SchoolboyAlanBooksText
 	promptbutton
+	closetrainpic
 	setevent EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .ContinueAskForPhoneNumber

@@ -33,8 +33,11 @@ TrainerHikerAnthony:
 	iftrue .NumberAccepted
 	checkevent EVENT_ANTHONY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic HIKER
 	writetext HikerAnthony2AfterText
 	promptbutton
+	closetrainpic
 	setevent EVENT_ANTHONY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForPhoneNumber

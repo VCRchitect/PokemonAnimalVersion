@@ -110,6 +110,7 @@ TrainerCamperTodd1:
 	trainerpic CAMPER
 	writetext CamperTodd1AfterText
 	promptbutton
+	closetrainpic
 	setevent EVENT_TODD_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber
 	sjump .FinishAsk
@@ -233,8 +234,11 @@ TrainerPicnickerGina1:
 	iftrue .NumberAccepted
 	checkevent EVENT_GINA_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic PICNICKER
 	writetext PicnickerGina1AfterText
 	promptbutton
+	closetrainpic
 	setevent EVENT_GINA_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .FinishAsk

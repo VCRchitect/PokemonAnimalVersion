@@ -84,9 +84,11 @@ Route32CooltrainerMContinueScene:
 
 .GotMiracleSeed:
 	refreshscreen
+	trainerpic COOLTRAINERM
 	writetext Route32CooltrainerMText_ExperiencesShouldBeUseful
 	waitbutton
 .BagFull:
+	closetrainpic
 	closetext
 	end
 
@@ -201,8 +203,11 @@ TrainerFisherRalph1:
 	iftrue .NumberAccepted
 	checkevent EVENT_RALPH_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic FISHER
 	writetext FisherRalphAfterText
 	promptbutton
+	closetrainpic
 	setevent EVENT_RALPH_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber
@@ -337,8 +342,11 @@ TrainerPicnickerLiz1:
 	iftrue .NumberAccepted
 	checkevent EVENT_LIZ_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
+	refreshscreen
+	trainerpic PICNICKER
 	writetext PicnickerLiz1AfterText
 	promptbutton
+	closetrainpic
 	setevent EVENT_LIZ_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
 	sjump .AskForNumber
@@ -485,6 +493,8 @@ TrainerBirdKeeperPeter:
 
 FriedaScript:
 	faceplayer
+	refreshscreen
+	trainerpic LASS
 	opentext
 	checkevent EVENT_GOT_POISON_BARB_FROM_FRIEDA
 	iftrue .Friday
@@ -498,11 +508,15 @@ FriedaScript:
 .MetFrieda:
 	writetext FriedaGivesGiftText
 	promptbutton
+	closetrainpic
 	verbosegiveitem POISON_BARB
 	iffalse .Done
 	setevent EVENT_GOT_POISON_BARB_FROM_FRIEDA
+	refreshscreen
+	trainerpic LASS
 	writetext FriedaGaveGiftText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -510,12 +524,14 @@ FriedaScript:
 	writetext FriedaFridayText
 	waitbutton
 .Done:
+	closetrainpic
 	closetext
 	end
 
 .NotFriday:
 	writetext FriedaNotFridayText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 

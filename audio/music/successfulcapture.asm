@@ -6,7 +6,7 @@ Music_SuccessfulCapture:
 	channel 4, Music_SuccessfulCapture_Ch4
 
 Music_SuccessfulCapture_Ch1:
-	tempo 126
+	tempo 200
 	volume 7, 7
 	duty_cycle 3
 	pitch_offset 1

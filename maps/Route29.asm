@@ -42,10 +42,13 @@ Route29Tutorial1:
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1a
 	turnobject PLAYER, LEFT
 	setevent EVENT_DUDE_TALKED_TO_YOU
+	refreshscreen
+	trainerpic COOLTRAINERM
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
 	iffalse Script_RefusedTutorial1
+	closetrainpic
 	closetext
 	follow ROUTE29_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
@@ -53,9 +56,12 @@ Route29Tutorial1:
 	loadwildmon RAT, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	turnobject ROUTE29_COOLTRAINER_M1, UP
+	refreshscreen
+	trainerpic COOLTRAINERM
 	opentext
 	writetext CatchingTutorialDebriefText
 	waitbutton
+	closetrainpic
 	closetext
 	setscene SCENE_ROUTE29_NOTHING
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
@@ -67,10 +73,13 @@ Route29Tutorial2:
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2a
 	turnobject PLAYER, LEFT
 	setevent EVENT_DUDE_TALKED_TO_YOU
+	refreshscreen
+	trainerpic COOLTRAINERM
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
 	iffalse Script_RefusedTutorial2
+	closetrainpic
 	closetext
 	follow ROUTE29_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
@@ -78,9 +87,12 @@ Route29Tutorial2:
 	loadwildmon RAT, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	turnobject ROUTE29_COOLTRAINER_M1, UP
+	refreshscreen
+	trainerpic COOLTRAINERM
 	opentext
 	writetext CatchingTutorialDebriefText
 	waitbutton
+	closetrainpic
 	closetext
 	setscene SCENE_ROUTE29_NOTHING
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
@@ -89,6 +101,7 @@ Route29Tutorial2:
 Script_RefusedTutorial1:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
 	setscene SCENE_ROUTE29_NOTHING
@@ -97,6 +110,7 @@ Script_RefusedTutorial1:
 Script_RefusedTutorial2:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
 	setscene SCENE_ROUTE29_NOTHING
@@ -104,6 +118,8 @@ Script_RefusedTutorial2:
 
 CatchingTutorialDudeScript:
 	faceplayer
+	refreshscreen
+	trainerpic COOLTRAINERM
 	opentext
 	readvar VAR_BOXSPACE
 	ifequal 0, .BoxFull
@@ -114,12 +130,16 @@ CatchingTutorialDudeScript:
 	writetext CatchingTutorialRepeatText
 	yesorno
 	iffalse .Declined
+	closetrainpic
 	closetext
 	loadwildmon RAT, 5
 	catchtutorial BATTLETYPE_TUTORIAL
+	refreshscreen
+	trainerpic COOLTRAINERM
 	opentext
 	writetext CatchingTutorialDebriefText
 	waitbutton
+	closetrainpic
 	closetext
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
@@ -127,12 +147,14 @@ CatchingTutorialDudeScript:
 .BoxFull:
 	writetext CatchingTutorialBoxFullText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 .Declined:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -182,6 +204,8 @@ Route29CooltrainerMScript:
 	
 TuscanyScript:
 	faceplayer
+	refreshscreen
+	trainerpic TEACHER
 	opentext
 	checkevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
 	iftrue TuscanyTuesdayScript
@@ -195,11 +219,15 @@ TuscanyScript:
 .MetTuscany:
 	writetext TuscanyGivesGiftText
 	promptbutton
+	closetrainpic
 	verbosegiveitem PINK_BOW
 	iffalse TuscanyDoneScript
 	setevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
+	refreshscreen
+	trainerpic TEACHER
 	writetext TuscanyGaveGiftText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -207,12 +235,14 @@ TuscanyTuesdayScript:
 	writetext TuscanyTuesdayText
 	waitbutton
 TuscanyDoneScript:
+	closetrainpic
 	closetext
 	end
 
 TuscanyNotTuesdayScript:
 	writetext TuscanyNotTuesdayText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
