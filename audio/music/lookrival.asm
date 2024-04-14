@@ -7,7 +7,7 @@ Music_LookRival:
 
 
 Music_LookRival_Ch1:
-	tempo 112
+	tempo 171
 	volume 7, 7
 	duty_cycle 1
 	pitch_offset 1

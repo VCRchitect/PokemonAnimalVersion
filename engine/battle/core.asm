@@ -1365,6 +1365,8 @@ HandleCigarette:
 	cp HELD_CIGARETTE
 	ret nz
 
+	call GetSixteenthMaxHP
+	call SubtractHPFromUser
 	ld de, ANIM_CIGARETTE
 	call SwitchTurnCore
 	ld hl, BattleText_TargetSmoked

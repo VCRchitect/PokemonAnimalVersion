@@ -84,7 +84,6 @@ Route32CooltrainerMContinueScene:
 
 .GotMiracleSeed:
 	refreshscreen
-	trainerpic COOLTRAINERM
 	writetext Route32CooltrainerMText_ExperiencesShouldBeUseful
 	waitbutton
 .BagFull:
@@ -866,7 +865,7 @@ BirdKeeperPeterSeenText:
 	text "That BADGE! It's"
 	line "from VIOLET CITY!"
 
-	para "You beat BIG_BIRD?"
+	para "You beat BIG BIRD?"
 	done
 
 BirdKeeperPeterBeatenText:
