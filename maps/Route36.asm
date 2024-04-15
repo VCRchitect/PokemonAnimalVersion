@@ -80,7 +80,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	pokepic FAKE_BUSH
 	writetext Fake_BushAttackedText
 	waitbutton
-	closetrainpic
+	closepokepic
 	closetext
 	loadwildmon FAKE_BUSH, 20
 	startbattle
@@ -130,6 +130,7 @@ Route36FloriaScript:
 	end
 
 .SecondTimeTalking:
+	refreshscreen
 	trainerpic BEAUTY
 	writetext FloriaText2
 	waitbutton
@@ -153,6 +154,7 @@ Route36RockSmashGuyScript:
 	end
 
 .ClearedFake_Bush:
+	refreshscreen
 	trainerpic FISHER
 	writetext RockSmashGuyText2
 	promptbutton
@@ -161,7 +163,6 @@ Route36RockSmashGuyScript:
 	iffalse .NoRoomForTM
 	setevent EVENT_GOT_TM08_ROCK_SMASH
 .AlreadyGotRockSmash:
-	trainerpic FISHER
 	writetext RockSmashGuyText3
 	waitbutton
 	closetrainpic
@@ -184,7 +185,6 @@ Route36LassScript:
 	end
 
 .ClearedFake_Bush:
-	trainerpic LASS
 	writetext Route36LassText_ClearedFake_Bush
 	waitbutton
 	closetrainpic
@@ -354,17 +354,23 @@ ArthurScript:
 	ifnotequal THURSDAY, ArthurNotThursdayScript
 	checkevent EVENT_MET_ARTHUR_OF_THURSDAY
 	iftrue .MetArthur
+	refreshscreen
+	trainerpic YOUNGSTER
 	writetext MeetArthurText
 	promptbutton
 	setevent EVENT_MET_ARTHUR_OF_THURSDAY
 .MetArthur:
 	writetext ArthurGivesGiftText
 	promptbutton
+	closetrainpic
 	verbosegiveitem HARD_STONE
 	iffalse .BagFull
 	setevent EVENT_GOT_HARD_STONE_FROM_ARTHUR
+	refreshscreen
+	trainerpic YOUNGSTER
 	writetext ArthurGaveGiftText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -686,6 +692,10 @@ Route36TrainerTips2Text:
 
 	para "caves and other"
 	line "landmarks."
+	
+	para "It's also hella"
+	line "good as an early"
+	cont "GROUND-type move."
 	done
 
 Route36_MapEvents:

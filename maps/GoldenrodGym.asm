@@ -58,7 +58,6 @@ GoldenrodGymWhitneyScript:
 	iftrue .GotAttract
 	checkflag ENGINE_PLAINBADGE
 	iftrue .GotPlainBadge
-	trainerpic WHITNEY
 	writetext WhitneyWhatDoYouWantText
 	promptbutton
 	closetrainpic
@@ -70,6 +69,7 @@ GoldenrodGymWhitneyScript:
 	readvar VAR_BADGES
 	scall GoldenrodGymActivateRockets
 .GotPlainBadge:
+	refreshscreen
 	trainerpic WHITNEY
 	writetext WhitneyPlainBadgeText
 	promptbutton
@@ -77,6 +77,7 @@ GoldenrodGymWhitneyScript:
 	verbosegiveitem TM_ATTRACT
 	iffalse .NoRoomForAttract
 	setevent EVENT_GOT_TM45_ATTRACT
+	refreshscreen
 	trainerpic WHITNEY
 	writetext WhitneyAttractText
 	waitbutton

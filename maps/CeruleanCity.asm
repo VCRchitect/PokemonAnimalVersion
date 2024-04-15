@@ -235,6 +235,9 @@ CeruleanGymSignText:
 	para "The Tomboyish"
 	line "Mermaid That Has"
 	cont "So Much Hentai"
+	
+	para "Like, good god, so"
+	line "much is out there."
 	done
 
 CeruleanBikeShopSignText:
@@ -251,7 +254,7 @@ CeruleanPoliceSignText:
 	line "here..."
 
 	para "Stamp out thievery"
-	line "darkness!"
+	line "and darkness!"
 
 	para "CERULEAN POLICE"
 	done

@@ -100,6 +100,10 @@ CharcoalKilnBossText1:
 	para "It may be a bad"
 	line "omen. We should"
 	cont "stay in."
+	
+	para "I hope my staff"
+	line "doesn't expect"
+	cont "any PTO, though."
 	done
 
 CharcoalKilnBossText2:

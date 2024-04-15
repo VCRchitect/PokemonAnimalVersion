@@ -25,20 +25,29 @@ CeruleanGym_MapScripts:
 	playsound SFX_TACKLE
 	applymovement CERULEANGYM_ROCKET, CeruleanGymGruntRunsIntoYouMovement
 	playmusic MUSIC_ROCKET_ENCOUNTER
+	refreshscreen
 	opentext
+	trainerpic GRUNTM
 	writetext CeruleanGymGruntIntroText
 	waitbutton
+	closetrainpic
 	closetext
 	showemote EMOTE_SHOCK, CERULEANGYM_ROCKET, 15
 	applymovement CERULEANGYM_ROCKET, CeruleanGymGruntBacksAwayMovement
+	refreshscreen
 	opentext
+	trainerpic GRUNTM
 	writetext CeruleanGymGruntBigMistakeText
 	waitbutton
+	closetrainpic
 	closetext
 	applymovement CERULEANGYM_ROCKET, CeruleanGymGruntMovesCloseMovement
+	refreshscreen
 	opentext
+	trainerpic GRUNTM
 	writetext CeruleanGymGruntByeText
 	waitbutton
+	closetrainpic
 	closetext
 	applymovement CERULEANGYM_ROCKET, CeruleanGymGruntRunsOutMovement
 	playsound SFX_EXIT_BUILDING
@@ -58,11 +67,14 @@ CeruleanGym_MapScripts:
 
 CeruleanGymMistyScript:
 	faceplayer
+	refreshscreen
 	opentext
+	trainerpic MISTY
 	checkflag ENGINE_CASCADEBADGE
 	iftrue .FightDone
 	writetext MistyIntroText
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext MistyWinLossText, 0
 	loadtrainer MISTY, MISTY1
@@ -78,8 +90,11 @@ CeruleanGymMistyScript:
 	waitsfx
 	setflag ENGINE_CASCADEBADGE
 .FightDone:
+	refreshscreen
+	trainerpic MISTY
 	writetext MistyFightDoneText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -88,9 +103,12 @@ TrainerSwimmerfDiana:
 
 .Script:
 	endifjustbattled
+	refreshscreen
+	trainerpic SWIMMERF
 	opentext
 	writetext SwimmerfDianaAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -99,9 +117,12 @@ TrainerSwimmerfBriana:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic SWIMMERF
 	writetext SwimmerfBrianaAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -110,25 +131,32 @@ TrainerSwimmermParker:
 
 .Script:
 	endifjustbattled
+	refreshscreen
 	opentext
+	trainerpic SWIMMERM
 	writetext SwimmermParkerAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 CeruleanGymGuideScript:
 	faceplayer
+	refreshscreen
 	opentext
+	trainerpic GUIDE
 	checkevent EVENT_BEAT_MISTY
 	iftrue .CeruleanGymGuideWinScript
 	writetext CeruleanGymGuideText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 .CeruleanGymGuideWinScript:
 	writetext CeruleanGymGuideWinText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -239,27 +267,20 @@ CeruleanGymNote2Text:
 	done
 
 MistyIntroText:
-	text "MISTY: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
-
-	para "You may have a"
-	line "lot of JOHTO GYM"
-
-	para "BADGES, but you'd"
-	line "better not take me"
-	cont "too lightly."
-
-	para "My water-type"
-	line "ANML are tough!"
+	text "MISTY: I may be"
+	line "the internet's"
+	
+	para "favorite girl, but"
+	line "I'm going to be"
+	
+	para "your worst"
+	line "nightmare!"
 	done
 
 MistyWinLossText:
 	text "MISTY: You really"
-	line "are good..."
-
-	para "I'll admit that"
-	line "you are skilled..."
+	line "should be the"
+	cont "new internet babe."
 
 	para "Here you go. It's"
 	line "CASCADEBADGE."
@@ -271,16 +292,13 @@ ReceivedCascadeBadgeText:
 	done
 
 MistyFightDoneText:
-	text "MISTY: Are there"
-	line "many strong train-"
-	cont "ers in JOHTO? Like"
-	cont "you, I mean."
-
-	para "I'm going to"
-	line "travel one day, so"
-
-	para "I can battle some"
-	line "skilled trainers."
+	text "MISTY: You ever"
+	line "seen that Rule 34"
+	cont "online?"
+	
+	para "I personally put"
+	line "my PC in the trash"
+	cont "because of it."
 	done
 
 SwimmerfDianaSeenText:
@@ -292,31 +310,45 @@ SwimmerfDianaSeenText:
 SwimmerfDianaBeatenText:
 	text "I give up! You're"
 	line "the winner!"
+	
+	para "Please don't drown"
+	line "me!"
 	done
 
 SwimmerfDianaAfterBattleText:
 	text "I'll be swimming"
-	line "quietly."
+	line "quietly so you"
+	para "don't change your"
+	line "mind."
 	done
 
 SwimmerfBrianaSeenText:
 	text "Don't let my ele-"
 	line "gant swimming un-"
 	cont "nerve you."
+	
+	para "What do you mean"
+	line "it looks like a"
+	
+	para "CAT trying to spit"
+	line "up a hairball?"
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ooh, you calmly"
-	line "disposed of me..."
+	text "Ooh, I kinda see"
+	line "it, actually."
 	done
 
 SwimmerfBrianaAfterBattleText:
 	text "Don't be too smug"
 	line "about beating me."
 
-	para "MISTY will destroy"
-	line "you if you get"
-	cont "complacent."
+	para "I was only hired"
+	line "because I'm one of"
+	
+	para "the few people in"
+	line "this town that can"
+	cont "swim!"
 	done
 
 SwimmermParkerSeenText:
@@ -338,6 +370,9 @@ SwimmermParkerAfterBattleText:
 	para "Don't let your"
 	line "guard down, or"
 	cont "you'll be crushed!"
+	
+	para "And I don't mean"
+	line "by her thighs!"
 	done
 
 CeruleanGymGuideText:

@@ -48,6 +48,9 @@ CianwoodPhotoStudioFishingGuruText_No:
 
 	para "would be a great"
 	line "memento..."
+	
+	para "Yes, I know I'm"
+	line "creepy."
 	done
 
 CianwoodPhotoStudio_MapEvents:

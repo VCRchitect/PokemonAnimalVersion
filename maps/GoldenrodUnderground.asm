@@ -522,7 +522,7 @@ PokemaniacDonaldAfterBattleText:
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
-	text "The door's locked..."
+	text "The door's locked."
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:

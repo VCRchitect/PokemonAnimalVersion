@@ -28,9 +28,6 @@ AzaleaGymBugsyScript:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_BUGSY
-	refreshscreen
-	opentext
-	trainerpic BUGSY
 	writetext Text_ReceivedHiveBadge
 	playsound SFX_GET_BADGE
 	waitsfx
@@ -44,6 +41,9 @@ AzaleaGymBugsyScript:
 	setevent EVENT_BEAT_BUG_CATCHER_BENNY
 	setevent EVENT_BEAT_BUG_CATCHER_AL
 	setevent EVENT_BEAT_BUG_CATCHER_JOSH
+	refreshscreen
+	opentext
+	trainerpic BUGSY
 	writetext BugsyText_HiveBadgeSpeech
 	promptbutton
 	closetrainpic
@@ -60,7 +60,6 @@ AzaleaGymBugsyScript:
 
 .GotFuryCutter:
 	refreshscreen
-	trainerpic BUGSY
 	writetext BugsyText_BugMonsAreDeep
 	waitbutton
 .NoRoomForFuryCutter:
@@ -281,13 +280,14 @@ BugCatcherAlSeenText:
 	text "Bug ANIMALs are"
 	line "cool and tough!"
 
-	para "I'll prove it to"
-	line "you!"
+	para "Even if they made"
+	line "me eat worms at"
+	cont "school!"
 	done
 
 BugCatcherAlBeatenText:
-	text "You proved how"
-	line "tough you are..."
+	text "Maybe I do deserve"
+	line "all the bullying?"
 	done
 
 BugCatcherAlAfterBattleText:
@@ -298,16 +298,14 @@ BugCatcherAlAfterBattleText:
 	line "ANIMALs."
 
 	para "I don't know why."
+	para "Maybe 'cuz they"
+	line "don't wear makeup?"
 	done
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "BEAVERs? Whew,"
-	cont "you're mighty!"
-
-	para "But my grown-up"
-	line "ANIMALs are pretty"
-	cont "tough too!"
+	line "BEAVERs?"
+	para "What the hell for?"
 	done
 
 BugCatcherJoshBeatenText:
@@ -315,15 +313,18 @@ BugCatcherJoshBeatenText:
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves..."
+	text "Sorry, I don't"
+	line "know what that"
+	cont "noise was..."
 	done
 
 TwinsAmyandmay1SeenText:
 	text "AMY: Hi! Are you"
 	line "challenging the"
-	cont "LEADER? No way!"
+	cont "LEADER?"
+	
+	para "But his life is a"
+	line "challenge already?"
 	done
 
 TwinsAmyandmay1BeatenText:
@@ -334,12 +335,17 @@ TwinsAmyandmay1BeatenText:
 TwinsAmyandmay1AfterBattleText:
 	text "AMY: You're"
 	line "really strong!"
+	
+	para "My pawpaw would"
+	line "you're stronger"
+	para "than a garlic"
+	line "milkshake!"
 	done
 
 TwinsAmyandmay2SeenText:
 	text "MAY: You want to"
 	line "see the LEADER?"
-	cont "We come first!"
+	cont "Good luck!"
 	done
 
 TwinsAmyandmay2BeatenText:
@@ -349,8 +355,9 @@ TwinsAmyandmay2BeatenText:
 
 TwinsAmyandmay2AfterBattleText:
 	text "MAY: Our bugs"
-	line "lost! Oh, what a"
-	cont "shame."
+	line "lost! BUGSY was"
+	para "right. He's bad at"
+	line "teaching."
 	done
 
 AzaleaGymGuideText:
@@ -360,11 +367,11 @@ AzaleaGymGuideText:
 	line "his knowledge of"
 
 	para "bug ANIMALs is for"
-	line "real."
+	line "real. That's what"
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "happens when you"
+	line "are a big nerd for"
+	cont "bugs."
 
 	para "Let's see... Bug"
 	line "ANIMALs don't like"
@@ -379,12 +386,8 @@ AzaleaGymGuideWinText:
 	text "Well done! That"
 	line "was a great clash"
 
-	para "of talented young"
-	line "trainers."
-
-	para "With people like"
-	line "you, the future of"
-	cont "ANIMALs is bright!"
+	para "and only seemed a"
+	line "little one-sided!"
 	done
 
 AzaleaGym_MapEvents:

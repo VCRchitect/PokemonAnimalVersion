@@ -48,6 +48,12 @@ BeaverWellB2FGymGuideText:
 
 	para "gets bitten by a"
 	line "CLAM."
+	
+	para "I don't know what"
+	line "that has to do"
+	
+	para "with anything, but"
+	line "it may be useful."
 
 	para "Here, I'll share a"
 	line "KING'S ROCK with"
@@ -56,11 +62,8 @@ BeaverWellB2FGymGuideText:
 
 BeaverWellB2FGymGuideText_GotKingsRock:
 	text "I'm going to be"
-	line "like BEAVERs."
-
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	line "like BEAVERs and"
+	cont "rot my brain."
 	done
 
 BeaverWellB2F_MapEvents:

@@ -38,7 +38,7 @@ EcruteakPokecenter1F_MapScripts:
 	pause 10
 	refreshscreen
 	opentext
-	trainerpic BILL
+	trainerpic BILL_T
 	writetext EcruteakPokecenter1F_BillText1
 	promptbutton
 	sjump .PointlessJump
@@ -186,7 +186,7 @@ EcruteakPokecenter1FGymGuideText:
 	text "LAKE OF RAGE..."
 
 	para "The appearance of"
-	line "am INKANYAMBA swarm."
+	line "an INKANYAMBA."
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

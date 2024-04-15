@@ -1364,10 +1364,11 @@ HandleCigarette:
 	ld a, b
 	cp HELD_CIGARETTE
 	ret nz
-
+	call SwitchTurnCore
+	call ItemCigaretteAnim
+	call SwitchTurnCore	
 	call GetSixteenthMaxHP
 	call SubtractHPFromUser
-	ld de, ANIM_CIGARETTE
 	call SwitchTurnCore
 	ld hl, BattleText_TargetSmoked
 	jp StdBattleTextbox
@@ -4358,6 +4359,21 @@ ItemRecoveryAnim:
 	ld [wFXAnimID + 1], a
 	predef PlayBattleAnim
 	call SwitchTurnCore
+	pop bc
+	pop de
+	pop hl
+	ret
+
+ItemCigaretteAnim:
+	push hl
+	push de
+	push bc
+	ld a, SMOG
+	ld [wFXAnimID], a
+	xor a
+	ld [wNumHits], a
+	ld [wFXAnimID + 1], a
+	predef PlayBattleAnim
 	pop bc
 	pop de
 	pop hl

@@ -43,22 +43,14 @@ CianwoodPharmacyBookshelf:
 	jumpstd DifficultBookshelfScript
 
 PharmacistGiveSecretpotionText:
-	text "Your ANIMALs ap-"
-	line "pear to be fine."
-
-	para "Is something wor- "
-	line "rying you?"
-
-	para "..."
-
-	para "The LIGHTHOUSE"
-	line "ANIMAL is in"
-	cont "trouble?"
-
-	para "I got it!"
-
-	para "This ought to do"
-	line "the trick."
+	text "You require my"
+	line "strongest potions?"
+	
+	para "My strongest would"
+	line "kill a DRAGON."
+	
+	para "Here is a SECRET"
+	line "one instead."
 	done
 
 ReceivedSecretpotionText:

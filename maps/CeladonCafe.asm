@@ -161,7 +161,7 @@ ChefText_Eatathon:
 	done
 
 Fisher1Text_Snarfle:
-	text "...Snarfle, chew..."
+	text "...Snarfle, chew."
 	done
 
 Fisher1Text_Concentration:
@@ -195,7 +195,7 @@ Fisher3Text_GoldenrodIsBest:
 	done
 
 TeacherText_CrunchCrunch:
-	text "Crunch... Crunch..."
+	text "Crunch... Crunch."
 	done
 
 TeacherText_NoCoinCase:
@@ -203,11 +203,12 @@ TeacherText_NoCoinCase:
 	line "give you a COIN"
 
 	para "CASE. You should"
-	line "look in JOHTO."
+	line "look in JOHTO in"
+	cont "Goldenrod City."
 	done
 
 TeacherText_KeepEating:
-	text "Crunch... Crunch..."
+	text "Crunch... Crunch."
 
 	para "I can keep eating!"
 	done
@@ -236,7 +237,7 @@ FoundLeftoversText:
 
 NoRoomForLeftoversText:
 	text "But <PLAYER> can't"
-	line "hold another item..."
+	line "hold another item."
 	done
 
 CeladonCafe_MapEvents:

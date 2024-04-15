@@ -609,7 +609,7 @@ DragonShrineSilverIsInTrainingText:
 
 DragonShrineWrongAnswerText1:
 	text "Hah? I didn't"
-	line "quite catch that..."
+	line "quite catch that."
 	done
 
 DragonShrineWrongAnswerText2:
@@ -618,7 +618,7 @@ DragonShrineWrongAnswerText2:
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, I understand..."
+	text "Oh, I understand."
 	done
 
 DragonShrineElder2Text:

@@ -67,7 +67,9 @@ TrainerPsychicGreg:
 
 SunnyScript:
 	faceplayer
+	refreshscreen
 	opentext
+	trainerpic LASS
 	checkevent EVENT_GOT_MAGNET_FROM_SUNNY
 	iftrue SunnySundayScript
 	readvar VAR_WEEKDAY
@@ -87,11 +89,15 @@ SunnyScript:
 	writetext SunnyGivesGiftText2
 	promptbutton
 .next
+	closetrainpic
 	verbosegiveitem MAGNET
 	iffalse SunnyDoneScript
 	setevent EVENT_GOT_MAGNET_FROM_SUNNY
+	refreshscreen
+	trainerpic LASS
 	writetext SunnyGaveGiftText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -130,7 +136,7 @@ TwinsAnnandanne1SeenText:
 	done
 
 TwinsAnnandanne1BeatenText:
-	text "ANN & ANNE: Nnn... A"
+	text "ANN & ANNE: A"
 	line "little too strong."
 	done
 
@@ -149,7 +155,7 @@ TwinsAnnandanne2SeenText:
 	done
 
 TwinsAnnandanne2BeatenText:
-	text "ANN & ANNE: Nnn... A"
+	text "ANN & ANNE: A"
 	line "little too strong."
 	done
 
@@ -201,11 +207,11 @@ SunnyGivesGiftText2:
 	done
 
 SunnyGaveGiftText:
-	text "SUNNY: That thing..."
+	text "SUNNY: That thing,"
 
 	para "Um..."
 
-	para "... What was it now..."
+	para "What was it now..."
 
 	para "..."
 

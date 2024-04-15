@@ -47,19 +47,15 @@ MartCherrygrove:
 	db -1 ; end
 
 MartCherrygroveDex:
-	db 12 ; # items
+	db 8 ; # items
 	db POKE_BALL
+	db RECYCLA_BALL
+	db CIGARETTE
 	db POTION
+	db ANTIDOTE	
 	db PARLYZ_HEAL
 	db AWAKENING
-	db CIGARETTE
-	db RECYCLA_BALL
-	db CHAINSAW
-	db SWAN_BOAT
-	db STEROIDS
 	db FLASHLIGHT
-	db BLENDER
-	db SALMON_SUIT
 	db -1 ; end
 
 MartViolet:

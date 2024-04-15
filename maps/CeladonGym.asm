@@ -13,11 +13,13 @@ CeladonGym_MapScripts:
 
 CeladonGymErikaScript:
 	faceplayer
+	trainerpic ERIKA
 	opentext
 	checkflag ENGINE_RAINBOWBADGE
 	iftrue .FightDone
 	writetext ErikaBeforeBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext ErikaBeatenText, 0
 	loadtrainer ERIKA, ERIKA1
@@ -36,14 +38,20 @@ CeladonGymErikaScript:
 .FightDone:
 	checkevent EVENT_GOT_TM19_GIGA_DRAIN
 	iftrue .GotGigaDrain
+	refreshscreen
+	trainerpic ERIKA
 	writetext ErikaExplainTMText
 	promptbutton
+	closetrainpic
 	verbosegiveitem TM_GIGA_DRAIN
 	iffalse .GotGigaDrain
 	setevent EVENT_GOT_TM19_GIGA_DRAIN
 .GotGigaDrain:
+	refreshscreen
+	trainerpic ERIKA
 	writetext ErikaAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -52,9 +60,12 @@ TrainerLassMichelle:
 
 .Script:
 	endifjustbattled
+	refreshscreen
+	trainerpic LASS
 	opentext
 	writetext LassMichelleAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -63,9 +74,12 @@ TrainerPicnickerTanya:
 
 .Script:
 	endifjustbattled
+	refreshscreen
+	trainerpic PICNICKER
 	opentext
 	writetext PicnickerTanyaAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -74,9 +88,12 @@ TrainerBeautyJulia:
 
 .Script:
 	endifjustbattled
+	refreshscreen
+	trainerpic BEAUTY
 	opentext
 	writetext BeautyJuliaAfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -85,9 +102,12 @@ TrainerTwinsJoAndZoe1:
 
 .Script:
 	endifjustbattled
+	refreshscreen
+	trainerpic TWINS
 	opentext
 	writetext TwinsJoAndZoe1AfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -96,9 +116,12 @@ TrainerTwinsJoAndZoe2:
 
 .Script:
 	endifjustbattled
+	refreshscreen
+	trainerpic TWINS
 	opentext
 	writetext TwinsJoAndZoe2AfterBattleText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -115,35 +138,26 @@ ErikaBeforeBattleText:
 	line "Lovely weather,"
 
 	para "isn't it?"
-	line "It's so pleasant..."
+	line "It's so pleasant."
 
-	para "...I'm afraid I may"
+	para "I'm afraid I may"
 	line "doze off..."
 
 	para "My name is ERIKA."
 	line "I am the LEADER of"
 	cont "CELADON GYM."
 
-	para "...Oh? All the way"
-	line "from JOHTO, you"
-	cont "say? How nice..."
-
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
-
-	para "that you wished to"
-	line "challenge me."
-
-	para "Very well, but I"
-	line "shall not lose."
+	para "I was hoping that"
+	line "my comment would"
+	
+	para "show you that"
+	line "you're boring me."
 	done
 
 ErikaBeatenText:
 	text "ERIKA: Oh!"
-	line "I concede defeat..."
-
-	para "You are remarkably"
-	line "strong..."
+	line "I just got my shit"
+	cont "kicked."
 
 	para "I shall give you"
 	line "RAINBOWBADGE..."
@@ -156,11 +170,12 @@ PlayerReceivedRainbowBadgeText:
 
 ErikaExplainTMText:
 	text "ERIKA: That was a"
-	line "delightful match."
+	line "fucking wild time."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "You knocked the"
+	line "docile out of me!"
+	
+	para "Take this TM."
 
 	para "It is GIGA DRAIN."
 
@@ -169,28 +184,25 @@ ErikaExplainTMText:
 
 	para "half the damage it"
 	line "inflicts to heal"
-	cont "your ANML."
-
-	para "Please use it if"
-	line "it pleases you..."
+	cont "your ANIMALs."
 	done
 
 ErikaAfterBattleText:
 	text "ERIKA: Losing"
 	line "leaves a bitter"
-	cont "aftertaste..."
 
-	para "But knowing that"
-	line "there are strong"
-
-	para "trainers spurs me"
-	line "to do better..."
+	para "aftertaste, like"
+	line "a shit sandwich."
 	done
 
 LassMichelleSeenText:
 	text "Do you think a"
 	line "girls-only GYM"
 	cont "is rare?"
+	
+	para "It's how we avoid"
+	line "registry-members"
+	cont "like yourself."
 	done
 
 LassMichelleBeatenText:
@@ -200,16 +212,31 @@ LassMichelleBeatenText:
 LassMichelleAfterBattleText:
 	text "I just got care-"
 	line "less, that's all!"
+
+	para "If I hadn't been"
+	line "distracted by my"
+	
+	para "own beauty, I'd"
+	line "have kicked the"
+	
+	para "total horseshit"
+	line "out of you."
 	done
 
 PicnickerTanyaSeenText:
 	text "Oh, a battle?"
 	line "That's kind of"
 	cont "scary, but OK!"
+	
+	para "I'll get my gun!"
 	done
 
 PicnickerTanyaBeatenText:
 	text "Oh, that's it?"
+	
+	para "Hopefully you're"
+	line "more exciting at"
+	cont "other stuff."
 	done
 
 PicnickerTanyaAfterBattleText:
@@ -218,6 +245,12 @@ PicnickerTanyaAfterBattleText:
 
 	para "wonder I couldn't"
 	line "win!"
+	
+	para "I even see that"
+	line "you have the"
+	
+	para "BIGGEST NOSE"
+	line "badge!"
 	done
 
 BeautyJuliaSeenText:
@@ -234,11 +267,15 @@ BeautyJuliaAfterBattleText:
 	text "How do I go about"
 	line "becoming ladylike"
 	cont "like ERIKA?"
+	
+	para "I already gave up"
+	line "cigarettes and"
+	cont "short skirts!"
 	done
 
 TwinsJoAndZoe1SeenText:
 	text "We'll show you"
-	line "ANML moves that"
+	line "ANIMAL moves that"
 	cont "ERIKA taught us!"
 	done
 
@@ -249,11 +286,18 @@ TwinsJoAndZoe1BeatenText:
 TwinsJoAndZoe1AfterBattleText:
 	text "ERIKA will get you"
 	line "back for us!"
+	
+	para "She's a crazy"
+	line "bitch for sure!"
 	done
 
 TwinsJoAndZoe2SeenText:
 	text "We're going to"
 	line "protect ERIKA!"
+	
+	para "Even though she"
+	line "could wreck any"
+	cont "of us..."
 	done
 
 TwinsJoAndZoe2BeatenText:
@@ -263,6 +307,12 @@ TwinsJoAndZoe2BeatenText:
 TwinsJoAndZoe2AfterBattleText:
 	text "ERIKA is much,"
 	line "much stronger!"
+	
+	para "I once saw her"
+	line "pull a guy's eye"
+	
+	para "through his pants"
+	line "zipper!"
 	done
 
 CeladonGym_MapEvents:

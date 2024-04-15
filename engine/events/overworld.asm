@@ -197,6 +197,7 @@ Script_CutFromMenu:
 	special UpdateTimePals
 
 Script_Cut:
+	callasm GetPartyNickname						 
 	writetext UseCutText
 	reloadmappart
 	callasm CutDownTreeOrGrass
@@ -381,6 +382,9 @@ SurfFromMenuScript:
 	special UpdateTimePals
 
 UsedSurfScript:
+	writetext UsedSurfText ; "used SURF!"
+	waitbutton
+	closetext
 	callasm .stubbed_fn
 
 	readmem wSurfingPlayerState
@@ -642,6 +646,7 @@ Script_WaterfallFromMenu:
 	special UpdateTimePals
 
 Script_UsedWaterfall:
+	callasm GetPartyNickname
 	writetext .UseWaterfallText
 	waitbutton
 	closetext
@@ -1119,6 +1124,7 @@ Script_WhirlpoolFromMenu:
 	special UpdateTimePals
 
 Script_UsedWhirlpool:
+	callasm GetPartyNickname						 
 	writetext UseWhirlpoolText
 	reloadmappart
 	callasm DisappearWhirlpool

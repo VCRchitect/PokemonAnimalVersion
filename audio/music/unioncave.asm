@@ -163,9 +163,9 @@ Music_UnionCave_Ch1:
 	note A_, 2
 	note __, 3
 	note B_, 1
-	note A_, 3
+	note A_, 2
 	note G_, 1
-	note E_, 2
+	note E_, 3
 ;Bar 23
 	note __, 3
 	note D_, 1
@@ -180,7 +180,7 @@ Music_UnionCave_Ch1:
 	note D_, 1
 	note __, 5
 	note D_, 1
-	note __, 2
+	note __, 1
 	note E_, 2
 ;Bar 25
 	note __, 2

@@ -88,11 +88,14 @@ BillsSisterScript:
 	ifequal PHONE_CONTACT_REFUSED, .Refused
 	waitsfx
 	addcellnum PHONE_BILL
+	closetrainpic
 	writetext RecordedBillsNumberText
 	playsound SFX_REGISTER_PHONE_NUMBER
 	waitsfx
 	promptbutton
 .GotBillsNumber:
+	refreshscreen
+	trainerpic LASS
 	writetext BillsSisterStorageSystemText
 	waitbutton
 	closetrainpic
@@ -170,7 +173,8 @@ BillWolfMayEvolveText:
 	line "claims WOLF may"
 
 	para "evolve in new and"
-	line "unknown ways."
+	line "unknown ways, like"
+	cont "being microwaved."
 	done
 
 BillPartyFullText:
@@ -211,6 +215,10 @@ BillsMomText_BeforeEcruteak:
 
 	para "CORNER without"
 	line "being called..."
+
+	para "I'd leave him, but"
+	line "we share a bank"
+	cont "account."
 	done
 
 BillsMomText_AfterEcruteak:

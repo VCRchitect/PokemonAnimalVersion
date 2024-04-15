@@ -24,10 +24,10 @@ FlowerShopTeacherScript:
 	opentext
 	writetext GoldenrodFlowerShopTeacherHeresTheSquirtbottleText
 	promptbutton
-	verbosegiveitem SQUIRTBOTTLE
-	setevent EVENT_GOT_SQUIRTBOTTLE
 	closetrainpic
+	verbosegiveitem SQUIRTBOTTLE
 	closetext
+	setevent EVENT_GOT_SQUIRTBOTTLE
 	setevent EVENT_FLORIA_AT_FAKE_BUSH
 	clearevent EVENT_FLORIA_AT_FLOWER_SHOP
 	end
@@ -106,7 +106,7 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	para "and went to see"
 	line "it..."
 
-	para "I'm worried... Isn't"
+	para "I'm worried. Isn't"
 	line "it dangerous?"
 	done
 
@@ -162,7 +162,7 @@ GoldenrodFlowerShopFloriaYouBeatWhitneyText:
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
 	text "So it really was a"
-	line "ANML!"
+	line "ANIMAL!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

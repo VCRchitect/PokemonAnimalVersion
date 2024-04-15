@@ -184,7 +184,13 @@ CeladonCityGramps1Text:
 
 	para "Where did they"
 	line "come from? This is"
-	cont "a serious problem..."
+	cont "a serious problem."
+	
+	para "No, I'm sure my"
+	line "need to toss in"
+	
+	para "car batteries is"
+	line "totally unrelated."
 	done
 
 CeladonCityGramps2Text:
@@ -206,6 +212,10 @@ CeladonCityYoungster1Text:
 	para "CELADON MANSION"
 	line "has a hidden back"
 	cont "door."
+	
+	para "My dad says my ma"
+	line "has a backdoor"
+	cont "that he knocks on."
 	done
 
 CeladonCityYoungster2Text:

@@ -143,9 +143,11 @@ SantosScript:
 .MetSantos:
 	writetext SantosGivesGiftText
 	promptbutton
+	closetrainpic
 	verbosegiveitem SPELL_TAG
 	iffalse .Done
 	setevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
+	trainerpic PSYCHIC_T
 	writetext SantosGaveGiftText
 	waitbutton
 	closetrainpic
@@ -274,7 +276,7 @@ MeetSantosText:
 	done
 
 SantosGivesGiftText:
-	text "You can have this..."
+	text "You can have this."
 	done
 
 SantosGaveGiftText:
@@ -293,7 +295,7 @@ SantosSaturdayText:
 	text "SANTOS: ..."
 
 	para "See you again on"
-	line "another Saturday..."
+	line "another Saturday."
 
 	para "I won't have any"
 	line "more gifts..."

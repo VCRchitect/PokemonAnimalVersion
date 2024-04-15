@@ -23,10 +23,12 @@ CianwoodGymJoseScript:
 	iftrue .FightDone
 	writetext JoseIntroText1
 	waitbutton
+	closetrainpic
 	closetext
 	turnobject CIANWOODGYM_JOSE, RIGHT
 	refreshscreen
 	opentext
+	trainerpic JOSE
 	writetext JoseIntroText2
 	waitbutton
 	closetrainpic
@@ -63,8 +65,11 @@ CianwoodGymJoseScript:
 	setevent EVENT_BEAT_BLACKBELT_LAO
 	setevent EVENT_BEAT_BLACKBELT_NOB
 	setevent EVENT_BEAT_BLACKBELT_LUNG
+	refreshscreen
+	trainerpic JOSE
 	writetext JoseExplainBadgeText
 	promptbutton
+	closetrainpic
 	verbosegiveitem TM_DYNAMICPUNCH
 	iffalse .BagFull
 	setevent EVENT_GOT_TM01_DYNAMICPUNCH
@@ -271,8 +276,9 @@ BlackbeltSkunkSeenText:
 	line "are bound togeth-"
 	cont "er by friendship."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "That and I have"
+	line "them handcuffed to"
+	cont "my wrist."
 	done
 
 BlackbeltSkunkBeatenText:
@@ -283,11 +289,16 @@ BlackbeltSkunkAfterText:
 	text "You seem to have a"
 	line "strong bond with"
 	cont "your ANIMALs too!"
+	
+	para "You using glue or"
+	line "some shackles?"
 	done
 
 BlackbeltLaoSeenText:
 	text "We martial artists"
 	line "fear nothing!"
+	
+	para "Not even the dark!"
 	done
 
 BlackbeltLaoBeatenText:
@@ -298,6 +309,10 @@ BlackbeltLaoAfterText:
 	text "Fighting ANIMALs"
 	line "are afraid of psy-"
 	cont "chics..."
+	
+	para "What if they say"
+	line "the ANIMAL will"
+	cont "be sad eventually?"
 	done
 
 BlackbeltNobSeenText:
@@ -307,18 +322,22 @@ BlackbeltNobSeenText:
 	done
 
 BlackbeltNobBeatenText:
-	text "..."
+	text "-FLIPS YOU OFF-"
 	done
 
 BlackbeltNobAfterText:
 	text "I lost! "
 	line "I'm speechless!"
+	
 	done
 
 BlackbeltLungSeenText:
 	text "My raging fists"
 	line "will shatter your"
 	cont "ANIMALs!"
+	
+	para "Good thing PETA"
+	line "isn't in this."
 	done
 
 BlackbeltLungBeatenText:
@@ -329,6 +348,10 @@ BlackbeltLungAfterText:
 	text "My ANIMALs lost..."
 	line "My... my pride is"
 	cont "shattered..."
+	
+	para "Like when I fell"
+	line "off that ladder"
+	cont "in high school."
 	done
 
 CianwoodGym_MapEvents:

@@ -363,6 +363,13 @@ Route39TrainerTipsText:
 
 	para "Use HEADBUTT on"
 	line "any tree you see!"
+	
+	para "But remember, do"
+	line "not use it on your"
+	cont "friends."
+	
+	para "Everyone loses in"
+	line "a HEADBUTT."
 	done
 
 Route39_MapEvents:

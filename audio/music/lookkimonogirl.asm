@@ -7,7 +7,7 @@ Music_LookKimonoGirl:
 
 
 Music_LookKimonoGirl_Ch1:
-	tempo 160
+	tempo 120
 	volume 7, 7
 	duty_cycle 1
 	note_type 6, 8, 7

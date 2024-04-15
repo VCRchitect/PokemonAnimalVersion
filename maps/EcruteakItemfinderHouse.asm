@@ -19,9 +19,12 @@ EcruteakItemfinderGuy:
 	iffalse .no
 	writetext EcruteakItemfinderTrueSpiritText
 	promptbutton
+	closetrainpic
 	verbosegiveitem ITEMFINDER
 	setevent EVENT_GOT_ITEMFINDER
 .itemfinder:
+	refreshscreen
+	trainerpic COOLTRAINERM
 	writetext ItemfinderExplanationText
 	waitbutton
 	closetrainpic

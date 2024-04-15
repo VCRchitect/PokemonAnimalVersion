@@ -124,8 +124,11 @@ DanceTheaterSurfGuy:
 .GetSurf:
 	writetext SurfGuyLikeADanceText
 	promptbutton
+	closetrainpic
 	verbosegiveitem HM_SURF
 	setevent EVENT_GOT_HM03_SURF
+	refreshscreen
+	trainerpic SWIMMERM
 	writetext SurfGuySurfExplanationText
 	waitbutton
 	closetrainpic
@@ -179,17 +182,29 @@ KimonoGirlNaokoSeenText:
 	text "You have lovely"
 	line "ANIMALs. May I see"
 	cont "them in battle?"
+	
+	para "Can I take some"
+	line "pictures of them?"
+	
+	para "No? What about a"
+	line "charcoal drawing?"
 	done
 
 KimonoGirlNaokoBeatenText:
 	text "Oh, you are very"
-	line "strong."
+	line "strong. It must be"
+	para "from those hunky"
+	line "ANIMALs with you."
 	done
 
 KimonoGirlNaokoAfterBattleText:
 	text "I enjoyed that"
 	line "bout. I would like"
 	cont "to see you again."
+	
+	para "Maybe next time"
+	line "I won't wear any"
+	cont "pants."
 	done
 
 KimonoGirlSayoSeenText:
@@ -198,6 +213,11 @@ KimonoGirlSayoSeenText:
 
 	para "Of course, I also"
 	line "train them."
+	
+	para "You ever seen an"
+	line "ANIMAL twerk?"
+	
+	para "It's for the best."
 	done
 
 KimonoGirlSayoBeatenText:
@@ -211,6 +231,10 @@ KimonoGirlSayoAfterBattleText:
 
 	para "dancing and for"
 	line "ANIMAL fights."
+	
+	para "That's why my"
+	line "white friends are"
+	cont "hell bad."
 	done
 
 KimonoGirlZukiSeenText:
@@ -223,24 +247,36 @@ KimonoGirlZukiSeenText:
 
 KimonoGirlZukiBeatenText:
 	text "I don't have any"
-	line "ANMLs left..."
+	line "ANIMALs left..."
 	done
 
 KimonoGirlZukiAfterBattleText:
 	text "I put a different"
 	line "flower in my bar-"
 	cont "rette every month."
+	
+	para "Yes, there are"
+	line "enough to do that."
 	done
 
 KimonoGirlKuniSeenText:
 	text "Oh, you're a cute"
 	line "trainer. Would you"
 	cont "like to battle?"
+	
+	para "You wan't dance?"
+	line "You want happy"
+	cont "ending?"
+	
+	para "I kid, I kid."
 	done
 
 KimonoGirlKuniBeatenText:
 	text "You're stronger"
 	line "than you look."
+	
+	para "And that face can"
+	line "sand wood planks."
 	done
 
 KimonoGirlKuniAfterBattleText:
@@ -255,6 +291,10 @@ KimonoGirlMikiSeenText:
 	text "Do you like my"
 	line "dancing? I'm good"
 	cont "at ANIMALs too."
+	
+	para "But ANIMAL dancing"
+	line "is a different"
+	cont "story altogether."
 	done
 
 KimonoGirlMikiBeatenText:
@@ -271,6 +311,9 @@ KimonoGirlMikiAfterBattleText:
 
 	para "My ANIMALs keep my"
 	line "spirits up too."
+	
+	para "That and the daily"
+	line "ZOLOFT I take."
 	done
 
 SurfGuyNeverLeftAScratchText:
@@ -332,7 +375,7 @@ SurfGuyElegantKimonoGirlsText:
 	done
 
 Rock_KaijuText:
-	text "ROCK_KAIJU: Gugooh"
+	text "ROCK KAIJU: Gugooh"
 	line "gugogooh!"
 	done
 

@@ -138,16 +138,7 @@ AzaleaTownGrampsScript:
 	refreshscreen
 	opentext
 	trainerpic OLDMAN
-	checkevent EVENT_CLEARED_BEAVER_WELL
-	iftrue .ClearedWell
-	writetext AzaleaTownGrampsTextBefore
-	waitbutton
-	closetrainpic
-	closetext
-	end
-
-.ClearedWell:
-	writetext AzaleaTownGrampsTextAfter
+	randomtext OldmanTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -301,17 +292,15 @@ AzaleaTownRivalBeforeText:
 	cont "returned?"
 
 	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	line "them? Like, with a"
+	cont "brick or with your"
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "ANIMALs?"
 	done
 
 AzaleaTownRivalWinText:
-	text "... Humph! Useless"
-	line "ANIMALs!"
+	text "Maybe I should've"
+	line "used a brick..."
 
 	para "Listen, you. You"
 	line "only won because"
@@ -323,36 +312,25 @@ AzaleaTownRivalWinText:
 AzaleaTownRivalAfterText:
 	text "I hate the weak."
 
-	para "ANIMALs, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "ANIMALs, trainers,"
+	line "Monday through"
+	cont "Sunday. I hate it."
 
 	para "I'm going to be"
 	line "strong and wipe"
 	cont "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
-
-	para "They act big and"
-	line "tough in a group."
-
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
-
-	para "I hate them all."
-
-	para "You stay out of my"
-	line "way. A weakling"
-
-	para "like you is only a"
-	line "distraction."
+	para "What? No, I don't"
+	line "mean like those"
+	cont "with disabilities!"
+	
+	para "That's messed up!"
+	line "You're sick!"
 	done
 
 AzaleaTownRivalLossText:
-	text "...Humph! I knew"
-	line "you were lying."
+	text "I didn't need this"
+	line "brick after all."
 	done
 
 AzaleaTownRocket1Text:
@@ -378,6 +356,9 @@ AzaleaTownRocket2Text:
 
 	para "Aren't you glad I"
 	line "told you that?"
+	
+	para "Anime girl tail is"
+	line "scrumptious too!"
 	done
 
 AzaleaTownGrampsTextBefore:

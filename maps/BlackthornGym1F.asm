@@ -321,7 +321,9 @@ BlackthornGymGuideText:
 	para "Dragons are said"
 
 	para "to be weak against"
-	line "ice-type moves."
+	line "ice-type moves and"
+	
+	cont "other DRAGONs."
 	done
 
 BlackthornGymGuideWinText:
