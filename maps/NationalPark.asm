@@ -55,6 +55,7 @@ NationalParkTeacher1Script:
 	iffalse .NoRoom
 	setevent EVENT_GOT_QUICK_CLAW
 .GotQuickClaw:
+	refreshscreen
 	trainerpic TEACHER
 	writetext NationalParkTeacher1Text_GotQuickClaw
 	waitbutton
@@ -530,7 +531,8 @@ PokefanFBeverlyWater_RatFriendText:
 	line "endearing."
 
 	para "Oh, I wish for a"
-	line "WATER RAT of my own..."
+	line "WATER RAT of" 
+	cont "my own..."
 	done
 
 LassKriseSeenText:

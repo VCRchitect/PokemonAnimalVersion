@@ -381,7 +381,6 @@ IlexForestCharcoalMasterScript:
 
 .AlreadyGotCut:
 	refreshscreen
-	trainerpic BLACKBELT_T
 	writetext Text_CharcoalMasterTalkAfter
 	waitbutton
 	closetrainpic
@@ -402,8 +401,6 @@ IlexForestHeadbuttGuyScript:
 	iffalse .BagFull
 	setevent EVENT_GOT_TM02_HEADBUTT
 .AlreadyGotHeadbutt:
-	refreshscreen
-	trainerpic BLACKBELT_T
 	writetext Text_HeadbuttOutro
 	waitbutton
 .BagFull:

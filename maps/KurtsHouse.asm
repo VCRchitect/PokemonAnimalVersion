@@ -100,7 +100,6 @@ Kurt1:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
 	iftrue .CheckApricorns
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtBallsFromApricornsText
 	waitbutton
 	closetrainpic
@@ -128,7 +127,6 @@ Kurt1:
 
 .IMakeBallsFromApricorns:
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtBallsFromApricornsText
 	waitbutton
 	closetrainpic
@@ -137,7 +135,6 @@ Kurt1:
 
 .AskApricorn:
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtAskYouHaveAnApricornText
 	promptbutton
 	closetrainpic
@@ -181,7 +178,6 @@ Kurt1:
 .GaveKurtApricorns:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtGetStartedText
 	waitbutton
 	closetrainpic
@@ -196,7 +192,6 @@ Kurt1:
 
 .Cancel:
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtThatsALetdownText
 	waitbutton
 	closetrainpic
@@ -207,7 +202,6 @@ Kurt1:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 .ThatTurnedOutGreat:
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtTurnedOutGreatText
 	waitbutton
 .NoRoomForBall:
@@ -219,7 +213,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -232,7 +225,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -245,7 +237,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -258,7 +249,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -271,7 +261,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -284,7 +273,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -297,7 +285,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iftrue KurtMakingBallsScript
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
 	closetrainpic
@@ -312,7 +299,6 @@ Kurt1:
 	checkitem GS_BALL
 	iffalse .NoGSBall
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtWhatIsThatText
 	waitbutton
 	closetrainpic
@@ -326,7 +312,6 @@ Kurt1:
 	checkflag ENGINE_KURT_MAKING_BALLS
 	iffalse .NotMakingBalls
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtImCheckingItNowText
 	waitbutton
 	closetrainpic
@@ -340,7 +325,6 @@ Kurt1:
 
 .NotMakingBalls:
 	refreshscreen
-	trainerpic KURT
 	writetext KurtsHouseKurtThisBallStartedToShakeText
 	waitbutton
 	closetrainpic

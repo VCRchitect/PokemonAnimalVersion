@@ -364,15 +364,8 @@ Music_BuenasPassword_Ch3:
 	sound_loop 0, .mainloop
 
 Music_BuenasPassword_Ch4:
-	toggle_noise 4
+	toggle_noise 3
 	drum_speed 12
 .mainloop:
-	drum_note 11, 2
-	drum_note 6, 2
-	drum_note 3, 2
-	drum_note 6, 2
-	drum_note 6, 2
-	drum_note 11, 2
-	drum_note 3, 2
-	drum_note 6, 2
+	drum_note 11, 4
 	sound_loop 0, .mainloop

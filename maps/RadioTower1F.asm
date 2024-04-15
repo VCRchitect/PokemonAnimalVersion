@@ -161,12 +161,15 @@ RadioTower1FRadioCardWomanScript:
 	waitsfx
 	writetext RadioTower1FRadioCardWomanYouWinText
 	promptbutton
+	closetrainpic
 	getstring STRING_BUFFER_4, .RadioCardText
 	scall .ReceiveItem
 	writetext RadioTower1FPokegearIsARadioText
 	promptbutton
 	setflag ENGINE_RADIO_CARD
 .GotCard:
+	refreshscreen
+	trainerpic BEAUTY
 	writetext RadioTower1FRadioCardWomanTuneInText
 	waitbutton
 	closetrainpic

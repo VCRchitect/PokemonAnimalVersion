@@ -22,6 +22,7 @@ RandyScript:
 	writetext Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText
 	yesorno
 	iffalse .refused
+	refreshscreen
 	writetext Route35GoldenrodGateRandyThanksText
 	promptbutton
 	closetrainpic
@@ -35,6 +36,7 @@ RandyScript:
 	givepokemail GiftSparrowMail
 	setevent EVENT_GOT_KENYA
 .alreadyhavekenya
+	refreshscreen
 	trainerpic OFFICER
 	writetext Route35GoldenrodGateRandyWeirdTreeBlockingRoadText
 	waitbutton
@@ -43,6 +45,7 @@ RandyScript:
 	end
 
 .partyfull
+	refreshscreen
 	trainerpic OFFICER
 	writetext Route35GoldenrodGateRandyCantCarryAnotherMonText
 	waitbutton
@@ -51,6 +54,7 @@ RandyScript:
 	end
 
 .refused
+	refreshscreen
 	trainerpic OFFICER
 	writetext Route35GoldenrodGateRandyOhNeverMindThenText
 	waitbutton
@@ -66,6 +70,7 @@ RandyScript:
 	iffalse .bagfull
 	setevent EVENT_GOT_HP_UP_FROM_RANDY
 .gothpup
+	refreshscreen
 	trainerpic OFFICER
 	writetext Route35GoldenrodGateRandyMyPalWasSnoozingRightText
 	waitbutton

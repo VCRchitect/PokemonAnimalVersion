@@ -210,8 +210,11 @@ Buena:
 	writetext RadioTower2FBuenaShowIntroductionText
 	promptbutton
 	setevent EVENT_MET_BUENA
+	closetrainpic
 	verbosegiveitem BLUE_CARD
 .TuneIn:
+	refreshscreen
+	trainerpic TEACHER
 	writetext RadioTower2FBuenaTuneInToMyShowText
 	waitbutton
 	closetrainpic

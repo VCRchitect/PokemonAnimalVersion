@@ -60,7 +60,6 @@ Route34IlexForestGateTeacherScript:
 	setevent EVENT_GOT_TM12_SWEET_SCENT
 .GotSweetScent:
 	refreshscreen
-	trainerpic TEACHER
 	writetext Route34IlexForestGateTeacher_GotSweetScent
 	waitbutton
 .NoRoom:
@@ -69,7 +68,6 @@ Route34IlexForestGateTeacherScript:
 	end
 
 .ForestIsRestless:
-	trainerpic TEACHER
 	writetext Route34IlexForestGateTeacher_ForestIsRestless
 	promptbutton
 	closetrainpic

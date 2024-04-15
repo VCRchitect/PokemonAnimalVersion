@@ -40,8 +40,11 @@ TrainerJugglerIrwin:
 	iftrue Route35NumberAcceptedM
 	checkevent EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
+	refreshscreen
+	trainerpic IRWIN
 	writetext JugglerIrwinAfterBattleText
 	promptbutton
+	closetrainpic
 	setevent EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
 	scall Route35AskNumber1M
 	sjump .AskForNumber
@@ -325,7 +328,7 @@ CamperElliotSeenText:
 
 CamperElliotBeatenText:
 	text "I wish you would"
-	line "have lost for me..."
+	line "have lost for me."
 	done
 
 CamperElliotAfterBattleText:
