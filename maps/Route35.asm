@@ -41,7 +41,7 @@ TrainerJugglerIrwin:
 	checkevent EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
 	refreshscreen
-	trainerpic IRWIN
+	trainerpic JUGGLER
 	writetext JugglerIrwinAfterBattleText
 	promptbutton
 	closetrainpic

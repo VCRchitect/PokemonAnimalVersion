@@ -93,6 +93,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_AncientPower
 	dw BattleAnimFunction_RockSmash
 	dw BattleAnimFunction_Cotton
+	dw BattleAnimFunction_Cigarette
 
 BattleAnimFunction_Null:
 	call BattleAnim_AnonJumptable
@@ -4293,3 +4294,70 @@ BattleAnim_AbsCosinePrecise: ; unreferenced
 
 BattleAnimSineWave:
 	sine_table 32
+
+BattleAnimFunction_Cigarette:
+	call BattleAnim_AnonJumptable
+.anon_dw
+	dw .zero
+	dw .one
+	dw .two
+	dw .three
+
+.zero
+	ld hl, BATTLEANIMSTRUCT_PARAM
+	add hl, bc
+	ld a, [hl]
+	ld hl, BATTLEANIMSTRUCT_JUMPTABLE_INDEX
+	add hl, bc
+	ld [hl], a
+	ld hl, BATTLEANIMSTRUCT_YCOORD
+	add hl, bc
+	ld a, [hl]
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	ld [hl], a
+	ret
+
+.one
+	ld hl, BATTLEANIMSTRUCT_XCOORD
+	add hl, bc
+	ld a, [hl]
+	cp $58
+	ret nc
+	ld a, $2
+	call BattleAnim_StepToTarget
+	ret
+
+.two
+	ld hl, BATTLEANIMSTRUCT_VAR2
+	add hl, bc
+	ld a, [hl]
+	cp $20
+	jr c, .three
+	call DeinitBattleAnimation
+	ret
+
+.three
+	ld hl, BATTLEANIMSTRUCT_VAR2
+	add hl, bc
+	ld a, [hl]
+	ld d, $8
+	call BattleAnim_Sine
+	ld hl, BATTLEANIMSTRUCT_XOFFSET
+	add hl, bc
+	ld [hl], a
+	sra a
+	xor $ff
+	inc a
+	ld hl, BATTLEANIMSTRUCT_VAR1
+	add hl, bc
+	add [hl]
+	ld hl, BATTLEANIMSTRUCT_YCOORD
+	add hl, bc
+	ld [hl], a
+	ld hl, BATTLEANIMSTRUCT_VAR2
+	add hl, bc
+	ld a, [hl]
+	add $8
+	ld [hl], a
+	ret

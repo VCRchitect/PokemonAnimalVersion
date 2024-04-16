@@ -286,6 +286,7 @@ BattleAnimations::
 	assert_table_length NUM_BATTLE_ANIMS + 1
 
 BattleAnim_0:
+
 BattleAnim_252:
 BattleAnim_253:
 BattleAnim_254:
@@ -610,18 +611,7 @@ BattleAnim_HitConfusion:
 	anim_obj ANIM_OBJ_HIT, 44, 96, $0
 	anim_wait 16
 	anim_ret
-
-BattleAnim_Cigarette:
-	anim_1gfx ANIM_GFX_HAZE
-	anim_sound 0, 1, SFX_SURF
-.loop
-	anim_obj ANIM_OBJ_HAZE, 48, 56, $0
-	anim_obj ANIM_OBJ_HAZE, 132, 16, $0
-	anim_wait 12
-	anim_loop 3, .loop
-	anim_wait 48
-	anim_ret
-
+	
 BattleAnim_Miss:
 	anim_ret
 
@@ -2240,14 +2230,19 @@ BattleAnim_Smog:
 	anim_ret
 
 BattleAnim_PoisonGas:
-	anim_1gfx ANIM_GFX_HAZE
-	anim_sound 16, 2, SFX_BUBBLEBEAM
-.loop
-	anim_obj ANIM_OBJ_POISON_GAS, 44, 80, $2
-	anim_wait 8
-	anim_loop 10, .loop
+	anim_1gfx ANIM_GFX_SMOKE
+	anim_sound 32, 2, SFX_SURF
+	anim_obj ANIM_OBJ_BUBBLE, 64, 92, $c1
+	anim_wait 6
+	anim_sound 32, 2, SFX_SURF
+	anim_obj ANIM_OBJ_BUBBLE, 64, 92, $e1
+	anim_wait 6
+	anim_sound 32, 2, SFX_SURF
+	anim_obj ANIM_OBJ_BUBBLE, 64, 92, $d1
 	anim_wait 128
+	anim_wait 32
 	anim_ret
+
 
 BattleAnim_HornAttack:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
@@ -4609,6 +4604,14 @@ BattleAnim_BeatUp:
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
+	
+BattleAnim_Cigarette:
+	anim_1gfx ANIM_GFX_SMOKE
+	anim_sound 32, 2, SFX_POUND
+	anim_obj ANIM_OBJ_HORN, 64, 92, $c1
+	anim_wait 6
+	anim_wait 32
+	anim_ret	
 
 BattleAnimSub_Drain:
 	anim_obj ANIM_OBJ_DRAIN, 132, 44, $0

@@ -1270,3 +1270,4 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party ANIMALs join"
 	next "in the attack.@"
+	
