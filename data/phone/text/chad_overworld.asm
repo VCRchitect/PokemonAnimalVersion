@@ -1,6 +1,6 @@
 ChadAskNumber1Text:
 	text "Huh? Is that thing"
-	line "an ANIMALsDEX? Have"
+	line "an ANIMALDEX? Have"
 	cont "you met PROF.OAK?"
 
 	para "Huh? You have? "
@@ -40,7 +40,7 @@ ChadNumberAcceptedText:
 	done
 
 ChadNumberDeclinedText:
-	text "Oh... I wish I had a"
+	text "Oh, I wish I had a"
 	line "chance to meet"
 	cont "PROF.OAK..."
 	done

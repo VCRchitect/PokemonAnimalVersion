@@ -84,7 +84,6 @@ Route32CooltrainerMContinueScene:
 
 .GotMiracleSeed:
 	refreshscreen
-	trainerpic COOLTRAINERM
 	writetext Route32CooltrainerMText_ExperiencesShouldBeUseful
 	waitbutton
 .BagFull:
@@ -126,7 +125,6 @@ Route32RoarTMGuyScript:
 	setevent EVENT_GOT_TM05_ROAR
 .AlreadyHaveRoar:
 	refreshscreen
-	trainerpic HIKER
 	writetext Text_RoarOutro
 	waitbutton
 .Finish:

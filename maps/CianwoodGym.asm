@@ -61,7 +61,7 @@ CianwoodGymJoseScript:
 .FightDone:
 	checkevent EVENT_GOT_TM01_DYNAMICPUNCH
 	iftrue .AlreadyGotTM
-	setevent EVENT_BEAT_BLACKBELT_SKUNK
+	setevent EVENT_BEAT_BLACKBELT_SHINJI
 	setevent EVENT_BEAT_BLACKBELT_LAO
 	setevent EVENT_BEAT_BLACKBELT_NOB
 	setevent EVENT_BEAT_BLACKBELT_LUNG
@@ -100,15 +100,15 @@ CianwoodGymActivateRockets:
 .RadioTowerRockets:
 	jumpstd RadioTowerRocketsScript
 
-TrainerBlackbeltSkunk:
-	trainer BLACKBELT_T, SKUNK, EVENT_BEAT_BLACKBELT_SKUNK, BlackbeltSkunkSeenText, BlackbeltSkunkBeatenText, 0, .Script
+TrainerBlackbeltShinji:
+	trainer BLACKBELT_T, SHINJI, EVENT_BEAT_BLACKBELT_SHINJI, BlackbeltShinjiSeenText, BlackbeltShinjiBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	refreshscreen
 	opentext
 	trainerpic BLACKBELT_T
-	writetext BlackbeltSkunkAfterText
+	writetext BlackbeltShinjiAfterText
 	waitbutton
 	closetrainpic
 	closetext
@@ -271,7 +271,7 @@ JoseAfterText:
 	line "traffic."
 	done
 
-BlackbeltSkunkSeenText:
+BlackbeltShinjiSeenText:
 	text "My ANIMALs and I"
 	line "are bound togeth-"
 	cont "er by friendship."
@@ -281,11 +281,11 @@ BlackbeltSkunkSeenText:
 	cont "my wrist."
 	done
 
-BlackbeltSkunkBeatenText:
+BlackbeltShinjiBeatenText:
 	text "This isn't real!"
 	done
 
-BlackbeltSkunkAfterText:
+BlackbeltShinjiAfterText:
 	text "You seem to have a"
 	line "strong bond with"
 	cont "your ANIMALs too!"
@@ -369,7 +369,7 @@ CianwoodGym_MapEvents:
 
 	def_object_events
 	object_event  4,  1, SPRITE_JOSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CianwoodGymJoseScript, -1
-	object_event  2, 12, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBlackbeltSkunk, -1
+	object_event  2, 12, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBlackbeltShinji, -1
 	object_event  7, 12, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBlackbeltLao, -1
 	object_event  3,  9, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerBlackbeltNob, -1
 	object_event  5,  5, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerBlackbeltLung, -1

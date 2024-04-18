@@ -54,8 +54,11 @@ TrainerLassDana1:
 	iftrue .NumberAccepted
 	checkevent EVENT_DANA_ASKED_FOR_PHONE_NUMBER
 	iftrue .SecondTimeAsking
+	refreshscreen
+	trainerpic LASS
 	writetext LassDanaMoomooMilkText
 	promptbutton
+	closetrainpic
 	setevent EVENT_DANA_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1F
 	sjump .AskForPhoneNumber
@@ -189,8 +192,11 @@ TrainerSchoolboyChad1:
 	iftrue .HaveChadsNumber
 	checkevent EVENT_CHAD_ASKED_FOR_PHONE_NUMBER
 	iftrue .SecondTimeAsking
+	refreshscreen
+	trainerpic SCHOOLBOY
 	writetext SchoolboyChadSoManyTestsText
 	promptbutton
+	closetrainpic
 	setevent EVENT_CHAD_ASKED_FOR_PHONE_NUMBER
 	scall .AskPhoneNumber1
 	sjump .AskToRegisterNumber

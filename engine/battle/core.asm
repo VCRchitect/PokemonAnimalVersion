@@ -1367,6 +1367,7 @@ HandleCigarette:
 	call ItemCigaretteAnim
 	call GetSixteenthMaxHP
 	call SubtractHPFromUser
+	call SwitchTurnCore	
 	ld hl, BattleText_TargetSmoked
 	jp StdBattleTextbox
 

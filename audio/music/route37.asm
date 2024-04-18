@@ -10,6 +10,7 @@ Music_Route37_Ch1:
 	duty_cycle 2
 	vibrato 16, 2, 2
 	notetype 12, $a7
+	transpose 1,0
 .mainloop:
 	octave 4
 	note G_, 2

@@ -22,7 +22,6 @@ OlivineCafeStrengthSailorScript:
 	setevent EVENT_GOT_HM04_STRENGTH
 .GotStrength:
 	refreshscreen
-	trainerpic SAILOR
 	writetext OlivineCafeStrengthSailorText_GotStrength
 	waitbutton
 	closetrainpic

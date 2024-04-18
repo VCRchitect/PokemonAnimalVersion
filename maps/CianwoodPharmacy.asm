@@ -22,11 +22,14 @@ CianwoodPharmacist:
 	writetext PharmacistGiveSecretpotionText
 	promptbutton
 	giveitem SECRETPOTION
+	closetrainpic
 	writetext ReceivedSecretpotionText
 	playsound SFX_KEY_ITEM
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_SECRETPOTION_FROM_PHARMACY
+	refreshscreen
+	trainerpic SUPER_NERD
 	writetext PharmacistDescribeSecretpotionText
 	waitbutton
 	closetrainpic
@@ -34,8 +37,8 @@ CianwoodPharmacist:
 	end
 
 .Mart:
-	pokemart MARTTYPE_PHARMACY, MART_CIANWOOD
 	closetrainpic
+	pokemart MARTTYPE_PHARMACY, MART_CIANWOOD
 	closetext
 	end
 

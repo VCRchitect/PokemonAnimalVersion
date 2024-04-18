@@ -185,7 +185,7 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: ... This"
+	text "JASMINE: This"
 	line "ANIMAL always"
 
 	para "kept the sea lit"
@@ -209,7 +209,7 @@ JasmineCianwoodPharmacyText:
 	done
 
 JasmineGetSomeMedicineText:
-	text "...May I ask you to"
+	text "May I ask you to"
 	line "get some medicine"
 	cont "for me? Please?"
 	done
@@ -244,7 +244,7 @@ JasmineAmphyHowAreYouFeelingText:
 	done
 
 JasmineThankYouText:
-	text "JASMINE: ...Oh, I'm"
+	text "JASMINE: Oh, I'm"
 	line "so relieved..."
 
 	para "This is just so"
@@ -267,12 +267,12 @@ JasmineAmphyHangOnText:
 
 AmphyPalPalooText:
 	text "AMPHY: ..."
-	line "...Pa... paloo..."
+	line "...Pa-paloo..."
 	done
 
 AmphyBreathingLaboredText:
 	text "Its breathing is"
-	line "terribly labored..."
+	line "terribly labored."
 	done
 
 AmphyPaluPaluluText:

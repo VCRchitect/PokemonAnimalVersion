@@ -526,7 +526,7 @@ KRIS EQU __trainer_class__
 
 	trainerclass BLACKBELT_T ; 32
 	const KENJI1 ; unused
-	const YISHI
+	const SHINJI
 	const KENJI2 ; unused
 	const LAO
 	const NOB
