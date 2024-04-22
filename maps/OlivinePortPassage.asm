@@ -11,7 +11,7 @@ OlivinePortPassagePokefanMScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

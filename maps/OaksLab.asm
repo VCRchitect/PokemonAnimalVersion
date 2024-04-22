@@ -83,7 +83,7 @@ OaksAssistant3Script:
 	refreshscreen
 	opentext
 	trainerpic SCIENTIST
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

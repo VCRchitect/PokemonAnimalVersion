@@ -17,7 +17,7 @@ MahoganyPokecenter1FPokefanMScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -39,7 +39,7 @@ MahoganyPokecenter1FCooltrainerFScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERF
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

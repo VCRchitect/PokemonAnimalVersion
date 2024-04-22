@@ -19,7 +19,7 @@ FuchsiaCityYoungster:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -41,7 +41,7 @@ FuchsiaCityTeacher:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

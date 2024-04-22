@@ -21,7 +21,7 @@ GoldenrodDeptStore4FCooltrainerMScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -43,7 +43,7 @@ GoldenrodDeptStore4FGameboyKidScript:
 	refreshscreen
 	opentext
 	trainerpic SCHOOLBOY
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -58,7 +58,7 @@ GoldenrodDeptStore4FElevatorButton:
 
 GoldenrodDeptStore4FDirectoryText:
 	text "Let Us Pump Up"
-	line "Your ANML!"
+	line "Your ANIMAL!"
 
 	para "4F MEDICINE BOX"
 	done

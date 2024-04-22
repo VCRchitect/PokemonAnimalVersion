@@ -25,7 +25,7 @@ GoldenrodDeptStore1FGentlemanScript:
 	refreshscreen
 	opentext
 	trainerpic GENTLEMAN
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -47,7 +47,7 @@ GoldenrodDeptStore1FBugCatcherScript:
 	refreshscreen
 	opentext
 	trainerpic BUG_CATCHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

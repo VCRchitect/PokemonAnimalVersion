@@ -19,7 +19,7 @@ CeruleanMart_CooltrainerM:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERM
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

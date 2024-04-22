@@ -19,7 +19,7 @@ AzaleaMartCooltrainerMScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

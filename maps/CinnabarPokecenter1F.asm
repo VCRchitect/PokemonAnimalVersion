@@ -27,7 +27,7 @@ CinnabarPokecenter1FFisherScript:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

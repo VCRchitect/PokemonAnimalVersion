@@ -215,7 +215,7 @@ OlivinePortSailorBeforeHOFScript:
 	refreshscreen
 	opentext
 	trainerpic SAILOR
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -238,7 +238,7 @@ OlivinePortFishingGuru2Script:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

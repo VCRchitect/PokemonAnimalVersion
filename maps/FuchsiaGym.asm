@@ -296,7 +296,7 @@ LassAliceBeforeText:
 	done
 
 LassAliceBeatenText:
-	text "I had you fooled..."
+	text "I had you fooled."
 	done
 
 LassAliceAfterText:

@@ -30,7 +30,7 @@ BlackthornMartBlackBeltScript:
 	refreshscreen
 	opentext
 	trainerpic BLACKBELT_T
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

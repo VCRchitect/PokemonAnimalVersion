@@ -19,7 +19,7 @@ EcruteakMartSuperNerdScript:
 	refreshscreen
 	opentext
 	trainerpic SUPER_NERD
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

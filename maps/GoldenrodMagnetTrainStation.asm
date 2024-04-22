@@ -80,7 +80,7 @@ GoldenrodMagnetTrainStationGentlemanScript:
 	refreshscreen
 	opentext
 	trainerpic GENTLEMAN
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

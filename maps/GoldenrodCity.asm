@@ -179,7 +179,7 @@ GoldenrodCityYoungster1Script:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -201,7 +201,7 @@ GoldenrodCityCooltrainerF2Script:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERF
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -224,7 +224,7 @@ GoldenrodCityLassScript:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

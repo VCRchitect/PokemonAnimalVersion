@@ -24,7 +24,7 @@ NationalParkLassScript:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -68,7 +68,7 @@ NationalParkYoungster1Script:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -90,7 +90,7 @@ NationalParkTeacher2Script:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

@@ -81,7 +81,7 @@ OlivineCitySailor1Script:
 	refreshscreen
 	opentext
 	trainerpic SAILOR
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -103,7 +103,7 @@ OlivineCitySailor2Script:
 	refreshscreen
 	opentext
 	trainerpic SAILOR
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

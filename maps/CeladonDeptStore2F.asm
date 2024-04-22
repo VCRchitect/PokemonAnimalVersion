@@ -28,7 +28,7 @@ CeladonDeptStore2FPokefanMScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANM
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

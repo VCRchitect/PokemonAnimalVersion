@@ -19,7 +19,7 @@ PewterMartYoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic SCHOOLBOY
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

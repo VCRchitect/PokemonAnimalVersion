@@ -21,7 +21,7 @@ FuchsiaPokecenter1FCooltrainerMScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERM
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

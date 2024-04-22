@@ -160,7 +160,7 @@ AzaleaTownYoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

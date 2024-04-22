@@ -17,7 +17,7 @@ PalletTownTeacherScript:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

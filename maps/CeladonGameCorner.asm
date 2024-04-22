@@ -37,7 +37,7 @@ CeladonGameCornerTeacherScript:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

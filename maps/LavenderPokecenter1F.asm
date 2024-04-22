@@ -17,7 +17,7 @@ LavenderPokecenter1FGentlemanScript:
 	refreshscreen
 	opentext
 	trainerpic GENTLEMAN
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -39,7 +39,7 @@ LavenderPokecenter1FYoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

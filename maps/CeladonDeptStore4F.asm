@@ -20,7 +20,7 @@ CeladonDeptStore4FSuperNerdScript:
 	refreshscreen
 	opentext
 	trainerpic SUPER_NERD
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

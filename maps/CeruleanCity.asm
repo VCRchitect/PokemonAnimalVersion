@@ -21,7 +21,7 @@ CeruleanCityCooltrainerMScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERM
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -54,7 +54,7 @@ CeruleanCityCooltrainerFScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERF
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

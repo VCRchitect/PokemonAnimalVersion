@@ -124,7 +124,7 @@ CianwoodCityYoungster:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -146,7 +146,7 @@ CianwoodCityLass:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

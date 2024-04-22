@@ -113,7 +113,7 @@ Carrie:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -143,7 +143,7 @@ GoldenrodDeptStore5FPokefanMScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

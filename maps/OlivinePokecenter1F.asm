@@ -17,7 +17,7 @@ OlivinePokecenter1FFishingGuruScript:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -39,7 +39,7 @@ OlivinePokecenter1FTeacherScript:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

@@ -30,7 +30,7 @@ LavenderMartRockerScript:
 	refreshscreen
 	opentext
 	trainerpic GUITARIST
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

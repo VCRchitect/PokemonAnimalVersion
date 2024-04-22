@@ -29,7 +29,7 @@ GoldenrodDeptStore2FYoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -51,7 +51,7 @@ GoldenrodDeptStore2FGentlemanScript:
 	refreshscreen
 	opentext
 	trainerpic GENTLEMAN
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

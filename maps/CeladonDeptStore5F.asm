@@ -29,7 +29,7 @@ CeladonDeptStore5FGentlemanScript:
 	refreshscreen
 	opentext
 	trainerpic GENTLEMAN
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -51,7 +51,7 @@ CeladonDeptStore5FTeacherScript:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

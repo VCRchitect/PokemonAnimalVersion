@@ -153,7 +153,7 @@ IndigoPlateauPokecenter1FCooltrainerMScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

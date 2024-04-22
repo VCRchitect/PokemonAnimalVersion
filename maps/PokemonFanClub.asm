@@ -60,7 +60,7 @@ PokemonFanClubReceptionistScript:
 	refreshscreen
 	opentext
 	trainerpic BEAUTY
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -219,7 +219,7 @@ PokemonFanClubChairmanMoreTalesToTellText:
 	done
 
 PokemonFanClubChairmanHowDisappointingText:
-	text "How disappointing..."
+	text "How disappointing."
 
 	para "Come back if you"
 	line "want to listen."

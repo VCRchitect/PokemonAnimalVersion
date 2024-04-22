@@ -48,7 +48,7 @@ GoldenrodDeptStoreRoofPokefanFScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANF
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -71,7 +71,7 @@ GoldenrodDeptStoreRoofTwinScript:
 	refreshscreen
 	opentext
 	trainerpic PICNICKER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -93,7 +93,7 @@ GoldenrodDeptStoreRoofPokefanMScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANM
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -115,7 +115,7 @@ GoldenrodDeptStoreRoofBugCatcherScript:
 	refreshscreen
 	opentext
 	trainerpic BUG_CATCHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

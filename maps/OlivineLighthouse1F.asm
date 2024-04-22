@@ -23,7 +23,7 @@ OlivineLighthouse1FPokefanFScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANF
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

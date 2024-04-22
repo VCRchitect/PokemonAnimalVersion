@@ -101,7 +101,7 @@ GoldenrodPokecenter1FLassScript:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

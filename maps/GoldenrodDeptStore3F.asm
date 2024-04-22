@@ -31,7 +31,7 @@ GoldenrodDeptStore3FRockerScript:
 	refreshscreen
 	opentext
 	trainerpic GUITARIST
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

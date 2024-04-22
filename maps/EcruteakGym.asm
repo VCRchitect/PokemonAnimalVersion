@@ -207,52 +207,23 @@ EcruteakGymGrampsSlowStepDownMovement:
 	step_end
 
 JasonIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Rururughgh..."
 
-	para "Here in ECRUTEAK,"
-	line "ANIMALs have been"
-	cont "revered."
+	para "Grugh! Rah!"
 
-	para "It's said that a"
-	line "rainbow-colored"
-
-	para "ANIMAL will come"
-	line "down to appear"
-
-	para "before a truly"
-	line "powerful trainer."
-
-	para "I believed that"
-	line "tale, so I have"
-
-	para "secretly trained"
-	line "here all my life."
-
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
-
-	para "Just a bit more..."
-
-	para "With a little"
-	line "more, I could see"
-
-	para "a future in which"
-	line "I meet the ANIMAL"
-	cont "of rainbow colors."
-
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "BLARGH!"
 	done
 
 JasonWinLossText:
-	text "I'm not good"
-	line "enough yet..."
+	text "-Cough-"
+	
+	line "-Cough-"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "You hit me so hard"
+	line "that I stopped"
+	cont "choking."
+	
+	para "I owe ya one."
 	done
 
 Text_ReceivedFogBadge:
@@ -289,18 +260,9 @@ JasonText_ShadowBallSpeech:
 	done
 
 JasonFightDoneText:
-	text "I see..."
-
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
-
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
-
-	para "I envy you for"
-	line "that..."
+	text "I really need to"
+	line "stop trying to eat"
+	cont "whole chickens."
 	done
 
 SageJeffreySeenText:
@@ -310,11 +272,9 @@ SageJeffreySeenText:
 	para "Then summer, fall"
 	line "and winter..."
 
-	para "Then spring came"
-	line "again. We have"
-
-	para "lived together"
-	line "for a long time."
+	para "Before I knew it,"
+	line "I was all old and"
+	cont "shit."
 	done
 
 SageJeffreyBeatenText:
@@ -325,6 +285,10 @@ SageJeffreyBeatenText:
 SageJeffreyAfterBattleText:
 	text "Where did ANIMALs"
 	line "come from?"
+	
+	para "And don't show me"
+	line "a picture of some"
+	cont "ANIMAL snatch."
 	done
 
 SagePingSeenText:
@@ -344,6 +308,9 @@ SagePingAfterBattleText:
 	para "No normal-type"
 	line "attack can harm"
 	cont "them!"
+	
+	para "Neither can the"
+	line "fighting-type."
 	done
 
 MediumMarthaSeenText:
@@ -380,6 +347,10 @@ MediumGraceAfterBattleText:
 
 	para "The path is right"
 	line "before our eyes!"
+	
+	para "It's literal. You"
+	line "walk along where"
+	cont "where we look."
 	done
 
 EcruteakGymGuideText:

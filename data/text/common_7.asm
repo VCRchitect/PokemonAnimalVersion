@@ -969,9 +969,9 @@ NPCKTextTable::
 .102
 	text "PROTIP: If you are"
 	line "thirsty at a"
-	para "doctor visit, hand"
-	line "sanitizer has some"
-	cont "liquid in it."
+	para "doctor visit, pee"
+	line "in your hand and"
+	cont "drink it."
 	done
 
 .103

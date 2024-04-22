@@ -19,7 +19,7 @@ OlivineMartCooltrainerFScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERF
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

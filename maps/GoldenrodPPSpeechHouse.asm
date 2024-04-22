@@ -12,7 +12,7 @@ GoldenrodPPSpeechHouseFisherScript:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

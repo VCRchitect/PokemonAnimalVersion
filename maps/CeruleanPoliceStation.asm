@@ -24,7 +24,7 @@ CeruleanPoliceStationPokefanFScript:
 	refreshscreen
 	opentext
 	trainerpic POKEFANF
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

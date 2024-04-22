@@ -23,7 +23,7 @@ BattleTowerOutsideYoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -45,7 +45,7 @@ BattleTowerOutsideSailorScript:
 	refreshscreen
 	opentext
 	trainerpic SAILOR
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

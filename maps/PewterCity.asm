@@ -20,7 +20,7 @@ PewterCityCooltrainerFScript:
 	refreshscreen
 	opentext
 	trainerpic COOLTRAINERF
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

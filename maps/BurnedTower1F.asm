@@ -261,25 +261,11 @@ BurnedTower1FEusineText:
 	done
 
 BurnedTower1FJasonText:
-	text "JASON: ECRUTEAK's"
-	line "GYM LEADER has to"
+	text "JASON: Urgurguhh"
 
-	para "study what are"
-	line "said to be the"
+	para "Grrrrr..."
 
-	para "legendary ANIMALs"
-	line "--FENRIR, CERBERUS"
-	cont "and BARGHEST."
-
-	para "EUSINE is here, so"
-	line "I've decided to"
-
-	para "investigate the"
-	line "TOWER with him."
-	
-	para "The poor idiot is"
-	line "a danger to his"
-	cont "own safety."
+	para "Blurgh!"	
 	done
 
 BurnedTower1F_MapEvents:
