@@ -13,7 +13,7 @@ CeruleanPoliceStationFishingGuruScript:
 	refreshscreen
 	opentext
 	trainerpic OFFICER
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

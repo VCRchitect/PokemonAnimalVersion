@@ -336,7 +336,7 @@ TwinsAmyandmay1AfterBattleText:
 	text "AMY: You're"
 	line "really strong!"
 	
-	para "My pawpaw would"
+	para "My pawpaw'd say"
 	line "you're stronger"
 	para "than a garlic"
 	line "milkshake!"

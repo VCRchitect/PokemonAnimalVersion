@@ -25,7 +25,6 @@ OlivineGymJasmineScript:
 	setevent EVENT_BEAT_JASMINE
 	refreshscreen
 	opentext
-	trainerpic JASMINE
 	writetext Text_ReceivedMineralBadge
 	playsound SFX_GET_BADGE
 	waitsfx
@@ -35,6 +34,8 @@ OlivineGymJasmineScript:
 .FightDone:
 	checkevent EVENT_GOT_TM23_IRON_TAIL
 	iftrue .GotIronTail
+	refreshscreen
+	trainerpic JASMINE
 	writetext Jasmine_BadgeSpeech
 	promptbutton
 	closetrainpic
@@ -157,7 +158,7 @@ Text_ReceivedMineralBadge:
 
 Jasmine_BadgeSpeech:
 	text "MINERALBADGE"
-	line "raises ANML's"
+	line "raises ANIMALs'"
 	cont "DEFENSE."
 
 	para "Um... Please take"

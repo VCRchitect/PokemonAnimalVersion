@@ -234,7 +234,7 @@ KimonoGirlSayoAfterBattleText:
 	
 	para "That's why my"
 	line "white friends are"
-	cont "hell bad."
+	cont "hella bad."
 	done
 
 KimonoGirlZukiSeenText:

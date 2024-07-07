@@ -182,7 +182,7 @@ JoseIntroText1:
 	line "little team."
 
 	para "Those ANIMALs do"
-	line "notstand a chance."
+	line "not have a chance."
 
 	para "I'm JOSE."
 	line "I will beat a"

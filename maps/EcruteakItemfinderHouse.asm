@@ -71,8 +71,9 @@ EcruteakItemfinderAdventureText:
 	line "adventure without"
 	cont "treasure hunting?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "Who needs to be a"
+	line "champ when you can"
+	cont "find cool stuff?"
 	done
 
 EcruteakItemfinderTrueSpiritText:

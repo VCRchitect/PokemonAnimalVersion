@@ -163,7 +163,7 @@ Route29YoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -185,7 +185,7 @@ Route29FisherScript:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext

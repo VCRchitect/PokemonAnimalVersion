@@ -934,7 +934,9 @@ StrengthFunction:
 	ret
 
 .TryStrength:
-; Strength
+	ld de, ENGINE_PLAINBADGE
+	call CheckBadge
+	jr c, .Failed
 	jr .UseStrength
 
 .AlreadyUsingStrength: ; unreferenced

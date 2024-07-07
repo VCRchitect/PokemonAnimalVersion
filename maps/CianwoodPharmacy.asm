@@ -14,7 +14,6 @@ CianwoodPharmacist:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic SUPER_NERD
 	checkevent EVENT_GOT_SECRETPOTION_FROM_PHARMACY
 	iftrue .Mart
 	checkevent EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
@@ -22,22 +21,17 @@ CianwoodPharmacist:
 	writetext PharmacistGiveSecretpotionText
 	promptbutton
 	giveitem SECRETPOTION
-	closetrainpic
 	writetext ReceivedSecretpotionText
 	playsound SFX_KEY_ITEM
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_SECRETPOTION_FROM_PHARMACY
-	refreshscreen
-	trainerpic SUPER_NERD
 	writetext PharmacistDescribeSecretpotionText
 	waitbutton
-	closetrainpic
 	closetext
 	end
 
 .Mart:
-	closetrainpic
 	pokemart MARTTYPE_PHARMACY, MART_CIANWOOD
 	closetext
 	end

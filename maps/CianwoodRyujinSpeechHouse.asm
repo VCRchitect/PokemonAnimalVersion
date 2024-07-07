@@ -13,7 +13,7 @@ CianwoodRyujinSpeechHouseTeacherScript:
 	refreshscreen
 	opentext
 	trainerpic TEACHER
-	writetext CianwoodRyujinSpeechHouseTeacherText
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -24,7 +24,7 @@ CianwoodRyujinSpeechHouseLassScript:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	writetext CianwoodRyujinSpeechHouseLassText
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -35,7 +35,7 @@ CianwoodRyujinSpeechHouseTwinScript:
 	refreshscreen
 	opentext
 	trainerpic PICNICKER
-	writetext CianwoodRyujinSpeechHouseTwinText
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

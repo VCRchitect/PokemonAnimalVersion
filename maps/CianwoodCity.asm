@@ -106,9 +106,12 @@ CianwoodCityJosesWife:
 .BeatJose:
 	writetext JosesWifeGiveHMText
 	promptbutton
+	closetrainpic
 	verbosegiveitem HM_FLY
 	iffalse .Done
 	setevent EVENT_GOT_HM02_FLY
+	refreshscreen
+	trainerpic ELM
 	writetext JosesWifeFlySpeechText
 	promptbutton
 .GotFly:

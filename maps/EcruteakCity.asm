@@ -22,7 +22,7 @@ EcruteakCityGramps1Script:
 	refreshscreen
 	opentext
 	trainerpic OLDMAN
-	writetext EcruteakCityGramps1Text
+	randomtext OldmanTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -33,7 +33,7 @@ EcruteakCityGramps2Script:
 	refreshscreen
 	opentext
 	trainerpic OLDMAN
-	writetext EcruteakCityGramps2Text
+	randomtext OldmanTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -44,7 +44,7 @@ EcruteakCityGramps3Script:
 	refreshscreen
 	opentext
 	trainerpic OLDMAN
-	writetext EcruteakCityGramps1Text
+	randomtext OldmanTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -55,7 +55,7 @@ EcruteakCityLass1Script:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	writetext EcruteakCityLass1Text
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -66,16 +66,7 @@ EcruteakCityLass2Script:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	checkevent EVENT_RELEASED_THE_BEASTS
-	iftrue .ReleasedBeasts
-	writetext EcruteakCityLass2Text
-	waitbutton
-	closetrainpic
-	closetext
-	end
-
-.ReleasedBeasts:
-	writetext EcruteakCityLass2Text_ReleasedBeasts
+	randomtext NPCKTextTable	
 	waitbutton
 	closetrainpic
 	closetext
@@ -106,7 +97,7 @@ EcruteakCityYoungsterScript:
 	refreshscreen
 	opentext
 	trainerpic YOUNGSTER
-	writetext EcruteakCityYoungsterText
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext

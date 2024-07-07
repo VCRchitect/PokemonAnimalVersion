@@ -460,8 +460,11 @@ ShowElmHobo_ClownScript:
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
 	promptbutton
+	closetrainpic
 	verbosegiveitem EVERSTONE
 	iffalse ElmScript_NoRoomForEverstone
+	refreshscreen
+	trainerpic ELM
 	writetext ElmGiveEverstoneText2
 	waitbutton
 	closetrainpic
@@ -480,6 +483,7 @@ ElmScript_NoRoomForEverstone:
 ElmGiveMasterBallScript:
 	writetext ElmGiveMasterBallText1
 	promptbutton
+	closetrainpic
 	verbosegiveitem MASTER_BALL
 	iffalse .notdone
 	setevent EVENT_GOT_MASTER_BALL_FROM_ELM
@@ -493,8 +497,11 @@ ElmGiveMasterBallScript:
 ElmGiveTicketScript:
 	writetext ElmGiveTicketText1
 	promptbutton
+	closetrainpic
 	verbosegiveitem S_S_TICKET
 	setevent EVENT_GOT_SS_TICKET_FROM_ELM
+	refreshscreen
+	trainerpic ELM
 	writetext ElmGiveTicketText2
 	waitbutton
 	closetrainpic
