@@ -129,6 +129,9 @@ GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
 	cont "my back!"
 
 	para "That won't work."
+	
+	para "Well, it might if"
+	line "I wear a saddle."
 	done
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:

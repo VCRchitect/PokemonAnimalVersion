@@ -51,8 +51,15 @@ GoldenrodBikeShopClerkIntroText:
 
 	para "sell my BICYCLES."
 	line "Why is that?"
+	
+	para "You think there"
+	line "really is some"
+	
+	para "truth to the whole"
+	line "location, location"
+	cont "location thing?"
 
-	para "Could you ride a"
+	para "Maybe you ride a"
 	line "BICYCLE and adver-"
 	cont "tise for me?"
 	done
@@ -96,6 +103,8 @@ GoldenrodBikeShopJustReleasedCompactBikeText:
 GoldenrodBikeShopBicycleText:
 	text "It's a shiny new"
 	line "BICYCLE!"
+	
+	para "Gently stolen!"
 	done
 
 GoldenrodBikeShop_MapEvents:

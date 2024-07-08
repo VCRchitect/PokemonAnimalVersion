@@ -856,19 +856,20 @@ Text_CharcoalMasterTalkAfter:
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "What I do?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "I shake trees and"
+	line "use HEADBUTT."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "It fun. Here,"
+	line "you try too!"
+	
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
+	text "Rattle tree with"
 	line "HEADBUTT. Some-"
-	cont "times, sleeping"
+	cont "times, sleepy"
 	cont "ANIMALs fall out."
 	done
 
@@ -950,6 +951,10 @@ BugCatcherWayneSeenText:
 
 	para "You frightened an"
 	line "ANIMAL away!"
+	
+	para "It's probably cuz"
+	line "your face is"
+	cont "scary like a bug."
 	done
 
 BugCatcherWayneBeatenText:
@@ -968,6 +973,10 @@ BugCatcherWayneAfterBattleText:
 	para "I ought to use"
 	line "HEADBUTT in other"
 	cont "places too."
+	
+	para "Probably should"
+	line "buy a helmet if"
+	cont "I'm continuing."
 	done
 
 IlexForest_MapEvents:

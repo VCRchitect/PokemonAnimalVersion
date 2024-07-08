@@ -267,6 +267,7 @@ FastShipB1FOnDutySailorText:
 	para "I want to go find"
 	line "him, but I'm on"
 	cont "duty right now."
+	
 	done
 
 FastShipB1FOnDutySailorRefusedText:
@@ -282,6 +283,10 @@ FastShipB1FOnDutySailorThanksText:
 
 	para "good so he'll quit"
 	line "slacking off!"
+	
+	para "The beatings may"
+	line "have helped a lot"
+	cont "too..."
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:
@@ -289,6 +294,12 @@ FastShipB1FOnDutySailorSawLittleGirlText:
 
 	para "I may have seen"
 	line "her go by here."
+	
+	para "I don't know why"
+	line "I'd be creepy"
+	
+	para "about it, but here"
+	line "we are."
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
@@ -315,6 +326,10 @@ SailorJeffAfterBattleText:
 	text "I guess I can't"
 	line "win if I don't get"
 	cont "serious."
+	
+	para "Either that or"
+	line "should have joined"
+	cont "the union."	
 	done
 
 PicnickerDebraSeenText:
@@ -328,7 +343,7 @@ PicnickerDebraBeatenText:
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON..."
+	text "SAFFRON, CELADON,"
 	line "I hear there are"
 
 	para "many big cities"

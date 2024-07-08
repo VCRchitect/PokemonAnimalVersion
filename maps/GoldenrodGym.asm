@@ -230,6 +230,10 @@ WhitneyBeforeText:
 	para "You want to bat-"
 	line "tle? I'm warning"
 	cont "you--I'm good!"
+	
+	para "Like, I have an"
+	line "insane kill rate."
+	
 	done
 
 WhitneyShouldntBeSoSeriousText:
@@ -241,6 +245,9 @@ WhitneyShouldntBeSoSeriousText:
 	para "You shouldn't be"
 	line "so serious! You..."
 	cont "you child, you!"
+	
+	para "I'll hit you with"
+	line "a brick!"
 	done
 
 WhitneyYouMeanieText:
@@ -250,6 +257,9 @@ WhitneyYouMeanieText:
 
 	para "...Snivel, hic..."
 	line "...You meanie!"
+	
+	para "You... you..."
+	line "bitch ass ho!"
 	done
 
 WhitneyWhatDoYouWantText:
@@ -293,6 +303,12 @@ WhitneyAttractText:
 	para "Isn't it just per-"
 	line "fect for a cutie"
 	cont "like me?"
+	
+	para "It's okay. I said"
+	line "it first. It's not"
+	
+	para "weird if you"
+	line "agree with me."
 	done
 
 WhitneyGoodCryText:
@@ -309,11 +325,15 @@ LassCarrieSeenText:
 
 	para "looks fool you."
 	line "They can whip you!"
+	
+	para "Gonna beat some"
+	line "ass!"
 	done
 
 LassCarrieBeatenText:
 	text "Darn... I thought"
-	line "you were weak..."
+	line "you were weak,"
+	cont "like your jawline."
 	done
 
 LassCarrieAfterBattleText:
@@ -355,6 +375,9 @@ BridgetWhitneyCriesText:
 
 	para "always cries when"
 	line "she loses."
+	
+	para "I know I cry when"
+	line "my life collapses."
 	done
 
 BeautyVictoriaSeenText:
@@ -410,6 +433,12 @@ GoldenrodGymGuideWinText:
 	text "You won? Great! I"
 	line "was busy admiring"
 	cont "the ladies here."
+	
+	para "Fully aware that"
+	line "seems creepier"
+	
+	para "than I meant for"
+	line "it to sound."
 	done
 
 GoldenrodGym_MapEvents:

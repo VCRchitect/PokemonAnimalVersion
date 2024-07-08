@@ -234,6 +234,7 @@ FastShip1FSailor1Text_ToVermilion:
 	para "We will make an"
 	line "announcement when"
 	cont "we arrive."
+	
 	done
 
 FastShip1FSailor1Text_ToOlivine:
@@ -253,8 +254,15 @@ FastShip1FSailor2Text_FirstTime:
 	line "are hurt, take a"
 	cont "nap in the bed."
 
-	para "That will heal"
-	line "them."
+	para "Make sure you are"
+	line "sleeping in your"
+	
+	para "clothes. Can't"
+	line "have anyone"
+	
+	para "getting the wrong"
+	line "idea about some"
+	cont "weirdo."
 	done
 
 FastShip1FSailor2Text:
@@ -264,6 +272,16 @@ FastShip1FSailor2Text:
 	line "ANIMALs by taking"
 	cont "a nap in the bed."
 
+	para "Make sure you are"
+	line "sleeping in your"
+	
+	para "clothes. Can't"
+	line "have anyone"
+	
+	para "getting the wrong"
+	line "idea about some"
+	cont "weirdo."	
+	
 	para "The ship will"
 	line "arrive while"
 	cont "you're sleeping."
@@ -276,6 +294,10 @@ FastShip1FSailor3Text:
 	para "They're all itch-"
 	line "ing to battle in"
 	cont "their cabins."
+	
+	para "They're also itchy"
+	line "because we have"
+	cont "bedbugs."
 	done
 
 FastShip1FGrandpaText:
@@ -290,6 +312,10 @@ FastShip1FGrandpaText:
 
 	para "her, please let me"
 	line "know!"
+	
+	para "I'm just glad CPS"
+	line "doesn't exist in"
+	cont "this game..."
 	done
 
 FastShip1FSailor1Text_InOlivine:

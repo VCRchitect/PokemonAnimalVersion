@@ -463,7 +463,9 @@ GoldenrodCitySignText:
 GoldenrodCityBikeShopSignText:
 	text "The World is a"
 	line "Cycle Path!"
-	cont "BIKE SHOP"
+	
+	para "Share the road, ya"
+	cont "jabronis!"
 	done
 
 GoldenrodCityGameCornerSignText:
@@ -478,6 +480,11 @@ GoldenrodCityNameRaterSignText:
 
 	para "Get Your ANIMAL"
 	line "Nicknames Rated"
+	
+	para "And stop naming"
+	line "them 'Fluffy.'"
+	
+	para "You ain't clever."
 	done
 
 GoldenrodCityUndergroundSignNorthText:

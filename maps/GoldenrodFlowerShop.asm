@@ -153,16 +153,24 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 
 	para "lend me her water"
 	line "bottle..."
+	
+	para "Fully aware that's"
+	line "a weird thing to"
+	cont "require."
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
 	text "Wow, you beat"
 	line "WHITNEY? Cool!"
+	
+	para "I don't mean that"
+	line "beating girls is"
+	cont "cool or anything."
 	done
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
-	text "So it really was a"
-	line "ANIMAL!"
+	text "So it really was"
+	line "an ANIMAL!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

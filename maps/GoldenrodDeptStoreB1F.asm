@@ -118,6 +118,10 @@ GoldenrodDeptStoreB1FBlackBelt2Text:
 
 	para "Come on, kid,"
 	line "scoot!"
+	
+	para "I got the damn"
+	line "performance issues"
+	cont "and anxiety."
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
@@ -128,6 +132,7 @@ GoldenrodDeptStoreB1FBlackBelt3Text:
 
 	para "Take it if you"
 	line "want it!"
+
 	done
 
 GoldenrodDeptStoreB1FHunkText:

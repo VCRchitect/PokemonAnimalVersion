@@ -35,6 +35,7 @@ FuchsiaGymJanineScript:
 	variablesprite SPRITE_FUCHSIA_GYM_4, SPRITE_YOUNGSTER
 	special LoadUsedSpritesGFX
 	opentext
+	closetrainpic
 	writetext Text_ReceivedSoulBadge
 	playsound SFX_GET_BADGE
 	waitsfx
@@ -43,17 +44,20 @@ FuchsiaGymJanineScript:
 .FightDone:
 	faceplayer
 	opentext
+	trainerpic JANINE
 .AfterBattle:
 	checkevent EVENT_GOT_TM06_TOXIC
 	iftrue .AfterTM
 	writetext JanineText_ToxicSpeech
 	promptbutton
+	closetrainpic
 	verbosegiveitem TM_TOXIC
 	iffalse .AfterTM
 	setevent EVENT_GOT_TM06_TOXIC
 .AfterTM:
 	writetext JanineText_ApplyMyself
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -67,10 +71,12 @@ LassAliceScript:
 .AliceUnmasked:
 	faceplayer
 	opentext
+	trainerpic LASS
 	checkevent EVENT_BEAT_LASS_ALICE
 	iftrue .AliceAfterScript
 	writetext LassAliceBeforeText
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext LassAliceBeatenText, 0
 	loadtrainer LASS, ALICE
@@ -88,6 +94,7 @@ LassAliceScript:
 .AliceAfterScript:
 	writetext LassAliceAfterText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -101,10 +108,12 @@ LassLindaScript:
 .LindaUnmasked:
 	faceplayer
 	opentext
+	trainerpic LASS
 	checkevent EVENT_BEAT_LASS_LINDA
 	iftrue .LindaAfterScript
 	writetext LassLindaBeforeText
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext LassLindaBeatenText, 0
 	loadtrainer LASS, LINDA
@@ -122,6 +131,7 @@ LassLindaScript:
 .LindaAfterScript:
 	writetext LassLindaAfterText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -135,10 +145,12 @@ PicnickerCindyScript:
 .CindyUnmasked:
 	faceplayer
 	opentext
+	trainerpic PICNICKER
 	checkevent EVENT_BEAT_PICNICKER_CINDY
 	iftrue .CindyAfterScript
 	writetext PicnickerCindyBeforeText
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext PicnickerCindyBeatenText, 0
 	loadtrainer PICNICKER, CINDY
@@ -156,6 +168,7 @@ PicnickerCindyScript:
 .CindyAfterScript:
 	writetext PicnickerCindyAfterText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -169,10 +182,12 @@ CamperBarryScript:
 .BarryUnmasked:
 	faceplayer
 	opentext
+	trainerpic CAMPER
 	checkevent EVENT_BEAT_CAMPER_BARRY
 	iftrue .BarryAfterScript
 	writetext CamperBarryBeforeText
 	waitbutton
+	closetrainpic
 	closetext
 	winlosstext CamperBarryBeatenText, 0
 	loadtrainer CAMPER, BARRY
@@ -190,22 +205,26 @@ CamperBarryScript:
 .BarryAfterScript:
 	writetext CamperBarryAfterText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 FuchsiaGymGuideScript:
 	faceplayer
 	opentext
+	trainerpic GUIDE
 	checkevent EVENT_BEAT_JANINE
 	iftrue .FuchsiaGymGuideWinScript
 	writetext FuchsiaGymGuideText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
 .FuchsiaGymGuideWinScript:
 	writetext FuchsiaGymGuideWinText
 	waitbutton
+	closetrainpic
 	closetext
 	end
 
@@ -245,6 +264,11 @@ JanineText_DisappointYou:
 
 	para "JANINE of FUCHSIA"
 	line "GYM, that's me!"
+	
+	para "Why are you still"
+	line "disappointed?"
+	
+	para "Let's fight!"
 	done
 
 JanineText_ToughOne:
@@ -283,6 +307,9 @@ JanineText_ApplyMyself:
 	para "I want to become"
 	line "better than both"
 	cont "Father and you!"
+	
+	para "Or I will just"
+	line "buy a gun!"
 	done
 
 LassAliceBeforeText:
@@ -293,6 +320,10 @@ LassAliceBeforeText:
 
 	para "No, I'm not!"
 	line "Gotcha, sucker!"
+	
+	para "Now I'm gonna beat"
+	line "you like a cheap"
+	cont "drum!"
 	done
 
 LassAliceBeatenText:
@@ -303,6 +334,11 @@ LassAliceAfterText:
 	text "How will you dis-"
 	line "tinguish our real"
 	cont "LEADER?"
+	
+	para "Do you think it"
+	line "is the one in the"
+	cont "middle?"
+	
 	done
 
 LassLindaBeforeText:
@@ -318,6 +354,9 @@ LassLindaBeatenText:
 LassLindaAfterText:
 	text "Well? Wasn't my"
 	line "disguise perfect?"
+	
+	para "Not my fault you"
+	line "are simple."
 	done
 
 PicnickerCindyBeforeText:
@@ -325,6 +364,9 @@ PicnickerCindyBeforeText:
 
 	para "How did you know I"
 	line "was real?"
+	
+	para "Well, as real as"
+	line "an NPC can be."
 
 	para "Let's battle!"
 	done
@@ -332,11 +374,16 @@ PicnickerCindyBeforeText:
 PicnickerCindyBeatenText:
 	text "Darn it!"
 	line "I wanted to win!"
+	
 	done
 
 PicnickerCindyAfterText:
 	text "You must be"
 	line "getting tired."
+	
+	para "I know I'm tired"
+	line "of looking at you"
+	cont "and your face!"
 	done
 
 CamperBarryBeforeText:
@@ -355,6 +402,9 @@ CamperBarryAfterText:
 	text "Hey, you. Was my"
 	line "disguise cute or"
 	cont "what, huh?"
+	
+	para "You got tricked,"
+	line "ya fruit."
 	done
 
 FuchsiaGymGuideText:
@@ -376,6 +426,10 @@ FuchsiaGymGuideWinText:
 	text "That was a great"
 	line "battle, trainer"
 	cont "from JOHTO!"
+	
+	para "Sorry, I don't"
+	line "remember your"
+	cont "name."
 	done
 
 FuchsiaGym_MapEvents:

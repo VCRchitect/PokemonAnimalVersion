@@ -36,16 +36,32 @@ FightingDojoBlackBeltText:
 	para "master, is in a"
 	line "cave in JOHTO for"
 	cont "training."
+	
+	para "If you find him,"
+	line "he'll give you"
+	
+	para "something cool,"
+	line "I'm sure."
 	done
 
 FightingDojoSign1Text:
 	text "What goes around"
 	line "comes around!"
+	
+	para "And two trailer"
+	line "park girls go"
+	
+	para "round the outside,"
+	line "round the outside."
 	done
 
 FightingDojoSign2Text:
 	text "Enemies on every"
 	line "side!"
+	
+	para "No better side"
+	line "than masheded"
+	cont "potatoes!"
 	done
 
 FightingDojo_MapEvents:
