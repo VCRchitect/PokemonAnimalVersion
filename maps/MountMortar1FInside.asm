@@ -95,6 +95,10 @@ PokemaniacMillerAfterBattleText:
 
 	para "his training. I"
 	line "wonder how he is?"
+	
+	para "There's some scary"
+	line "stuff in those"
+	cont "caves."
 	done
 
 SupernerdMarkusSeenText:

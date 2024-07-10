@@ -133,7 +133,7 @@ LakeOfRageSuperNerdScript:
 	refreshscreen
 	opentext
 	trainerpic SUPER_NERD
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
@@ -311,9 +311,17 @@ LakeOfRageLanceIntroText:
 	para "with considerable"
 	line "skill."
 
+	para "Yes, I'm asking a"
+	line "child to do some"
+	
+	para "detective work and"
+	line "not bothering the"
+	cont "police."
+
 	para "If you don't mind,"
 	line "could you help me"
 	cont "investigate?"
+	
 	done
 
 LakeOfRageLanceRadioSignalText:
@@ -339,6 +347,9 @@ LakeOfRageLanceRefusedText:
 	text "Oh... Well, if you"
 	line "change your mind,"
 	cont "please help me."
+	
+	para "We need to move"
+	line "the plot along."
 	done
 
 LakeOfRageLanceAskHelpText:
@@ -395,20 +406,23 @@ FisherAndreSeenText:
 	text "Let me battle with"
 	line "the ANIMALs I just"
 	cont "caught!"
+	
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
-
-	para "I stink as an"
-	line "ANIMAL trainer..."
+	text "That will teach me"
+	line "to fish with"
+	cont "dynamite..."
 	done
 
 FisherAndreAfterBattleText:
 	text "I won't lose as an"
 	line "angler! I catch"
 	cont "ANIMALs all day."
+	
+	para "Sometimes I deep-"
+	line "fry them and serve"
+	cont "'em with fries!"
 	done
 
 FisherRaymondSeenText:
@@ -417,6 +431,12 @@ FisherRaymondSeenText:
 
 	para "are the same"
 	line "ANIMALs..."
+	
+	para "I need to try a"
+	line "different ROD or"
+	
+	para "It's the same pool"
+	line "of ANIMALs."
 	done
 
 FisherRaymondBeatenText:
@@ -427,6 +447,8 @@ FisherRaymondBeatenText:
 FisherRaymondAfterBattleText:
 	text "Why can't I catch"
 	line "any good ANIMALs?"
+	
+	para "Is it my face?"
 	done
 
 CooltrainermAaronSeenText:
@@ -451,6 +473,9 @@ CooltrainermAaronAfterBattleText:
 
 	para "powerful through"
 	line "constant battling."
+	
+	para "That and being the"
+	line "main character."
 	done
 
 CooltrainerfLoisSeenText:
@@ -474,6 +499,9 @@ CooltrainerfLoisAfterBattleText:
 	text "Come to think of"
 	line "it, I've seen a"
 	cont "pink BUTTERFLY."
+	
+	para "I saw a golden"
+	line "PINECONE too!"
 	done
 
 MeetWesleyText:
@@ -520,11 +548,20 @@ LakeOfRageSignText:
 	text "LAKE OF RAGE,"
 	line "also known as"
 	cont "INKANYAMBA LAKE."
+	
+	para "Where people come"
+	line "to be surprised"
+	
+	para "about a lake of"
+	line "pissed-off fish."
 	done
 
 FishingGurusHouseSignText:
 	text "FISHING GURU'S"
 	line "HOUSE"
+	
+	para "TRESPASSERS WILL"
+	line "BE SHOT."
 	done
 
 LakeOfRage_MapEvents:

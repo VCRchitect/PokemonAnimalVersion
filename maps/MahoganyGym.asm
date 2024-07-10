@@ -186,6 +186,13 @@ PryceText_Intro:
 	para "I, too, have seen"
 	line "and suffered much"
 	cont "in my life."
+	
+	para "I have been in 10"
+	line "marriages."
+	
+	para "Each on was more"
+	line "doodoo than the"
+	cont "last."
 
 	para "Since I am your"
 	line "elder, let me show"
@@ -196,9 +203,13 @@ PryceText_Intro:
 
 	para "before you were"
 	line "born."
+	
+	para "At least they do"
+	line "not talk back or"
+	para "burn pot roasts."
 
-	para "I do not lose"
-	line "easily."
+	para "Enough about my"
+	line "bad luck in love."
 
 	para "I, PRYCE--the"
 	line "winter trainer--"
@@ -250,6 +261,9 @@ PryceText_IcyWindSpeech:
 	para "It demonstrates"
 	line "the harshness of"
 	cont "winter."
+	
+	para "Or a bitter"
+	line "divorce."
 	done
 
 PryceText_CherishYourPokemon:
@@ -265,6 +279,9 @@ PryceText_CherishYourPokemon:
 
 	para "Cherish your time"
 	line "together!"
+	
+	para "Also, sign a"
+	line "prenup, kid."
 	done
 
 BoarderRonaldSeenText:
@@ -284,6 +301,10 @@ BoarderRonaldAfterBattleText:
 
 	para "can use while it's"
 	line "frozen."
+	
+	para "I have no idea why"
+	line "something so damn"
+	cont "specific exists."
 	done
 
 BoarderBradSeenText:
@@ -296,6 +317,9 @@ BoarderBradSeenText:
 	para "But hey--we're"
 	line "not playing games"
 	cont "here!"
+	
+	para "My friend broke"
+	line "his hip in here!"
 	done
 
 BoarderBradBeatenText:
@@ -328,6 +352,9 @@ BoarderDouglasAfterBattleText:
 
 	para "to strengthen his"
 	line "mind and body."
+	
+	para "He's got nerve"
+	line "damage from it."
 	done
 
 SkierRoxanneSeenText:
@@ -349,6 +376,9 @@ SkierRoxanneAfterBattleText:
 
 	para "you won't get far"
 	line "in this GYM."
+	
+	para "It's a puzzle, ya"
+	line "dingus."
 	done
 
 SkierClarissaSeenText:

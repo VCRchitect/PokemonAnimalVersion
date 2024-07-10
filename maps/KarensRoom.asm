@@ -92,26 +92,23 @@ KarenScript_KarenBeforeText:
 	para "You're <PLAYER>?"
 	line "How amusing."
 
-	para "I love dark-type"
-	line "ANIMALs."
-
-	para "I find their wild,"
-	line "tough image to be"
-
-	para "so appealing. And"
-	line "they're so strong."
-
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
-
-	para "Let's go."
+	para "Do you live in"
+	line "this area? Do you"
+	
+	para "have permission to"
+	line "be here?"
+	
+	para "My DARK ANIMALs"
+	line "will call the"
+	cont "police on you!"
 	done
 
 KarenScript_KarenBeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Welp, I'm going to"
+	line "end up on a video"
+	cont "aren't I?"
+	
+	para
 	done
 
 KarenScript_KarenDefeatText:
@@ -119,19 +116,14 @@ KarenScript_KarenDefeatText:
 
 	para "Weak ANIMALs."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
-
-	para "Truly skilled"
-	line "trainers should"
-
-	para "try to win with"
-	line "their favorites."
-
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
+	para "I don't care what"
+	line "someone uses as"
+	
+	para "long as they can"
+	line "adhere to my"
+	
+	para "standards of what"
+	line "is good and right."
 
 	para "Go on--the CHAM-"
 	line "PION is waiting."

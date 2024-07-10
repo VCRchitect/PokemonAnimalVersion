@@ -251,7 +251,11 @@ PlateauRivalText1:
 	line "trained ANIMALs"
 
 	para "are going to pound"
-	line "you."
+	line "you. I am also"
+	
+	para "going to pound you"
+	line "in front of all"
+	cont "these people."
 
 	para "<PLAYER>!"
 	line "I challenge you!"
@@ -260,19 +264,21 @@ PlateauRivalText1:
 PlateauRivalWinText:
 	text "..."
 
-	para "OK--I lost..."
+	para "Guess I got taken"
+	line "to Pound Town..."
 	done
 
 PlateauRivalText2:
-	text "...Darn... I still"
+	text "Darn... I still"
 	line "can't win..."
 
 	para "I have to think"
 	line "more about my"
 	cont "ANIMALs..."
-
-	para "Humph! Try not to"
-	line "lose!"
+	
+	para "Maybe if I spray"
+	line "them with a hose,"
+	cont "they'll be better?"
 	done
 
 PlateauRivalLoseText:
@@ -283,6 +289,12 @@ PlateauRivalLoseText:
 
 	para "I'm going to be"
 	line "the CHAMPION!"
+	
+	para "No! Not CHAMPION"
+	line "of Idiot Mountain!"
+	
+	para "That's not a real"
+	line "place!"
 	done
 
 TeleportGuyText1:

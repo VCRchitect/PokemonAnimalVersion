@@ -702,6 +702,10 @@ KurtsGranddaughterDadText:
 	text "Dad works at SILPH"
 	line "where he studies"
 	cont "ANML BALLS."
+	
+	para "Mama says he is a"
+	line "'real slut for"
+	cont "BALLS.'"
 
 	para "I have to stay"
 	line "home with Grandpa"
@@ -736,12 +740,18 @@ KurtsHouseBeaverText:
 
 KurtsHouseOakPhotoText:
 	text "A young PROF. OAK?"
+	
+	para "Wait, that's just"
+	line "beloved actor,"
+	cont "George Clooney."
 	done
 
 KurtsHouseCelebiStatueText:
 	text "It's a statue of"
 	line "the forest's pro-"
 	cont "tector."
+	
+	para "It has a gun."
 	done
 
 KurtsHouse_MapEvents:

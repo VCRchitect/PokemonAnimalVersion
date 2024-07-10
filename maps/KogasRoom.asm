@@ -93,45 +93,37 @@ KogaScript_KogaBeforeText:
 
 	para "I live in shadows,"
 	line "a ninja!"
+	
+	para "I'll hit you with"
+	line "five right feet to"
+	
+	para "the jaw, then a"
+	line "Southpaw!"
 
-	para "My intricate style"
-	line "will confound and"
-	cont "destroy you!"
-
-	para "Confusion, sleep,"
-	line "poison..."
-
-	para "Prepare to be the"
-	line "victim of my sin-"
-	cont "ister technique!"
-
-	para "Fwahahahaha!"
-
-	para "ANIMALs are not"
-	line "merely about brute"
-
-	para "force--you shall"
-	line "see soon enough!"
+	para "Prepare to see"
+	line "the superior skill"
+	
+	para "of ninjutsu,"
+	line "muthafucka!"
 	done
 
 KogaScript_KogaBeatenText:
-	text "Ah!"
-	line "You have proven"
-	cont "your worth!"
+	text "Your ANIMALs'"
+	line "attacks were like"
+	cont "Mr. Krabs feet!"
 	done
 
 KogaScript_KogaDefeatText:
-	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	text "My text is all"
+	line "references to some"
 
-	para "But my efforts"
-	line "failed. I must"
-	cont "hone my skills."
+	para "Insane Clown Posse"
+	line "lyrics, like in"
+	cont "'Ninja' and in"
 
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	para "'Kickin Kickin'."
+	line "I enjoy their work"
+	cont "and talents."
 	done
 
 KogasRoom_MapEvents:

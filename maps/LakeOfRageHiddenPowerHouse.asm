@@ -72,6 +72,10 @@ HiddenPowerGuyText2:
 
 HiddenPowerGuyText3:
 	text "I am meditating..."
+	
+	para "I don't have any"
+	line "more items to"
+	cont "give you."
 	done
 
 LakeOfRageHiddenPowerHouse_MapEvents:

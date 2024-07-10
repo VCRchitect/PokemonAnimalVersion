@@ -26,7 +26,7 @@ MrFujisHouseLassScript:
 	refreshscreen
 	opentext
 	trainerpic LASS
-	randomtext NPCKTextTable
+	randomtext NPCTextTable
 	waitbutton
 	closetrainpic
 	closetext
