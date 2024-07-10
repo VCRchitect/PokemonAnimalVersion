@@ -30,5 +30,5 @@ Quality of Life Improvements:
 - Apricorns finish instantly
 - No trade evolutions (they evolve usually at Lv. 36 now)
 - Can get all Pokes in the same game
-	- Infinite Repel option in the Options
-	- Battle auto prompts
+- Infinite Repel option in the Options
+- Battle auto prompts
