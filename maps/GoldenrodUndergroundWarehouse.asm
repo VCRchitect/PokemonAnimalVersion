@@ -107,7 +107,33 @@ GoldenrodUndergroundWarehouseTMSleepTalk:
 	itemball TM_SLEEP_TALK
 
 GoldenrodUndergroundWarehouseUltraBall:
-	itemball ULTRA_BALL
+	refreshscreen
+	pokepic FIREBIRD
+	cry FIREBIRD
+	waitbutton
+	closepokepic
+	refreshscreen
+	opentext
+	writetext FirebirdText
+	yesorno
+	iffalse FirebirdnopeScript
+	disappear GOLDENRODUNDERGROUNDWAREHOUSE_POKE_BALL3
+	writetext ChoseFirebirdText
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, FIREBIRD
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke FIREBIRD, 25, BERRY
+	closetext
+FirebirdnopeScript:
+	writetext DamnClassicCarsText
+	waitbutton
+	closetext
+	end
+
+
 
 GruntM24SeenText:
 	text "How did you get"
@@ -244,9 +270,39 @@ DirectorAfterText:
 	para "Please save the"
 	line "RADIO TOWER..."
 
-	para "And all the ANMLs"
-	line "nationwide!"
+	para "And all the little"
+	line "ANIMALs!"
 	done
+
+FirebirdText:
+	text "Oh damn, there's"
+	line "something in this"
+	para "cardboard box."
+	line "Aw, shit. It's a"
+	cont "whole ass car!"
+	
+	para "Someone parked a"
+	line "vintage FIREBIRD"
+	cont "down here."
+	
+	para "You want it?"
+	done
+	
+DamnClassicCarsText:
+	text "Yeah, I can't be"
+	line "trifling with no"
+	cont "classic cars!"
+	
+	para "It's too much to"
+	line "maintain them!"
+	done
+	
+ChoseFirebirdText:
+	text "Against your best"
+	line "judgement, you"
+	cont "got a FIREBIRD!"
+	done
+
 
 GoldenrodUndergroundWarehouse_MapEvents:
 	db 0, 0 ; filler
@@ -267,4 +323,4 @@ GoldenrodUndergroundWarehouse_MapEvents:
 	object_event 12,  8, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodUndergroundWarehouseDirectorScript, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 18, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, GoldenrodUndergroundWarehouseMaxEther, EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_MAX_ETHER
 	object_event 13,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, GoldenrodUndergroundWarehouseTMSleepTalk, EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_TM_SLEEP_TALK
-	object_event  2,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, GoldenrodUndergroundWarehouseUltraBall, EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_ULTRA_BALL
+	object_event  2,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodUndergroundWarehouseUltraBall, EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_ULTRA_BALL

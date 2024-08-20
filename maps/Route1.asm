@@ -45,12 +45,17 @@ Route1FruitTree:
 SchoolboyDannySeenText:
 	text "If trainers meet,"
 	line "the first thing to"
-	cont "do is battle."
+	cont "do is battle. The"
+	para "second thing is"
+	line "awkward and means"
+	para "way too much eye"
+	line "contact."
 	done
 
 SchoolboyDannyBeatenText:
-	text "Awww... I've got a"
-	line "losing record..."
+	text "You have lovely"
+	line "eyes."
+	
 	done
 
 SchoolboyDannyAfterBattleText:
@@ -58,12 +63,22 @@ SchoolboyDannyAfterBattleText:
 	line "a given that we'll"
 
 	para "battle whenever we"
-	line "meet."
+	line "meet. It's also a"
+	
+	para "given that you'll"
+	line "win and I'm no"
+	cont "main character."
 	done
 
 CooltrainerfQuinnSeenText:
 	text "You there!"
 	line "Want to battle?"
+	
+	para "Yes, I greeted"
+	line "you like an old"
+	
+	para "timey knight or"
+	line "something."
 	done
 
 CooltrainerfQuinnBeatenText:
@@ -75,6 +90,9 @@ CooltrainerfQuinnAfterBattleText:
 
 	para "You obviously must"
 	line "have trained hard."
+	
+	para "Or you got plot"
+	line "armor."
 	done
 
 Route1SignText:

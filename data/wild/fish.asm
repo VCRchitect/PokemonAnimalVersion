@@ -226,7 +226,7 @@ TimeFishGroups:
 	db INKANYAMBA,   20,  INKANYAMBA,   20 ; 14
 	db INKANYAMBA,   40,  INKANYAMBA,   40 ; 15
 	db SERPENT,    10,  SERPENT,    10 ; 16
-	db SERPENT,    10,  SERPENT,    10 ; 17
+	db NAUTILUS,    10,  SERPENT,    10 ; 17
 	db SEAHORSE,     20,  SEAHORSE,     20 ; 18
 	db SEAHORSE,     40,  SEAHORSE,     40 ; 19
 	db JELLYFISH,  20,  JELLYFISH,  20 ; 20

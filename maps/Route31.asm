@@ -288,7 +288,32 @@ Route31FruitTree:
 	fruittree FRUITTREE_ROUTE_31
 
 Route31Potion:
-	itemball POTION
+	refreshscreen
+	pokepic BRAIN
+	cry BRAIN
+	waitbutton
+	closepokepic
+	refreshscreen
+	opentext
+	writetext BrainText
+	yesorno
+	iffalse BrainnopeScript
+	disappear ROUTE31_POKE_BALL1
+	writetext ChoseBrainText
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, BRAIN
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke BRAIN, 5, BERRY
+	closetext
+BrainnopeScript:
+	writetext DamnOrgansText
+	waitbutton
+	closetext
+	end
+
 
 Route31PokeBall:
 	itemball POKE_BALL
@@ -446,6 +471,31 @@ DarkCaveSignText:
 	line "THAT IT'S DARK AND"
 	cont "A CAVE."
 	done
+	
+BrainText:
+	text "Oh damn, there's"
+	line "something in this"
+	para "cardboard box."
+	line "Aw, shit. It's a"
+	cont "fuckin' brain!"
+		
+	para "You want it?"
+	line "Looks gently used."
+	done
+	
+DamnOrgansText:
+	text "Yeah, I can't be"
+	line "trifling with no"
+	cont "human organs!"
+	done
+	
+ChoseBrainText:
+	text "Against your best"
+	line "judgement, you"
+	cont "adopted a BRAIN!"
+	done
+	
+	
 
 Route31_MapEvents:
 	db 0, 0 ; filler
@@ -467,5 +517,5 @@ Route31_MapEvents:
 	object_event 21, 13, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 5, TrainerBugCatcherWade1, -1
 	object_event 33,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31CooltrainerMScript, -1
 	object_event 16,  7, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31FruitTree, -1
-	object_event 29,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route31Potion, EVENT_ROUTE_31_POTION
+	object_event 29,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route31Potion, EVENT_ROUTE_31_POTION
 	object_event 19, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route31PokeBall, EVENT_ROUTE_31_POKE_BALL

@@ -176,7 +176,32 @@ Ben:
 	end
 	
 RadioTower5FUltraBall:
-	itemball ULTRA_BALL
+	refreshscreen
+	pokepic THUNDABIRD
+	cry THUNDABIRD
+	waitbutton
+	closepokepic
+	refreshscreen
+	opentext
+	writetext ThundabirdText
+	yesorno
+	iffalse ThundabirdnopeScript
+	disappear RADIOTOWER5F_POKE_BALL
+	writetext ChoseThundabirdText
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, THUNDABIRD
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke THUNDABIRD, 20, BERRY
+	closetext
+ThundabirdnopeScript:
+	writetext DamnClassicCars2Text
+	waitbutton
+	closetext
+	end
+
 
 RadioTower5FDirectorsOfficeSign:
 	jumptext RadioTower5FDirectorsOfficeSignText
@@ -454,6 +479,35 @@ RadioTower5FStudio1SignText:
 	text "5F STUDIO 1"
 	done
 
+ThundabirdText:
+	text "Oh damn, there's"
+	line "something in this"
+	para "cardboard box."
+	line "Aw, shit. It's a"
+	cont "whole ass car!"
+	
+	para "Someone parked a"
+	line "vintage THUNDABIRD"
+	cont "up here."
+	
+	para "You want it?"
+	done
+	
+DamnClassicCars2Text:
+	text "Yeah, I can't be"
+	line "trifling with no"
+	cont "classic cars!"
+	
+	para "It's too much to"
+	line "maintain them!"
+	done
+	
+ChoseThundabirdText:
+	text "Against your best"
+	line "judgement, you"
+	cont "got a THUNDABIRD!"
+	done
+
 RadioTower5F_MapEvents:
 	db 0, 0 ; filler
 
@@ -477,4 +531,4 @@ RadioTower5F_MapEvents:
 	object_event 13,  5, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 17,  2, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerExecutivef1, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 13,  5, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Ben, EVENT_RADIO_TOWER_CIVILIANS_AFTER
-	object_event  8,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RadioTower5FUltraBall, EVENT_RADIO_TOWER_5F_ULTRA_BALL
+	object_event  8,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower5FUltraBall, EVENT_RADIO_TOWER_5F_ULTRA_BALL

@@ -36,126 +36,20 @@ Route29_MapScripts:
 	appear ROUTE29_TUSCANY
 	endcallback
 
-Route29Tutorial1:
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE29_COOLTRAINER_M1, 15
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1a
-	turnobject PLAYER, LEFT
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	refreshscreen
-	trainerpic COOLTRAINERM
-	opentext
-	writetext CatchingTutorialIntroText
-	yesorno
-	iffalse Script_RefusedTutorial1
-	closetrainpic
-	closetext
-	follow ROUTE29_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
-	stopfollow
-	loadwildmon RAT, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	refreshscreen
-	trainerpic COOLTRAINERM
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetrainpic
-	closetext
-	setscene SCENE_ROUTE29_NOTHING
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
-
-Route29Tutorial2:
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE29_COOLTRAINER_M1, 15
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2a
-	turnobject PLAYER, LEFT
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	refreshscreen
-	trainerpic COOLTRAINERM
-	opentext
-	writetext CatchingTutorialIntroText
-	yesorno
-	iffalse Script_RefusedTutorial2
-	closetrainpic
-	closetext
-	follow ROUTE29_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
-	stopfollow
-	loadwildmon RAT, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	refreshscreen
-	trainerpic COOLTRAINERM
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetrainpic
-	closetext
-	setscene SCENE_ROUTE29_NOTHING
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
-
-Script_RefusedTutorial1:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetrainpic
-	closetext
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
-	setscene SCENE_ROUTE29_NOTHING
-	end
-
-Script_RefusedTutorial2:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetrainpic
-	closetext
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
-	setscene SCENE_ROUTE29_NOTHING
-	end
 
 CatchingTutorialDudeScript:
+	setevent EVENT_DUDE_TALKED_TO_YOU
+	setscene SCENE_ROUTE29_NOTHING
+	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	faceplayer
 	refreshscreen
 	trainerpic COOLTRAINERM
 	opentext
-	readvar VAR_BOXSPACE
-	ifequal 0, .BoxFull
-	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
-	iftrue .BoxFull
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iffalse .BoxFull
-	writetext CatchingTutorialRepeatText
-	yesorno
-	iffalse .Declined
-	closetrainpic
-	closetext
-	loadwildmon RAT, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	refreshscreen
-	trainerpic COOLTRAINERM
-	opentext
-	writetext CatchingTutorialDebriefText
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
-
-.BoxFull:
-	writetext CatchingTutorialBoxFullText
-	waitbutton
-	closetrainpic
-	closetext
-	end
-
-.Declined:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetrainpic
-	closetext
+	disappear ROUTE29_COOLTRAINER_M1
 	end
 
 Route29YoungsterScript:
@@ -258,89 +152,6 @@ Route29FruitTree:
 Route29Potion:
 	itemball POTION
 
-DudeMovementData1a:
-	step UP
-	step UP
-	step UP
-	step UP
-	step RIGHT
-	step RIGHT
-	step_end
-
-DudeMovementData2a:
-	step UP
-	step UP
-	step UP
-	step RIGHT
-	step RIGHT
-	step_end
-
-DudeMovementData1b:
-	step LEFT
-	step LEFT
-	step DOWN
-	step DOWN
-	step DOWN
-	step DOWN
-	step_end
-
-DudeMovementData2b:
-	step LEFT
-	step LEFT
-	step DOWN
-	step DOWN
-	step DOWN
-	step_end
-
-CatchingTutorialBoxFullText:
-	text "ANIMALs hide in"
-	line "the grass. Who"
-
-	para "knows when they'll"
-	line "pop out..."
-	done
-
-CatchingTutorialIntroText:
-	text "I've seen you and"
-	line "your thickness."
-
-	para "You always lookin'"
-	line "like a snack?"
-
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch ANIMALs?"
-	done
-
-CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
-
-	para "If you weaken them"
-	line "first, ANIMALs are"
-	cont "easier to catch."
-	
-	para "I think it's cuz"
-	line "they just give up"
-	cont "on life."
-	done
-
-CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
-
-	para "Well, feel free"
-	line "to walk by"
-	cont "any time."
-
-	para "I need to catch a" 
-	line "RAT to eat."
-	done
-
-CatchingTutorialRepeatText:
-	text "You want me to"
-	line "catch a RAT again?"
-	done
-
 MeetTuscanyText:
 	text "TUSCANY: I do be-"
 	line "lieve that this is"
@@ -418,8 +229,6 @@ Route29_MapEvents:
 	warp_event 27,  1, ROUTE_29_ROUTE_46_GATE, 3
 
 	def_coord_events
-	coord_event 53,  8, SCENE_ROUTE29_CATCH_TUTORIAL, Route29Tutorial1
-	coord_event 53,  9, SCENE_ROUTE29_CATCH_TUTORIAL, Route29Tutorial2
 
 	def_bg_events
 	bg_event 51,  7, BGEVENT_READ, Route29Sign1

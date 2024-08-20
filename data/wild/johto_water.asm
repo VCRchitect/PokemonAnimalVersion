@@ -20,7 +20,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 15, SHAGS2DOPE
 	db 20, VIOLENT_J
-	db 15, VIOLENT_J
+	db 15, NAUTILUS
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
@@ -47,7 +47,7 @@ JohtoWaterWildMons:
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
 	db 15, FLUFFYDUCK
-	db 10, FLUFFYDUCK
+	db 10, SHOE_CRAB
 	db 15, KAPPA
 	end_water_wildmons
 

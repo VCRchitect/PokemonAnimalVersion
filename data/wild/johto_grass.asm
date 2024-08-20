@@ -1184,7 +1184,7 @@ JohtoGrassWildMons:
 	db 3, ROCKY
 	db 2, BAT
 	db 2, CHIVES
-	db 4, ROCKY
+	db 4, CAIMAN
 	db 2, TEDDYBEAR
 	db 4, BAT
 	db 4, TSUCHINOKO
@@ -1193,7 +1193,7 @@ JohtoGrassWildMons:
 	db 2, BAT
 	db 2, SALAMANDER
 	db 4, ROCKY
-	db 2, BAT
+	db 2, SQUIRREL
 	db 4, BAT
 	db 4, TSUCHINOKO
 	; nite
@@ -1201,7 +1201,7 @@ JohtoGrassWildMons:
 	db 2, BAT
 	db 2, SEA_TURTLE
 	db 4, ROCKY
-	db 2, BAT
+	db 2, SKUNK
 	db 4, BAT
 	db 4, TSUCHINOKO
 	end_grass_wildmons

@@ -12,13 +12,61 @@ SilverCaveRoom2Calcium:
 	itemball CALCIUM
 
 SilverCaveRoom2UltraBall:
-	itemball ULTRA_BALL
+	refreshscreen
+	pokepic WENDIGO
+	cry WENDIGO
+	waitbutton
+	closepokepic
+	refreshscreen
+	opentext
+	writetext WendigoText
+	yesorno
+	iffalse WendigonopeScript
+	disappear SILVERCAVEROOM2_POKE_BALL2
+	writetext ChoseWendigoText
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, WENDIGO
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke WENDIGO, 50, BERRY
+	closetext
+WendigonopeScript:
+	writetext DamnCreaturesText
+	waitbutton
+	closetext
+	end
 
 SilverCaveRoom2PPUp:
 	itemball PP_UP
 
 SilverCaveRoom2HiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_SILVER_CAVE_ROOM_2_HIDDEN_MAX_POTION
+	
+WendigoText:
+	text "Oh damn, there's"
+	line "something in this"
+	para "cardboard box."
+	line "Aw, shit. It's a"
+	cont "spooky WENDIGO!"
+		
+	para "You want it?"
+	done
+	
+DamnCreaturesText:
+	text "Yeah, I can't be"
+	line "trifling with no"
+	cont "spooky monsters!"
+	done
+	
+ChoseWendigoText:
+	text "Against your best"
+	line "judgement, you"
+	cont "adopted a WENDIGO!"
+	done
+	
+	
 
 SilverCaveRoom2_MapEvents:
 	db 0, 0 ; filler
@@ -36,5 +84,5 @@ SilverCaveRoom2_MapEvents:
 
 	def_object_events
 	object_event 24, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom2Calcium, EVENT_SILVER_CAVE_ROOM_2_CALCIUM
-	object_event 22, 24, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom2UltraBall, EVENT_SILVER_CAVE_ROOM_2_ULTRA_BALL
+	object_event 22, 24, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SilverCaveRoom2UltraBall, EVENT_SILVER_CAVE_ROOM_2_ULTRA_BALL
 	object_event  4, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom2PPUp, EVENT_SILVER_CAVE_ROOM_2_PP_UP

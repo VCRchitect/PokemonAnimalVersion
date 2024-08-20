@@ -63,7 +63,32 @@ IcePathB1FBoulder:
 	jumpstd StrengthBoulderScript
 
 IcePathB1FIron:
-	itemball IRON
+	refreshscreen
+	pokepic YETI
+	cry YETI
+	waitbutton
+	closepokepic
+	refreshscreen
+	opentext
+	writetext YetiText
+	yesorno
+	iffalse TriflingYetisScript
+	disappear ICEPATHB1F_POKE_BALL
+	writetext ChoseYetiText
+	promptbutton
+	waitsfx
+	getmonname STRING_BUFFER_3, YETI
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	givepoke YETI, 10, BERRY
+	closetext
+TriflingYetisScript:
+	writetext DamnYetisText
+	waitbutton
+	closetext
+	end
+						   
 
 IcePathB1FHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_ICE_PATH_B1F_HIDDEN_MAX_POTION
@@ -73,6 +98,25 @@ IcePathBoulderFellThroughText:
 	line "through."
 	done
 
+YetiText:
+	text "Oh damn, there's"
+	line "something in this"
+	para "cardboard box."
+	line "Aw, shit. It's a"
+	cont "YETI! You want it?"
+	done
+	
+DamnYetisText:
+	text "Yeah, I can't be"
+	line "trifling with no"
+	cont "damn YETI!"
+	done
+	
+ChoseYetiText:
+	text "Against your best"
+	line "judgement, you"
+	cont "adopted the YETI!"
+	done
 IcePathB1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -96,4 +140,4 @@ IcePathB1F_MapEvents:
 	object_event  7,  8, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_2
 	object_event  8,  9, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_3
 	object_event 17,  7, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_4
-	object_event  5, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB1FIron, EVENT_ICE_PATH_B1F_IRON
+	object_event  5, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FIron, EVENT_ICE_PATH_B1F_IRON

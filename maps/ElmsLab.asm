@@ -965,7 +965,7 @@ ElmText_ChooseAPokemon:
 	line "hang out with"
 
 	para "an ANIMAL from"
-	line "these ball nets."
+	line "these boxes."
 
 	para "You'll be that"
 	line "ANIMAL's first"
