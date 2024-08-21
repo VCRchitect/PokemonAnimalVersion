@@ -177,15 +177,18 @@ Ben:
 	
 RadioTower5FUltraBall:
 	refreshscreen
+	opentext
+	writetext ThundabirdText
 	pokepic THUNDABIRD
 	cry THUNDABIRD
 	waitbutton
 	closepokepic
 	refreshscreen
-	opentext
-	writetext ThundabirdText
+	writetext ThundabirdText2
 	yesorno
 	iffalse ThundabirdnopeScript
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .partyfull
 	disappear RADIOTOWER5F_POKE_BALL
 	writetext ChoseThundabirdText
 	promptbutton
@@ -196,6 +199,15 @@ RadioTower5FUltraBall:
 	promptbutton
 	givepoke THUNDABIRD, 20, BERRY
 	closetext
+	end
+	
+.partyfull
+	refreshscreen
+	writetext CarryMoreThundabirdText
+	waitbutton
+	closetext
+	end
+	
 ThundabirdnopeScript:
 	writetext DamnClassicCars2Text
 	waitbutton
@@ -482,13 +494,16 @@ RadioTower5FStudio1SignText:
 ThundabirdText:
 	text "Oh damn, there's"
 	line "something in this"
-	para "cardboard box."
-	line "Aw, shit. It's a"
-	cont "whole ass car!"
+	cont "cardboard box."
+	done
+	
+ThundabirdText2:	
+	text "Aw, shit. It's a"
+	line "whole ass car!"
 	
 	para "Someone parked a"
 	line "vintage THUNDABIRD"
-	cont "up here."
+	cont "in here."
 	
 	para "You want it?"
 	done
@@ -507,6 +522,12 @@ ChoseThundabirdText:
 	line "judgement, you"
 	cont "got a THUNDABIRD!"
 	done
+	
+CarryMoreThundabirdText:
+	text "You already have"
+	line "six ANIMALs with"
+	cont "you, though..."
+	done	
 
 RadioTower5F_MapEvents:
 	db 0, 0 ; filler

@@ -1,6 +1,6 @@
 	object_const_def
 	const DRAGONSDENB1F_POKE_BALL1
-	const DRAGONSDENB1F_CLAIR
+	const DRAGONSDENB1F_PEELY
 	const DRAGONSDENB1F_SILVER
 	const DRAGONSDENB1F_COOLTRAINER_M
 	const DRAGONSDENB1F_COOLTRAINER_F
@@ -12,7 +12,7 @@
 DragonsDenB1F_MapScripts:
 	def_scene_scripts
 	scene_script .DummyScene0 ; SCENE_DRAGONSDENB1F_NOTHING
-	scene_script .DummyScene1 ; SCENE_DRAGONSDENB1F_CLAIR_GIVES_TM
+	scene_script .DummyScene1 ; SCENE_DRAGONSDENB1F_PEELY_GIVES_TM
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, .CheckSilver
@@ -40,22 +40,22 @@ DragonsDenB1F_MapScripts:
 	appear DRAGONSDENB1F_SILVER
 	endcallback
 
-DragonsDenB1F_ClairScene:
-	appear DRAGONSDENB1F_CLAIR
+DragonsDenB1F_PeelyScene:
+	appear DRAGONSDENB1F_PEELY
 	refreshscreen
 	opentext
-	trainerpic CLAIR
-	writetext ClairText_Wait
+	trainerpic PEELY
+	writetext PeelyText_Wait
 	pause 30
 	closetrainpic
 	closetext
 	showemote EMOTE_SHOCK, PLAYER, 15
 	turnobject PLAYER, LEFT
-	playmusic MUSIC_CLAIR
-	applymovement DRAGONSDENB1F_CLAIR, MovementDragonsDen_ClairWalksToYou
+	playmusic MUSIC_PEELY
+	applymovement DRAGONSDENB1F_PEELY, MovementDragonsDen_PeelyWalksToYou
 	opentext
-	trainerpic CLAIR
-	writetext ClairText_GiveDragonbreathDragonDen
+	trainerpic PEELY
+	writetext PeelyText_GiveDragonbreathDragonDen
 	promptbutton
 	giveitem TM_DRAGONBREATH
 	iffalse .BagFull
@@ -65,25 +65,25 @@ DragonsDenB1F_ClairScene:
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_TM24_DRAGONBREATH
-	writetext ClairText_DescribeDragonbreathDragonDen
+	writetext PeelyText_DescribeDragonbreathDragonDen
 	promptbutton
-	writetext ClairText_WhatsTheMatterDragonDen
+	writetext PeelyText_WhatsTheMatterDragonDen
 	waitbutton
 	closetrainpic
 	closetext
-	sjump .FinishClair
+	sjump .FinishPeely
 
 .BagFull:
-	writetext ClairText_NoRoom
+	writetext PeelyText_NoRoom
 	waitbutton
 	closetrainpic
 	closetext
-.FinishClair:
-	applymovement DRAGONSDENB1F_CLAIR, MovementDragonsDen_ClairWalksAway
+.FinishPeely:
+	applymovement DRAGONSDENB1F_PEELY, MovementDragonsDen_PeelyWalksAway
 	special FadeOutMusic
 	pause 30
 	special RestartMapMusic
-	disappear DRAGONSDENB1F_CLAIR
+	disappear DRAGONSDENB1F_PEELY
 	setscene SCENE_DRAGONSDENB1F_NOTHING
 	end
 
@@ -210,26 +210,26 @@ DragonsDenB1FHiddenMaxPotion:
 DragonsDenB1FHiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_DRAGONS_DEN_B1F_HIDDEN_MAX_ELIXER
 
-MovementDragonsDen_ClairWalksToYou:
+MovementDragonsDen_PeelyWalksToYou:
 	slow_step RIGHT
 	slow_step RIGHT
 	slow_step RIGHT
 	slow_step RIGHT
 	step_end
 
-MovementDragonsDen_ClairWalksAway:
+MovementDragonsDen_PeelyWalksAway:
 	slow_step LEFT
 	slow_step LEFT
 	slow_step LEFT
 	slow_step LEFT
 	step_end
 
-ClairText_Wait:
+PeelyText_Wait:
 	text "Wait!"
 	done
 
-ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
+PeelyText_GiveDragonbreathDragonDen:
+	text "PEELY: I'm sorry"
 	line "about this."
 
 	para "Here, take this as"
@@ -241,7 +241,7 @@ Text_ReceivedTM24:
 	line "TM24 DRAGONBREATH."
 	done
 
-ClairText_DescribeDragonbreathDragonDen:
+PeelyText_DescribeDragonbreathDragonDen:
 	text "That contains"
 	line "DRAGONBREATH."
 
@@ -254,7 +254,7 @@ ClairText_DescribeDragonbreathDragonDen:
 	cont "to take it."
 	done
 
-ClairText_NoRoom:
+PeelyText_NoRoom:
 	text "Oh? You don't have"
 	line "any room for this."
 
@@ -265,8 +265,8 @@ ClairText_NoRoom:
 	line "see me there."
 	done
 
-ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
+PeelyText_WhatsTheMatterDragonDen:
+	text "PEELY: What's the"
 	line "matter? Aren't you"
 
 	para "going on to the"
@@ -433,7 +433,7 @@ DragonsDenB1F_MapEvents:
 	warp_event 19, 29, DRAGON_SHRINE, 1
 
 	def_coord_events
-	coord_event 19, 30, SCENE_DRAGONSDENB1F_CLAIR_GIVES_TM, DragonsDenB1F_ClairScene
+	coord_event 19, 30, SCENE_DRAGONSDENB1F_PEELY_GIVES_TM, DragonsDenB1F_PeelyScene
 
 	def_bg_events
 	bg_event 18, 24, BGEVENT_READ, DragonShrineSignpost
@@ -443,7 +443,7 @@ DragonsDenB1F_MapEvents:
 
 	def_object_events
 	object_event 35, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonsDenB1FDragonFangScript, EVENT_DRAGONS_DEN_B1F_DRAGON_FANG
-	object_event 14, 30, SPRITE_CLAIR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DRAGONS_DEN_CLAIR
+	object_event 14, 30, SPRITE_PEELY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DRAGONS_DEN_PEELY
 	object_event 20, 23, SPRITE_SILVER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonsDenB1FSilverScript, EVENT_RIVAL_DRAGONS_DEN
 	object_event 20,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerCooltrainermDarin, -1
 	object_event  8,  8, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfCara, -1

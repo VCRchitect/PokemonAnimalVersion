@@ -26,7 +26,7 @@
 	const SPRITE_JOSE ; 16
 	const SPRITE_JASMINE ; 17
 	const SPRITE_PRYCE ; 18
-	const SPRITE_CLAIR ; 19
+	const SPRITE_PEELY ; 19
 	const SPRITE_KID_ROCK ; 1a
 	const SPRITE_KAREN ; 1b
 	const SPRITE_BRUNO ; 1c

@@ -1,5 +1,5 @@
 	object_const_def
-	const BLACKTHORNGYM1F_CLAIR
+	const BLACKTHORNGYM1F_PEELY
 	const BLACKTHORNGYM1F_COOLTRAINER_M1
 	const BLACKTHORNGYM1F_COOLTRAINER_M2
 	const BLACKTHORNGYM1F_COOLTRAINER_F
@@ -26,28 +26,28 @@ BlackthornGym1F_MapScripts:
 .skip3
 	endcallback
 
-BlackthornGymClairScript:
+BlackthornGymPeelyScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic CLAIR
+	trainerpic PEELY
 	checkflag ENGINE_RISINGBADGE
 	iftrue .AlreadyGotBadge
-	checkevent EVENT_BEAT_CLAIR
+	checkevent EVENT_BEAT_PEELY
 	iftrue .FightDone
-	writetext ClairIntroText
+	writetext PeelyIntroText
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext ClairWinText, 0
-	loadtrainer CLAIR, CLAIR1
+	winlosstext PeelyWinText, 0
+	loadtrainer PEELY, PEELY1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_CLAIR
+	setevent EVENT_BEAT_PEELY
 	refreshscreen
 	opentext
-	trainerpic CLAIR
-	writetext ClairText_GoToDragonsDen
+	trainerpic PEELY
+	writetext PeelyText_GoToDragonsDen
 	waitbutton
 	closetrainpic
 	closetext
@@ -62,7 +62,7 @@ BlackthornGymClairScript:
 	end
 
 .FightDone:
-	writetext ClairText_TooMuchToExpect
+	writetext PeelyText_TooMuchToExpect
 	waitbutton
 	closetrainpic
 	closetext
@@ -71,7 +71,7 @@ BlackthornGymClairScript:
 .AlreadyGotBadge:
 	checkevent EVENT_GOT_TM24_DRAGONBREATH
 	iftrue .GotTM24
-	writetext BlackthornGymClairText_YouKeptMeWaiting
+	writetext BlackthornGymPeelyText_YouKeptMeWaiting
 	promptbutton
 	giveitem TM_DRAGONBREATH
 	iffalse .BagFull
@@ -81,19 +81,19 @@ BlackthornGymClairScript:
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_TM24_DRAGONBREATH
-	writetext BlackthornGymClairText_DescribeTM24
+	writetext BlackthornGymPeelyText_DescribeTM24
 	promptbutton
 	sjump .GotTM24
 
 .BagFull:
-	writetext BlackthornGymClairText_BagFull
+	writetext BlackthornGymPeelyText_BagFull
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .GotTM24:
-	writetext BlackthornGymClairText_League
+	writetext BlackthornGymPeelyText_League
 	waitbutton
 	closetrainpic
 	closetext
@@ -146,7 +146,7 @@ BlackthornGymGuideScript:
 	refreshscreen
 	opentext
 	trainerpic GUIDE
-	checkevent EVENT_BEAT_CLAIR
+	checkevent EVENT_BEAT_PEELY
 	iftrue .BlackthornGymGuideWinScript
 	writetext BlackthornGymGuideText
 	waitbutton
@@ -167,11 +167,11 @@ BlackthornGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, CLAIR, CLAIR1
+	gettrainername STRING_BUFFER_4, PEELY, PEELY1
 	jumpstd GymStatue2Script
 
-ClairIntroText:
-	text "I am CLAIR."
+PeelyIntroText:
+	text "I am PEELY."
 
 	para "Let's fight."
 	line "Or else this talk"
@@ -182,7 +182,7 @@ ClairIntroText:
 	para "I kid. I kid."
 	done
 
-ClairWinText:
+PeelyWinText:
 	text "I lost?"
 
 	para "Huh. Maybe I'll"
@@ -190,7 +190,7 @@ ClairWinText:
 	cont "puns now."
 	done
 
-ClairText_GoToDragonsDen:
+PeelyText_GoToDragonsDen:
 	text "Nah, we need to"
 	line "pad this out a bit"
 	
@@ -199,7 +199,7 @@ ClairText_GoToDragonsDen:
 	cont "and wander around."
 	done
 
-ClairText_TooMuchToExpect:
+PeelyText_TooMuchToExpect:
 	text "What's the matter?"
 
 	para "Mad that you're"
@@ -207,7 +207,7 @@ ClairText_TooMuchToExpect:
 	cont "to play the game?"
 	done
 
-BlackthornGymClairText_YouKeptMeWaiting:
+BlackthornGymPeelyText_YouKeptMeWaiting:
 	text "You've kept me"
 	line "waiting!"
 
@@ -219,7 +219,7 @@ BlackthornGymText_ReceivedTM24:
 	line "TM24 DRAGONBREATH."
 	done
 
-BlackthornGymClairText_DescribeTM24:
+BlackthornGymPeelyText_DescribeTM24:
 	text "That contains"
 	line "DRAGONBREATH."
 
@@ -231,12 +231,12 @@ BlackthornGymClairText_DescribeTM24:
 	line "spicy earlier."
 	done
 
-BlackthornGymClairText_BagFull:
+BlackthornGymPeelyText_BagFull:
 	text "What is this? You"
 	line "don't have room?"
 	done
 
-BlackthornGymClairText_League:
+BlackthornGymPeelyText_League:
 	text "What's the matter?"
 
 	para "Go to"
@@ -328,7 +328,7 @@ BlackthornGymGuideText:
 
 BlackthornGymGuideWinText:
 	text "You were great to"
-	line "beat CLAIR!"
+	line "beat PEELY!"
 
 	para "All that's left is"
 	line "the ANIMAL LEAGUE"
@@ -358,7 +358,7 @@ BlackthornGym1F_MapEvents:
 	bg_event  6, 15, BGEVENT_READ, BlackthornGymStatue
 
 	def_object_events
-	object_event  5,  3, SPRITE_CLAIR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BlackthornGymClairScript, -1
+	object_event  5,  3, SPRITE_PEELY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BlackthornGymPeelyScript, -1
 	object_event  6,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermMike, -1
 	object_event  1, 14, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermPaul, -1
 	object_event  9,  2, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerCooltrainerfLola, -1

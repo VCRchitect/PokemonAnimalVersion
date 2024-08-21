@@ -127,7 +127,7 @@ INCLUDE "audio/music/mobilecenter.asm"
 SECTION "Extra Songs 1", ROMX
 
 INCLUDE "audio/music/credits.asm"
-INCLUDE "audio/music/clair.asm"
+INCLUDE "audio/music/peely.asm"
 
 SECTION "Extra Songs 2", ROMX
 

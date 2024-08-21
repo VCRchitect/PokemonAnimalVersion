@@ -27,7 +27,6 @@ CHRIS EQU __trainer_class__
 	const PHONECONTACT_BUENA
 NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
-KRIS EQU __trainer_class__
 	trainerclass BIG_BIRD ; 1
 	const BIG_BIRD1
 
@@ -49,8 +48,8 @@ KRIS EQU __trainer_class__
 	trainerclass JOSE ; 7
 	const JOSE1
 
-	trainerclass CLAIR ; 8
-	const CLAIR1
+	trainerclass PEELY ; 8
+	const PEELY1
 
 	trainerclass RIVAL1 ; 9
 	const RIVAL1_1_SQUIRREL
@@ -689,6 +688,7 @@ KRIS EQU __trainer_class__
 	trainerclass BLUE ; 40
 	const BLUE1
 
+KRIS EQU __trainer_class__
 	trainerclass OFFICER ; 41
 	const KEITH
 	const DIRK

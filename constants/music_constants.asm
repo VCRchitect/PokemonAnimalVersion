@@ -91,7 +91,7 @@
 	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO    ; 5a
 	const MUSIC_POST_CREDITS                 ; 5c
 ; new to Crystal
-	const MUSIC_CLAIR                        ; 5d
+	const MUSIC_PEELY                        ; 5d
 	const MUSIC_BUENAS_PASSWORD              ; 60
 	const MUSIC_MYSTICALMAN_ENCOUNTER        ; 61
 	const MUSIC_CRYSTAL_OPENING              ; 62

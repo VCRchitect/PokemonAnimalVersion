@@ -64,13 +64,15 @@ IcePathB1FBoulder:
 
 IcePathB1FIron:
 	refreshscreen
+	opentext
+	writetext YetiText
+	waitbutton
 	pokepic YETI
 	cry YETI
 	waitbutton
 	closepokepic
 	refreshscreen
-	opentext
-	writetext YetiText
+	writetext YetiText2
 	yesorno
 	iffalse TriflingYetisScript
 	disappear ICEPATHB1F_POKE_BALL
@@ -83,6 +85,8 @@ IcePathB1FIron:
 	promptbutton
 	givepoke YETI, 10, BERRY
 	closetext
+	end
+	
 TriflingYetisScript:
 	writetext DamnYetisText
 	waitbutton
@@ -101,9 +105,12 @@ IcePathBoulderFellThroughText:
 YetiText:
 	text "Oh damn, there's"
 	line "something in this"
-	para "cardboard box."
-	line "Aw, shit. It's a"
-	cont "YETI! You want it?"
+	cont "cardboard box."
+	done
+
+YetiText2:	
+	text "Aw, shit. It's a"
+	line "YETI! You want it?"
 	done
 	
 DamnYetisText:
@@ -117,6 +124,7 @@ ChoseYetiText:
 	line "judgement, you"
 	cont "adopted the YETI!"
 	done
+	
 IcePathB1F_MapEvents:
 	db 0, 0 ; filler
 

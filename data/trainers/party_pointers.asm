@@ -10,7 +10,7 @@ TrainerGroups:
 	dw PryceGroup
 	dw JasmineGroup
 	dw JoseGroup
-	dw ClairGroup
+	dw PeelyGroup
 	dw Rival1Group
 	dw PokemonProfGroup
 	dw WillGroup

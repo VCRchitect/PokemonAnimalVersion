@@ -108,15 +108,18 @@ GoldenrodUndergroundWarehouseTMSleepTalk:
 
 GoldenrodUndergroundWarehouseUltraBall:
 	refreshscreen
+	opentext
+	writetext FirebirdText
 	pokepic FIREBIRD
 	cry FIREBIRD
 	waitbutton
 	closepokepic
 	refreshscreen
-	opentext
-	writetext FirebirdText
+	writetext FirebirdText2
 	yesorno
 	iffalse FirebirdnopeScript
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .partyfull	
 	disappear GOLDENRODUNDERGROUNDWAREHOUSE_POKE_BALL3
 	writetext ChoseFirebirdText
 	promptbutton
@@ -127,13 +130,26 @@ GoldenrodUndergroundWarehouseUltraBall:
 	promptbutton
 	givepoke FIREBIRD, 25, BERRY
 	closetext
+	end
+	
+.partyfull
+	refreshscreen
+	writetext CarryMoreFirebirdText
+	waitbutton
+	closetext
+	end
+	
 FirebirdnopeScript:
 	writetext DamnClassicCarsText
 	waitbutton
 	closetext
 	end
 
-
+CarryMoreFirebirdText:
+	text "You already have"
+	line "six ANIMALs with"
+	cont "you, though..."
+	done
 
 GruntM24SeenText:
 	text "How did you get"
@@ -277,9 +293,12 @@ DirectorAfterText:
 FirebirdText:
 	text "Oh damn, there's"
 	line "something in this"
-	para "cardboard box."
-	line "Aw, shit. It's a"
-	cont "whole ass car!"
+	cont "cardboard box."
+	done
+	
+FirebirdText2:	
+	text "Aw, shit. It's a"
+	line "whole ass car!"
 	
 	para "Someone parked a"
 	line "vintage FIREBIRD"

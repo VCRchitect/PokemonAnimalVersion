@@ -144,7 +144,7 @@ SCENE_ALWAYS   EQU -1
 ; wDragonsDenB1FSceneID
 	const_def
 	const SCENE_DRAGONSDENB1F_NOTHING        ; 0
-	const SCENE_DRAGONSDENB1F_CLAIR_GIVES_TM ; 1
+	const SCENE_DRAGONSDENB1F_PEELY_GIVES_TM ; 1
 
 ; wOlivinePortSceneID
 	const_def 1

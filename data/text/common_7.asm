@@ -682,6 +682,7 @@ NPCKTextTable::
 	para "got mad and killed"
 	line "that fan with a"
 	cont "CHAINSAW? Ooof!"
+	done
 	
 .068
 	text "When GOD sings"

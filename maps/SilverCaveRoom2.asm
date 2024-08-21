@@ -13,15 +13,18 @@ SilverCaveRoom2Calcium:
 
 SilverCaveRoom2UltraBall:
 	refreshscreen
+	opentext
+	writetext WendigoText
 	pokepic WENDIGO
 	cry WENDIGO
 	waitbutton
 	closepokepic
 	refreshscreen
-	opentext
-	writetext WendigoText
+	writetext WendigoText2
 	yesorno
 	iffalse WendigonopeScript
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .partyfull
 	disappear SILVERCAVEROOM2_POKE_BALL2
 	writetext ChoseWendigoText
 	promptbutton
@@ -32,6 +35,15 @@ SilverCaveRoom2UltraBall:
 	promptbutton
 	givepoke WENDIGO, 50, BERRY
 	closetext
+	end
+	
+.partyfull
+	refreshscreen
+	writetext CarryMoreWendigoText
+	waitbutton
+	closetext
+	end
+	
 WendigonopeScript:
 	writetext DamnCreaturesText
 	waitbutton
@@ -47,11 +59,13 @@ SilverCaveRoom2HiddenMaxPotion:
 WendigoText:
 	text "Oh damn, there's"
 	line "something in this"
-	para "cardboard box."
-	line "Aw, shit. It's a"
-	cont "spooky WENDIGO!"
-		
-	para "You want it?"
+	cont "cardboard box."
+	done
+	
+WendigoText2:	
+	text "Aw, shit. It's a"
+	line "spooky WENDIGO!"		
+	cont "You want it?"
 	done
 	
 DamnCreaturesText:
@@ -64,6 +78,12 @@ ChoseWendigoText:
 	text "Against your best"
 	line "judgement, you"
 	cont "adopted a WENDIGO!"
+	done
+	
+CarryMoreWendigoText:
+	text "You already have"
+	line "six ANIMALs with"
+	cont "you, though..."
 	done
 	
 	

@@ -2,7 +2,7 @@
 	const DRAGONSHRINE_ELDER1
 	const DRAGONSHRINE_ELDER2
 	const DRAGONSHRINE_ELDER3
-	const DRAGONSHRINE_CLAIR
+	const DRAGONSHRINE_PEELY
 
 DragonShrine_MapScripts:
 	def_scene_scripts
@@ -133,41 +133,41 @@ DragonShrine_MapScripts:
 	closetext
 	playsound SFX_ENTER_DOOR
 	showemote EMOTE_SHOCK, PLAYER, 15
-	playmusic MUSIC_CLAIR
-	appear DRAGONSHRINE_CLAIR
+	playmusic MUSIC_PEELY
+	appear DRAGONSHRINE_PEELY
 	waitsfx
 	turnobject PLAYER, DOWN
 	pause 30
-	applymovement DRAGONSHRINE_CLAIR, DragonShrineClairWalkInMovement
-	turnobject DRAGONSHRINE_CLAIR, RIGHT
+	applymovement DRAGONSHRINE_PEELY, DragonShrinePeelyWalkInMovement
+	turnobject DRAGONSHRINE_PEELY, RIGHT
 	turnobject PLAYER, LEFT
 	turnobject DRAGONSHRINE_ELDER1, LEFT
 	refreshscreen
 	opentext
 	trainerpic SAGE
-	writetext DragonShrineClairYouPassedText
+	writetext DragonShrinePeelyYouPassedText
 	waitbutton
 	closetrainpic
 	closetext
 	special FadeOutMusic
-	applymovement DRAGONSHRINE_CLAIR, DragonShrineClairBigStepLeftMovement
+	applymovement DRAGONSHRINE_PEELY, DragonShrinePeelyBigStepLeftMovement
 	refreshscreen
 	opentext
-	trainerpic CLAIR
-	writetext DragonShrineClairThatCantBeText
+	trainerpic PEELY
+	writetext DragonShrinePeelyThatCantBeText
 	waitbutton
 	closetrainpic
 	closetext
-	applymovement DRAGONSHRINE_CLAIR, DragonShrineClairSlowStepLeftMovement
+	applymovement DRAGONSHRINE_PEELY, DragonShrinePeelySlowStepLeftMovement
 	refreshscreen
 	opentext
-	trainerpic CLAIR
-	writetext DragonShrineClairYoureLyingText
+	trainerpic PEELY
+	writetext DragonShrinePeelyYoureLyingText
 	waitbutton
 	closetrainpic
 	closetext
-	applymovement DRAGONSHRINE_ELDER1, DragonShrineElderWalkToClairMovement
-	turnobject DRAGONSHRINE_CLAIR, UP
+	applymovement DRAGONSHRINE_ELDER1, DragonShrineElderWalkToPeelyMovement
+	turnobject DRAGONSHRINE_PEELY, UP
 	refreshscreen
 	opentext
 	trainerpic SAGE
@@ -175,18 +175,18 @@ DragonShrine_MapScripts:
 	waitbutton
 	closetrainpic
 	closetext
-	showemote EMOTE_SHOCK, DRAGONSHRINE_CLAIR, 15
+	showemote EMOTE_SHOCK, DRAGONSHRINE_PEELY, 15
 	refreshscreen
 	opentext
-	trainerpic CLAIR
+	trainerpic PEELY
 	writetext DragonShrineIUnderstandText
 	waitbutton
 	closetrainpic
 	closetext
-	applymovement DRAGONSHRINE_CLAIR, DragonShrineClairTwoSlowStepsRightMovement
+	applymovement DRAGONSHRINE_PEELY, DragonShrinePeelyTwoSlowStepsRightMovement
 	refreshscreen
 	opentext
-	trainerpic CLAIR
+	trainerpic PEELY
 	writetext DragonShrineHereRisingBadgeText
 	waitbutton
 	setflag ENGINE_RISINGBADGE
@@ -195,7 +195,7 @@ DragonShrine_MapScripts:
 	special RestartMapMusic
 	specialphonecall SPECIALCALL_MASTERBALL
 	setscene SCENE_FINISHED
-	setmapscene DRAGONS_DEN_B1F, SCENE_DRAGONSDENB1F_CLAIR_GIVES_TM
+	setmapscene DRAGONS_DEN_B1F, SCENE_DRAGONSDENB1F_PEELY_GIVES_TM
 	writetext DragonShrinePlayerReceivedRisingBadgeText
 	promptbutton
 	writetext DragonShrineRisingBadgeExplanationText
@@ -203,26 +203,26 @@ DragonShrine_MapScripts:
 	closetrainpic
 	closetext
 	applymovement DRAGONSHRINE_ELDER1, DragonShrineElderWalkAway1Movement
-	turnobject DRAGONSHRINE_CLAIR, UP
+	turnobject DRAGONSHRINE_PEELY, UP
 	applymovement DRAGONSHRINE_ELDER1, DragonShrineElderWalkAway2Movement
 	turnobject PLAYER, UP
 	refreshscreen
 	opentext
 	trainerpic SAGE
-	writetext DragonShrineElderScoldsClairText
+	writetext DragonShrineElderScoldsPeelyText
 	waitbutton
 	closetrainpic
 	closetext
 	refreshscreen
 	opentext
-	trainerpic CLAIR
+	trainerpic PEELY
 	writetext DragonShrineSpeechlessText
 	waitbutton
 	closetrainpic
 	closetext
-	applymovement DRAGONSHRINE_CLAIR, DragonShrineClairWalkOutMovement
+	applymovement DRAGONSHRINE_PEELY, DragonShrinePeelyWalkOutMovement
 	playsound SFX_ENTER_DOOR
-	disappear DRAGONSHRINE_CLAIR
+	disappear DRAGONSHRINE_PEELY
 	waitsfx
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	end
@@ -240,7 +240,7 @@ DragonShrineElder1Script:
 	iffalse .GiveSerpent
 	checkevent EVENT_BEAT_RIVAL_IN_MT_MOON
 	iftrue .BeatRivalInMtMoon
-	writetext DragonShrineClairsGrandfatherText
+	writetext DragonShrinePeelysGrandfatherText
 	waitbutton
 	closetrainpic
 	closetext
@@ -394,7 +394,7 @@ DragonShrineElderStepDownMovement:
 	slow_step DOWN
 	step_end
 
-DragonShrineElderWalkToClairMovement:
+DragonShrineElderWalkToPeelyMovement:
 	slow_step LEFT
 	slow_step LEFT
 	slow_step LEFT
@@ -411,7 +411,7 @@ DragonShrineElderWalkAway2Movement:
 	turn_head DOWN
 	step_end
 
-DragonShrineClairWalkInMovement:
+DragonShrinePeelyWalkInMovement:
 	slow_step UP
 	slow_step UP
 	slow_step UP
@@ -419,22 +419,22 @@ DragonShrineClairWalkInMovement:
 	slow_step UP
 	step_end
 
-DragonShrineClairBigStepLeftMovement:
+DragonShrinePeelyBigStepLeftMovement:
 	fix_facing
 	big_step LEFT
 	step_end
 
-DragonShrineClairSlowStepLeftMovement:
+DragonShrinePeelySlowStepLeftMovement:
 	slow_step LEFT
 	remove_fixed_facing
 	step_end
 
-DragonShrineClairTwoSlowStepsRightMovement:
+DragonShrinePeelyTwoSlowStepsRightMovement:
 	slow_step RIGHT
 	slow_step RIGHT
 	step_end
 
-DragonShrineClairWalkOutMovement:
+DragonShrinePeelyWalkOutMovement:
 	step DOWN
 	step DOWN
 	step DOWN
@@ -450,7 +450,7 @@ DragonShrineElderGreetingText:
 	para "No need to explain"
 	line "why you came."
 
-	para "CLAIR sent you"
+	para "PEELY sent you"
 	line "here, didn't she?"
 
 	para "That girl is a"
@@ -516,7 +516,7 @@ DragonShrinePassedTestText:
 	done
 
 DragonShrineMustIInformLanceText:
-	text "CLAIR!"
+	text "PEELY!"
 
 	para "This child is"
 	line "impeccable, in"
@@ -530,8 +530,8 @@ DragonShrineMustIInformLanceText:
 	line "LANCE of this?"
 	done
 
-DragonShrineElderScoldsClairText:
-	text "CLAIR..."
+DragonShrineElderScoldsPeelyText:
+	text "PEELY..."
 
 	para "Reflect upon what"
 	line "it is that you"
@@ -584,8 +584,8 @@ DragonShrineSymbolicDragonText:
 	line "one."
 	done
 
-DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
+DragonShrinePeelysGrandfatherText:
+	text "PEELY appears to"
 	line "have learned an"
 
 	para "invaluable lesson"
@@ -601,7 +601,7 @@ DragonShrineSilverIsInTrainingText:
 	cont "training here."
 
 	para "He is much like"
-	line "CLAIR when she was"
+	line "PEELY when she was"
 
 	para "younger. It is a"
 	line "little worrisome."
@@ -645,7 +645,7 @@ DragonShrineElder3Text:
 	line "blood."
 	done
 
-DragonShrineClairYouPassedText:
+DragonShrinePeelyYouPassedText:
 	text "So how did it go?"
 
 	para "I guess there's no"
@@ -658,11 +658,11 @@ DragonShrineClairYouPassedText:
 	para "What? You passed?"
 	done
 
-DragonShrineClairThatCantBeText:
+DragonShrinePeelyThatCantBeText:
 	text "That can't be!"
 	done
 
-DragonShrineClairYoureLyingText:
+DragonShrinePeelyYoureLyingText:
 	text "You're lying!"
 
 	para "Even I haven't"
@@ -722,4 +722,4 @@ DragonShrine_MapEvents:
 	object_event  5,  1, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonShrineElder1Script, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	object_event  2,  4, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonShrineElder2Script, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	object_event  7,  4, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonShrineElder3Script, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-	object_event  4,  8, SPRITE_CLAIR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DRAGON_SHRINE_CLAIR
+	object_event  4,  8, SPRITE_PEELY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DRAGON_SHRINE_PEELY

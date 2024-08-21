@@ -9,7 +9,7 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; PRYCE
 	dn  9,  8,  8,  8 ; JASMINE
 	dn  9,  8,  8,  8 ; JOSE
-	dn  7, 12, 13, 13 ; CLAIR
+	dn  7, 12, 13, 13 ; PEELY
 	dn 13, 13, 13, 13 ; RIVAL1
 	dn  9,  8,  8,  8 ; POKEMON_PROF
 	dn 13, 12, 13, 13 ; WILL

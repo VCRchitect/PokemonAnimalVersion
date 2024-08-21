@@ -700,7 +700,7 @@ _CGB_TrainerCard:
 	lb bc, 2, 4
 	ld a, $7 ; pryce
 	call FillBoxCGB
-	; clair uses kris's palette
+	; peely uses kris's palette
 	ld a, [wPlayerGender]
 	and a
 	push af

@@ -10,7 +10,7 @@ TrainerPicPointers::
 	dba_pic PrycePic
 	dba_pic JasminePic
 	dba_pic JosePic
-	dba_pic ClairPic
+	dba_pic PeelyPic
 	dba_pic Rival1Pic
 	dba_pic PokemonProfPic
 	dba_pic WillPic

@@ -301,10 +301,10 @@ NewBarkTownRivalText2:
 	text "...What are you"
 	line "staring at?"
 	
-	para "You never seen a"
-	line "man-child that is"
-	para "somewhere between"
-	line "13 and 33?"
+	para "I'm a child, just"
+	line "like you!"
+	para "I'm just big and"
+	line "old for my age!"
 	done
 
 NewBarkTownSignText:

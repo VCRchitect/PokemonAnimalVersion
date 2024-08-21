@@ -10,7 +10,7 @@ BTTrainerClassGenders:
 	db MALE   ; PRYCE
 	db FEMALE ; JASMINE
 	db MALE   ; JOSE
-	db FEMALE ; CLAIR
+	db FEMALE ; PEELY
 	db MALE   ; RIVAL1
 	db MALE   ; POKEMON_PROF
 	db FEMALE ; WILL

@@ -93,7 +93,7 @@ Music:
 	dba Music_LakeOfRageRocketRadio
 	dba Music_PostCredits
 ; new to Crystal
-	dba Music_Clair
+	dba Music_Peely
 	dba Music_BuenasPassword
 	dba Music_LookMysticalMan
 	dba Music_CrystalOpening

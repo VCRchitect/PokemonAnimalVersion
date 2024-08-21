@@ -35,25 +35,25 @@ BlackthornSuperNerdScript:
 	refreshscreen
 	opentext
 	trainerpic SUPER_NERD
-	checkevent EVENT_BEAT_CLAIR
-	iftrue .BeatClair
+	checkevent EVENT_BEAT_PEELY
+	iftrue .BeatPeely
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftrue .ClearedRadioTower
-	writetext Text_ClairIsOut
+	writetext Text_PeelyIsOut
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .ClearedRadioTower:
-	writetext Text_ClairIsIn
+	writetext Text_PeelyIsIn
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
-.BeatClair:
-	writetext Text_ClairIsBeaten
+.BeatPeely:
+	writetext Text_PeelyIsBeaten
 	waitbutton
 	closetrainpic
 	closetext
@@ -190,10 +190,10 @@ BlackthornCityPokecenterSign:
 BlackthornCityMartSign:
 	jumpstd MartSignScript
 
-Text_ClairIsOut:
+Text_PeelyIsOut:
 	text "I am sorry."
 
-	para "CLAIR, our GYM"
+	para "PEELY, our GYM"
 	line "LEADER, entered"
 
 	para "the DRAGON'S DEN"
@@ -204,15 +204,15 @@ Text_ClairIsOut:
 	cont "will return."
 	done
 
-Text_ClairIsIn:
-	text "CLAIR, our GYM"
+Text_PeelyIsIn:
+	text "PEELY, our GYM"
 	line "LEADER, is waiting"
 	cont "for you."
 	done
 
-Text_ClairIsBeaten:
+Text_PeelyIsBeaten:
 	text "You defeated"
-	line "CLAIR?"
+	line "PEELY?"
 	
 	para "Starting to think"
 	line "maybe she's not"
@@ -228,7 +228,7 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
+	text "If PEELY allows"
 	line "it, her grand-"
 	cont "father--our MASTER"
 	cont "--will also."
@@ -323,7 +323,7 @@ BlackthornCitySignText:
 BlackthornGymSignText:
 	text "BLACKTHORN CITY"
 	line "ANIML GYM"
-	cont "LEADER: CLAIR"
+	cont "LEADER: PEELY"
 
 	para "The Blessed User"
 	line "of Dragons and a"

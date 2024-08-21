@@ -12,7 +12,7 @@ GymLeaders:
 	db PRYCE
 	db JASMINE
 	db JOSE
-	db CLAIR
+	db PEELY
 	db WILL
 	db BRUNO
 	db KAREN

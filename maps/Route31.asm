@@ -289,15 +289,18 @@ Route31FruitTree:
 
 Route31Potion:
 	refreshscreen
+	opentext
+	writetext BrainText
 	pokepic BRAIN
 	cry BRAIN
 	waitbutton
 	closepokepic
 	refreshscreen
-	opentext
-	writetext BrainText
+	writetext BrainText2
 	yesorno
 	iffalse BrainnopeScript
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .partyfull
 	disappear ROUTE31_POKE_BALL1
 	writetext ChoseBrainText
 	promptbutton
@@ -308,6 +311,16 @@ Route31Potion:
 	promptbutton
 	givepoke BRAIN, 5, BERRY
 	closetext
+	end
+
+.partyfull
+	refreshscreen
+	writetext CarryMoreBrainText
+	waitbutton
+	closetext
+	end
+
+	
 BrainnopeScript:
 	writetext DamnOrgansText
 	waitbutton
@@ -315,8 +328,15 @@ BrainnopeScript:
 	end
 
 
+
 Route31PokeBall:
 	itemball POKE_BALL
+
+CarryMoreBrainText:
+	text "You already have"
+	line "six ANIMALs with"
+	cont "you, though..."
+	done
 
 Route31CooltrainerMText:
 	text "DARK CAVE..."
@@ -475,9 +495,12 @@ DarkCaveSignText:
 BrainText:
 	text "Oh damn, there's"
 	line "something in this"
-	para "cardboard box."
-	line "Aw, shit. It's a"
-	cont "fuckin' brain!"
+	cont "cardboard box."
+	done
+	
+BrainText2:	
+	text "Aw, shit. It's a"
+	line "fuckin' brain!"
 		
 	para "You want it?"
 	line "Looks gently used."

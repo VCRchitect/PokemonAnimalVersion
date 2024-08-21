@@ -38,18 +38,18 @@ Route29_MapScripts:
 
 
 CatchingTutorialDudeScript:
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	setscene SCENE_ROUTE29_NOTHING
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	faceplayer
 	refreshscreen
-	trainerpic COOLTRAINERM
 	opentext
-	randomtext NPCKTextTable
+	trainerpic COOLTRAINERM
+	writetext DudeText
 	waitbutton
 	closetrainpic
 	closetext
 	disappear ROUTE29_COOLTRAINER_M1
+	setevent EVENT_DUDE_TALKED_TO_YOU
+	setscene SCENE_ROUTE29_NOTHING
+	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
 Route29YoungsterScript:
@@ -151,6 +151,27 @@ Route29FruitTree:
 
 Route29Potion:
 	itemball POTION
+	
+DudeText:
+	text "Look, if you're"
+	line "expecting me to"
+	
+	para "teach you how to"
+	line "catch ANIMALs,"
+	cont "I'm not doing it."
+
+	para "How you gonna play"
+	line "a POKEMON ROM hack"
+	
+	para "and not know how"
+	line "to catch stuff?"
+	
+	para "You'll be fine."
+	
+	para "Anyway, I got shit"
+	line "to do. See ya"
+	cont "later, nerd!"
+	done
 
 MeetTuscanyText:
 	text "TUSCANY: I do be-"
@@ -235,7 +256,7 @@ Route29_MapEvents:
 	bg_event  3,  5, BGEVENT_READ, Route29Sign2
 
 	def_object_events
-	object_event 50, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1
+	object_event 50, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, EVENT_LEARNED_TO_CATCH_POKEMON
 	object_event 27, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29YoungsterScript, -1
 	object_event 15, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29TeacherScript, -1
 	object_event 12,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route29FruitTree, -1

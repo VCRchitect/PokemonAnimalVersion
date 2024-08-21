@@ -104,7 +104,7 @@ CooltrainerfFranSeenText:
 	text "I almost forgot to"
 	line "say a pun!"
 
-	para "CLAIR would be"
+	para "PEELY would be"
 	line "livid if I did!"
 	done
 
@@ -113,7 +113,7 @@ CooltrainerfFranBeatenText:
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Uh-oh... CLAIR is"
+	text "Uh-oh... PEELY is"
 	line "going to be mad..."
 	done
 

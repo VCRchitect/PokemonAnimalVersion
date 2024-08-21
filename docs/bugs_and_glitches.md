@@ -86,7 +86,7 @@ Fixes in the [multi-player battle engine](#multi-player-battle-engine) category 
   - [`EVOLVE_STAT` can break Stone compatibility reporting](#evolve_stat-can-break-stone-compatibility-reporting)
   - [A "HOF Master!" title for 200-Time Famers is defined but inaccessible](#a-hof-master-title-for-200-time-famers-is-defined-but-inaccessible)
 - [Scripted events](#scripted-events)
-  - [Clair can give TM24 Dragonbreath twice](#clair-can-give-tm24-dragonbreath-twice)
+  - [Peely can give TM24 Dragonbreath twice](#peely-can-give-tm24-dragonbreath-twice)
   - [Daisy's grooming doesn't always increase happiness](#daisys-grooming-doesnt-always-increase-happiness)
   - [Carp in Lake of Rage are shorter, not longer](#carp-in-lake-of-rage-are-shorter-not-longer)
   - [Carp length limits have a unit conversion error](#carp-length-limits-have-a-unit-conversion-error)
@@ -2195,7 +2195,7 @@ This supports up to six entries.
 ## Scripted events
 
 
-### Clair can give TM24 Dragonbreath twice
+### Peely can give TM24 Dragonbreath twice
 
 ([Video](https://www.youtube.com/watch?v=8BvBjqxmyOk))
 
@@ -2203,9 +2203,9 @@ This supports up to six entries.
 
 ```diff
  	def_callbacks
-+	callback MAPCALLBACK_NEWMAP, .UnsetClairScene
++	callback MAPCALLBACK_NEWMAP, .UnsetPeelyScene
 +
-+.UnsetClairScene:
++.UnsetPeelyScene:
 +	setmapscene DRAGONS_DEN_B1F, SCENE_DRAGONSDENB1F_NOTHING
 +	endcallback
 ```
