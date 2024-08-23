@@ -5,9 +5,9 @@ TrainerGroups:
 	table_width 2, TrainerGroups
 	dw Big_BirdGroup
 	dw WhitneyGroup
-	dw BugsyGroup
+	dw TPainGroup
 	dw JasonGroup
-	dw PryceGroup
+	dw LincolnGroup
 	dw JasmineGroup
 	dw JoseGroup
 	dw PeelyGroup

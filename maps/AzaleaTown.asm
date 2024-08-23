@@ -458,12 +458,12 @@ KurtsHouseSignText:
 AzaleaGymSignText:
 	text "AZALEA TOWN"
 	line "ANIMAL GYM"
-	cont "LEADER: BUGSY"
+	cont "LEADER: TPAIN"
 
 	para "The Walking"
-	line "Bug ANIMAL"
-	para "Encyclopedia, AKA"
-	line "a BIG OL' NERD"
+	line "Auto Tune Plug-In"
+	para "AKA TALLAHASSEE"
+	line "PAYNE"
 	done
 
 BeaverWellSignText:

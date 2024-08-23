@@ -237,7 +237,25 @@ BlackthornGymPeelyText_BagFull:
 	done
 
 BlackthornGymPeelyText_League:
-	text "What's the matter?"
+	text "I'm a banana"
+	
+	para "Can you peel back"
+	line "my skin?"
+	
+	para "Don't you feel"
+	line "sorry for me."
+	
+	para "Please don't you"
+	line "murder me."
+	
+	para "We are both"
+	line "platanitos."
+	
+	para "Both of us grow"
+	line "on trees."
+
+	para "Huh? You need"
+	line "something?"
 
 	para "Go to"
 	line "NEW BARK TOWN."

@@ -3,9 +3,9 @@ BTTrainerClassSprites:
 	table_width 1, BTTrainerClassSprites
 	db SPRITE_BIG_BIRD
 	db SPRITE_WHITNEY
-	db SPRITE_BUGSY
+	db SPRITE_TPAIN
 	db SPRITE_JASON
-	db SPRITE_PRYCE
+	db SPRITE_LINCOLN
 	db SPRITE_JASMINE
 	db SPRITE_JOSE
 	db SPRITE_PEELY

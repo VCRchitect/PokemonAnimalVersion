@@ -7,9 +7,9 @@
 GymLeaders:
 	db BIG_BIRD
 	db WHITNEY
-	db BUGSY
+	db TPAIN
 	db JASON
-	db PRYCE
+	db LINCOLN
 	db JASMINE
 	db JOSE
 	db PEELY

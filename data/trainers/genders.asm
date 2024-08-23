@@ -5,9 +5,9 @@ BTTrainerClassGenders:
 	table_width 1, BTTrainerClassGenders
 	db MALE   ; BIG_BIRD
 	db FEMALE ; WHITNEY
-	db FEMALE ; BUGSY
+	db FEMALE ; TPAIN
 	db MALE   ; JASON
-	db MALE   ; PRYCE
+	db MALE   ; LINCOLN
 	db FEMALE ; JASMINE
 	db MALE   ; JOSE
 	db FEMALE ; PEELY

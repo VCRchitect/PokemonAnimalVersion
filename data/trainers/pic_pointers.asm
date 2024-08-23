@@ -5,9 +5,9 @@ TrainerPicPointers::
 	table_width 3, TrainerPicPointers
 	dba_pic Big_BirdPic
 	dba_pic WhitneyPic
-	dba_pic BugsyPic
+	dba_pic TPainPic
 	dba_pic JasonPic
-	dba_pic PrycePic
+	dba_pic LincolnPic
 	dba_pic JasminePic
 	dba_pic JosePic
 	dba_pic PeelyPic

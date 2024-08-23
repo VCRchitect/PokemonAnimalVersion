@@ -11,9 +11,9 @@ INCBIN "gfx/trainers/cal.gbcpal", middle_colors
 KrisPalette: ; Kris shares Big_Bird's palette
 INCBIN "gfx/trainers/big_bird.gbcpal", middle_colors
 INCBIN "gfx/trainers/whitney.gbcpal", middle_colors
-INCBIN "gfx/trainers/bugsy.gbcpal", middle_colors
+INCBIN "gfx/trainers/tpain.gbcpal", middle_colors
 INCBIN "gfx/trainers/jason.gbcpal", middle_colors
-INCBIN "gfx/trainers/pryce.gbcpal", middle_colors
+INCBIN "gfx/trainers/lincoln.gbcpal", middle_colors
 INCBIN "gfx/trainers/jasmine.gbcpal", middle_colors
 INCBIN "gfx/trainers/jose.gbcpal", middle_colors
 INCBIN "gfx/trainers/peely.gbcpal", middle_colors

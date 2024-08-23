@@ -4,9 +4,9 @@ TrainerClassDVs:
 	;  atk,def,spd,spc
 	dn  9, 10,  7,  7 ; BIG_BIRD
 	dn  8,  8,  8,  8 ; WHITNEY
-	dn  9,  8,  8,  8 ; BUGSY
+	dn  9,  8,  8,  8 ; TPAIN
 	dn  9,  8,  8,  8 ; JASON
-	dn  9,  8,  8,  8 ; PRYCE
+	dn  9,  8,  8,  8 ; LINCOLN
 	dn  9,  8,  8,  8 ; JASMINE
 	dn  9,  8,  8,  8 ; JOSE
 	dn  7, 12, 13, 13 ; PEELY

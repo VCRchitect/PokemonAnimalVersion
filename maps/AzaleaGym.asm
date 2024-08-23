@@ -1,5 +1,5 @@
 	object_const_def
-	const AZALEAGYM_BUGSY
+	const AZALEAGYM_TPAIN
 	const AZALEAGYM_BUG_CATCHER1
 	const AZALEAGYM_BUG_CATCHER2
 	const AZALEAGYM_BUG_CATCHER3
@@ -12,22 +12,22 @@ AzaleaGym_MapScripts:
 
 	def_callbacks
 
-AzaleaGymBugsyScript:
+AzaleaGymTPainScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic BUGSY
-	checkevent EVENT_BEAT_BUGSY
+	trainerpic TPAIN
+	checkevent EVENT_BEAT_TPAIN
 	iftrue .FightDone
-	writetext BugsyText_INeverLose
+	writetext TPainText_INeverLose
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext BugsyText_ResearchIncomplete, 0
-	loadtrainer BUGSY, BUGSY1
+	winlosstext TPainText_ResearchIncomplete, 0
+	loadtrainer TPAIN, TPAIN1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_BUGSY
+	setevent EVENT_BEAT_TPAIN
 	writetext Text_ReceivedHiveBadge
 	playsound SFX_GET_BADGE
 	waitsfx
@@ -43,16 +43,16 @@ AzaleaGymBugsyScript:
 	setevent EVENT_BEAT_BUG_CATCHER_JOSH
 	refreshscreen
 	opentext
-	trainerpic BUGSY
-	writetext BugsyText_HiveBadgeSpeech
+	trainerpic TPAIN
+	writetext TPainText_HiveBadgeSpeech
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_FURY_CUTTER
 	iffalse .NoRoomForFuryCutter
 	setevent EVENT_GOT_TM49_FURY_CUTTER
 	refreshscreen
-	trainerpic BUGSY
-	writetext BugsyText_FuryCutterSpeech
+	trainerpic TPAIN
+	writetext TPainText_FuryCutterSpeech
 	waitbutton
 	closetrainpic
 	closetext
@@ -60,7 +60,7 @@ AzaleaGymBugsyScript:
 
 .GotFuryCutter:
 	refreshscreen
-	writetext BugsyText_BugMonsAreDeep
+	writetext TPainText_BugMonsAreDeep
 	waitbutton
 .NoRoomForFuryCutter:
 	closetrainpic
@@ -151,7 +151,7 @@ TrainerBugCatcherJosh:
 AzaleaGymGuideScript:
 	faceplayer
 	refreshscreen
-	checkevent EVENT_BEAT_BUGSY
+	checkevent EVENT_BEAT_TPAIN
 	iftrue .AzaleaGymGuideWinScript
 	opentext
 	trainerpic GUIDE
@@ -176,28 +176,25 @@ AzaleaGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, BUGSY, BUGSY1
+	gettrainername STRING_BUFFER_4, TPAIN, TPAIN1
 	jumpstd GymStatue2Script
 
-BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	line "I never lose when"
+TPainText_INeverLose:
+	text "SHAWTY SNAP!"
+	line "WHAT'S UP, BABY?"
 
-	para "it comes to bug"
-	line "ANIMALs."
+	para "IT'S YA BOY,"
+	line "T-PAIAIAIAIAIN!"
 
-	para "I only lose at the"
-	line "game of life."
+	para "YOU WANT THIS GYM"
+	line "BADGE, YOU'RE"
+	cont "GONNA WORK FOR IT."
 
-	para "But enough about"
-	line "my depression!"
-
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "LEEEEETTT'S"
+	line "DOOOOO THIIIS!"
 	done
 
-BugsyText_ResearchIncomplete:
+TPainText_ResearchIncomplete:
 	text "Whoa!"
 	line "I didn't expect to"
 	cont "win, but damn."
@@ -211,7 +208,7 @@ Text_ReceivedHiveBadge:
 	line "HIVEBADGE."
 	done
 
-BugsyText_HiveBadgeSpeech:
+TPainText_HiveBadgeSpeech:
 	text "Do you know the"
 	line "benefits of HIVE-"
 	cont "BADGE?"
@@ -225,7 +222,7 @@ BugsyText_HiveBadgeSpeech:
 	line "you to have this."
 	done
 
-BugsyText_FuryCutterSpeech:
+TPainText_FuryCutterSpeech:
 	text "TM49 contains"
 	line "FURY CUTTER."
 
@@ -237,20 +234,18 @@ BugsyText_FuryCutterSpeech:
 	line "battle goes, the"
 	cont "better it gets."
 
-	para "Unlike all of my"
-	line "relationships."
+	para "Just like my"
+	line "career, baby."
 	done
 
-BugsyText_BugMonsAreDeep:
+TPainText_BugMonsAreDeep:
 	text "Bug ANIMALs are"
-	line "deep. There are"
-
-	para "many mysteries to"
-	line "be explored."
-
-	para "Some taste like a"
-	line "bug and others,"
-	cont "insects. Weird!"
+	line "okay. But it's all"
+	
+	para "that was left to"
+	line "pick from when we"
+	para "signed up to be"
+	line "Gym Leaders."
 	done
 
 BugCatcherBennySeenText:
@@ -355,7 +350,7 @@ TwinsAmyandmay2BeatenText:
 
 TwinsAmyandmay2AfterBattleText:
 	text "MAY: Our bugs"
-	line "lost! BUGSY was"
+	line "lost! TPAIN was"
 	para "right. He's bad at"
 	line "teaching."
 	done
@@ -363,7 +358,7 @@ TwinsAmyandmay2AfterBattleText:
 AzaleaGymGuideText:
 	text "Yo, challenger!"
 
-	para "BUGSY's young, but"
+	para "TPAIN's cool, but"
 	line "his knowledge of"
 
 	para "bug ANIMALs is for"
@@ -371,7 +366,7 @@ AzaleaGymGuideText:
 
 	para "happens when you"
 	line "are a big nerd for"
-	cont "bugs."
+	cont "bugs and music."
 
 	para "Let's see... Bug"
 	line "ANIMALs don't like"
@@ -404,7 +399,7 @@ AzaleaGym_MapEvents:
 	bg_event  6, 13, BGEVENT_READ, AzaleaGymStatue
 
 	def_object_events
-	object_event  5,  7, SPRITE_BUGSY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AzaleaGymBugsyScript, -1
+	object_event  5,  7, SPRITE_TPAIN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AzaleaGymTPainScript, -1
 	object_event  5,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerBugCatcherBenny, -1
 	object_event  8,  8, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherAl, -1
 	object_event  0,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherJosh, -1

@@ -627,7 +627,7 @@ _CGB_TrainerCard:
 	ld a, BIG_BIRD ; KRIS
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, BUGSY
+	ld a, TPAIN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 	ld a, WHITNEY
@@ -642,7 +642,7 @@ _CGB_TrainerCard:
 	ld a, JASMINE
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, PRYCE
+	ld a, LINCOLN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 	ld a, PREDEFPAL_CGB_BADGE
@@ -678,7 +678,7 @@ _CGB_TrainerCard:
 	call FillBoxCGB
 	hlcoord 6, 11, wAttrmap
 	lb bc, 2, 4
-	ld a, $2 ; bugsy
+	ld a, $2 ; tpain
 	call FillBoxCGB
 	hlcoord 10, 11, wAttrmap
 	lb bc, 2, 4
@@ -698,7 +698,7 @@ _CGB_TrainerCard:
 	call FillBoxCGB
 	hlcoord 10, 14, wAttrmap
 	lb bc, 2, 4
-	ld a, $7 ; pryce
+	ld a, $7 ; lincoln
 	call FillBoxCGB
 	; peely uses kris's palette
 	ld a, [wPlayerGender]

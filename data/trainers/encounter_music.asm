@@ -6,9 +6,9 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; none
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; big_bird
 	db MUSIC_LASS_ENCOUNTER        ; whitney
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; bugsy
+	db MUSIC_YOUNGSTER_ENCOUNTER   ; tpain
 	db MUSIC_OFFICER_ENCOUNTER     ; jason
-	db MUSIC_OFFICER_ENCOUNTER     ; pryce
+	db MUSIC_OFFICER_ENCOUNTER     ; lincoln
 	db MUSIC_LASS_ENCOUNTER        ; jasmine
 	db MUSIC_OFFICER_ENCOUNTER     ; jose
 	db MUSIC_BEAUTY_ENCOUNTER      ; peely

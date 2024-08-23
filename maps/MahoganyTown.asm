@@ -219,7 +219,7 @@ MahoganyTownRagecandybarSignText:
 MahoganyGymSignText:
 	text "MAHOGANY TOWN"
 	line "ANIMAL GYM"
-	cont "LEADER: PRYCE"
+	cont "LEADER: LINCOLN"
 
 	para "The Teacher of"
 	line "Winter's Harshness"

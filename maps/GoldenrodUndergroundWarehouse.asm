@@ -110,11 +110,14 @@ GoldenrodUndergroundWarehouseUltraBall:
 	refreshscreen
 	opentext
 	writetext FirebirdText
+	waitbutton
+	closetext
 	pokepic FIREBIRD
 	cry FIREBIRD
 	waitbutton
 	closepokepic
 	refreshscreen
+	opentext
 	writetext FirebirdText2
 	yesorno
 	iffalse FirebirdnopeScript

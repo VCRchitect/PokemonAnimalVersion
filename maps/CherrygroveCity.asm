@@ -84,11 +84,13 @@ CherrygroveCityGuideGent:
 	trainerpic OLDMAN
 	writetext GuideGentGiftText
 	promptbutton
+	closetrainpic
 	getstring STRING_BUFFER_4, .mapcardname
 	scall .JumpstdReceiveItem
 	setflag ENGINE_MAP_CARD
 	writetext GotMapCardText
 	promptbutton
+	trainerpic OLDMAN
 	writetext GuideGentPokegearText
 	waitbutton
 	closetrainpic

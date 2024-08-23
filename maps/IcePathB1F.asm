@@ -67,11 +67,13 @@ IcePathB1FIron:
 	opentext
 	writetext YetiText
 	waitbutton
+	closetext
 	pokepic YETI
 	cry YETI
 	waitbutton
 	closepokepic
 	refreshscreen
+	opentext
 	writetext YetiText2
 	yesorno
 	iffalse TriflingYetisScript

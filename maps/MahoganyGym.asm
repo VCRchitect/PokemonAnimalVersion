@@ -1,5 +1,5 @@
 	object_const_def
-	const MAHOGANYGYM_PRYCE
+	const MAHOGANYGYM_LINCOLN
 	const MAHOGANYGYM_BEAUTY1
 	const MAHOGANYGYM_ROCKER1
 	const MAHOGANYGYM_BEAUTY2
@@ -12,22 +12,22 @@ MahoganyGym_MapScripts:
 
 	def_callbacks
 
-MahoganyGymPryceScript:
+MahoganyGymLincolnScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic PRYCE
-	checkevent EVENT_BEAT_PRYCE
+	trainerpic LINCOLN
+	checkevent EVENT_BEAT_LINCOLN
 	iftrue .FightDone
-	writetext PryceText_Intro
+	writetext LincolnText_Intro
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext PryceText_Impressed, 0
-	loadtrainer PRYCE, PRYCE1
+	winlosstext LincolnText_Impressed, 0
+	loadtrainer LINCOLN, LINCOLN1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_PRYCE
+	setevent EVENT_BEAT_LINCOLN
 	opentext
 	writetext Text_ReceivedGlacierBadge
 	playsound SFX_GET_BADGE
@@ -37,30 +37,30 @@ MahoganyGymPryceScript:
 	scall MahoganyGymActivateRockets
 .FightDone:
 	checkevent EVENT_GOT_TM16_ICY_WIND
-	iftrue PryceScript_Defeat
+	iftrue LincolnScript_Defeat
 	setevent EVENT_BEAT_SKIER_ROXANNE
 	setevent EVENT_BEAT_SKIER_CLARISSA
 	setevent EVENT_BEAT_BOARDER_RONALD
 	setevent EVENT_BEAT_BOARDER_BRAD
 	setevent EVENT_BEAT_BOARDER_DOUGLAS
 	refreshscreen
-	trainerpic PRYCE
-	writetext PryceText_GlacierBadgeSpeech
+	trainerpic LINCOLN
+	writetext LincolnText_GlacierBadgeSpeech
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_ICY_WIND
 	iffalse MahoganyGym_NoRoomForIcyWind
 	setevent EVENT_GOT_TM16_ICY_WIND
 	refreshscreen
-	trainerpic PRYCE
-	writetext PryceText_IcyWindSpeech
+	trainerpic LINCOLN
+	writetext LincolnText_IcyWindSpeech
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
-PryceScript_Defeat:
-	writetext PryceText_CherishYourPokemon
+LincolnScript_Defeat:
+	writetext LincolnText_CherishYourPokemon
 	waitbutton
 MahoganyGym_NoRoomForIcyWind:
 	closetrainpic
@@ -153,7 +153,7 @@ MahoganyGymGuideScript:
 	refreshscreen
 	opentext
 	trainerpic GUIDE
-	checkevent EVENT_BEAT_PRYCE
+	checkevent EVENT_BEAT_LINCOLN
 	iftrue .MahoganyGymGuideWinScript
 	writetext MahoganyGymGuideText
 	waitbutton
@@ -173,17 +173,18 @@ MahoganyGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, PRYCE, PRYCE1
+	gettrainername STRING_BUFFER_4, LINCOLN, LINCOLN1
 	jumpstd GymStatue2Script
 
-PryceText_Intro:
-	text "ANIMALs have many"
-	line "experiences in"
+LincolnText_Intro:
+	text "Four score and"
+	line "seven gyms ago,"
+	
+	para "a trainer like you"
+	line "thought they could"
+	cont "win."
 
-	para "their lives, just "
-	line "like we do. "
-
-	para "I, too, have seen"
+	para "I have seen"
 	line "and suffered much"
 	cont "in my life."
 	
@@ -211,14 +212,14 @@ PryceText_Intro:
 	para "Enough about my"
 	line "bad luck in love."
 
-	para "I, PRYCE--the"
+	para "I, LINCOLN--the"
 	line "winter trainer--"
 
 	para "shall demonstrate"
 	line "my power!"
 	done
 
-PryceText_Impressed:
+LincolnText_Impressed:
 	text "Ah, I am impressed"
 	line "by your prowess."
 
@@ -237,7 +238,7 @@ Text_ReceivedGlacierBadge:
 	line "GLACIERBADGE."
 	done
 
-PryceText_GlacierBadgeSpeech:
+LincolnText_GlacierBadgeSpeech:
 	text "That BADGE will"
 	line "raise the SPECIAL"
 	cont "stats of ANIMALs."
@@ -247,11 +248,11 @@ PryceText_GlacierBadgeSpeech:
 	cont "POOL to get across"
 	cont "real whirlpools."
 
-	para "And this... This is"
+	para "And this is"
 	line "a gift from me!"
 	done
 
-PryceText_IcyWindSpeech:
+LincolnText_IcyWindSpeech:
 	text "That TM contains"
 	line "ICY WIND."
 
@@ -264,18 +265,22 @@ PryceText_IcyWindSpeech:
 	
 	para "Or a bitter"
 	line "divorce."
+	
+	para "Or being shot in"
+	line "a theater by an"
+	cont "actor."
 	done
 
-PryceText_CherishYourPokemon:
+LincolnText_CherishYourPokemon:
 	text "When the ice and"
 	line "snow melt, spring"
 	cont "arrives."
 
-	para "You and your ANIMALs"
-	line "will be togeher"
+	para "You and your best"
+	line "ANIMALs will be"
 
-	para "for many, many years"
-	line "to come."
+	para "together for many," 
+	line "many years to come."
 
 	para "Cherish your time"
 	line "together!"
@@ -334,18 +339,18 @@ BoarderBradAfterBattleText:
 	done
 
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
+	text "I know LINCOLN's"
 	line "secret."
 	done
 
 BoarderDouglasBeatenText:
 	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	line "LINCOLN's secret."
 	done
 
 BoarderDouglasAfterBattleText:
 	text "The secret behind"
-	line "PRYCE's power..."
+	line "LINCOLN's power..."
 
 	para "He meditates under"
 	line "a waterfall daily"
@@ -358,7 +363,7 @@ BoarderDouglasAfterBattleText:
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
+	text "To get to LINCOLN,"
 	line "our GYM LEADER,"
 
 	para "you need to think"
@@ -398,7 +403,7 @@ SkierClarissaAfterBattleText:
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE is a veteran"
+	text "LINCOLN is a dude"
 	line "who has trained"
 
 	para "ANIMALs for some"
@@ -418,7 +423,7 @@ MahoganyGymGuideText:
 	done
 
 MahoganyGymGuideWinText:
-	text "PRYCE is some-"
+	text "LINCOLN is some-"
 	line "thing, but you're"
 	cont "something else!"
 
@@ -443,7 +448,7 @@ MahoganyGym_MapEvents:
 	bg_event  6, 15, BGEVENT_READ, MahoganyGymStatue
 
 	def_object_events
-	object_event  5,  3, SPRITE_PRYCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MahoganyGymPryceScript, -1
+	object_event  5,  3, SPRITE_LINCOLN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MahoganyGymLincolnScript, -1
 	object_event  4,  6, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerSkierRoxanne, -1
 	object_event  0, 17, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerBoarderRonald, -1
 	object_event  9, 17, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerSkierClarissa, -1

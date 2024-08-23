@@ -467,7 +467,7 @@ NPCKTextTable::
 
 .040
 	text "You ought not to"
-	line "beat BUGSY like"
+	line "beat TPAIN like"
 	para "that. He's just"
 	line "a boy."
 	done

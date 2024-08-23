@@ -15,11 +15,14 @@ SilverCaveRoom2UltraBall:
 	refreshscreen
 	opentext
 	writetext WendigoText
+	waitbutton
+	closetext
 	pokepic WENDIGO
 	cry WENDIGO
 	waitbutton
 	closepokepic
 	refreshscreen
+	opentext
 	writetext WendigoText2
 	yesorno
 	iffalse WendigonopeScript

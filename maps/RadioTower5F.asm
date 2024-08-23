@@ -179,11 +179,14 @@ RadioTower5FUltraBall:
 	refreshscreen
 	opentext
 	writetext ThundabirdText
+	waitbutton
+	closetext
 	pokepic THUNDABIRD
 	cry THUNDABIRD
 	waitbutton
 	closepokepic
 	refreshscreen
+	opentext
 	writetext ThundabirdText2
 	yesorno
 	iffalse ThundabirdnopeScript

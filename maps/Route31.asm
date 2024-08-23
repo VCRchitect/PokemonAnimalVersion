@@ -291,11 +291,14 @@ Route31Potion:
 	refreshscreen
 	opentext
 	writetext BrainText
+	waitbutton
+	closetext
 	pokepic BRAIN
 	cry BRAIN
 	waitbutton
 	closepokepic
 	refreshscreen
+	opentext
 	writetext BrainText2
 	yesorno
 	iffalse BrainnopeScript

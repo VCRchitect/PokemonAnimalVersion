@@ -33,14 +33,14 @@ NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass WHITNEY ; 2
 	const WHITNEY1
 
-	trainerclass BUGSY ; 3
-	const BUGSY1
+	trainerclass TPAIN ; 3
+	const TPAIN1
 
 	trainerclass JASON ; 4
 	const JASON1
 
-	trainerclass PRYCE ; 5
-	const PRYCE1
+	trainerclass LINCOLN ; 5
+	const LINCOLN1
 
 	trainerclass JASMINE ; 6
 	const JASMINE1
