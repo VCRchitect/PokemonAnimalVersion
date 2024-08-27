@@ -498,7 +498,7 @@ FloriaText2:
 	para "tree, she said"
 	line "it's dangerous."
 
-	para "If I beat WHITNEY,"
+	para "If I beat LARA,"
 	line "I wonder if she'll"
 
 	para "lend me her water"

@@ -3,11 +3,11 @@ TrainerClassDVs:
 	table_width 2, TrainerClassDVs
 	;  atk,def,spd,spc
 	dn  9, 10,  7,  7 ; BIG_BIRD
-	dn  8,  8,  8,  8 ; WHITNEY
+	dn  8,  8,  8,  8 ; LARA
 	dn  9,  8,  8,  8 ; TPAIN
 	dn  9,  8,  8,  8 ; JASON
 	dn  9,  8,  8,  8 ; LINCOLN
-	dn  9,  8,  8,  8 ; JASMINE
+	dn  9,  8,  8,  8 ; DIANA
 	dn  9,  8,  8,  8 ; JOSE
 	dn  7, 12, 13, 13 ; PEELY
 	dn 13, 13, 13, 13 ; RIVAL1

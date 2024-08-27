@@ -1,5 +1,5 @@
 	object_const_def
-	const VERMILIONGYM_SURGE
+	const VERMILIONGYM_ARNOLD
 	const VERMILIONGYM_GENTLEMAN
 	const VERMILIONGYM_ROCKER
 	const VERMILIONGYM_SUPER_NERD
@@ -10,22 +10,22 @@ VermilionGym_MapScripts:
 
 	def_callbacks
 
-VermilionGymSurgeScript:
+VermilionGymArnoldScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic LT_SURGE
+	trainerpic ARNOLD
 	checkflag ENGINE_THUNDERBADGE
 	iftrue .FightDone
-	writetext LtSurgeIntroText
+	writetext ArnoldIntroText
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext LtSurgeWinLossText, 0
-	loadtrainer LT_SURGE, LT_SURGE1
+	winlosstext ArnoldWinLossText, 0
+	loadtrainer ARNOLD, ARNOLD1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_LTSURGE
+	setevent EVENT_BEAT_ARNOLD
 	setevent EVENT_BEAT_GENTLEMAN_GREGORY
 	setevent EVENT_BEAT_GUITARIST_VINCENT
 	setevent EVENT_BEAT_JUGGLER_HORTON
@@ -35,15 +35,15 @@ VermilionGymSurgeScript:
 	waitsfx
 	setflag ENGINE_THUNDERBADGE
 	refreshscreen
-	trainerpic LT_SURGE
-	writetext LtSurgeThunderBadgeText
+	trainerpic ARNOLD
+	writetext ArnoldThunderBadgeText
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .FightDone:
-	writetext LtSurgeFightDoneText
+	writetext ArnoldFightDoneText
 	waitbutton
 	closetrainpic
 	closetext
@@ -96,7 +96,7 @@ VermilionGymGuideScript:
 	refreshscreen
 	opentext
 	trainerpic GUIDE
-	checkevent EVENT_BEAT_LTSURGE
+	checkevent EVENT_BEAT_ARNOLD
 	iftrue .VermilionGymGuideWinScript
 	writetext VermilionGymGuideText
 	waitbutton
@@ -119,11 +119,11 @@ VermilionGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, LT_SURGE, LT_SURGE1
+	gettrainername STRING_BUFFER_4, ARNOLD, ARNOLD1
 	jumpstd GymStatue2Script
 
-LtSurgeIntroText:
-	text "SURGE: Hey, you"
+ArnoldIntroText:
+	text "ARNOLD: Hey, you"
 	line "little tyke!"
 
 	para "I have to hand it"
@@ -145,8 +145,8 @@ LtSurgeIntroText:
 	cont "enemies in war!"
 	done
 
-LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
+ArnoldWinLossText:
+	text "ARNOLD: Arrrgh!"
 	line "You are strong!"
 
 	para "OK, kid. You get"
@@ -158,8 +158,8 @@ ReceivedThunderBadgeText:
 	line "THUNDERBADGE."
 	done
 
-LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
+ArnoldThunderBadgeText:
+	text "ARNOLD: THUNDER-"
 	line "BADGE increases"
 	cont "ANIMALs' speed. "
 
@@ -170,8 +170,8 @@ LtSurgeThunderBadgeText:
 	line "proudly, hear?"
 	done
 
-LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
+ArnoldFightDoneText:
+	text "ARNOLD: Hey, kid!"
 	line "Still slugging and"
 	cont "chugging away?"
 
@@ -181,7 +181,7 @@ LtSurgeFightDoneText:
 
 GentlemanGregorySeenText:
 	text "You're here to"
-	line "defeat LT.SURGE?"
+	line "defeat ARNOLD?"
 
 	para "Not if I can help"
 	line "it!"
@@ -189,20 +189,20 @@ GentlemanGregorySeenText:
 
 GentlemanGregoryBeatenText:
 	text "Sorry I failed"
-	line "you, LT.SURGE,"
+	line "you, ARNOLD,"
 	cont "sir!"
 	done
 
 GentlemanGregoryAfterBattleText:
 	text "When I was still"
-	line "in the army, LT."
+	line "in the army,"
 
-	para "SURGE saved my"
+	para "ARNOLD saved my"
 	line "life."
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
+	text "ARNOLD recog-"
 	line "nized my potential"
 
 	para "with electric"
@@ -240,7 +240,7 @@ JugglerHortonAfterBattleText:
 	line "fortable about"
 
 	para "beating me..."
-	line "LT.SURGE is tough."
+	line "ARNOLD is tough."
 	done
 
 VermilionGymGuideText:
@@ -250,7 +250,7 @@ VermilionGymGuideText:
 	para "You lucked out"
 	line "this time."
 
-	para "LT.SURGE is very"
+	para "ARNOLD is very"
 	line "cautious. He has"
 
 	para "traps set all over"
@@ -262,7 +262,7 @@ VermilionGymGuideText:
 
 	para "You'll have no"
 	line "problem getting to"
-	cont "LT.SURGE."
+	cont "ARNOLD."
 	done
 
 VermilionGymGuideWinText:
@@ -307,7 +307,7 @@ VermilionGym_MapEvents:
 	bg_event  6, 15, BGEVENT_READ, VermilionGymStatue
 
 	def_object_events
-	object_event  5,  2, SPRITE_SURGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VermilionGymSurgeScript, -1
+	object_event  5,  2, SPRITE_ARNOLD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VermilionGymArnoldScript, -1
 	object_event  8,  8, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerGentlemanGregory, -1
 	object_event  4,  7, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 3, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerGuitaristVincent, -1
 	object_event  0, 10, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerJugglerHorton, -1

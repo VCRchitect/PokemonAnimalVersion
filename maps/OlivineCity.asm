@@ -242,7 +242,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "OLIVINE CITY"
 	line "ANIMAL GYM"
-	cont "LEADER: JASMINE"
+	cont "LEADER: DIANA"
 
 	para "The Steel-Clad"
 	line "Defense Girl"

@@ -30,8 +30,8 @@ NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass BIG_BIRD ; 1
 	const BIG_BIRD1
 
-	trainerclass WHITNEY ; 2
-	const WHITNEY1
+	trainerclass LARA ; 2
+	const LARA1
 
 	trainerclass TPAIN ; 3
 	const TPAIN1
@@ -42,8 +42,8 @@ NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass LINCOLN ; 5
 	const LINCOLN1
 
-	trainerclass JASMINE ; 6
-	const JASMINE1
+	trainerclass DIANA ; 6
+	const DIANA1
 
 	trainerclass JOSE ; 7
 	const JOSE1
@@ -96,8 +96,8 @@ NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass MISTY ; 12
 	const MISTY1
 
-	trainerclass LT_SURGE ; 13
-	const LT_SURGE1
+	trainerclass ARNOLD ; 13
+	const ARNOLD1
 
 	trainerclass SCIENTIST ; 14
 	const ROSS
@@ -351,7 +351,7 @@ NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	trainerclass FISHER ; 25
 	const JUSTIN
 	const RALPH1
-	const ARNOLD
+	const ARNIE
 	const KYLE
 	const HENRY
 	const MARVIN
@@ -416,7 +416,7 @@ NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const LORI
 	const JODY ; unused
 	const NIKKI
-	const DIANA
+	const DIANE
 	const BRIANA
 
 	trainerclass SAILOR ; 28

@@ -198,11 +198,11 @@ LizSalonGossipText:
 	line "whom I should use..."
 	done
 
-LizWhitneyGossipText:
+LizLaraGossipText:
 	text "Listen, listen!"
 
 	para "GOLDENROD GYM's"
-	line "WHITNEY began"
+	line "LARA began"
 
 	para "battling only a"
 	line "little while ago!"

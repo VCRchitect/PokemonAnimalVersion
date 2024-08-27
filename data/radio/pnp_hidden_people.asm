@@ -10,7 +10,7 @@ PnP_HiddenPeople:
 PnP_HiddenPeople_BeatE4:
 	db KID_ROCK
 	db MISTY
-	db LT_SURGE
+	db ARNOLD
 	db ERIKA
 	db JANINE
 	db SABRINA

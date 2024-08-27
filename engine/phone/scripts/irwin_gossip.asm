@@ -17,8 +17,8 @@ IrwinRumorScript:
 	iftrue .RadioTower
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
 	iftrue .RocketHideout
-	checkevent EVENT_JASMINE_RETURNED_TO_GYM
-	iftrue .JasmineReturned
+	checkevent EVENT_DIANA_RETURNED_TO_GYM
+	iftrue .DianaReturned
 	checkflag ENGINE_FOGBADGE
 	iftrue .FogBadge
 	checkflag ENGINE_PLAINBADGE
@@ -32,8 +32,8 @@ IrwinRumorScript:
 	promptbutton
 	sjump PhoneScript_HangUpText_Male
 
-.JasmineReturned:
-	farwritetext IrwinJasmineReturnedGossipText
+.DianaReturned:
+	farwritetext IrwinDianaReturnedGossipText
 	promptbutton
 	sjump PhoneScript_HangUpText_Male
 

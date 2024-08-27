@@ -1,5 +1,5 @@
 	object_const_def
-	const GOLDENRODGYM_WHITNEY
+	const GOLDENRODGYM_LARA
 	const GOLDENRODGYM_LASS1
 	const GOLDENRODGYM_LASS2
 	const GOLDENRODGYM_BEAUTY1
@@ -9,7 +9,7 @@
 GoldenrodGym_MapScripts:
 	def_scene_scripts
 	scene_script .DummyScene0 ; SCENE_GOLDENRODGYM_NOTHING
-	scene_script .DummyScene1 ; SCENE_GOLDENRODGYM_WHITNEY_STOPS_CRYING
+	scene_script .DummyScene1 ; SCENE_GOLDENRODGYM_LARA_STOPS_CRYING
 
 	def_callbacks
 
@@ -19,24 +19,24 @@ GoldenrodGym_MapScripts:
 .DummyScene1:
 	end
 
-GoldenrodGymWhitneyScript:
+GoldenrodGymLaraScript:
 	faceplayer
 	refreshscreen
-	checkevent EVENT_BEAT_WHITNEY
+	checkevent EVENT_BEAT_LARA
 	iftrue .FightDone
 	opentext
-	trainerpic WHITNEY
-	writetext WhitneyBeforeText
+	trainerpic LARA
+	writetext LaraBeforeText
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext WhitneyShouldntBeSoSeriousText, 0
-	loadtrainer WHITNEY, WHITNEY1
+	winlosstext LaraShouldntBeSoSeriousText, 0
+	loadtrainer LARA, LARA1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_WHITNEY
-	setevent EVENT_MADE_WHITNEY_CRY
-	setscene SCENE_GOLDENRODGYM_WHITNEY_STOPS_CRYING
+	setevent EVENT_BEAT_LARA
+	setevent EVENT_MADE_LARA_CRY
+	setscene SCENE_GOLDENRODGYM_LARA_STOPS_CRYING
 	setevent EVENT_BEAT_BEAUTY_VICTORIA
 	setevent EVENT_BEAT_BEAUTY_SAMANTHA
 	setevent EVENT_BEAT_LASS_CARRIE
@@ -44,10 +44,10 @@ GoldenrodGymWhitneyScript:
 .FightDone:
 	refreshscreen
 	opentext
-	trainerpic WHITNEY
-	checkevent EVENT_MADE_WHITNEY_CRY
+	trainerpic LARA
+	checkevent EVENT_MADE_LARA_CRY
 	iffalse .StoppedCrying
-	writetext WhitneyYouMeanieText
+	writetext LaraYouMeanieText
 	waitbutton
 	closetrainpic
 	closetext
@@ -58,7 +58,7 @@ GoldenrodGymWhitneyScript:
 	iftrue .GotAttract
 	checkflag ENGINE_PLAINBADGE
 	iftrue .GotPlainBadge
-	writetext WhitneyWhatDoYouWantText
+	writetext LaraWhatDoYouWantText
 	promptbutton
 	closetrainpic
 	waitsfx
@@ -70,24 +70,24 @@ GoldenrodGymWhitneyScript:
 	scall GoldenrodGymActivateRockets
 .GotPlainBadge:
 	refreshscreen
-	trainerpic WHITNEY
-	writetext WhitneyPlainBadgeText
+	trainerpic LARA
+	writetext LaraPlainBadgeText
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_ATTRACT
 	iffalse .NoRoomForAttract
 	setevent EVENT_GOT_TM45_ATTRACT
 	refreshscreen
-	trainerpic WHITNEY
-	writetext WhitneyAttractText
+	trainerpic LARA
+	writetext LaraAttractText
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .GotAttract:
-	trainerpic WHITNEY
-	writetext WhitneyGoodCryText
+	trainerpic LARA
+	writetext LaraGoodCryText
 	waitbutton
 .NoRoomForAttract:
 	closetrainpic
@@ -119,20 +119,20 @@ TrainerLassCarrie:
 	closetext
 	end
 
-WhitneyCriesScript:
+LaraCriesScript:
 	showemote EMOTE_SHOCK, GOLDENRODGYM_LASS2, 15
 	applymovement GOLDENRODGYM_LASS2, BridgetWalksUpMovement
 	turnobject PLAYER, DOWN
 	refreshscreen
 	opentext
 	trainerpic LASS
-	writetext BridgetWhitneyCriesText
+	writetext BridgetLaraCriesText
 	waitbutton
 	closetrainpic
 	closetext
 	applymovement GOLDENRODGYM_LASS2, BridgetWalksAwayMovement
 	setscene SCENE_GOLDENRODGYM_NOTHING
-	clearevent EVENT_MADE_WHITNEY_CRY
+	clearevent EVENT_MADE_LARA_CRY
 	end
 
 TrainerLassBridget:
@@ -180,7 +180,7 @@ TrainerBeautySamantha:
 GoldenrodGymGuideScript:
 	faceplayer
 	refreshscreen
-	checkevent EVENT_BEAT_WHITNEY
+	checkevent EVENT_BEAT_LARA
 	iftrue .GoldenrodGymGuideWinScript
 	opentext
 	trainerpic GUIDE
@@ -204,7 +204,7 @@ GoldenrodGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, WHITNEY, WHITNEY1
+	gettrainername STRING_BUFFER_4, LARA, LARA1
 	jumpstd GymStatue2Script
 
 BridgetWalksUpMovement:
@@ -217,8 +217,8 @@ BridgetWalksAwayMovement:
 	turn_head LEFT
 	step_end
 
-WhitneyBeforeText:
-	text "Hi! I'm WHITNEY!"
+LaraBeforeText:
+	text "Hi! I'm LARA!"
 
 	para "Everyone was into"
 	line "ANIMALs, so I got"
@@ -236,7 +236,7 @@ WhitneyBeforeText:
 	
 	done
 
-WhitneyShouldntBeSoSeriousText:
+LaraShouldntBeSoSeriousText:
 	text "Sob..."
 
 	para "...Waaaaaaah!"
@@ -250,7 +250,7 @@ WhitneyShouldntBeSoSeriousText:
 	line "a brick!"
 	done
 
-WhitneyYouMeanieText:
+LaraYouMeanieText:
 	text "Waaaaah!"
 
 	para "Waaaaah!"
@@ -262,7 +262,7 @@ WhitneyYouMeanieText:
 	line "bitch ass ho!"
 	done
 
-WhitneyWhatDoYouWantText:
+LaraWhatDoYouWantText:
 	text "...Sniff..."
 
 	para "What? What do you"
@@ -278,7 +278,7 @@ PlayerReceivedPlainBadgeText:
 	line "PLAINBADGE."
 	done
 
-WhitneyPlainBadgeText:
+LaraPlainBadgeText:
 	text "PLAINBADGE lets"
 	line "your ANIMALs use"
 
@@ -293,7 +293,7 @@ WhitneyPlainBadgeText:
 	line "this too!"
 	done
 
-WhitneyAttractText:
+LaraAttractText:
 	text "It's ATTRACT!"
 	line "It makes full use"
 
@@ -311,7 +311,7 @@ WhitneyAttractText:
 	line "agree with me."
 	done
 
-WhitneyGoodCryText:
+LaraGoodCryText:
 	text "Ah, that was a"
 	line "good cry!"
 
@@ -356,7 +356,7 @@ LassBridgetBeatenText:
 
 LassBridgetAfterBattleText:
 	text "I'm trying to beat"
-	line "WHITNEY, but..."
+	line "LARA, but..."
 	cont "It's depressing."
 
 	para "I'm okay! If I"
@@ -366,9 +366,9 @@ LassBridgetAfterBattleText:
 	line "time!"
 	done
 
-BridgetWhitneyCriesText:
+BridgetLaraCriesText:
 	text "Oh, no. You made"
-	line "WHITNEY cry."
+	line "LARA cry."
 
 	para "It's OK. She'll"
 	line "stop soon. She"
@@ -449,14 +449,14 @@ GoldenrodGym_MapEvents:
 	warp_event  3, 17, GOLDENROD_CITY, 1
 
 	def_coord_events
-	coord_event  8,  5, SCENE_GOLDENRODGYM_WHITNEY_STOPS_CRYING, WhitneyCriesScript
+	coord_event  8,  5, SCENE_GOLDENRODGYM_LARA_STOPS_CRYING, LaraCriesScript
 
 	def_bg_events
 	bg_event  1, 15, BGEVENT_READ, GoldenrodGymStatue
 	bg_event  4, 15, BGEVENT_READ, GoldenrodGymStatue
 
 	def_object_events
-	object_event  8,  3, SPRITE_WHITNEY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGymWhitneyScript, -1
+	object_event  8,  3, SPRITE_LARA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGymLaraScript, -1
 	object_event  9, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerLassCarrie, -1
 	object_event  9,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerLassBridget, -1
 	object_event  0,  2, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBeautyVictoria, -1

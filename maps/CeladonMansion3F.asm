@@ -180,7 +180,7 @@ GameFreakCharacterDesignerText:
 	text "Aren't the TWINS"
 	line "adorable?"
 
-	para "JASMINE's pretty"
+	para "DIANA's pretty"
 	line "too."
 
 	para "Oh, I love them!"

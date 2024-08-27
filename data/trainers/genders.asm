@@ -4,11 +4,11 @@ BTTrainerClassGenders:
 ; entries correspond to trainer classes
 	table_width 1, BTTrainerClassGenders
 	db MALE   ; BIG_BIRD
-	db FEMALE ; WHITNEY
+	db FEMALE ; LARA
 	db FEMALE ; TPAIN
 	db MALE   ; JASON
 	db MALE   ; LINCOLN
-	db FEMALE ; JASMINE
+	db FEMALE ; DIANA
 	db MALE   ; JOSE
 	db FEMALE ; PEELY
 	db MALE   ; RIVAL1

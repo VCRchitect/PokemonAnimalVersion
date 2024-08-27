@@ -443,7 +443,7 @@ GoldenrodDeptStoreSignText:
 GoldenrodGymSignText:
 	text "GOLDENROD CITY"
 	line "ANIMAL GYM"
-	cont "LEADER: WHITNEY"
+	cont "LEADER: LARA"
 
 	para "The Incredibly"
 	line "Pretty Girl! That"

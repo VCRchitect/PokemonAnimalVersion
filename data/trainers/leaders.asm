@@ -6,11 +6,11 @@
 
 GymLeaders:
 	db BIG_BIRD
-	db WHITNEY
+	db LARA
 	db TPAIN
 	db JASON
 	db LINCOLN
-	db JASMINE
+	db DIANA
 	db JOSE
 	db PEELY
 	db WILL
@@ -23,7 +23,7 @@ GymLeaders:
 KantoGymLeaders:
 	db KID_ROCK
 	db MISTY
-	db LT_SURGE
+	db ARNOLD
 	db ERIKA
 	db JANINE
 	db SABRINA

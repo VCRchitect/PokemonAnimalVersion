@@ -23,13 +23,13 @@ IrwinPlainBadgeGossipText:
 	text "<PLAY_G>, I heard!"
 
 	para "You defeated that"
-	line "WHITNEY?"
+	line "LARA?"
 
 	para "It makes me proud"
 	line "to be your friend!"
 	done
 
-IrwinJasmineReturnedGossipText:
+IrwinDianaReturnedGossipText:
 	text "Hey, I heard about"
 	line "you!"
 

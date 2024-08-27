@@ -77,16 +77,16 @@ EcruteakCityFisherScript:
 	refreshscreen
 	opentext
 	trainerpic FISHER
-	checkevent EVENT_JASMINE_RETURNED_TO_GYM
-	iftrue .JasmineReturned
+	checkevent EVENT_DIANA_RETURNED_TO_GYM
+	iftrue .DianaReturned
 	writetext EcruteakCityFisherText
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
-.JasmineReturned:
-	writetext EcruteakCityFisherText_JasmineReturned
+.DianaReturned:
+	writetext EcruteakCityFisherText_DianaReturned
 	waitbutton
 	closetrainpic
 	closetext
@@ -207,7 +207,7 @@ EcruteakCityFisherText:
 	cont "are in trouble."
 	done
 
-EcruteakCityFisherText_JasmineReturned:
+EcruteakCityFisherText_DianaReturned:
 	text "The ANIMAL at"
 	line "OLIVINE LIGHTHOUSE"
 	cont "has been cured."

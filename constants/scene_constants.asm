@@ -87,7 +87,7 @@ SCENE_ALWAYS   EQU -1
 ; wGoldenrodGymSceneID
 	const_def
 	const SCENE_GOLDENRODGYM_NOTHING              ; 0
-	const SCENE_GOLDENRODGYM_WHITNEY_STOPS_CRYING ; 1
+	const SCENE_GOLDENRODGYM_LARA_STOPS_CRYING ; 1
 
 ; wRoute42SceneID
 	const_def

@@ -1,5 +1,5 @@
 	object_const_def
-	const OLIVINEGYM_JASMINE
+	const OLIVINEGYM_DIANA
 	const OLIVINEGYM_GYM_GUIDE
 
 OlivineGym_MapScripts:
@@ -7,22 +7,22 @@ OlivineGym_MapScripts:
 
 	def_callbacks
 
-OlivineGymJasmineScript:
+OlivineGymDianaScript:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic JASMINE
-	checkevent EVENT_BEAT_JASMINE
+	trainerpic DIANA
+	checkevent EVENT_BEAT_DIANA
 	iftrue .FightDone
-	writetext Jasmine_SteelTypeIntro
+	writetext Diana_SteelTypeIntro
 	waitbutton
 	closetrainpic
 	closetext
-	winlosstext Jasmine_BetterTrainer, 0
-	loadtrainer JASMINE, JASMINE1
+	winlosstext Diana_BetterTrainer, 0
+	loadtrainer DIANA, DIANA1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_JASMINE
+	setevent EVENT_BEAT_DIANA
 	refreshscreen
 	opentext
 	writetext Text_ReceivedMineralBadge
@@ -35,23 +35,23 @@ OlivineGymJasmineScript:
 	checkevent EVENT_GOT_TM23_IRON_TAIL
 	iftrue .GotIronTail
 	refreshscreen
-	trainerpic JASMINE
-	writetext Jasmine_BadgeSpeech
+	trainerpic DIANA
+	writetext Diana_BadgeSpeech
 	promptbutton
 	closetrainpic
 	verbosegiveitem TM_IRON_TAIL
 	iffalse .NoRoomForIronTail
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	refreshscreen
-	trainerpic JASMINE
-	writetext Jasmine_IronTailSpeech
+	trainerpic DIANA
+	writetext Diana_IronTailSpeech
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .GotIronTail:
-	writetext Jasmine_GoodLuck
+	writetext Diana_GoodLuck
 	waitbutton
 .NoRoomForIronTail:
 	closetrainpic
@@ -72,9 +72,9 @@ OlivineGymActivateRockets:
 OlivineGymGuideScript:
 	faceplayer
 	refreshscreen
-	checkevent EVENT_BEAT_JASMINE
+	checkevent EVENT_BEAT_DIANA
 	iftrue .OlivineGymGuideWinScript
-	checkevent EVENT_JASMINE_RETURNED_TO_GYM
+	checkevent EVENT_DIANA_RETURNED_TO_GYM
 	iffalse .OlivineGymGuidePreScript
 	trainerpic GUIDE
 	opentext
@@ -109,10 +109,10 @@ OlivineGymStatue:
 	iftrue .Beaten
 	jumpstd GymStatue1Script
 .Beaten:
-	gettrainername STRING_BUFFER_4, JASMINE, JASMINE1
+	gettrainername STRING_BUFFER_4, DIANA, DIANA1
 	jumpstd GymStatue2Script
 
-Jasmine_SteelTypeIntro:
+Diana_SteelTypeIntro:
 	text "...Thank you for"
 	line "your help at the"
 	cont "LIGHTHOUSE..."
@@ -123,7 +123,7 @@ Jasmine_SteelTypeIntro:
 	para "allow me to intro-"
 	line "duce myself."
 
-	para "I am JASMINE, a"
+	para "I am DIANA, a"
 	line "GYM LEADER. I use"
 	cont "the steel-type."
 
@@ -137,7 +137,7 @@ Jasmine_SteelTypeIntro:
 	para "Um... May I begin?"
 	done
 
-Jasmine_BetterTrainer:
+Diana_BetterTrainer:
 	text "You are a better"
 	line "trainer than me,"
 
@@ -156,7 +156,7 @@ Text_ReceivedMineralBadge:
 	line "MINERALBADGE."
 	done
 
-Jasmine_BadgeSpeech:
+Diana_BadgeSpeech:
 	text "MINERALBADGE"
 	line "raises ANIMALs'"
 	cont "DEFENSE."
@@ -170,20 +170,20 @@ Text_ReceivedTM09: ; unreferenced
 	line "TM09."
 	done
 
-Jasmine_IronTailSpeech:
+Diana_IronTailSpeech:
 	text "...You could use"
 	line "that TM to teach"
 	cont "IRON TAIL."
 	done
 
-Jasmine_GoodLuck:
+Diana_GoodLuck:
 	text "Um... I don't know"
 	line "how to say this,"
 	cont "but good luck..."
 	done
 
 OlivineGymGuideText:
-	text "JASMINE uses the"
+	text "DIANA uses the"
 	line "newly discovered"
 	cont "steel-type."
 
@@ -203,7 +203,7 @@ OlivineGymGuideWinText:
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, the GYM"
+	text "DIANA, the GYM"
 	line "LEADER, is at the"
 	cont "LIGHTHOUSE."
 
@@ -229,5 +229,5 @@ OlivineGym_MapEvents:
 	bg_event  6, 13, BGEVENT_READ, OlivineGymStatue
 
 	def_object_events
-	object_event  5,  3, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineGymJasmineScript, EVENT_OLIVINE_GYM_JASMINE
+	object_event  5,  3, SPRITE_DIANA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineGymDianaScript, EVENT_OLIVINE_GYM_DIANA
 	object_event  7, 13, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineGymGuideScript, -1

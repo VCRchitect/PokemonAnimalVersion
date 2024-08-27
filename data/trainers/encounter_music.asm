@@ -5,11 +5,11 @@ TrainerEncounterMusic::
 	table_width 1, TrainerEncounterMusic
 	db MUSIC_HIKER_ENCOUNTER       ; none
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; big_bird
-	db MUSIC_LASS_ENCOUNTER        ; whitney
+	db MUSIC_LASS_ENCOUNTER        ; lara
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; tpain
 	db MUSIC_OFFICER_ENCOUNTER     ; jason
 	db MUSIC_OFFICER_ENCOUNTER     ; lincoln
-	db MUSIC_LASS_ENCOUNTER        ; jasmine
+	db MUSIC_LASS_ENCOUNTER        ; diana
 	db MUSIC_OFFICER_ENCOUNTER     ; jose
 	db MUSIC_BEAUTY_ENCOUNTER      ; peely
 	db MUSIC_RIVAL_ENCOUNTER       ; rival1
@@ -22,7 +22,7 @@ TrainerEncounterMusic::
 	db MUSIC_OFFICER_ENCOUNTER     ; champion
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; kid_rock
 	db MUSIC_LASS_ENCOUNTER        ; misty
-	db MUSIC_OFFICER_ENCOUNTER     ; lt_surge
+	db MUSIC_OFFICER_ENCOUNTER     ; arnold
 	db MUSIC_ROCKET_ENCOUNTER      ; scientist
 	db MUSIC_OFFICER_ENCOUNTER     ; erika
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; youngster

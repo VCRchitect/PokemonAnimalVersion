@@ -1,5 +1,5 @@
 	object_const_def
-	const OLIVINELIGHTHOUSE6F_JASMINE
+	const OLIVINELIGHTHOUSE6F_DIANA
 	const OLIVINELIGHTHOUSE6F_MONSTER
 	const OLIVINELIGHTHOUSE6F_POKE_BALL
 
@@ -8,27 +8,27 @@ OlivineLighthouse6F_MapScripts:
 
 	def_callbacks
 
-OlivineLighthouseJasmine:
+OlivineLighthouseDiana:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic JASMINE
+	trainerpic DIANA
 	checkitem SECRETPOTION
 	iftrue .BroughtSecretpotion
-	checkevent EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
+	checkevent EVENT_DIANA_EXPLAINED_AMPHYS_SICKNESS
 	iftrue .ExplainedSickness
-	writetext JasmineCianwoodPharmacyText
+	writetext DianaCianwoodPharmacyText
 	promptbutton
-	setevent EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
+	setevent EVENT_DIANA_EXPLAINED_AMPHYS_SICKNESS
 .ExplainedSickness:
-	writetext JasmineGetSomeMedicineText
+	writetext DianaGetSomeMedicineText
 	waitbutton
 	closetrainpic
 	closetext
 	end
 
 .BroughtSecretpotion:
-	writetext JasmineCureAmphyText
+	writetext DianaCureAmphyText
 	closetrainpic
 	yesorno
 	iffalse .Refused
@@ -36,19 +36,19 @@ OlivineLighthouseJasmine:
 	promptbutton
 	takeitem SECRETPOTION
 	refreshscreen
-	trainerpic JASMINE
-	writetext JasmineDontBeOffendedText
+	trainerpic DIANA
+	writetext DianaDontBeOffendedText
 	waitbutton
 	closetrainpic
 	closetext
-	turnobject OLIVINELIGHTHOUSE6F_JASMINE, RIGHT
+	turnobject OLIVINELIGHTHOUSE6F_DIANA, RIGHT
 	pause 15
 	turnobject OLIVINELIGHTHOUSE6F_MONSTER, LEFT
 	opentext
 	playmusic MUSIC_HEAL
 	refreshscreen
-	trainerpic JASMINE
-	writetext JasmineAmphyHowAreYouFeelingText
+	trainerpic DIANA
+	writetext DianaAmphyHowAreYouFeelingText
 	pause 60
 	promptbutton
 	closetrainpic
@@ -76,44 +76,44 @@ OlivineLighthouseJasmine:
 	faceplayer
 	refreshscreen
 	opentext
-	trainerpic JASMINE
-	writetext JasmineThankYouText
+	trainerpic DIANA
+	writetext DianaThankYouText
 	waitbutton
 	closetrainpic
 	closetext
-	setevent EVENT_JASMINE_RETURNED_TO_GYM
-	clearevent EVENT_OLIVINE_GYM_JASMINE
+	setevent EVENT_DIANA_RETURNED_TO_GYM
+	clearevent EVENT_OLIVINE_GYM_DIANA
 	readvar VAR_FACING
 	ifequal DOWN, .FacingDown
 	ifequal RIGHT, .FacingRight
-	applymovement OLIVINELIGHTHOUSE6F_JASMINE, OlivineLighthouseJasmineLeavesUpMovement
-	disappear OLIVINELIGHTHOUSE6F_JASMINE
+	applymovement OLIVINELIGHTHOUSE6F_DIANA, OlivineLighthouseDianaLeavesUpMovement
+	disappear OLIVINELIGHTHOUSE6F_DIANA
 	end
 
 .FacingDown:
-	applymovement OLIVINELIGHTHOUSE6F_JASMINE, OlivineLighthouseJasmineLeavesDownMovement
-	disappear OLIVINELIGHTHOUSE6F_JASMINE
+	applymovement OLIVINELIGHTHOUSE6F_DIANA, OlivineLighthouseDianaLeavesDownMovement
+	disappear OLIVINELIGHTHOUSE6F_DIANA
 	end
 
 .FacingRight:
-	applymovement OLIVINELIGHTHOUSE6F_JASMINE, OlivineLighthouseJasmineLeavesRightMovement
-	disappear OLIVINELIGHTHOUSE6F_JASMINE
+	applymovement OLIVINELIGHTHOUSE6F_DIANA, OlivineLighthouseDianaLeavesRightMovement
+	disappear OLIVINELIGHTHOUSE6F_DIANA
 	end
 
 .Refused:
 	refreshscreen
-	trainerpic JASMINE
-	writetext JasmineISeeText
+	trainerpic DIANA
+	writetext DianaISeeText
 	waitbutton
 	closetrainpic
 	closetext
-	turnobject OLIVINELIGHTHOUSE6F_JASMINE, RIGHT
+	turnobject OLIVINELIGHTHOUSE6F_DIANA, RIGHT
 	pause 15
 	turnobject OLIVINELIGHTHOUSE6F_MONSTER, LEFT
 	refreshscreen
 	opentext
-	trainerpic JASMINE
-	writetext JasmineAmphyHangOnText
+	trainerpic DIANA
+	writetext DianaAmphyHangOnText
 	waitbutton
 	closetrainpic
 	closetext
@@ -127,7 +127,7 @@ OlivineLighthouseAmphy:
 	refreshscreen
 	opentext
 	pokepic RAM
-	checkevent EVENT_JASMINE_RETURNED_TO_GYM
+	checkevent EVENT_DIANA_RETURNED_TO_GYM
 	iftrue .HealthyNow
 	writetext AmphyPalPalooText
 	setval RAM
@@ -153,7 +153,7 @@ OlivineLighthouseAmphy:
 OlivineLighthouse6FSuperPotion:
 	itemball SUPER_POTION
 
-OlivineLighthouseJasmineLeavesUpMovement:
+OlivineLighthouseDianaLeavesUpMovement:
 	slow_step UP
 	slow_step UP
 	slow_step RIGHT
@@ -163,7 +163,7 @@ OlivineLighthouseJasmineLeavesUpMovement:
 	step_sleep 8
 	step_end
 
-OlivineLighthouseJasmineLeavesDownMovement:
+OlivineLighthouseDianaLeavesDownMovement:
 	slow_step DOWN
 	slow_step RIGHT
 	slow_step RIGHT
@@ -174,7 +174,7 @@ OlivineLighthouseJasmineLeavesDownMovement:
 	slow_step RIGHT
 	step_end
 
-OlivineLighthouseJasmineLeavesRightMovement:
+OlivineLighthouseDianaLeavesRightMovement:
 	slow_step UP
 	slow_step UP
 	slow_step RIGHT
@@ -184,8 +184,8 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_sleep 8
 	step_end
 
-JasmineCianwoodPharmacyText:
-	text "JASMINE: This"
+DianaCianwoodPharmacyText:
+	text "DIANA: This"
 	line "ANIMAL always"
 
 	para "kept the sea lit"
@@ -208,14 +208,14 @@ JasmineCianwoodPharmacyText:
 	line "AMPHY unattended..."
 	done
 
-JasmineGetSomeMedicineText:
+DianaGetSomeMedicineText:
 	text "May I ask you to"
 	line "get some medicine"
 	cont "for me? Please?"
 	done
 
-JasmineCureAmphyText:
-	text "JASMINE: ...Will"
+DianaCureAmphyText:
+	text "DIANA: ...Will"
 	line "that medicine cure"
 	cont "AMPHY?"
 	done
@@ -223,11 +223,11 @@ JasmineCureAmphyText:
 PlayerHandedSecretpotionText:
 	text "<PLAYER> handed the"
 	line "SECRETPOTION to"
-	cont "JASMINE."
+	cont "DIANA."
 	done
 
-JasmineDontBeOffendedText:
-	text "JASMINE: ...Um,"
+DianaDontBeOffendedText:
+	text "DIANA: ...Um,"
 	line "please don't be"
 	cont "offended..."
 
@@ -236,15 +236,15 @@ JasmineDontBeOffendedText:
 	cont "anyone but me..."
 	done
 
-JasmineAmphyHowAreYouFeelingText:
-	text "JASMINE: ..."
+DianaAmphyHowAreYouFeelingText:
+	text "DIANA: ..."
 
 	para "AMPHY, how are you"
 	line "feeling?"
 	done
 
-JasmineThankYouText:
-	text "JASMINE: Oh, I'm"
+DianaThankYouText:
+	text "DIANA: Oh, I'm"
 	line "so relieved..."
 
 	para "This is just so"
@@ -257,11 +257,11 @@ JasmineThankYouText:
 	line "the GYM..."
 	done
 
-JasmineISeeText:
-	text "JASMINE: ...I see."
+DianaISeeText:
+	text "DIANA: ...I see."
 	done
 
-JasmineAmphyHangOnText:
+DianaAmphyHangOnText:
 	text "...AMPHY, hang on!"
 	done
 
@@ -293,6 +293,6 @@ OlivineLighthouse6F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  8,  8, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseJasmine, EVENT_OLIVINE_LIGHTHOUSE_JASMINE
+	object_event  8,  8, SPRITE_DIANA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseDiana, EVENT_OLIVINE_LIGHTHOUSE_DIANA
 	object_event  9,  8, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseAmphy, -1
 	object_event  3,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OlivineLighthouse6FSuperPotion, EVENT_OLIVINE_LIGHTHOUSE_6F_SUPER_POTION

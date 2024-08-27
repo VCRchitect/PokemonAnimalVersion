@@ -10,11 +10,11 @@ PlayerPalette: ; Chris uses the same colors as Cal
 INCBIN "gfx/trainers/cal.gbcpal", middle_colors
 KrisPalette: ; Kris shares Big_Bird's palette
 INCBIN "gfx/trainers/big_bird.gbcpal", middle_colors
-INCBIN "gfx/trainers/whitney.gbcpal", middle_colors
+INCBIN "gfx/trainers/lara.gbcpal", middle_colors
 INCBIN "gfx/trainers/tpain.gbcpal", middle_colors
 INCBIN "gfx/trainers/jason.gbcpal", middle_colors
 INCBIN "gfx/trainers/lincoln.gbcpal", middle_colors
-INCBIN "gfx/trainers/jasmine.gbcpal", middle_colors
+INCBIN "gfx/trainers/diana.gbcpal", middle_colors
 INCBIN "gfx/trainers/jose.gbcpal", middle_colors
 INCBIN "gfx/trainers/peely.gbcpal", middle_colors
 INCBIN "gfx/trainers/rival1.gbcpal", middle_colors
@@ -27,7 +27,7 @@ INCBIN "gfx/trainers/koga.gbcpal", middle_colors
 INCBIN "gfx/trainers/champion.gbcpal", middle_colors
 INCBIN "gfx/trainers/kid_rock.gbcpal", middle_colors
 INCBIN "gfx/trainers/misty.gbcpal", middle_colors
-INCBIN "gfx/trainers/lt_surge.gbcpal", middle_colors
+INCBIN "gfx/trainers/arnold.gbcpal", middle_colors
 INCBIN "gfx/trainers/scientist.gbcpal", middle_colors
 INCBIN "gfx/trainers/erika.gbcpal", middle_colors
 INCBIN "gfx/trainers/youngster.gbcpal", middle_colors

@@ -261,13 +261,13 @@ VermilionCitySignText:
 VermilionGymSignText:
 	text "VERMILION CITY"
 	line "ANIMAL GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: ARNOLD"
 
-	para "The Lightning"
-	line "American,"
-	para "But he's got"
-	line "nothing on my boy"
-	cont "Bandit Keith."
+	para "Mr. Universe,"
+	line "Hercules, and "
+	para "The Terminator"
+	line "are ready to beat"
+	cont "some ass."
 	done
 
 PokemonFanClubSignText:
@@ -275,6 +275,9 @@ PokemonFanClubSignText:
 
 	para "All ANIMAL Fans"
 	line "Welcome!"
+	
+	para "Except Cody. He"
+	line "is banned."
 	done
 
 VermilionCityMolesCaveSignText:

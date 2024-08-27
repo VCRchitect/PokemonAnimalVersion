@@ -4,11 +4,11 @@ TrainerGroups:
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	table_width 2, TrainerGroups
 	dw Big_BirdGroup
-	dw WhitneyGroup
+	dw LaraGroup
 	dw TPainGroup
 	dw JasonGroup
 	dw LincolnGroup
-	dw JasmineGroup
+	dw DianaGroup
 	dw JoseGroup
 	dw PeelyGroup
 	dw Rival1Group
@@ -21,7 +21,7 @@ TrainerGroups:
 	dw ChampionGroup
 	dw Kid_RockGroup
 	dw MistyGroup
-	dw LtSurgeGroup
+	dw ArnoldGroup
 	dw ScientistGroup
 	dw ErikaGroup
 	dw YoungsterGroup

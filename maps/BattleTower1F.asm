@@ -252,6 +252,7 @@ Script_MobileError:
 	end
 
 BattleTower_LeftWithoutSaving:
+	refreshscreen
 	opentext
 	trainerpic BEAUTY
 	writetext Text_BattleTower_LeftWithoutSaving

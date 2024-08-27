@@ -114,7 +114,7 @@ GentlemanPrestonBeatenText:
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE used to"
+	text "DIANA used to"
 	line "use rock ANIMALs"
 	cont "like WYRM."
 	done

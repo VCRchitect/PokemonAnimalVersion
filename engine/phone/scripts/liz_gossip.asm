@@ -6,7 +6,7 @@ LizGossipRandomScript:
 	ifequal 3, .SurfClicker
 	ifequal 4, .MooMooMilk
 	ifequal 5, .Salon
-	ifequal 6, .Whitney
+	ifequal 6, .Lara
 	ifequal 7, .BugCatchingContest
 	ifequal 8, .BeautifulTrainer
 	ifequal 9, .Forgot
@@ -41,8 +41,8 @@ LizGossipRandomScript:
 	promptbutton
 	sjump PhoneScript_HangUpText_Female
 
-.Whitney:
-	farwritetext LizWhitneyGossipText
+.Lara:
+	farwritetext LizLaraGossipText
 	promptbutton
 	sjump PhoneScript_HangUpText_Female
 

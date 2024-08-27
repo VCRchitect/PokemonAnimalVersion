@@ -71,7 +71,7 @@ FlowerShopFloriaScript:
 	end
 
 .GotSquirtbottle:
-	writetext GoldenrodFlowerShopFloriaYouBeatWhitneyText
+	writetext GoldenrodFlowerShopFloriaYouBeatLaraText
 	waitbutton
 	closetrainpic
 	closetext
@@ -123,7 +123,7 @@ GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	text "Oh, you're better"
-	line "than WHITNEY..."
+	line "than LARA..."
 
 	para "You'll be OK,"
 	line "then. Here's the"
@@ -148,7 +148,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	para "tree, she told me"
 	line "it's dangerous."
 
-	para "If I beat WHITNEY,"
+	para "If I beat LARA,"
 	line "I wonder if she'll"
 
 	para "lend me her water"
@@ -159,9 +159,9 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	cont "require."
 	done
 
-GoldenrodFlowerShopFloriaYouBeatWhitneyText:
+GoldenrodFlowerShopFloriaYouBeatLaraText:
 	text "Wow, you beat"
-	line "WHITNEY? Cool!"
+	line "LARA? Cool!"
 	
 	para "I don't mean that"
 	line "beating girls is"
