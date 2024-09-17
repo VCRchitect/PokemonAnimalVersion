@@ -33,6 +33,9 @@ VioletPokecenter1F_ElmsAideScript:
 	clearevent EVENT_ELMS_AIDE_IN_LAB
 	clearevent EVENT_HOBO_CLOWN_HATCHED
 	setmapscene ROUTE_32, SCENE_ROUTE32_OFFER_BEAVERTAIL
+	refreshscreen
+	opentext
+	trainerpic SCIENTIST
 	writetext VioletPokecenterElmsAideGiveEggText
 	waitbutton
 	closetrainpic
@@ -59,6 +62,7 @@ VioletPokecenter1F_ElmsAideScript:
 	db "EGG@"
 
 .AideGivesEgg:
+	closetrainpic
 	jumpstd ReceiveHobo_ClownEggScript
 	end
 
@@ -86,7 +90,7 @@ VioletPokecenter1FGameboyKidScript:
 	refreshscreen
 	opentext
 	trainerpic SCHOOLBOY
-	randomtext NPCTextTable
+	randomtext NPCKTextTable
 	waitbutton
 	closetrainpic
 	closetext
